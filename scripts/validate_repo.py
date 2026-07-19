@@ -45,14 +45,12 @@ def main():
     expected = len(manifest["entries"])
     if len(manifest.get("repository_profile", {}).get("languages", [])) != 2:
         raise AssertionError("repository_profile must declare English and Chinese")
+    if (ROOT / "accepted.m3u").exists():
+        raise AssertionError("accepted.m3u must not be published")
     all_entries = parse(ROOT / "playlist.m3u")
-    accepted = parse(ROOT / "accepted.m3u")
     if len(all_entries) != expected:
         raise AssertionError(f"playlist count {len(all_entries)} != manifest {expected}")
-    expected_accepted = sum(bool(e.get("accepted")) for e in manifest["entries"])
-    if len(accepted) != expected_accepted:
-        raise AssertionError(f"accepted count {len(accepted)} != manifest {expected_accepted}")
-    print(f"validated bilingual playlists: playlist={len(all_entries)} accepted={len(accepted)} logos={len(list((ROOT/'logo').iterdir()))}")
+    print(f"validated bilingual playlist: playlist={len(all_entries)} logos={len(list((ROOT/'logo').iterdir()))}")
 
 
 if __name__ == "__main__":

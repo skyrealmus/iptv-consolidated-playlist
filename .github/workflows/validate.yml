@@ -7,7 +7,6 @@ on:
       - "assets/**"
       - "logo/**"
       - "playlist.m3u"
-      - "accepted.m3u"
       - "scripts/**"
   pull_request:
   workflow_dispatch:

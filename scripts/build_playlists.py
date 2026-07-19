@@ -66,10 +66,7 @@ def main() -> int:
     args = parser.parse_args()
     manifest, metadata = load_data()
     entries = manifest["entries"]
-    outputs = {
-        ROOT / "playlist.m3u": render(entries, metadata),
-        ROOT / "accepted.m3u": render([e for e in entries if e.get("accepted")], metadata),
-    }
+    outputs = {ROOT / "playlist.m3u": render(entries, metadata)}
     mismatches = []
     for path, content in outputs.items():
         if args.check:
@@ -80,7 +77,7 @@ def main() -> int:
     if mismatches:
         print("generated output mismatch:", ", ".join(mismatches), file=sys.stderr)
         return 1
-    print(f"playlist entries={len(entries)} accepted={sum(bool(e.get('accepted')) for e in entries)}")
+    print(f"playlist entries={len(entries)}")
     return 0
 
 
