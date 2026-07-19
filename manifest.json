@@ -740,7 +740,7 @@
   ],
   "source_checks": "Grouped by channel similarity; duplicate logical channels removed; requested removals applied. CNA HD uses explicit CNA source; TVBS Asia uses the 4005 TVBS Asia source.",
   "logo_policy": "Every playlist entry includes tvg-logo; source-provided logos are preferred, with source-backed manual name mappings where the selected stream line lacked a logo.",
-  "logo_count": 49,
+  "logo_count": 51,
   "repository_profile": {
     "audience": [
       "Malaysia",

@@ -12,10 +12,10 @@ Raw URLs:
 https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/playlist.m3u
 ```
 
-The playlist includes `tvg-name`, `tvg-logo`, `tvg-country`, `tvg-category`, bilingual `group-title`, and available `tvg-chno` metadata. Example:
+The playlist includes `tvg-name`, `tvg-logo`, `tvg-country`, English-only `tvg-category` and `group-title`, and available `tvg-chno` metadata. Example:
 
 ```text
-#EXTINF:-1 tvg-name="CNA HD / 亚洲新闻台" tvg-logo="..." group-title="Singapore / 新加坡",CNA HD / 亚洲新闻台
+#EXTINF:-1 tvg-name="CNA HD / 亚洲新闻台" tvg-logo="..." group-title="Singapore" tvg-category="News",CNA HD / 亚洲新闻台
 ```
 
 English is the canonical matching name; Chinese is the player-facing label after `/`. This keeps English-language IPTV apps readable while making the list convenient for Chinese-speaking users.

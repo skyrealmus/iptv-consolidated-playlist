@@ -31,6 +31,8 @@ def parse(path: Path):
                 raise AssertionError(f"{path.name}: missing {required} for {display}")
         if " / " not in attrs["tvg-name"]:
             raise AssertionError(f"{path.name}: non-bilingual tvg-name for {display}")
+        if " / " in attrs["group-title"] or " / " in attrs["tvg-category"]:
+            raise AssertionError(f"{path.name}: group/category must be English-only for {display}")
         parts = urlsplit(url)
         if parts.username or parts.password:
             raise AssertionError(f"{path.name}: credential-bearing stream URL")
@@ -56,7 +58,7 @@ def main():
         raise AssertionError("playlist contains duplicate tvg-id entries")
     if len(set(urls)) != len(urls):
         raise AssertionError("playlist contains duplicate stream URLs")
-    print(f"validated bilingual playlist: playlist={len(all_entries)} logos={len(list((ROOT/'logo').iterdir()))}")
+    print(f"validated playlist: playlist={len(all_entries)} logos={len(list((ROOT/'logo').iterdir()))}")
 
 
 if __name__ == "__main__":
