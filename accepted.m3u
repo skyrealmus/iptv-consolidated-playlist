@@ -1,0 +1,9 @@
+#EXTM3U
+# Consolidated from public IPTV playlists; entries were selected after live probing.
+# Generated: 2026-07-19 (Asia/Singapore)
+# accepted; source 2 (malaysia.m3u); label: [BD]天映; measured speed: 0.644 MiB/s; resolution: 1920x1080; delay: 7791 ms
+#EXTINF:-1 tvg-id="Celestial Movies HD" tvg-name="Celestial Movies HD" tvg-chno="309" group-title="Consolidated IPTV",Celestial Movies HD
+https://stream1.freetv.fun/b5c189b5554c989af65830d3adb0c57afc82d713dd13cf60aff5657f80d07aed.ctv
+# accepted; source 11 (bit.ly suxuang); label: TVB翡翠台 4K; measured speed: 12.232 MiB/s; resolution: 3840x2160; delay: 334 ms
+#EXTINF:-1 tvg-id="TVB Jade" tvg-name="TVB Jade" tvg-chno="310" group-title="Consolidated IPTV",TVB Jade
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4
