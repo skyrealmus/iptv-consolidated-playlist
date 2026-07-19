@@ -9,8 +9,8 @@ Public M3U playlists consolidated for personal IPTV-player use.
 
 Raw URLs:
 
-- `https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/main/playlist.m3u`
-- `https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/main/accepted.m3u`
+- `https://github.com/skyrealmus/iptv-consolidated-playlist/raw/refs/heads/main/playlist.m3u`
+- `https://github.com/skyrealmus/iptv-consolidated-playlist/raw/refs/heads/main/accepted.m3u`
 
 ## Current snapshot
 
