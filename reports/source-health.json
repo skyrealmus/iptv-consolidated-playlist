@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-07-19T15:49:07.610867+00:00",
+  "checked_at": "2026-07-19T16:25:08.957091+00:00",
   "sources": [
     {
       "url": "https://live.hacks.tools/iptv/languages/eng.m3u",
@@ -7,7 +7,7 @@
       "bytes_sampled": 703897,
       "content_type": "audio/x-mpegurl",
       "m3u_entries_sampled": 3096,
-      "elapsed_ms": 541
+      "elapsed_ms": 203
     },
     {
       "url": "https://live.hacks.tools/iptv/languages/malaysia.m3u",
@@ -15,7 +15,7 @@
       "bytes_sampled": 15078,
       "content_type": "audio/x-mpegurl",
       "m3u_entries_sampled": 46,
-      "elapsed_ms": 180
+      "elapsed_ms": 163
     },
     {
       "url": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u",
@@ -23,7 +23,7 @@
       "bytes_sampled": 22574,
       "content_type": "text/plain",
       "m3u_entries_sampled": 80,
-      "elapsed_ms": 337
+      "elapsed_ms": 291
     },
     {
       "url": "https://raw.githubusercontent.com/Guovin/TV/gd/output/result.m3u",
@@ -31,7 +31,7 @@
       "bytes_sampled": 451112,
       "content_type": "text/plain",
       "m3u_entries_sampled": 1807,
-      "elapsed_ms": 337
+      "elapsed_ms": 322
     },
     {
       "url": "https://live.hacks.tools/iptv/languages/zho.m3u",
@@ -39,7 +39,7 @@
       "bytes_sampled": 43284,
       "content_type": "audio/x-mpegurl",
       "m3u_entries_sampled": 214,
-      "elapsed_ms": 239
+      "elapsed_ms": 180
     },
     {
       "url": "https://live.hacks.tools/iptv/languages/singapore.m3u",
@@ -47,7 +47,7 @@
       "bytes_sampled": 8198,
       "content_type": "audio/x-mpegurl",
       "m3u_entries_sampled": 26,
-      "elapsed_ms": 162
+      "elapsed_ms": 187
     },
     {
       "url": "https://cdn.jsdelivr.net/gh/Kimentanm/aptv/m3u/iptv.m3u",
@@ -55,7 +55,7 @@
       "bytes_sampled": 21946,
       "content_type": "audio/x-mpegurl",
       "m3u_entries_sampled": 120,
-      "elapsed_ms": 89
+      "elapsed_ms": 48
     },
     {
       "url": "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
@@ -63,7 +63,7 @@
       "bytes_sampled": 21946,
       "content_type": "text/plain",
       "m3u_entries_sampled": 120,
-      "elapsed_ms": 13
+      "elapsed_ms": 17
     },
     {
       "url": "https://bit.ly/iptv-aptv",
@@ -71,13 +71,13 @@
       "bytes_sampled": 21946,
       "content_type": "text/plain",
       "m3u_entries_sampled": 120,
-      "elapsed_ms": 308
+      "elapsed_ms": 294
     },
     {
       "url": "https://tv.iill.top/m3u/Gather",
       "status": null,
       "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
-      "elapsed_ms": 155
+      "elapsed_ms": 17
     },
     {
       "url": "https://bit.ly/suxuang",
@@ -85,7 +85,7 @@
       "bytes_sampled": 200521,
       "content_type": "text/plain",
       "m3u_entries_sampled": 862,
-      "elapsed_ms": 559
+      "elapsed_ms": 604
     },
     {
       "url": "https://iptv-org.github.io/iptv/index.m3u",
@@ -93,23 +93,21 @@
       "bytes_sampled": 2000000,
       "content_type": "audio/x-mpegurl",
       "m3u_entries_sampled": 9266,
-      "elapsed_ms": 386
+      "elapsed_ms": 39
     },
     {
       "url": "https://www.3kjs.com/tv.txt",
-      "status": 200,
-      "bytes_sampled": 397169,
-      "content_type": "text/plain",
-      "m3u_entries_sampled": 1985,
-      "elapsed_ms": 24247
+      "status": null,
+      "error": "TimeoutError: The read operation timed out",
+      "elapsed_ms": 44531
     },
     {
       "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8",
       "status": 200,
-      "bytes_sampled": 15813,
+      "bytes_sampled": 15138,
       "content_type": "text/plain",
-      "m3u_entries_sampled": 66,
-      "elapsed_ms": 16
+      "m3u_entries_sampled": 63,
+      "elapsed_ms": 310
     },
     {
       "url": "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/assets/test.txt",
@@ -117,7 +115,7 @@
       "bytes_sampled": 172969,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 238
+      "elapsed_ms": 240
     },
     {
       "url": "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.m3u",
@@ -125,7 +123,7 @@
       "bytes_sampled": 1215590,
       "content_type": "text/plain",
       "m3u_entries_sampled": 4694,
-      "elapsed_ms": 338
+      "elapsed_ms": 376
     }
   ]
 }

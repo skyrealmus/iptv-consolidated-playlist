@@ -1,26 +1,16 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="Channel 8" tvg-name="8频道" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/channel-8.png" tvg-language="Chinese" audio-language="Chinese" group-title="Singapore" tvg-country="SG" tvg-category="General",8频道
-http://usa.login.in.th:1935/ch8/ch8/playlist.m3u8
 #EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1 综合" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/cctv-1.png" tvg-language="Chinese" audio-language="Chinese" group-title="China" tvg-country="CN" tvg-category="General",CCTV-1 综合
 http://198.204.228.26/live/cctv1hd.m3u8
 #EXTINF:-1 tvg-id="CCTV-7" tvg-name="CCTV-7 国防军事" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/cctv-7.png" tvg-language="Chinese" audio-language="Chinese" group-title="China" tvg-country="CN" tvg-category="General",CCTV-7 国防军事
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv7hd
-#EXTINF:-1 tvg-id="8TV" tvg-name="八度空间" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/8tv.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="148" group-title="Malaysia" tvg-country="MY" tvg-category="General",八度空间
-https://stream1.freetv.fun/a8689b73ff805df64e23f886f310bb655802abe03d5a4c78e3cf8bd638a7b4dc.ctv
-#EXTINF:-1 tvg-id="Pearl" tvg-name="Pearl" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/pearl.png" tvg-language="English" audio-language="English" group-title="Hong Kong" tvg-country="HK" tvg-category="General",Pearl
-http://php.jdshipin.com/TVOD/iptv.php?id=mzt
 #EXTINF:-1 tvg-id="CCTV4 HD" tvg-name="CCTV-4 中文国际" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/cctv4-hd.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="335" group-title="China" tvg-country="CN" tvg-category="News",CCTV-4 中文国际
 https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="TVB Entertainment News" tvg-name="TVB 娱乐新闻" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/tvb-entertainment-news.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="317" group-title="Hong Kong" tvg-country="HK" tvg-category="News",TVB 娱乐新闻
-http://php.jdshipin.com/TVOD/iptv.php?id=wxxw
 #EXTINF:-1 tvg-id="TVBS Asia" tvg-name="TVBS 亚洲" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/tvbs-asia.png" tvg-language="Chinese" audio-language="Chinese" group-title="Taiwan" tvg-country="TW" tvg-category="News",TVBS 亚洲
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1 tvg-id="Phoenix TV" tvg-name="凤凰卫视" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/phoenix-tv.png" tvg-language="Chinese" audio-language="Chinese" group-title="Hong Kong" tvg-country="HK" tvg-category="News",凤凰卫视
 http://php.jdshipin.com:8880/smt.php?id=phoenixtv_hd
 #EXTINF:-1 tvg-id="Phoenix Info News HD" tvg-name="凤凰资讯台" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/phoenix-info-news-hd.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="326" group-title="China" tvg-country="CN" tvg-category="News",凤凰资讯台
 http://playtv-live.ifeng.com:80/live/06OLEEWQKN4.m3u8
-#EXTINF:-1 tvg-id="Phoenix Hong Kong" tvg-name="凤凰香港" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/phoenix-hong-kong.png" tvg-language="Chinese" audio-language="Chinese" group-title="Hong Kong" tvg-country="HK" tvg-category="News",凤凰香港
-http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
 #EXTINF:-1 tvg-id="BBC News" tvg-name="BBC News" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/bbc-news.png" tvg-language="English" audio-language="English" group-title="International" tvg-country="GB" tvg-category="News",BBC News
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 #EXTINF:-1 tvg-id="Bloomberg Television" tvg-name="Bloomberg Television" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/bloomberg-television.png" tvg-language="English" audio-language="English" tvg-chno="517" group-title="International" tvg-country="US" tvg-category="News",Bloomberg Television
@@ -28,7 +18,7 @@ https://bloomberg.com/media-manifest/streams/asia.m3u8
 #EXTINF:-1 tvg-id="CGTN HD" tvg-name="CGTN HD" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/cgtn-hd.png" tvg-language="English" audio-language="English" tvg-chno="503" group-title="China" tvg-country="CN" tvg-category="News",CGTN HD
 https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
 #EXTINF:-1 tvg-id="CNA HD" tvg-name="CNA HD" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/cna-hd.png" tvg-language="English" audio-language="English" tvg-chno="515" group-title="Singapore" tvg-country="SG" tvg-category="News",CNA HD
-https://livecdn.fptplay.net/sdb/newsasia_hls.smil/chunklist_b2500000.m3u8
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-id="CNN HD" tvg-name="CNN HD" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/cnn-hd.png" tvg-language="English" audio-language="English" tvg-chno="511" group-title="International" tvg-country="US" tvg-category="News",CNN HD
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="Reuters" tvg-name="Reuters" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/reuters.png" tvg-language="English" audio-language="English" group-title="International" tvg-country="GB" tvg-category="News",Reuters
@@ -39,14 +29,8 @@ https://stream1.freetv.fun/d3d9cf31ed24b0f0f798dd1ea51203555ca492dee3c6219f37f08
 https://stream1.freetv.fun/d3caf993c1f3d40b248435a333d61b86a2175ce21d48c60915c684cc2d64436e.ctv
 #EXTINF:-1 tvg-id="Astro QJ" tvg-name="Astro QJ 娱乐" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/astro-qj.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="308" group-title="Malaysia" tvg-country="MY" tvg-category="Entertainment",Astro QJ 娱乐
 https://stream1.freetv.fun/2dcd0a971e2b04710d66ab15beb84b231fa3e3b93c27802d2b27957b2e080aaa.ctv
-#EXTINF:-1 tvg-id="TVB Xing He HD" tvg-name="TVB 星河" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/tvb-xing-he-hd.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="319" group-title="Hong Kong" tvg-country="HK" tvg-category="Entertainment",TVB 星河
-http://php.jdshipin.com:8880/TVOD/iptv.php?id=xinghe
 #EXTINF:-1 tvg-id="TVB Jade" tvg-name="TVB 翡翠台" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/tvb-jade.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="310" group-title="Hong Kong" tvg-country="HK" tvg-category="Entertainment",TVB 翡翠台
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4
-#EXTINF:-1 tvg-id="Channel U" tvg-name="U频道" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/channel-u.png" tvg-language="Chinese" audio-language="Chinese" group-title="Singapore" tvg-country="SG" tvg-category="Entertainment",U频道
-https://stream1.freetv.fun/b1e833539d1119139053415148835f6cef26b79b64645ed4c1d98635d3758d82.m3u8
-#EXTINF:-1 tvg-id="EBC Variety" tvg-name="东森综合" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/ebc-variety.png" tvg-language="Chinese" audio-language="Chinese" group-title="Taiwan" tvg-country="TW" tvg-category="Entertainment",东森综合
-https://hls-gateway.vpstv.net/streams/476987.m3u8
 #EXTINF:-1 tvg-id="Phoenix Chinese Channel HD" tvg-name="凤凰中文台" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/phoenix-chinese-channel-hd.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="325" group-title="China" tvg-country="CN" tvg-category="Entertainment",凤凰中文台
 http://playtv-live.ifeng.com:80/live/06OLEGEGM4G.m3u8
 #EXTINF:-1 tvg-id="AXN" tvg-name="AXN" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/axn.png" tvg-language="English" audio-language="English" tvg-chno="701" group-title="International" tvg-country="SG" tvg-category="Entertainment",AXN
@@ -59,8 +43,6 @@ http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
 http://198.204.228.26/live/cctv5hd.m3u8
 #EXTINF:-1 tvg-id="CCTV-5+" tvg-name="CCTV-5+ 体育赛事" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/cctv-5-plus.png" tvg-language="Chinese" audio-language="Chinese" group-title="China" tvg-country="CN" tvg-category="Sports",CCTV-5+ 体育赛事
 http://38.75.136.137:98/gslb/dsdqpub/cctv5p.m3u8?auth=testpub
-#EXTINF:-1 tvg-id="Astro Badminton" tvg-name="Astro Badminton" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/astro-badminton.png" tvg-language="English" audio-language="English" tvg-chno="815" group-title="Malaysia" tvg-country="MY" tvg-category="Sports",Astro Badminton
-https://stream1.freetv.fun/5de6f5959c51613983a566f7215c076239b9f2df509caec8f3fc22cbb9aef1fb.ctv
 #EXTINF:-1 tvg-id="Astro Football" tvg-name="Astro Football" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/astro-football.png" tvg-language="English" audio-language="English" tvg-chno="814" group-title="Malaysia" tvg-country="MY" tvg-category="Sports",Astro Football
 https://stream1.freetv.fun/a6fca176e22357ca10a5ed67fc38e9a232ea8cb5c580288bc5cce13d390d8adb.ctv
 #EXTINF:-1 tvg-id="Astro Grandstand" tvg-name="Astro Grandstand" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/astro-grandstand.png" tvg-language="English" audio-language="English" tvg-chno="810" group-title="Malaysia" tvg-country="MY" tvg-category="Sports",Astro Grandstand

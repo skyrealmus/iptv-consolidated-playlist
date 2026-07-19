@@ -23,11 +23,12 @@ Channel aliases remain bilingual for source matching, but published channel name
 ## Current snapshot
 
 - Unique requested channel names tracked: 53
-- Channels with a selected candidate: 53
-- Probe method: Guovin/iptv-api parser and stream probe, with targeted FFmpeg/HLS speed checks for live candidate selection
+- Channels with a verified public playlist entry: 44
+- Nine channels are explicitly withheld pending a correct, playable, identity-verified source; see [`reports/targeted-channel-audit.json`](./reports/targeted-channel-audit.json)
+- Probe method: Guovin/iptv-api parser and stream probe, with targeted FFmpeg/HLS speed checks and video-frame identity checks for reported channels
 - Main policy: one selected URL per requested channel, grouped by category in this order: General, News, Entertainment, Sports, Documentary, Kids; Chinese channels precede English channels within each category
-- Singapore additions: Channel U (`U频道`) and Channel 8 (`8频道`), selected from live 1080p candidates
-- Local channel logos: 53
+- Singapore additions: Channel U (`U频道`) and Channel 8 (`8频道`) are tracked in metadata but withheld from the public playlist until a non-DRM, identity-verified public stream is available
+- Local logos: 53 tracked; 44 referenced by the public playlist
 - Public source inputs: 16
 
 Streams are public third-party endpoints and may be geo-blocked, rate-limited, changed, or removed without notice. A playlist HTTP 200 or a prior probe is not a guarantee of continuous playback. Obvious token-bearing fallback URLs are not published.

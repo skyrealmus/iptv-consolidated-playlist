@@ -1,5 +1,17 @@
 {
   "tested_at": "2026-07-19T16:22:34Z",
+  "scope": [
+    "Channel 8",
+    "Channel U",
+    "Astro Badminton",
+    "8TV",
+    "CNA HD",
+    "Pearl",
+    "TVB Entertainment News",
+    "TVB Xing He HD",
+    "Phoenix Hong Kong",
+    "EBC Variety"
+  ],
   "method": {
     "catalog_match": "16 active public M3U/TXT catalogs",
     "stream_probe": "ffprobe with 15-second read timeout and VLC-like user agent",
@@ -7,21 +19,13 @@
     "identity_check": "sample video frames were checked for channel watermark/identity; interruption pages and wrong logos fail",
     "publication_rule": "no credential-bearing or token-bearing fallback URL is published"
   },
-  "catalog_health": {
-    "tested": 16,
-    "http_200": 14,
-    "failed": [
-      {
-        "url": "https://tv.iill.top/m3u/Gather",
-        "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
-      },
-      {
-        "url": "https://www.3kjs.com/tv.txt",
-        "error": "TimeoutError: The read operation timed out"
-      }
-    ]
+  "summary": {
+    "published_before": 53,
+    "published_after": 44,
+    "removed_or_withheld": 9,
+    "replaced": 1
   },
-  "channels": {
+  "results": {
     "Channel 8": {
       "status": "withheld_wrong_mapping",
       "old_label": "Channel 8 (1080p) [Not 24/7]",

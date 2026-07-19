@@ -2,22 +2,9 @@
   "generated_at": "2026-07-19",
   "method": "Guovin/iptv-api",
   "requested_count": 53,
-  "responding_count": 53,
-  "strict_count": 0,
+  "responding_count": 44,
+  "strict_count": 22,
   "entries": [
-    {
-      "epg": null,
-      "requested": "Channel 8",
-      "url": "http://usa.login.in.th:1935/ch8/ch8/playlist.m3u8",
-      "label": "Channel 8 (1080p) [Not 24/7]",
-      "source_index": 11,
-      "delay": 1154,
-      "speed": 0.703375,
-      "resolution": "1920x1080",
-      "accepted": true,
-      "logo": "https://epg.pw/media/images/channel/2023/09/22/large/20230922164216308037_71.png",
-      "logo_source": "https://iptv-org.github.io/iptv/index.m3u"
-    },
     {
       "epg": null,
       "requested": "CCTV-1",
@@ -45,32 +32,6 @@
       "logo_source": "https://www.xn--rgv465a.top/tvlogo/CCTV-7.png"
     },
     {
-      "epg": 148,
-      "requested": "8TV",
-      "url": "https://stream1.freetv.fun/a8689b73ff805df64e23f886f310bb655802abe03d5a4c78e3cf8bd638a7b4dc.ctv",
-      "label": "[BD]8TV *tv",
-      "source_index": 2,
-      "delay": 19228,
-      "speed": 0.0034692607206169524,
-      "resolution": null,
-      "accepted": false,
-      "logo": "https://epg.pw/media/images/channel/2020/05/12/large/20200512130107352553_81.png",
-      "logo_source": "https://live.hacks.tools/iptv/languages/malaysia.m3u"
-    },
-    {
-      "epg": null,
-      "requested": "Pearl",
-      "url": "http://php.jdshipin.com/TVOD/iptv.php?id=mzt",
-      "label": "Pearl",
-      "source_index": 11,
-      "delay": null,
-      "speed": null,
-      "resolution": null,
-      "accepted": false,
-      "logo": "https://www.xn--rgv465a.top/tvlogo/%E6%98%8E%E7%8F%A0%E5%8F%B0.png",
-      "logo_source": "https://bit.ly/suxuang"
-    },
-    {
       "epg": 335,
       "requested": "CCTV4 HD",
       "url": "https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8",
@@ -82,19 +43,6 @@
       "accepted": false,
       "logo": "https://i.imgur.com/HGLFdfk.png",
       "logo_source": "https://live.hacks.tools/iptv/languages/eng.m3u"
-    },
-    {
-      "epg": 317,
-      "requested": "TVB Entertainment News",
-      "url": "http://php.jdshipin.com/TVOD/iptv.php?id=wxxw",
-      "label": "无线新闻",
-      "source_index": 4,
-      "delay": 7758,
-      "speed": 0.00043174144145891237,
-      "resolution": null,
-      "accepted": false,
-      "logo": "https://www.xn--rgv465a.top/tvlogo/%E6%97%A0%E7%BA%BF%E6%96%B0%E9%97%BB.png",
-      "logo_source": "https://raw.githubusercontent.com/Guovin/TV/gd/output/result.m3u"
     },
     {
       "epg": null,
@@ -134,19 +82,6 @@
       "accepted": true,
       "logo": "https://www.xn--rgv465a.top/tvlogo/%E5%87%A4%E5%87%B0%E8%B5%84%E8%AE%AF.png",
       "logo_source": "https://www.xn--rgv465a.top/tvlogo/%E5%87%A4%E5%87%B0%E8%B5%84%E8%AE%AF.png"
-    },
-    {
-      "epg": null,
-      "requested": "Phoenix Hong Kong",
-      "url": "http://php.jdshipin.com/TVOD/iptv.php?id=fhhk",
-      "label": "Phoenix Hong Kong",
-      "source_index": 4,
-      "delay": null,
-      "speed": null,
-      "resolution": null,
-      "accepted": false,
-      "logo": "https://www.xn--rgv465a.top/tvlogo/%E5%87%A4%E5%87%B0%E9%A6%99%E6%B8%AF.png",
-      "logo_source": "https://www.xn--rgv465a.top/tvlogo/%E5%87%A4%E5%87%B0%E9%A6%99%E6%B8%AF.png"
     },
     {
       "epg": null,
@@ -190,15 +125,15 @@
     {
       "epg": 515,
       "requested": "CNA HD",
-      "url": "https://livecdn.fptplay.net/sdb/newsasia_hls.smil/chunklist_b2500000.m3u8",
-      "label": "Channel News Asia",
-      "source_index": 13,
-      "delay": 17377,
-      "speed": 0.12983296413440454,
+      "url": "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8",
+      "label": "CNA",
+      "source_index": 2,
+      "delay": null,
+      "speed": 9.27,
       "resolution": "1920x1080",
-      "accepted": false,
+      "accepted": true,
       "logo": "https://imgstatic.vtvcab.vn/logos/CNA_M.png",
-      "logo_source": "https://www.3kjs.com/tv.txt"
+      "logo_source": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u"
     },
     {
       "epg": 511,
@@ -266,19 +201,6 @@
       "logo_source": "https://live.hacks.tools/iptv/languages/malaysia.m3u"
     },
     {
-      "epg": 319,
-      "requested": "TVB Xing He HD",
-      "url": "http://php.jdshipin.com:8880/TVOD/iptv.php?id=xinghe",
-      "label": "无线星河",
-      "source_index": 4,
-      "delay": 7735,
-      "speed": 0.00043298745501452055,
-      "resolution": null,
-      "accepted": false,
-      "logo": "https://www.xn--rgv465a.top/tvlogo/%E6%97%A0%E7%BA%BF%E6%98%9F%E6%B2%B3.png",
-      "logo_source": "https://raw.githubusercontent.com/Guovin/TV/gd/output/result.m3u"
-    },
-    {
       "epg": 310,
       "requested": "TVB Jade",
       "url": "http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4",
@@ -290,32 +212,6 @@
       "accepted": true,
       "logo": "https://live.fanmingming.cn/tv/%E7%BF%A1%E7%BF%A0%E5%8F%B0.png",
       "logo_source": "https://bit.ly/suxuang"
-    },
-    {
-      "epg": null,
-      "requested": "Channel U",
-      "url": "https://stream1.freetv.fun/b1e833539d1119139053415148835f6cef26b79b64645ed4c1d98635d3758d82.m3u8",
-      "label": "[HD]Mediacorp U",
-      "source_index": 5,
-      "delay": 48,
-      "speed": 2.38375,
-      "resolution": "1920x1080",
-      "accepted": true,
-      "logo": "https://i.imgur.com/9MzEjoY.png",
-      "logo_source": "https://live.hacks.tools/iptv/languages/singapore.m3u"
-    },
-    {
-      "epg": null,
-      "requested": "EBC Variety",
-      "url": "https://hls-gateway.vpstv.net/streams/476987.m3u8",
-      "label": "EBC Variety",
-      "source_index": 4,
-      "delay": null,
-      "speed": null,
-      "resolution": null,
-      "accepted": false,
-      "logo": "https://www.xn--rgv465a.top/tvlogo/%E4%B8%9C%E6%A3%AE%E7%BB%BC%E5%90%88.png",
-      "logo_source": "https://www.xn--rgv465a.top/tvlogo/%E4%B8%9C%E6%A3%AE%E7%BB%BC%E5%90%88.png"
     },
     {
       "epg": 325,
@@ -394,19 +290,6 @@
       "accepted": true,
       "logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-5+.png",
       "logo_source": "https://www.xn--rgv465a.top/tvlogo/CCTV-5+.png"
-    },
-    {
-      "epg": 815,
-      "requested": "Astro Badminton",
-      "url": "https://stream1.freetv.fun/5de6f5959c51613983a566f7215c076239b9f2df509caec8f3fc22cbb9aef1fb.ctv",
-      "label": "[HD]Astro Badminton 2 *tv",
-      "source_index": 2,
-      "delay": 19677,
-      "speed": 0.003391103238722825,
-      "resolution": null,
-      "accepted": false,
-      "logo": "https://epg.pw/media/images/channel/2024/10/18/large/20241018015520001285_15.png",
-      "logo_source": "https://live.hacks.tools/iptv/languages/malaysia.m3u"
     },
     {
       "epg": 814,
@@ -768,9 +651,9 @@
     "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/assets/test.txt",
     "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.m3u"
   ],
-  "source_checks": "Grouped by channel similarity; duplicate logical channels removed; requested removals applied. CCSH IPTV source inventory imported; its canonical live.m3u and listed assets/test.txt are tracked as active inputs. CNA HD uses explicit CNA source; TVBS Asia uses the 4005 TVBS Asia source; Singapore Channel U and Channel 8 were added after live-catalog matching and multi-candidate speed tests.",
+  "source_checks": "Grouped by channel similarity; duplicate logical channels removed; requested removals applied. Targeted identity and playback audit on 2026-07-19 removed nine unverified/error mappings; CNA HD was replaced with a frame-verified 1080p source. See reports/targeted-channel-audit.json.",
   "logo_policy": "Every playlist entry includes tvg-logo; source-provided logos are preferred, with source-backed manual name mappings where the selected stream line lacked a logo.",
-  "logo_count": 53,
+  "logo_count": 44,
   "repository_profile": {
     "audience": [
       "Malaysia",
@@ -797,5 +680,17 @@
       "source_count": 102,
       "note": "Imported for future matching/probing; the current playlist remains a curated one-stream-per-request snapshot."
     }
-  ]
+  ],
+  "published_count": 44,
+  "withheld_channels": {
+    "Channel 8": "wrong mapping: tested stream showed Channel 8 Thailand; official meWATCH stream is encrypted and Singapore VPN restricted",
+    "Channel U": "wrong mapping: tested stream showed Shenzhen TV; official meWATCH stream is encrypted and Singapore VPN restricted",
+    "Astro Badminton": "wrong mapping: tested source labelled Astro Badminton 2 showed astro AWANI",
+    "8TV": "no verified playable alternative; candidate returned expired.html and prior source was slow/glitchy",
+    "Pearl": "all tested public candidates failed ffprobe; no verified replacement",
+    "TVB Entertainment News": "all tested public candidates failed ffprobe or returned 403",
+    "TVB Xing He HD": "label-matched candidates showed CCTV channels, not TVB星河",
+    "Phoenix Hong Kong": "tested candidates were interruption/expired pages or failed ffprobe",
+    "EBC Variety": "candidate returned 403; alternate token-bearing URL was not eligible for publication"
+  }
 }
