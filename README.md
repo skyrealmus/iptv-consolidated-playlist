@@ -21,6 +21,7 @@ Raw URLs:
 - Main playlist policy: one best responding URL per requested channel; strict passes are preferred
 - Strict thresholds: minimum 0.5 MiB/s and 1280x720–3840x2160 resolution
 - Entries without a supplied EPG number omit `tvg-chno`
+- Every playlist entry includes `tvg-logo`; icons are sourced from the contributing public channel metadata
 
 The streams are public third-party endpoints and may be geo-blocked, rate-limited, changed, or removed without notice. A playlist HTTP 200 or a prior probe is not a guarantee of continuous playback. Obvious token-bearing fallback URLs were not published.
 

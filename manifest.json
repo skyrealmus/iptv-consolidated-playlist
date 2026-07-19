@@ -14,7 +14,9 @@
       "delay": 19228,
       "speed": 0.0034692607206169524,
       "resolution": null,
-      "accepted": false
+      "accepted": false,
+      "logo": "https://epg.pw/media/images/channel/2020/05/12/large/20200512130107352553_81.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/malaysia.m3u"
     },
     {
       "epg": 306,
@@ -25,7 +27,9 @@
       "delay": 18981,
       "speed": 0.009468993885035651,
       "resolution": null,
-      "accepted": false
+      "accepted": false,
+      "logo": "https://epg.pw/media/images/channel/2016/06/13/large/20160613221915401269_45.jpg",
+      "logo_source": "https://live.hacks.tools/iptv/languages/malaysia.m3u"
     },
     {
       "epg": 308,
@@ -36,7 +40,9 @@
       "delay": 18945,
       "speed": 0.003447385781026635,
       "resolution": null,
-      "accepted": false
+      "accepted": false,
+      "logo": "https://epg.pw/media/images/channel/2023/10/26/large/20231026184205607217_59.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/malaysia.m3u"
     },
     {
       "epg": 309,
@@ -47,7 +53,9 @@
       "delay": 7791,
       "speed": 0.644342065681177,
       "resolution": "1920x1080",
-      "accepted": true
+      "accepted": true,
+      "logo": "https://epg.pw/media/images/channel/2023/08/05/large/20230805003741056376_18.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/malaysia.m3u"
     },
     {
       "epg": 310,
@@ -58,7 +66,9 @@
       "delay": 334,
       "speed": 12.23243900235663,
       "resolution": "3840x2160",
-      "accepted": true
+      "accepted": true,
+      "logo": "https://live.fanmingming.cn/tv/%E7%BF%A1%E7%BF%A0%E5%8F%B0.png",
+      "logo_source": "https://bit.ly/suxuang"
     },
     {
       "epg": 311,
@@ -69,7 +79,9 @@
       "delay": 11103,
       "speed": 0.24439333739114363,
       "resolution": "1920x1080",
-      "accepted": false
+      "accepted": false,
+      "logo": "https://epg.pw/media/images/channel/2022/08/26/large/20220826114608609036_92.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/malaysia.m3u"
     },
     {
       "epg": 317,
@@ -80,7 +92,9 @@
       "delay": 7758,
       "speed": 0.00043174144145891237,
       "resolution": null,
-      "accepted": false
+      "accepted": false,
+      "logo": "https://www.xn--rgv465a.top/tvlogo/%E6%97%A0%E7%BA%BF%E6%96%B0%E9%97%BB.png",
+      "logo_source": "https://raw.githubusercontent.com/Guovin/TV/gd/output/result.m3u"
     },
     {
       "epg": 319,
@@ -91,7 +105,9 @@
       "delay": 7735,
       "speed": 0.00043298745501452055,
       "resolution": null,
-      "accepted": false
+      "accepted": false,
+      "logo": "https://www.xn--rgv465a.top/tvlogo/%E6%97%A0%E7%BA%BF%E6%98%9F%E6%B2%B3.png",
+      "logo_source": "https://raw.githubusercontent.com/Guovin/TV/gd/output/result.m3u"
     },
     {
       "epg": 320,
@@ -102,7 +118,9 @@
       "delay": 17320,
       "speed": 0.10129141234093546,
       "resolution": null,
-      "accepted": false
+      "accepted": false,
+      "logo": "https://www.xn--rgv465a.top/tvlogo/TVBS%E4%BA%9A%E6%B4%B2.png",
+      "logo_source": "https://raw.githubusercontent.com/Guovin/TV/gd/output/result.m3u"
     },
     {
       "epg": 325,
@@ -113,7 +131,9 @@
       "delay": 11014,
       "speed": 0.06601809019760145,
       "resolution": null,
-      "accepted": false
+      "accepted": false,
+      "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Phoenix1.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/zho.m3u"
     },
     {
       "epg": 326,
@@ -124,7 +144,9 @@
       "delay": 18712,
       "speed": 0.012635045673835964,
       "resolution": null,
-      "accepted": false
+      "accepted": false,
+      "logo": "https://www.xn--rgv465a.top/tvlogo/%E5%87%A4%E5%87%B0%E8%B5%84%E8%AE%AF.png",
+      "logo_source": "https://raw.githubusercontent.com/Guovin/TV/gd/output/result.m3u"
     },
     {
       "epg": 335,
@@ -135,7 +157,9 @@
       "delay": 18802,
       "speed": 0.04995876621993265,
       "resolution": null,
-      "accepted": false
+      "accepted": false,
+      "logo": "https://i.imgur.com/HGLFdfk.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/eng.m3u"
     },
     {
       "epg": 404,
@@ -146,7 +170,9 @@
       "delay": 18679,
       "speed": 0.022398444148995725,
       "resolution": null,
-      "accepted": false
+      "accepted": false,
+      "logo": "https://epg.pw/media/images/channel/2026/03/09/large/20260309044806154163_47.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/malaysia.m3u"
     },
     {
       "epg": 413,
@@ -157,7 +183,9 @@
       "delay": 11447,
       "speed": 0.02736408899354413,
       "resolution": null,
-      "accepted": false
+      "accepted": false,
+      "logo": "https://epg.pw/media/images/channel/2025/09/09/large/20250909014020401578_16.jpeg",
+      "logo_source": "https://live.hacks.tools/iptv/languages/malaysia.m3u"
     },
     {
       "epg": 414,
@@ -168,7 +196,9 @@
       "delay": 18060,
       "speed": 0.013249729812231834,
       "resolution": null,
-      "accepted": false
+      "accepted": false,
+      "logo": "https://i.imgur.com/l6lmlqG.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/eng.m3u"
     },
     {
       "epg": 503,
@@ -179,7 +209,9 @@
       "delay": 17770,
       "speed": 0.2100898132189604,
       "resolution": "1920x1080",
-      "accepted": false
+      "accepted": false,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/960px-CGTN.svg.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/eng.m3u"
     },
     {
       "epg": 511,
@@ -190,7 +222,9 @@
       "delay": 18041,
       "speed": 0.10164036231162002,
       "resolution": null,
-      "accepted": false
+      "accepted": false,
+      "logo": "https://raw.githubusercontent.com/suxuang/TVlogo/main/img/CNN.png",
+      "logo_source": "https://bit.ly/suxuang"
     },
     {
       "epg": 513,
@@ -201,7 +235,9 @@
       "delay": 17629,
       "speed": 0.24407279811647434,
       "resolution": "1920x1080",
-      "accepted": false
+      "accepted": false,
+      "logo": "https://i.imgur.com/7bRVpnu.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/eng.m3u"
     },
     {
       "epg": 515,
@@ -212,7 +248,9 @@
       "delay": 17377,
       "speed": 0.12983296413440454,
       "resolution": "1920x1080",
-      "accepted": false
+      "accepted": false,
+      "logo": "https://i.imgur.com/awIDugE.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/eng.m3u"
     },
     {
       "epg": 517,
@@ -223,7 +261,9 @@
       "delay": 9882,
       "speed": 0.1497826303941715,
       "resolution": "1280x720",
-      "accepted": false
+      "accepted": false,
+      "logo": "https://i.imgur.com/OuogLHx.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/eng.m3u"
     },
     {
       "epg": 549,
@@ -234,7 +274,9 @@
       "delay": 18133,
       "speed": 0.2707881291129231,
       "resolution": "3840x2160",
-      "accepted": false
+      "accepted": false,
+      "logo": "https://lovenature.com/wp-content/uploads/2020/08/love-nature-logo_peacock.png",
+      "logo_source": "https://www.3kjs.com/tv.txt"
     },
     {
       "epg": 554,
@@ -245,7 +287,9 @@
       "delay": 3103,
       "speed": 0.7912504208530909,
       "resolution": "1920x1080",
-      "accepted": true
+      "accepted": true,
+      "logo": "https://i.imgur.com/nGSsUd4.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/eng.m3u"
     },
     {
       "epg": 555,
@@ -256,7 +300,9 @@
       "delay": 8720,
       "speed": 0.1065265083156068,
       "resolution": null,
-      "accepted": false
+      "accepted": false,
+      "logo": "https://i.imgur.com/6UWM2ER.png",
+      "logo_source": "https://iptv-org.github.io/iptv/index.m3u"
     },
     {
       "epg": 556,
@@ -267,7 +313,9 @@
       "delay": 17212,
       "speed": 0.20767469988264456,
       "resolution": "1920x1080",
-      "accepted": false
+      "accepted": false,
+      "logo": "https://i.imgur.com/JHv0WxM.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/eng.m3u"
     },
     {
       "epg": 616,
@@ -278,7 +326,9 @@
       "delay": 18159,
       "speed": 0.08517681220529195,
       "resolution": "1920x1080",
-      "accepted": false
+      "accepted": false,
+      "logo": "https://i.imgur.com/E84jnP8.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/eng.m3u"
     },
     {
       "epg": 617,
@@ -289,7 +339,9 @@
       "delay": 17021,
       "speed": 0.02820566073756009,
       "resolution": "1048x576",
-      "accepted": false
+      "accepted": false,
+      "logo": "https://i.imgur.com/KT4tdQs.png",
+      "logo_source": "https://iptv-org.github.io/iptv/index.m3u"
     },
     {
       "epg": 618,
@@ -300,7 +352,9 @@
       "delay": 17756,
       "speed": 0.1651775469193132,
       "resolution": "1920x1080",
-      "accepted": false
+      "accepted": false,
+      "logo": "https://i.imgur.com/vZHtxQb.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/eng.m3u"
     },
     {
       "epg": 701,
@@ -311,7 +365,9 @@
       "delay": 18286,
       "speed": 0.10728886006337869,
       "resolution": "1280x720",
-      "accepted": false
+      "accepted": false,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",
+      "logo_source": "https://iptv-org.github.io/iptv/index.m3u"
     },
     {
       "epg": 703,
@@ -322,7 +378,9 @@
       "delay": 16566,
       "speed": 0.08935986928636805,
       "resolution": "1280x720",
-      "accepted": false
+      "accepted": false,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/960px-Logo_Lifetime_2020.svg.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/eng.m3u"
     },
     {
       "epg": 715,
@@ -333,7 +391,9 @@
       "delay": 15479,
       "speed": 0.13860149169657546,
       "resolution": "1920x1080",
-      "accepted": false
+      "accepted": false,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/960px-HGTV_US_Logo_2015.svg.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/eng.m3u"
     },
     {
       "epg": 810,
@@ -344,7 +404,9 @@
       "delay": 19944,
       "speed": 0.007028057183178148,
       "resolution": null,
-      "accepted": false
+      "accepted": false,
+      "logo": "https://epg.pw/media/images/channel/2024/10/19/large/20241019181734867306_96.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/malaysia.m3u"
     },
     {
       "epg": 811,
@@ -355,7 +417,9 @@
       "delay": 20996,
       "speed": 0.005799465985701668,
       "resolution": null,
-      "accepted": false
+      "accepted": false,
+      "logo": "https://epg.pw/media/images/channel/2024/10/28/large/20241028154405349622_26.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/malaysia.m3u"
     },
     {
       "epg": 812,
@@ -366,7 +430,9 @@
       "delay": 18893,
       "speed": 0.008807868885063502,
       "resolution": null,
-      "accepted": false
+      "accepted": false,
+      "logo": "https://epg.pw/media/images/channel/2024/10/28/large/20241028154354983236_16.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/malaysia.m3u"
     },
     {
       "epg": 814,
@@ -377,7 +443,9 @@
       "delay": 19607,
       "speed": 0.04625722502245879,
       "resolution": null,
-      "accepted": false
+      "accepted": false,
+      "logo": "https://epg.pw/media/images/channel/2024/10/19/large/20241019181752911817_82.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/malaysia.m3u"
     },
     {
       "epg": 815,
@@ -388,7 +456,9 @@
       "delay": 19677,
       "speed": 0.003391103238722825,
       "resolution": null,
-      "accepted": false
+      "accepted": false,
+      "logo": "https://epg.pw/media/images/channel/2024/10/18/large/20241018015520001285_15.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/malaysia.m3u"
     },
     {
       "epg": 817,
@@ -399,7 +469,9 @@
       "delay": 19195,
       "speed": 0.004798625508931078,
       "resolution": null,
-      "accepted": false
+      "accepted": false,
+      "logo": "https://epg.pw/media/images/channel/2024/10/19/large/20241019181826872623_21.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/malaysia.m3u"
     },
     {
       "epg": null,
@@ -410,7 +482,9 @@
       "delay": 2167,
       "speed": 1.0121696703433036,
       "resolution": "1280x720",
-      "accepted": true
+      "accepted": true,
+      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/eng.m3u"
     },
     {
       "epg": null,
@@ -421,7 +495,9 @@
       "delay": 1175,
       "speed": 2.45020393543052,
       "resolution": "1920x1080",
-      "accepted": true
+      "accepted": true,
+      "logo": "https://provider-static.plex.tv/epg/cms/production/8cf9c131-2d92-4d91-86b1-22ef458d703f/reuters_reutersnow_1RDX.png",
+      "logo_source": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u"
     },
     {
       "epg": null,
@@ -432,7 +508,9 @@
       "delay": 6673,
       "speed": 0.1316221593312242,
       "resolution": "1280x720",
-      "accepted": false
+      "accepted": false,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg",
+      "logo_source": "https://live.hacks.tools/iptv/languages/eng.m3u"
     },
     {
       "epg": null,
@@ -443,7 +521,9 @@
       "delay": 4503,
       "speed": 0.34520457560029355,
       "resolution": "1920x1080",
-      "accepted": false
+      "accepted": false,
+      "logo": "https://upload.wikimedia.org/wikipedia/en/3/39/Big_Ten_Network_Logo.svg",
+      "logo_source": "https://live.hacks.tools/iptv/languages/eng.m3u"
     },
     {
       "epg": null,
@@ -454,7 +534,9 @@
       "delay": 5371,
       "speed": 0.33745913940149713,
       "resolution": "1920x1080",
-      "accepted": false
+      "accepted": false,
+      "logo": "https://dtil.tmsimg.com/assets/s143574_ld_h15_aa.png?lock=720x540",
+      "logo_source": "https://iptv-org.github.io/iptv/index.m3u"
     },
     {
       "epg": null,
@@ -465,7 +547,9 @@
       "delay": 1503,
       "speed": 1.1178080251129356,
       "resolution": "1920x1080",
-      "accepted": true
+      "accepted": true,
+      "logo": "https://i.imgur.com/Vhv5gjN.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/eng.m3u"
     },
     {
       "epg": null,
@@ -476,7 +560,9 @@
       "delay": 3711,
       "speed": 0.7160226968821848,
       "resolution": "1920x1080",
-      "accepted": true
+      "accepted": true,
+      "logo": "https://i.imgur.com/1luzP3T.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/eng.m3u"
     },
     {
       "epg": null,
@@ -487,7 +573,9 @@
       "delay": 1533,
       "speed": 0.5972285117695032,
       "resolution": "1280x720",
-      "accepted": true
+      "accepted": true,
+      "logo": "https://i.imgur.com/ulHoqlP.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/eng.m3u"
     },
     {
       "epg": null,
@@ -498,7 +586,9 @@
       "delay": 1575,
       "speed": 1.948651042955474,
       "resolution": "1920x1080",
-      "accepted": true
+      "accepted": true,
+      "logo": "https://image.xumo.com/v1/channels/channel/99991387/168x168.png?type=color_onBlack",
+      "logo_source": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u"
     },
     {
       "epg": null,
@@ -509,7 +599,9 @@
       "delay": 1093,
       "speed": 1.836788978311281,
       "resolution": "1920x1080",
-      "accepted": true
+      "accepted": true,
+      "logo": "https://i.imgur.com/JHv0WxM.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/eng.m3u"
     },
     {
       "epg": null,
@@ -520,7 +612,9 @@
       "delay": 1581,
       "speed": 0.23991952259917365,
       "resolution": null,
-      "accepted": false
+      "accepted": false,
+      "logo": "https://i.imgur.com/HGLFdfk.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/eng.m3u"
     },
     {
       "epg": null,
@@ -531,7 +625,9 @@
       "delay": 1110,
       "speed": 0.14066386087760685,
       "resolution": null,
-      "accepted": false
+      "accepted": false,
+      "logo": "https://www.xn--rgv465a.top/tvlogo/%E4%B8%96%E7%95%8C%E5%9C%B0%E7%90%86.png",
+      "logo_source": "https://raw.githubusercontent.com/Guovin/TV/gd/output/result.m3u"
     },
     {
       "epg": null,
@@ -542,7 +638,9 @@
       "delay": 1405,
       "speed": 0.18881795973034293,
       "resolution": "1920x1080",
-      "accepted": false
+      "accepted": false,
+      "logo": "https://i.imgur.com/4S1rkhm.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/zho.m3u"
     }
   ],
   "requested_channels": [
@@ -661,5 +759,7 @@
       "published_new_entries": 0,
       "notes": "TVBS-Asia duplicates an existing URL; CCTV-4 candidate contains access credentials and was not published; Bloomberg and Celestial candidates failed probing."
     }
-  }
+  },
+  "logo_policy": "Every playlist entry includes tvg-logo; source-provided logos are preferred, with source-backed manual name mappings where the selected stream line lacked a logo.",
+  "logo_count": 49
 }

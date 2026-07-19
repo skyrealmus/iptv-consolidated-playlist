@@ -2,149 +2,149 @@
 # Consolidated from public IPTV playlists; entries were selected after live probing.
 # Generated: 2026-07-19 (Asia/Singapore)
 # responded; source 2 (malaysia.m3u); label: [BD]8TV *tv; measured speed: 0.003 MiB/s; resolution: unknown; delay: 19228 ms
-#EXTINF:-1 tvg-id="8TV" tvg-name="8TV" tvg-chno="148" group-title="Consolidated IPTV",8TV
+#EXTINF:-1 tvg-id="8TV" tvg-name="8TV" tvg-logo="https://epg.pw/media/images/channel/2020/05/12/large/20200512130107352553_81.png" tvg-chno="148" group-title="Consolidated IPTV",8TV
 https://stream1.freetv.fun/a8689b73ff805df64e23f886f310bb655802abe03d5a4c78e3cf8bd638a7b4dc.ctv
 # responded; source 2 (malaysia.m3u); label: [HD]Astro AEC *tv; measured speed: 0.009 MiB/s; resolution: unknown; delay: 18981 ms
-#EXTINF:-1 tvg-id="Astro AEC HD" tvg-name="Astro AEC HD" tvg-chno="306" group-title="Consolidated IPTV",Astro AEC HD
+#EXTINF:-1 tvg-id="Astro AEC HD" tvg-name="Astro AEC HD" tvg-logo="https://epg.pw/media/images/channel/2016/06/13/large/20160613221915401269_45.jpg" tvg-chno="306" group-title="Consolidated IPTV",Astro AEC HD
 https://stream1.freetv.fun/d3d9cf31ed24b0f0f798dd1ea51203555ca492dee3c6219f37f088264a5699b9.ctv
 # responded; source 2 (malaysia.m3u); label: [HD]Astro QJ *tv; measured speed: 0.003 MiB/s; resolution: unknown; delay: 18945 ms
-#EXTINF:-1 tvg-id="Astro QJ" tvg-name="Astro QJ" tvg-chno="308" group-title="Consolidated IPTV",Astro QJ
+#EXTINF:-1 tvg-id="Astro QJ" tvg-name="Astro QJ" tvg-logo="https://epg.pw/media/images/channel/2023/10/26/large/20231026184205607217_59.png" tvg-chno="308" group-title="Consolidated IPTV",Astro QJ
 https://stream1.freetv.fun/2dcd0a971e2b04710d66ab15beb84b231fa3e3b93c27802d2b27957b2e080aaa.ctv
 # accepted; source 2 (malaysia.m3u); label: [BD]天映; measured speed: 0.644 MiB/s; resolution: 1920x1080; delay: 7791 ms
-#EXTINF:-1 tvg-id="Celestial Movies HD" tvg-name="Celestial Movies HD" tvg-chno="309" group-title="Consolidated IPTV",Celestial Movies HD
+#EXTINF:-1 tvg-id="Celestial Movies HD" tvg-name="Celestial Movies HD" tvg-logo="https://epg.pw/media/images/channel/2023/08/05/large/20230805003741056376_18.png" tvg-chno="309" group-title="Consolidated IPTV",Celestial Movies HD
 https://stream1.freetv.fun/b5c189b5554c989af65830d3adb0c57afc82d713dd13cf60aff5657f80d07aed.ctv
 # accepted; source 11 (bit.ly suxuang); label: TVB翡翠台 4K; measured speed: 12.232 MiB/s; resolution: 3840x2160; delay: 334 ms
-#EXTINF:-1 tvg-id="TVB Jade" tvg-name="TVB Jade" tvg-chno="310" group-title="Consolidated IPTV",TVB Jade
+#EXTINF:-1 tvg-id="TVB Jade" tvg-name="TVB Jade" tvg-logo="https://live.fanmingming.cn/tv/%E7%BF%A1%E7%BF%A0%E5%8F%B0.png" tvg-chno="310" group-title="Consolidated IPTV",TVB Jade
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4
 # responded; source 2 (malaysia.m3u); label: [BD]astro aod; measured speed: 0.244 MiB/s; resolution: 1920x1080; delay: 11103 ms
-#EXTINF:-1 tvg-id="Astro AOD HD" tvg-name="Astro AOD HD" tvg-chno="311" group-title="Consolidated IPTV",Astro AOD HD
+#EXTINF:-1 tvg-id="Astro AOD HD" tvg-name="Astro AOD HD" tvg-logo="https://epg.pw/media/images/channel/2022/08/26/large/20220826114608609036_92.png" tvg-chno="311" group-title="Consolidated IPTV",Astro AOD HD
 https://stream1.freetv.fun/d3caf993c1f3d40b248435a333d61b86a2175ce21d48c60915c684cc2d64436e.ctv
 # responded; source 4 (Guovin result.m3u); label: 无线新闻; measured speed: 0.000 MiB/s; resolution: unknown; delay: 7758 ms
-#EXTINF:-1 tvg-id="TVB Entertainment News" tvg-name="TVB Entertainment News" tvg-chno="317" group-title="Consolidated IPTV",TVB Entertainment News
+#EXTINF:-1 tvg-id="TVB Entertainment News" tvg-name="TVB Entertainment News" tvg-logo="https://www.xn--rgv465a.top/tvlogo/%E6%97%A0%E7%BA%BF%E6%96%B0%E9%97%BB.png" tvg-chno="317" group-title="Consolidated IPTV",TVB Entertainment News
 http://php.jdshipin.com/TVOD/iptv.php?id=wxxw
 # responded; source 4 (Guovin result.m3u); label: 无线星河; measured speed: 0.000 MiB/s; resolution: unknown; delay: 7735 ms
-#EXTINF:-1 tvg-id="TVB Xing He HD" tvg-name="TVB Xing He HD" tvg-chno="319" group-title="Consolidated IPTV",TVB Xing He HD
+#EXTINF:-1 tvg-id="TVB Xing He HD" tvg-name="TVB Xing He HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/%E6%97%A0%E7%BA%BF%E6%98%9F%E6%B2%B3.png" tvg-chno="319" group-title="Consolidated IPTV",TVB Xing He HD
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=xinghe
 # responded; source 4 (Guovin result.m3u); label: TVBS亚洲; measured speed: 0.101 MiB/s; resolution: unknown; delay: 17320 ms
-#EXTINF:-1 tvg-id="TVBS Asia HD" tvg-name="TVBS Asia HD" tvg-chno="320" group-title="Consolidated IPTV",TVBS Asia HD
+#EXTINF:-1 tvg-id="TVBS Asia HD" tvg-name="TVBS Asia HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/TVBS%E4%BA%9A%E6%B4%B2.png" tvg-chno="320" group-title="Consolidated IPTV",TVBS Asia HD
 http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8?zshijd
 # responded; source 9 (bit.ly aptv); label: 凤凰中文; measured speed: 0.066 MiB/s; resolution: unknown; delay: 11014 ms
-#EXTINF:-1 tvg-id="Phoenix Chinese Channel HD" tvg-name="Phoenix Chinese Channel HD" tvg-chno="325" group-title="Consolidated IPTV",Phoenix Chinese Channel HD
+#EXTINF:-1 tvg-id="Phoenix Chinese Channel HD" tvg-name="Phoenix Chinese Channel HD" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Phoenix1.png" tvg-chno="325" group-title="Consolidated IPTV",Phoenix Chinese Channel HD
 http://101.35.240.114:88/phenix.php?id=fhzw
 # responded; source 4 (Guovin result.m3u); label: 凤凰资讯; measured speed: 0.013 MiB/s; resolution: unknown; delay: 18712 ms
-#EXTINF:-1 tvg-id="Phoenix Info News HD" tvg-name="Phoenix Info News HD" tvg-chno="326" group-title="Consolidated IPTV",Phoenix Info News HD
+#EXTINF:-1 tvg-id="Phoenix Info News HD" tvg-name="Phoenix Info News HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/%E5%87%A4%E5%87%B0%E8%B5%84%E8%AE%AF.png" tvg-chno="326" group-title="Consolidated IPTV",Phoenix Info News HD
 http://221.7.175.154:8445/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&authid=0
 # responded; source 4 (Guovin result.m3u); label: CCTV-4; measured speed: 0.050 MiB/s; resolution: unknown; delay: 18802 ms
-#EXTINF:-1 tvg-id="CCTV4 HD" tvg-name="CCTV4 HD" tvg-chno="335" group-title="Consolidated IPTV",CCTV4 HD
+#EXTINF:-1 tvg-id="CCTV4 HD" tvg-name="CCTV4 HD" tvg-logo="https://i.imgur.com/HGLFdfk.png" tvg-chno="335" group-title="Consolidated IPTV",CCTV4 HD
 https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
 # responded; source 2 (malaysia.m3u); label: [HD]Astro Boo *tv; measured speed: 0.022 MiB/s; resolution: unknown; delay: 18679 ms
-#EXTINF:-1 tvg-id="Astro BOO" tvg-name="Astro BOO" tvg-chno="404" group-title="Consolidated IPTV",Astro BOO
+#EXTINF:-1 tvg-id="Astro BOO" tvg-name="Astro BOO" tvg-logo="https://epg.pw/media/images/channel/2026/03/09/large/20260309044806154163_47.png" tvg-chno="404" group-title="Consolidated IPTV",Astro BOO
 https://stream1.freetv.fun/0321a4e80eedc4132389bf27b47192695cbad9bf1d989c05567d743d419621af.ctv
 # responded; source 2 (malaysia.m3u); label: [BD]astro showcase *tv; measured speed: 0.027 MiB/s; resolution: unknown; delay: 11447 ms
-#EXTINF:-1 tvg-id="Astro Showcase" tvg-name="Astro Showcase" tvg-chno="413" group-title="Consolidated IPTV",Astro Showcase
+#EXTINF:-1 tvg-id="Astro Showcase" tvg-name="Astro Showcase" tvg-logo="https://epg.pw/media/images/channel/2025/09/09/large/20250909014020401578_16.jpeg" tvg-chno="413" group-title="Consolidated IPTV",Astro Showcase
 https://stream1.freetv.fun/6fd9ebf3c519ad0ee9acc59537f7e794aeb3a8d64aab2f1b1261856b0327dad4.ctv
 # responded; source 12 (iptv-org index); label: ROCK Action (1080p); measured speed: 0.013 MiB/s; resolution: unknown; delay: 18060 ms
-#EXTINF:-1 tvg-id="Rock Action FHD" tvg-name="Rock Action FHD" tvg-chno="414" group-title="Consolidated IPTV",Rock Action FHD
+#EXTINF:-1 tvg-id="Rock Action FHD" tvg-name="Rock Action FHD" tvg-logo="https://i.imgur.com/l6lmlqG.png" tvg-chno="414" group-title="Consolidated IPTV",Rock Action FHD
 http://nmk.ioapk.com:5050/4gtv-live138/index.m3u8
 # responded; source 12 (iptv-org index); label: CGTN (1080p); measured speed: 0.210 MiB/s; resolution: 1920x1080; delay: 17770 ms
-#EXTINF:-1 tvg-id="CGTN HD" tvg-name="CGTN HD" tvg-chno="503" group-title="Consolidated IPTV",CGTN HD
+#EXTINF:-1 tvg-id="CGTN HD" tvg-name="CGTN HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/960px-CGTN.svg.png" tvg-chno="503" group-title="Consolidated IPTV",CGTN HD
 https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
 # responded; source 3 (YueChan Global.m3u); label: CNN; measured speed: 0.102 MiB/s; resolution: unknown; delay: 18041 ms
-#EXTINF:-1 tvg-id="CNN HD" tvg-name="CNN HD" tvg-chno="511" group-title="Consolidated IPTV",CNN HD
+#EXTINF:-1 tvg-id="CNN HD" tvg-name="CNN HD" tvg-logo="https://raw.githubusercontent.com/suxuang/TVlogo/main/img/CNN.png" tvg-chno="511" group-title="Consolidated IPTV",CNN HD
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 # responded; source 12 (iptv-org index); label: Al Jazeera English (1080p); measured speed: 0.244 MiB/s; resolution: 1920x1080; delay: 17629 ms
-#EXTINF:-1 tvg-id="Al Jazeera English HD" tvg-name="Al Jazeera English HD" tvg-chno="513" group-title="Consolidated IPTV",Al Jazeera English HD
+#EXTINF:-1 tvg-id="Al Jazeera English HD" tvg-name="Al Jazeera English HD" tvg-logo="https://i.imgur.com/7bRVpnu.png" tvg-chno="513" group-title="Consolidated IPTV",Al Jazeera English HD
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
 # responded; source 12 (iptv-org index); label: CNA (1080p) [Geo-blocked]; measured speed: 0.130 MiB/s; resolution: 1920x1080; delay: 17377 ms
-#EXTINF:-1 tvg-id="CNA HD" tvg-name="CNA HD" tvg-chno="515" group-title="Consolidated IPTV",CNA HD
+#EXTINF:-1 tvg-id="CNA HD" tvg-name="CNA HD" tvg-logo="https://i.imgur.com/awIDugE.png" tvg-chno="515" group-title="Consolidated IPTV",CNA HD
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
 # responded; source 12 (iptv-org index); label: Bloomberg TV Asia (720p); measured speed: 0.150 MiB/s; resolution: 1280x720; delay: 9882 ms
-#EXTINF:-1 tvg-id="Bloomberg Television" tvg-name="Bloomberg Television" tvg-chno="517" group-title="Consolidated IPTV",Bloomberg Television
+#EXTINF:-1 tvg-id="Bloomberg Television" tvg-name="Bloomberg Television" tvg-logo="https://i.imgur.com/OuogLHx.png" tvg-chno="517" group-title="Consolidated IPTV",Bloomberg Television
 https://bloomberg.com/media-manifest/streams/asia.m3u8
 # responded; source 12 (iptv-org index); label: Love Nature 4K (2160p) [Geo-blocked]; measured speed: 0.271 MiB/s; resolution: 3840x2160; delay: 18133 ms
-#EXTINF:-1 tvg-id="Love Nature 4K" tvg-name="Love Nature 4K" tvg-chno="549" group-title="Consolidated IPTV",Love Nature 4K
+#EXTINF:-1 tvg-id="Love Nature 4K" tvg-name="Love Nature 4K" tvg-logo="https://lovenature.com/wp-content/uploads/2020/08/love-nature-logo_peacock.png" tvg-chno="549" group-title="Consolidated IPTV",Love Nature 4K
 https://pb-ehs1glsha1juy.akamaized.net/Love_Nature_4K.m3u8
 # accepted; source 1 (eng.m3u); label: BBC Earth (1080p); measured speed: 0.791 MiB/s; resolution: 1920x1080; delay: 3103 ms
-#EXTINF:-1 tvg-id="BBC Earth" tvg-name="BBC Earth" tvg-chno="554" group-title="Consolidated IPTV",BBC Earth
+#EXTINF:-1 tvg-id="BBC Earth" tvg-name="BBC Earth" tvg-logo="https://i.imgur.com/nGSsUd4.png" tvg-chno="554" group-title="Consolidated IPTV",BBC Earth
 https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8
 # responded; source 12 (iptv-org index); label: History; measured speed: 0.107 MiB/s; resolution: unknown; delay: 8720 ms
-#EXTINF:-1 tvg-id="History" tvg-name="History" tvg-chno="555" group-title="Consolidated IPTV",History
+#EXTINF:-1 tvg-id="History" tvg-name="History" tvg-logo="https://i.imgur.com/6UWM2ER.png" tvg-chno="555" group-title="Consolidated IPTV",History
 http://213.91.179.28:8000/play/a0c1
 # responded; source 12 (iptv-org index); label: CGTN Documentary (1080p); measured speed: 0.208 MiB/s; resolution: 1920x1080; delay: 17212 ms
-#EXTINF:-1 tvg-id="CGTN Documentary" tvg-name="CGTN Documentary" tvg-chno="556" group-title="Consolidated IPTV",CGTN Documentary
+#EXTINF:-1 tvg-id="CGTN Documentary" tvg-name="CGTN Documentary" tvg-logo="https://i.imgur.com/JHv0WxM.png" tvg-chno="556" group-title="Consolidated IPTV",CGTN Documentary
 https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
 # responded; source 12 (iptv-org index); label: Nickelodeon (1080p); measured speed: 0.085 MiB/s; resolution: 1920x1080; delay: 18159 ms
-#EXTINF:-1 tvg-id="Nickelodeon" tvg-name="Nickelodeon" tvg-chno="616" group-title="Consolidated IPTV",Nickelodeon
+#EXTINF:-1 tvg-id="Nickelodeon" tvg-name="Nickelodeon" tvg-logo="https://i.imgur.com/E84jnP8.png" tvg-chno="616" group-title="Consolidated IPTV",Nickelodeon
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 # responded; source 12 (iptv-org index); label: Nick Jr. (576p); measured speed: 0.028 MiB/s; resolution: 1048x576; delay: 17021 ms
-#EXTINF:-1 tvg-id="Nick Jr" tvg-name="Nick Jr" tvg-chno="617" group-title="Consolidated IPTV",Nick Jr
+#EXTINF:-1 tvg-id="Nick Jr" tvg-name="Nick Jr" tvg-logo="https://i.imgur.com/KT4tdQs.png" tvg-chno="617" group-title="Consolidated IPTV",Nick Jr
 https://stream8.cinerama.uz/1501/playlist.m3u8
 # responded; source 13 (3kjs tv.txt); label: Moonbug Kids; measured speed: 0.165 MiB/s; resolution: 1920x1080; delay: 17756 ms
-#EXTINF:-1 tvg-id="Moonbug Kids" tvg-name="Moonbug Kids" tvg-chno="618" group-title="Consolidated IPTV",Moonbug Kids
+#EXTINF:-1 tvg-id="Moonbug Kids" tvg-name="Moonbug Kids" tvg-logo="https://i.imgur.com/vZHtxQb.png" tvg-chno="618" group-title="Consolidated IPTV",Moonbug Kids
 https://moonbug-rokuus.amagi.tv/playlist.m3u8
 # responded; source 12 (iptv-org index); label: AXN (720p); measured speed: 0.107 MiB/s; resolution: 1280x720; delay: 18286 ms
-#EXTINF:-1 tvg-id="AXN" tvg-name="AXN" tvg-chno="701" group-title="Consolidated IPTV",AXN
+#EXTINF:-1 tvg-id="AXN" tvg-name="AXN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" tvg-chno="701" group-title="Consolidated IPTV",AXN
 http://45.190.28.50/AXN_HD/index.m3u8
 # responded; source 12 (iptv-org index); label: Lifetime (720p); measured speed: 0.089 MiB/s; resolution: 1280x720; delay: 16566 ms
-#EXTINF:-1 tvg-id="Lifetime" tvg-name="Lifetime" tvg-chno="703" group-title="Consolidated IPTV",Lifetime
+#EXTINF:-1 tvg-id="Lifetime" tvg-name="Lifetime" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/960px-Logo_Lifetime_2020.svg.png" tvg-chno="703" group-title="Consolidated IPTV",Lifetime
 http://40.160.24.53/LIFETIME/index.m3u8
 # responded; source 12 (iptv-org index); label: HGTV (1080p); measured speed: 0.139 MiB/s; resolution: 1920x1080; delay: 15479 ms
-#EXTINF:-1 tvg-id="HGTV" tvg-name="HGTV" tvg-chno="715" group-title="Consolidated IPTV",HGTV
+#EXTINF:-1 tvg-id="HGTV" tvg-name="HGTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/960px-HGTV_US_Logo_2015.svg.png" tvg-chno="715" group-title="Consolidated IPTV",HGTV
 https://i.mjh.nz/.r/sky-hgtv.m3u8
 # responded; source 2 (malaysia.m3u); label: [HD]Astro Grandstand *tv; measured speed: 0.007 MiB/s; resolution: unknown; delay: 19944 ms
-#EXTINF:-1 tvg-id="Astro Grandstand" tvg-name="Astro Grandstand" tvg-chno="810" group-title="Consolidated IPTV",Astro Grandstand
+#EXTINF:-1 tvg-id="Astro Grandstand" tvg-name="Astro Grandstand" tvg-logo="https://epg.pw/media/images/channel/2024/10/19/large/20241019181734867306_96.png" tvg-chno="810" group-title="Consolidated IPTV",Astro Grandstand
 https://stream1.freetv.fun/8dd7922a967bc4eef701e8e44ee25a2cbde247a7ed7864e5e94b7f2af8b033c3.ctv
 # responded; source 2 (malaysia.m3u); label: [BD]Astro Premier League *tv; measured speed: 0.006 MiB/s; resolution: unknown; delay: 20996 ms
-#EXTINF:-1 tvg-id="Astro Premier League" tvg-name="Astro Premier League" tvg-chno="811" group-title="Consolidated IPTV",Astro Premier League
+#EXTINF:-1 tvg-id="Astro Premier League" tvg-name="Astro Premier League" tvg-logo="https://epg.pw/media/images/channel/2024/10/28/large/20241028154405349622_26.png" tvg-chno="811" group-title="Consolidated IPTV",Astro Premier League
 https://stream1.freetv.fun/5aa3d10c9b5cfd1ce920a5ac3b18cb737b81db93304977553d098e891d46e2e2.ctv
 # responded; source 2 (malaysia.m3u); label: [BD]Astro Premier League 2 *tv; measured speed: 0.009 MiB/s; resolution: unknown; delay: 18893 ms
-#EXTINF:-1 tvg-id="Astro Premier League 2" tvg-name="Astro Premier League 2" tvg-chno="812" group-title="Consolidated IPTV",Astro Premier League 2
+#EXTINF:-1 tvg-id="Astro Premier League 2" tvg-name="Astro Premier League 2" tvg-logo="https://epg.pw/media/images/channel/2024/10/28/large/20241028154354983236_16.png" tvg-chno="812" group-title="Consolidated IPTV",Astro Premier League 2
 https://stream1.freetv.fun/67a9feb6e44bb87bd52ea27f9e1775e3bea21b750aede87c356e2dcdea107252.ctv
 # responded; source 2 (malaysia.m3u); label: [BD]Astro Footbal *tv; measured speed: 0.046 MiB/s; resolution: unknown; delay: 19607 ms
-#EXTINF:-1 tvg-id="Astro Football" tvg-name="Astro Football" tvg-chno="814" group-title="Consolidated IPTV",Astro Football
+#EXTINF:-1 tvg-id="Astro Football" tvg-name="Astro Football" tvg-logo="https://epg.pw/media/images/channel/2024/10/19/large/20241019181752911817_82.png" tvg-chno="814" group-title="Consolidated IPTV",Astro Football
 https://stream1.freetv.fun/a6fca176e22357ca10a5ed67fc38e9a232ea8cb5c580288bc5cce13d390d8adb.ctv
 # responded; source 2 (malaysia.m3u); label: [HD]Astro Badminton 2 *tv; measured speed: 0.003 MiB/s; resolution: unknown; delay: 19677 ms
-#EXTINF:-1 tvg-id="Astro Badminton" tvg-name="Astro Badminton" tvg-chno="815" group-title="Consolidated IPTV",Astro Badminton
+#EXTINF:-1 tvg-id="Astro Badminton" tvg-name="Astro Badminton" tvg-logo="https://epg.pw/media/images/channel/2024/10/18/large/20241018015520001285_15.png" tvg-chno="815" group-title="Consolidated IPTV",Astro Badminton
 https://stream1.freetv.fun/5de6f5959c51613983a566f7215c076239b9f2df509caec8f3fc22cbb9aef1fb.ctv
 # responded; source 2 (malaysia.m3u); label: [BD]Astro Sports Plus *tv; measured speed: 0.005 MiB/s; resolution: unknown; delay: 19195 ms
-#EXTINF:-1 tvg-id="Astro Sports Plus" tvg-name="Astro Sports Plus" tvg-chno="817" group-title="Consolidated IPTV",Astro Sports Plus
+#EXTINF:-1 tvg-id="Astro Sports Plus" tvg-name="Astro Sports Plus" tvg-logo="https://epg.pw/media/images/channel/2024/10/19/large/20241019181826872623_21.png" tvg-chno="817" group-title="Consolidated IPTV",Astro Sports Plus
 https://stream1.freetv.fun/a9a3a2ce9d274736c4e6f5bcf7c85622208f39cc7b8e2f762dd3660bd527e943.ctv
 # accepted; source 3 (YueChan Global.m3u); label: BBC News; measured speed: 1.012 MiB/s; resolution: 1280x720; delay: 2167 ms
-#EXTINF:-1 tvg-id="BBC News" tvg-name="BBC News" group-title="Consolidated IPTV",BBC News
+#EXTINF:-1 tvg-id="BBC News" tvg-name="BBC News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png" group-title="Consolidated IPTV",BBC News
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 # accepted; source 3 (YueChan Global.m3u); label: Reuters; measured speed: 2.450 MiB/s; resolution: 1920x1080; delay: 1175 ms
-#EXTINF:-1 tvg-id="Reuters" tvg-name="Reuters" group-title="Consolidated IPTV",Reuters
+#EXTINF:-1 tvg-id="Reuters" tvg-name="Reuters" tvg-logo="https://provider-static.plex.tv/epg/cms/production/8cf9c131-2d92-4d91-86b1-22ef458d703f/reuters_reutersnow_1RDX.png" group-title="Consolidated IPTV",Reuters
 https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/e7493ea5-5c1c-4d7a-a3f7-e95516048ad8/3.m3u8
 # responded; source 1 (eng.m3u); label: Disney XD (720p); measured speed: 0.132 MiB/s; resolution: 1280x720; delay: 6673 ms
-#EXTINF:-1 tvg-id="Disney XD" tvg-name="Disney XD" group-title="Consolidated IPTV",Disney XD
+#EXTINF:-1 tvg-id="Disney XD" tvg-name="Disney XD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg" group-title="Consolidated IPTV",Disney XD
 http://40.160.24.52/DISNEY_XD_HD/index.m3u8
 # responded; source 1 (eng.m3u); label: Big Ten Network (720p); measured speed: 0.345 MiB/s; resolution: 1920x1080; delay: 4503 ms
-#EXTINF:-1 tvg-id="Big Ten Network" tvg-name="Big Ten Network" group-title="Consolidated IPTV",Big Ten Network
+#EXTINF:-1 tvg-id="Big Ten Network" tvg-name="Big Ten Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/3/39/Big_Ten_Network_Logo.svg" group-title="Consolidated IPTV",Big Ten Network
 http://23.237.104.106:8080/USA_BTN/index.m3u8
 # responded; source 12 (iptv-org index); label: National Geographic (576p); measured speed: 0.337 MiB/s; resolution: 1920x1080; delay: 5371 ms
-#EXTINF:-1 tvg-id="National Geographic" tvg-name="National Geographic" group-title="Consolidated IPTV",National Geographic
+#EXTINF:-1 tvg-id="National Geographic" tvg-name="National Geographic" tvg-logo="https://dtil.tmsimg.com/assets/s143574_ld_h15_aa.png?lock=720x540" group-title="Consolidated IPTV",National Geographic
 http://stream.mcquack.net/116/index.m3u8
 # accepted; source 3 (YueChan Global.m3u); label: Wild Earth; measured speed: 1.118 MiB/s; resolution: 1920x1080; delay: 1503 ms
-#EXTINF:-1 tvg-id="Wild Earth" tvg-name="Wild Earth" group-title="Consolidated IPTV",Wild Earth
+#EXTINF:-1 tvg-id="Wild Earth" tvg-name="Wild Earth" tvg-logo="https://i.imgur.com/Vhv5gjN.png" group-title="Consolidated IPTV",Wild Earth
 https://wildearth-plex.amagi.tv/masterR1080p.m3u8
 # accepted; source 1 (eng.m3u); label: Kartoon Channel (1080p); measured speed: 0.716 MiB/s; resolution: 1920x1080; delay: 3711 ms
-#EXTINF:-1 tvg-id="Kartoon Channel" tvg-name="Kartoon Channel" group-title="Consolidated IPTV",Kartoon Channel
+#EXTINF:-1 tvg-id="Kartoon Channel" tvg-name="Kartoon Channel" tvg-logo="https://i.imgur.com/1luzP3T.png" group-title="Consolidated IPTV",Kartoon Channel
 https://lightning-fnf-samsungaus.amagi.tv/playlist.m3u8
 # accepted; source 3 (YueChan Global.m3u); label: History Hit; measured speed: 0.597 MiB/s; resolution: 1280x720; delay: 1533 ms
-#EXTINF:-1 tvg-id="History Hit" tvg-name="History Hit" group-title="Consolidated IPTV",History Hit
+#EXTINF:-1 tvg-id="History Hit" tvg-name="History Hit" tvg-logo="https://i.imgur.com/ulHoqlP.png" group-title="Consolidated IPTV",History Hit
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/ldsAAAAAA-timeline-samsungau/playlist.m3u8
 # accepted; source 3 (YueChan Global.m3u); label: beIN SPORTS XTRA; measured speed: 1.949 MiB/s; resolution: 1920x1080; delay: 1575 ms
-#EXTINF:-1 tvg-id="beIN Sports Xtra" tvg-name="beIN Sports Xtra" group-title="Consolidated IPTV",beIN Sports Xtra
+#EXTINF:-1 tvg-id="beIN Sports Xtra" tvg-name="beIN Sports Xtra" tvg-logo="https://image.xumo.com/v1/channels/channel/99991387/168x168.png?type=color_onBlack" group-title="Consolidated IPTV",beIN Sports Xtra
 https://d9ssxzmclhfo4.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t7en7ol3kq3sp/f881b29a-280a-4416-be20-40db0fcc0f07/3.m3u8
 # accepted; source 7 (aptv jsDelivr); label: CGTN纪录; measured speed: 1.837 MiB/s; resolution: 1920x1080; delay: 1093 ms
-#EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" group-title="Consolidated IPTV",CGTN纪录
+#EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" tvg-logo="https://i.imgur.com/JHv0WxM.png" group-title="Consolidated IPTV",CGTN纪录
 https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
 # responded; source 4 (Guovin result.m3u); label: CCTV-4; measured speed: 0.240 MiB/s; resolution: unknown; delay: 1581 ms
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" group-title="Consolidated IPTV",CCTV4
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://i.imgur.com/HGLFdfk.png" group-title="Consolidated IPTV",CCTV4
 https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
 # responded; source 4 (Guovin result.m3u); label: 世界地理; measured speed: 0.141 MiB/s; resolution: unknown; delay: 1110 ms
-#EXTINF:-1 tvg-id="CCTV世界地理" tvg-name="CCTV世界地理" group-title="Consolidated IPTV",CCTV世界地理
+#EXTINF:-1 tvg-id="CCTV世界地理" tvg-name="CCTV世界地理" tvg-logo="https://www.xn--rgv465a.top/tvlogo/%E4%B8%96%E7%95%8C%E5%9C%B0%E7%90%86.png" group-title="Consolidated IPTV",CCTV世界地理
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=sjdl
 # responded; source 14 (ChinaIPTV cnTV_AutoUpdate.m3u8); label: TVBS Asia (1080p); measured speed: 0.189 MiB/s; resolution: 1920x1080; delay: 1405 ms
-#EXTINF:-1 tvg-id="TVBS-Asia" tvg-name="TVBS-Asia" group-title="Consolidated IPTV",TVBS-Asia
+#EXTINF:-1 tvg-id="TVBS-Asia" tvg-name="TVBS-Asia" tvg-logo="https://i.imgur.com/4S1rkhm.png" group-title="Consolidated IPTV",TVBS-Asia
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
