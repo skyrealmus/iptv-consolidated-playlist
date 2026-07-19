@@ -24,6 +24,8 @@ Raw URLs:
 
 The streams are public third-party endpoints and may be geo-blocked, rate-limited, changed, or removed without notice. A playlist HTTP 200 or a prior probe is not a guarantee of continuous playback. Obvious token-bearing fallback URLs were not published.
 
+Source 14 was fetched with HTTP 200 and parsed into 68 entries. It adds no new published URL in this snapshot: TVBS-Asia duplicates an existing endpoint; its CCTV-4 candidate contains access credentials and was excluded; its Bloomberg and Celestial Movies candidates failed probing.
+
 ## Additional requested channels
 
 Added candidates were checked for: BBC News, Eurosport 4K, Reuters, Discovery Channel, Disney XD, Big Ten Network, National Geographic, Cartoon Network, Wild Earth, Animal Planet (the supplied name was spelled `Animal Plannet`), BBC Earth, Kartoon Channel, History Hit, beIN Sports Xtra, CGTN纪录, CCTV4, CCTV世界地理, and TVBS-Asia.
@@ -45,3 +47,4 @@ No trustworthy responding candidate was available in this snapshot for: **Eurosp
 11. `https://bit.ly/suxuang`
 12. `https://iptv-org.github.io/iptv/index.m3u`
 13. `https://www.3kjs.com/tv.txt`
+14. `https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8`

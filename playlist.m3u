@@ -145,6 +145,6 @@ https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
 # responded; source 4 (Guovin result.m3u); label: 世界地理; measured speed: 0.141 MiB/s; resolution: unknown; delay: 1110 ms
 #EXTINF:-1 tvg-id="CCTV世界地理" tvg-name="CCTV世界地理" group-title="Consolidated IPTV",CCTV世界地理
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=sjdl
-# responded; source 5 (zho.m3u); label: TVBS Asia (1080p); measured speed: 0.091 MiB/s; resolution: 1920x1080; delay: 8300 ms
+# responded; source 14 (ChinaIPTV cnTV_AutoUpdate.m3u8); label: TVBS Asia (1080p); measured speed: 0.189 MiB/s; resolution: 1920x1080; delay: 1405 ms
 #EXTINF:-1 tvg-id="TVBS-Asia" tvg-name="TVBS-Asia" group-title="Consolidated IPTV",TVBS-Asia
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8

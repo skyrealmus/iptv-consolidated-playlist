@@ -538,9 +538,9 @@
       "requested": "TVBS-Asia",
       "url": "http://38.64.72.148/hls/modn/list/4005/playlist.m3u8",
       "label": "TVBS Asia (1080p)",
-      "source_index": 5,
-      "delay": 8300,
-      "speed": 0.09145111250265361,
+      "source_index": 14,
+      "delay": 1405,
+      "speed": 0.18881795973034293,
       "resolution": "1920x1080",
       "accepted": false
     }
@@ -631,5 +631,35 @@
     "CCTV4",
     "CCTV世界地理",
     "TVBS-Asia"
-  ]
+  ],
+  "sources": [
+    "https://live.hacks.tools/iptv/languages/eng.m3u",
+    "https://live.hacks.tools/iptv/languages/malaysia.m3u",
+    "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u",
+    "https://raw.githubusercontent.com/Guovin/TV/gd/output/result.m3u",
+    "https://live.hacks.tools/iptv/languages/zho.m3u",
+    "https://live.hacks.tools/iptv/languages/singapore.m3u",
+    "https://cdn.jsdelivr.net/gh/Kimentanm/aptv/m3u/iptv.m3u",
+    "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+    "https://bit.ly/iptv-aptv",
+    "https://tv.iill.top/m3u/Gather",
+    "https://bit.ly/suxuang",
+    "https://iptv-org.github.io/iptv/index.m3u",
+    "https://www.3kjs.com/tv.txt",
+    "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8"
+  ],
+  "source_checks": {
+    "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8": {
+      "http_status": 200,
+      "parsed_entries": 68,
+      "matched_requested_names": [
+        "Bloomberg Television",
+        "Celestial Movies HD",
+        "TVBS-Asia",
+        "CCTV4 HD"
+      ],
+      "published_new_entries": 0,
+      "notes": "TVBS-Asia duplicates an existing URL; CCTV-4 candidate contains access credentials and was not published; Bloomberg and Celestial candidates failed probing."
+    }
+  }
 }
