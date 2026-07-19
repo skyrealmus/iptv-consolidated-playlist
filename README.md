@@ -22,11 +22,11 @@ English is the canonical matching name; Chinese is the player-facing label after
 
 ## Current snapshot
 
-- Unique requested channel names tracked: 85
-- Channels with a responding candidate: 49
+- Unique requested channel names tracked: 51
+- Channels with a selected candidate: 51
 - Probe method: Guovin/iptv-api parser and stream probe
-- Main policy: one best responding URL per requested channel
-- Local channel logos: 49, including the Big Ten Network SVG
+- Main policy: one selected URL per requested channel, grouped by similarity
+- Local channel logos: 51
 - Public source inputs: 14
 
 Streams are public third-party endpoints and may be geo-blocked, rate-limited, changed, or removed without notice. A playlist HTTP 200 or a prior probe is not a guarantee of continuous playback. Obvious token-bearing fallback URLs are not published.

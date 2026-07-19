@@ -50,6 +50,12 @@ def main():
     all_entries = parse(ROOT / "playlist.m3u")
     if len(all_entries) != expected:
         raise AssertionError(f"playlist count {len(all_entries)} != manifest {expected}")
+    ids = [attrs["tvg-id"] for attrs, _display, _url in all_entries]
+    urls = [url for _attrs, _display, url in all_entries]
+    if len(set(ids)) != len(ids):
+        raise AssertionError("playlist contains duplicate tvg-id entries")
+    if len(set(urls)) != len(urls):
+        raise AssertionError("playlist contains duplicate stream URLs")
     print(f"validated bilingual playlist: playlist={len(all_entries)} logos={len(list((ROOT/'logo').iterdir()))}")
 
 
