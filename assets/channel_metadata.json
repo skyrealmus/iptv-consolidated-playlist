@@ -397,6 +397,43 @@
       "language": "English",
       "audio_language": "English"
     },
+    "Channel U": {
+      "name_en": "Channel U",
+      "name_zh": "U频道",
+      "display_name": "U频道",
+      "group": "Singapore",
+      "country": "SG",
+      "category": "Entertainment",
+      "logo_file": "channel-u.png",
+      "source_logo": "https://i.imgur.com/9MzEjoY.png",
+      "aliases": [
+        "Channel U",
+        "Channel U HD",
+        "Mediacorp Channel U",
+        "Mediacorp U",
+        "U频道"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "Channel 8": {
+      "name_en": "Channel 8",
+      "name_zh": "8频道",
+      "display_name": "8频道",
+      "group": "Singapore",
+      "country": "SG",
+      "category": "General",
+      "logo_file": "channel-8.png",
+      "source_logo": "https://epg.pw/media/images/channel/2023/09/22/large/20230922164216308037_71.png",
+      "aliases": [
+        "Channel 8",
+        "Channel 8 HD",
+        "Mediacorp Channel 8",
+        "8频道"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
     "8TV": {
       "name_en": "8TV",
       "name_zh": "八度空间",

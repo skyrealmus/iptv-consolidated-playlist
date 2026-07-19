@@ -12,6 +12,8 @@ from urllib.parse import quote
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "manifest.json"
 METADATA = ROOT / "assets" / "channel_metadata.json"
+CATEGORY_ORDER = ("General", "News", "Entertainment", "Sports", "Documentary", "Kids")
+LANGUAGE_ORDER = {"Chinese": 0, "English": 1}
 
 
 def load_data():
@@ -52,9 +54,22 @@ def render_entry(entry: dict, info: dict) -> str:
     return f"#EXTINF:-1 {' '.join(fields)},{display}\n{entry['url']}"
 
 
+def sort_entries(entries: list[dict], metadata: dict) -> list[dict]:
+    """Group by category, placing Chinese channels before English channels."""
+    category_rank = {category: index for index, category in enumerate(CATEGORY_ORDER)}
+    return sorted(
+        entries,
+        key=lambda entry: (
+            category_rank.get(metadata[entry["requested"]]["category"], len(CATEGORY_ORDER)),
+            LANGUAGE_ORDER.get(metadata[entry["requested"]]["language"], 99),
+            metadata[entry["requested"]]["display_name"].casefold(),
+        ),
+    )
+
+
 def render(entries: list[dict], metadata: dict) -> str:
     blocks = ["#EXTM3U"]
-    for entry in entries:
+    for entry in sort_entries(entries, metadata):
         info = metadata.get(entry["requested"])
         if not info:
             raise ValueError(f"No channel metadata for {entry['requested']}")

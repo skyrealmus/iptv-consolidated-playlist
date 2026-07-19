@@ -1,0 +1,98 @@
+{
+  "tested_at": "2026-07-19T15:48:04Z",
+  "method": {
+    "catalog_health": "HTTP fetch of every active M3U/TXT source catalog",
+    "stream_probe": "ffprobe against every discovered Singapore Channel U/Channel 8 candidate",
+    "speed_test": "8-second FFmpeg decode plus direct HLS segment throughput for playable 1080p candidates",
+    "selection": "playable first, actual video resolution second, then FFmpeg decode speed and segment throughput"
+  },
+  "catalog_health": {
+    "tested": 16,
+    "http_200": 15,
+    "failed": [
+      {
+        "url": "https://tv.iill.top/m3u/Gather",
+        "error": "DNS resolution failure"
+      }
+    ]
+  },
+  "channels": {
+    "Channel U": {
+      "published_name": "U频道",
+      "selected": {
+        "url": "https://stream1.freetv.fun/b1e833539d1119139053415148835f6cef26b79b64645ed4c1d98635d3758d82.m3u8",
+        "playable": true,
+        "video": "1920x1080 H.264",
+        "audio": "AAC",
+        "playlist_delay_ms": 48,
+        "segment_throughput_mbps": 19.07,
+        "ffmpeg_decode_speed_x": 8.07
+      },
+      "alternatives": [
+        {
+          "url": "https://app.viloud.tv/hls/channel/aaf404bee904cff424bb5d1f6fdf9333.m3u8",
+          "playable": false,
+          "error": "HTTP 404"
+        },
+        {
+          "url": "http://aktv-stream.m16tv.cfd/stream/aktv/channeluhd/AKTV.m3u8",
+          "playable": false,
+          "error": "DNS resolution failure"
+        }
+      ]
+    },
+    "Channel 8": {
+      "published_name": "8频道",
+      "selected": {
+        "url": "http://usa.login.in.th:1935/ch8/ch8/playlist.m3u8",
+        "playable": true,
+        "video": "1920x1080 H.264",
+        "audio": "AAC",
+        "playlist_delay_ms": 1154,
+        "segment_throughput_mbps": 5.627,
+        "ffmpeg_decode_speed_x": 5.57
+      },
+      "alternatives": [
+        {
+          "url": "https://stream1.freetv.fun/2e398e1d5821e86c4b477d522fecb17e2756ed66c2d727bd94d5c2ecb9e72b55.m3u8",
+          "playable": true,
+          "video": "1920x1080 H.264",
+          "ffmpeg_decode_speed_x": 1.79
+        },
+        {
+          "url": "https://stream1.freetv.fun/82b3b5d8a546ef5883bd4b19e425b0b5b8a5133c36aba32abe0230a36d448b50.m3u8",
+          "playable": true,
+          "video": "1920x1080 H.264",
+          "ffmpeg_decode_speed_x": 4.92
+        },
+        {
+          "url": "https://gra1.crystalweb.net:1936/channel8/channel8/playlist.m3u8",
+          "playable": true,
+          "video": "1920x1080 H.264",
+          "ffmpeg_decode_speed_x": 1.74
+        },
+        {
+          "url": "http://45.11.139.43:8555/8kanal/index.m3u8",
+          "playable": true,
+          "video": "720x576 MPEG-2",
+          "ffmpeg_decode_speed_x": 1.56
+        },
+        {
+          "url": "https://stream1.freetv.fun/810d506d45bac86c654d113bc57e3047f4dfb304db2376c67a47180507bdc7b6.m3u8",
+          "playable": true,
+          "video": "720x576 MPEG-2"
+        },
+        {
+          "url": "https://stream1.freetv.fun/ffbe7599f9bbe0b96cc1588c690ad25faeb0561728af88154469f7fce5b44a23.m3u8",
+          "playable": true,
+          "video": "720x576 MPEG-2"
+        },
+        {
+          "url": "http://aktv-stream.m16tv.cfd/stream/aktv/channel8hd/AKTV.m3u8",
+          "playable": false,
+          "error": "DNS resolution failure"
+        }
+      ]
+    }
+  }
+}

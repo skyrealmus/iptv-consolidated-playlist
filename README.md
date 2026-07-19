@@ -22,11 +22,12 @@ Channel aliases remain bilingual for source matching, but published channel name
 
 ## Current snapshot
 
-- Unique requested channel names tracked: 51
-- Channels with a selected candidate: 51
-- Probe method: Guovin/iptv-api parser and stream probe
-- Main policy: one selected URL per requested channel, grouped by similarity
-- Local channel logos: 51
+- Unique requested channel names tracked: 53
+- Channels with a selected candidate: 53
+- Probe method: Guovin/iptv-api parser and stream probe, with targeted FFmpeg/HLS speed checks for live candidate selection
+- Main policy: one selected URL per requested channel, grouped by category in this order: General, News, Entertainment, Sports, Documentary, Kids; Chinese channels precede English channels within each category
+- Singapore additions: Channel U (`U频道`) and Channel 8 (`8频道`), selected from live 1080p candidates
+- Local channel logos: 53
 - Public source inputs: 16
 
 Streams are public third-party endpoints and may be geo-blocked, rate-limited, changed, or removed without notice. A playlist HTTP 200 or a prior probe is not a guarantee of continuous playback. Obvious token-bearing fallback URLs are not published.
@@ -46,6 +47,9 @@ scripts/
   sync_logos.py           # fetches missing curated logos only
   validate_repo.py        # dependency-free playlist and asset checks
   check_sources.py        # lightweight source HTTP health report
+reports/
+  source-health.json      # active source catalog availability snapshot
+  stream-speed.json       # targeted candidate probe and speed-test evidence
 .github/workflows/
   validate.yml            # push/PR validation
   update-playlists.yml    # daily deterministic playlist rebuild
