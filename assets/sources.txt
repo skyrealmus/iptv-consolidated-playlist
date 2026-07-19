@@ -1,0 +1,16 @@
+# Public M3U/TXT source inputs; one URL per line.
+# Keep credentials and private endpoints out of this file.
+https://live.hacks.tools/iptv/languages/eng.m3u
+https://live.hacks.tools/iptv/languages/malaysia.m3u
+https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u
+https://raw.githubusercontent.com/Guovin/TV/gd/output/result.m3u
+https://live.hacks.tools/iptv/languages/zho.m3u
+https://live.hacks.tools/iptv/languages/singapore.m3u
+https://cdn.jsdelivr.net/gh/Kimentanm/aptv/m3u/iptv.m3u
+https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
+https://bit.ly/iptv-aptv
+https://tv.iill.top/m3u/Gather
+https://bit.ly/suxuang
+https://iptv-org.github.io/iptv/index.m3u
+https://www.3kjs.com/tv.txt
+https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8

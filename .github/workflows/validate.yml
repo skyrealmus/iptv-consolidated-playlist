@@ -1,0 +1,31 @@
+name: Validate playlists
+
+on:
+  push:
+    paths:
+      - "manifest.json"
+      - "assets/**"
+      - "logo/**"
+      - "playlist.m3u"
+      - "accepted.m3u"
+      - "scripts/**"
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+      - name: Set up Python
+        uses: actions/setup-python@v5.2.0
+        with:
+          python-version: "3.13"
+      - name: Check generated outputs
+        run: python scripts/build_playlists.py --check
+      - name: Validate repository
+        run: python scripts/validate_repo.py

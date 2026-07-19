@@ -1,0 +1,50 @@
+# English canonical | Simplified Chinese label | aliases
+8TV | 八度空间 | 8TV, 八度空间
+Astro AEC HD | Astro AEC 高清 | Astro AEC HD, Astro AEC 高清
+Astro QJ | Astro QJ | Astro QJ
+Celestial Movies HD | 天映电影 | Celestial Movies HD, 天映电影
+TVB Jade | TVB 翡翠台 | TVB Jade, TVB 翡翠台
+Astro AOD HD | Astro AOD 高清 | Astro AOD HD, Astro AOD 高清
+TVB Entertainment News | TVB 娱乐新闻 | TVB Entertainment News, TVB 娱乐新闻
+TVB Xing He HD | TVB 星河 | TVB Xing He HD, TVB 星河
+TVBS Asia HD | TVBS 亚洲 | TVBS Asia HD, TVBS 亚洲
+Phoenix Chinese Channel HD | 凤凰中文台 | Phoenix Chinese Channel HD, 凤凰中文台
+Phoenix Info News HD | 凤凰资讯台 | Phoenix Info News HD, 凤凰资讯台
+CCTV4 HD | CCTV-4 中文国际 | CCTV4 HD, CCTV-4 中文国际
+Astro BOO | Astro BOO | Astro BOO
+Astro Showcase | Astro Showcase 电影 | Astro Showcase, Astro Showcase 电影
+Rock Action FHD | Rock Action 动作电影 | Rock Action FHD, Rock Action 动作电影
+CGTN HD | 中国国际电视台 | CGTN HD, 中国国际电视台
+CNN HD | CNN 新闻 | CNN HD, CNN 新闻
+Al Jazeera English HD | 半岛电视台英语 | Al Jazeera English HD, 半岛电视台英语
+CNA HD | 亚洲新闻台 | CNA HD, 亚洲新闻台
+Bloomberg Television | 彭博电视 | Bloomberg Television, 彭博电视
+Love Nature 4K | 爱自然 4K | Love Nature 4K, 爱自然 4K
+BBC Earth | BBC 地球 | BBC Earth, BBC 地球
+History | 历史频道 | History, 历史频道
+CGTN Documentary | CGTN 纪录片 | CGTN Documentary, CGTN 纪录片
+Nickelodeon | 尼克儿童频道 | Nickelodeon, 尼克儿童频道
+Nick Jr | 小尼克 | Nick Jr, 小尼克
+Moonbug Kids | 月亮虫儿童 | Moonbug Kids, 月亮虫儿童
+AXN | AXN 亚洲 | AXN, AXN 亚洲
+Lifetime | 生活频道 | Lifetime, 生活频道
+HGTV | 家居频道 | HGTV, 家居频道
+Astro Grandstand | Astro 大看台 | Astro Grandstand, Astro 大看台
+Astro Premier League | Astro 英超 | Astro Premier League, Astro 英超
+Astro Premier League 2 | Astro 英超 2 | Astro Premier League 2, Astro 英超 2
+Astro Football | Astro 足球 | Astro Football, Astro 足球
+Astro Badminton | Astro 羽毛球 | Astro Badminton, Astro 羽毛球
+Astro Sports Plus | Astro 体育加 | Astro Sports Plus, Astro 体育加
+BBC News | BBC 新闻 | BBC News, BBC 新闻
+Reuters | 路透社 | Reuters, 路透社
+Disney XD | 迪士尼 XD | Disney XD, 迪士尼 XD
+Big Ten Network | 十大联盟体育台 | Big Ten Network, 十大联盟体育台
+National Geographic | 国家地理频道 | National Geographic, 国家地理频道
+Wild Earth | 野生地球 | Wild Earth, 野生地球
+Kartoon Channel | 卡通频道 | Kartoon Channel, 卡通频道
+History Hit | History Hit 历史 | History Hit, History Hit 历史
+beIN Sports Xtra | beIN Sports Xtra 体育 | beIN Sports Xtra, beIN Sports Xtra 体育
+CGTN Documentary | CGTN 纪录片 | CGTN纪录, CGTN Documentary, CGTN 纪录片
+CCTV4 | CCTV-4 中文国际 | CCTV4, CCTV-4 中文国际
+CCTV World Geography | CCTV 世界地理 | CCTV世界地理, CCTV World Geography, CCTV 世界地理
+TVBS Asia | TVBS 亚洲 | TVBS-Asia, TVBS Asia, TVBS 亚洲

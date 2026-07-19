@@ -1,0 +1,696 @@
+{
+  "format": "english-first bilingual labels; simplified Chinese after slash",
+  "audience": [
+    "Malaysia",
+    "Singapore"
+  ],
+  "channels": {
+    "8TV": {
+      "name_en": "8TV",
+      "name_zh": "八度空间",
+      "display_name": "8TV / 八度空间",
+      "group": "Malaysia / 马来西亚",
+      "country": "MY",
+      "category": "General / 综合",
+      "logo_file": "8tv.png",
+      "source_logo": "https://epg.pw/media/images/channel/2020/05/12/large/20200512130107352553_81.png",
+      "aliases": [
+        "8TV",
+        "八度空间"
+      ]
+    },
+    "Astro AEC HD": {
+      "name_en": "Astro AEC HD",
+      "name_zh": "Astro AEC 高清",
+      "display_name": "Astro AEC HD / Astro AEC 高清",
+      "group": "Malaysia / 马来西亚",
+      "country": "MY",
+      "category": "Entertainment / 娱乐",
+      "logo_file": "astro-aec-hd.jpg",
+      "source_logo": "https://epg.pw/media/images/channel/2016/06/13/large/20160613221915401269_45.jpg",
+      "aliases": [
+        "Astro AEC HD",
+        "Astro AEC 高清"
+      ]
+    },
+    "Astro QJ": {
+      "name_en": "Astro QJ",
+      "name_zh": "Astro QJ 娱乐",
+      "display_name": "Astro QJ / Astro QJ 娱乐",
+      "group": "Malaysia / 马来西亚",
+      "country": "MY",
+      "category": "Entertainment / 娱乐",
+      "logo_file": "astro-qj.png",
+      "source_logo": "https://epg.pw/media/images/channel/2023/10/26/large/20231026184205607217_59.png",
+      "aliases": [
+        "Astro QJ"
+      ]
+    },
+    "Celestial Movies HD": {
+      "name_en": "Celestial Movies HD",
+      "name_zh": "天映电影",
+      "display_name": "Celestial Movies HD / 天映电影",
+      "group": "Greater China / 大中华",
+      "country": "HK",
+      "category": "Movies / 电影",
+      "logo_file": "celestial-movies-hd.png",
+      "source_logo": "https://epg.pw/media/images/channel/2023/08/05/large/20230805003741056376_18.png",
+      "aliases": [
+        "Celestial Movies HD",
+        "天映电影"
+      ]
+    },
+    "TVB Jade": {
+      "name_en": "TVB Jade",
+      "name_zh": "TVB 翡翠台",
+      "display_name": "TVB Jade / TVB 翡翠台",
+      "group": "Greater China / 大中华",
+      "country": "HK",
+      "category": "Entertainment / 娱乐",
+      "logo_file": "tvb-jade.png",
+      "source_logo": "https://live.fanmingming.cn/tv/%E7%BF%A1%E7%BF%A0%E5%8F%B0.png",
+      "aliases": [
+        "TVB Jade",
+        "TVB 翡翠台"
+      ]
+    },
+    "Astro AOD HD": {
+      "name_en": "Astro AOD HD",
+      "name_zh": "Astro AOD 高清",
+      "display_name": "Astro AOD HD / Astro AOD 高清",
+      "group": "Malaysia / 马来西亚",
+      "country": "MY",
+      "category": "Entertainment / 娱乐",
+      "logo_file": "astro-aod-hd.png",
+      "source_logo": "https://epg.pw/media/images/channel/2022/08/26/large/20220826114608609036_92.png",
+      "aliases": [
+        "Astro AOD HD",
+        "Astro AOD 高清"
+      ]
+    },
+    "TVB Entertainment News": {
+      "name_en": "TVB Entertainment News",
+      "name_zh": "TVB 娱乐新闻",
+      "display_name": "TVB Entertainment News / TVB 娱乐新闻",
+      "group": "Greater China / 大中华",
+      "country": "HK",
+      "category": "News / 新闻",
+      "logo_file": "tvb-entertainment-news.png",
+      "source_logo": "https://www.xn--rgv465a.top/tvlogo/%E6%97%A0%E7%BA%BF%E6%96%B0%E9%97%BB.png",
+      "aliases": [
+        "TVB Entertainment News",
+        "TVB 娱乐新闻"
+      ]
+    },
+    "TVB Xing He HD": {
+      "name_en": "TVB Xing He HD",
+      "name_zh": "TVB 星河",
+      "display_name": "TVB Xing He HD / TVB 星河",
+      "group": "Greater China / 大中华",
+      "country": "HK",
+      "category": "Entertainment / 娱乐",
+      "logo_file": "tvb-xing-he-hd.png",
+      "source_logo": "https://www.xn--rgv465a.top/tvlogo/%E6%97%A0%E7%BA%BF%E6%98%9F%E6%B2%B3.png",
+      "aliases": [
+        "TVB Xing He HD",
+        "TVB 星河"
+      ]
+    },
+    "TVBS Asia HD": {
+      "name_en": "TVBS Asia HD",
+      "name_zh": "TVBS 亚洲",
+      "display_name": "TVBS Asia HD / TVBS 亚洲",
+      "group": "Greater China / 大中华",
+      "country": "TW",
+      "category": "News / 新闻",
+      "logo_file": "tvbs-asia-hd.png",
+      "source_logo": "https://www.xn--rgv465a.top/tvlogo/TVBS%E4%BA%9A%E6%B4%B2.png",
+      "aliases": [
+        "TVBS Asia HD",
+        "TVBS 亚洲"
+      ]
+    },
+    "Phoenix Chinese Channel HD": {
+      "name_en": "Phoenix Chinese Channel HD",
+      "name_zh": "凤凰中文台",
+      "display_name": "Phoenix Chinese Channel HD / 凤凰中文台",
+      "group": "Greater China / 大中华",
+      "country": "CN",
+      "category": "Entertainment / 娱乐",
+      "logo_file": "phoenix-chinese-channel-hd.png",
+      "source_logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Phoenix1.png",
+      "aliases": [
+        "Phoenix Chinese Channel HD",
+        "凤凰中文台"
+      ]
+    },
+    "Phoenix Info News HD": {
+      "name_en": "Phoenix Info News HD",
+      "name_zh": "凤凰资讯台",
+      "display_name": "Phoenix Info News HD / 凤凰资讯台",
+      "group": "Greater China / 大中华",
+      "country": "CN",
+      "category": "News / 新闻",
+      "logo_file": "phoenix-info-news-hd.png",
+      "source_logo": "https://www.xn--rgv465a.top/tvlogo/%E5%87%A4%E5%87%B0%E8%B5%84%E8%AE%AF.png",
+      "aliases": [
+        "Phoenix Info News HD",
+        "凤凰资讯台"
+      ]
+    },
+    "CCTV4 HD": {
+      "name_en": "CCTV4 HD",
+      "name_zh": "CCTV-4 中文国际",
+      "display_name": "CCTV4 HD / CCTV-4 中文国际",
+      "group": "Greater China / 大中华",
+      "country": "CN",
+      "category": "News / 新闻",
+      "logo_file": "cctv4-hd.png",
+      "source_logo": "https://i.imgur.com/HGLFdfk.png",
+      "aliases": [
+        "CCTV4 HD",
+        "CCTV-4 中文国际"
+      ]
+    },
+    "Astro BOO": {
+      "name_en": "Astro BOO",
+      "name_zh": "Astro BOO 电影",
+      "display_name": "Astro BOO / Astro BOO 电影",
+      "group": "Malaysia / 马来西亚",
+      "country": "MY",
+      "category": "Movies / 电影",
+      "logo_file": "astro-boo.png",
+      "source_logo": "https://epg.pw/media/images/channel/2026/03/09/large/20260309044806154163_47.png",
+      "aliases": [
+        "Astro BOO"
+      ]
+    },
+    "Astro Showcase": {
+      "name_en": "Astro Showcase",
+      "name_zh": "Astro Showcase 电影",
+      "display_name": "Astro Showcase / Astro Showcase 电影",
+      "group": "Malaysia / 马来西亚",
+      "country": "MY",
+      "category": "Movies / 电影",
+      "logo_file": "astro-showcase.jpg",
+      "source_logo": "https://epg.pw/media/images/channel/2025/09/09/large/20250909014020401578_16.jpeg",
+      "aliases": [
+        "Astro Showcase",
+        "Astro Showcase 电影"
+      ]
+    },
+    "Rock Action FHD": {
+      "name_en": "Rock Action FHD",
+      "name_zh": "Rock Action 动作电影",
+      "display_name": "Rock Action FHD / Rock Action 动作电影",
+      "group": "Malaysia / 马来西亚",
+      "country": "MY",
+      "category": "Movies / 电影",
+      "logo_file": "rock-action-fhd.png",
+      "source_logo": "https://i.imgur.com/l6lmlqG.png",
+      "aliases": [
+        "Rock Action FHD",
+        "Rock Action 动作电影"
+      ]
+    },
+    "CGTN HD": {
+      "name_en": "CGTN HD",
+      "name_zh": "中国国际电视台",
+      "display_name": "CGTN HD / 中国国际电视台",
+      "group": "Greater China / 大中华",
+      "country": "CN",
+      "category": "News / 新闻",
+      "logo_file": "cgtn-hd.png",
+      "source_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/960px-CGTN.svg.png",
+      "aliases": [
+        "CGTN HD",
+        "中国国际电视台"
+      ]
+    },
+    "CNN HD": {
+      "name_en": "CNN HD",
+      "name_zh": "CNN 新闻",
+      "display_name": "CNN HD / CNN 新闻",
+      "group": "International / 国际",
+      "country": "US",
+      "category": "News / 新闻",
+      "logo_file": "cnn-hd.png",
+      "source_logo": "https://raw.githubusercontent.com/suxuang/TVlogo/main/img/CNN.png",
+      "aliases": [
+        "CNN HD",
+        "CNN 新闻"
+      ]
+    },
+    "Al Jazeera English HD": {
+      "name_en": "Al Jazeera English HD",
+      "name_zh": "半岛电视台英语",
+      "display_name": "Al Jazeera English HD / 半岛电视台英语",
+      "group": "International / 国际",
+      "country": "QA",
+      "category": "News / 新闻",
+      "logo_file": "al-jazeera-english-hd.png",
+      "source_logo": "https://i.imgur.com/7bRVpnu.png",
+      "aliases": [
+        "Al Jazeera English HD",
+        "半岛电视台英语"
+      ]
+    },
+    "CNA HD": {
+      "name_en": "CNA HD",
+      "name_zh": "亚洲新闻台",
+      "display_name": "CNA HD / 亚洲新闻台",
+      "group": "Singapore / 新加坡",
+      "country": "SG",
+      "category": "News / 新闻",
+      "logo_file": "cna-hd.png",
+      "source_logo": "https://i.imgur.com/awIDugE.png",
+      "aliases": [
+        "CNA HD",
+        "亚洲新闻台"
+      ]
+    },
+    "Bloomberg Television": {
+      "name_en": "Bloomberg Television",
+      "name_zh": "彭博电视",
+      "display_name": "Bloomberg Television / 彭博电视",
+      "group": "International / 国际",
+      "country": "US",
+      "category": "News / 新闻",
+      "logo_file": "bloomberg-television.png",
+      "source_logo": "https://i.imgur.com/OuogLHx.png",
+      "aliases": [
+        "Bloomberg Television",
+        "彭博电视"
+      ]
+    },
+    "Love Nature 4K": {
+      "name_en": "Love Nature 4K",
+      "name_zh": "爱自然 4K",
+      "display_name": "Love Nature 4K / 爱自然 4K",
+      "group": "International / 国际",
+      "country": "CA",
+      "category": "Documentary / 纪录片",
+      "logo_file": "love-nature-4k.png",
+      "source_logo": "https://lovenature.com/wp-content/uploads/2020/08/love-nature-logo_peacock.png",
+      "aliases": [
+        "Love Nature 4K",
+        "爱自然 4K"
+      ]
+    },
+    "BBC Earth": {
+      "name_en": "BBC Earth",
+      "name_zh": "BBC 地球",
+      "display_name": "BBC Earth / BBC 地球",
+      "group": "International / 国际",
+      "country": "GB",
+      "category": "Documentary / 纪录片",
+      "logo_file": "bbc-earth.png",
+      "source_logo": "https://i.imgur.com/nGSsUd4.png",
+      "aliases": [
+        "BBC Earth",
+        "BBC 地球"
+      ]
+    },
+    "History": {
+      "name_en": "History",
+      "name_zh": "历史频道",
+      "display_name": "History / 历史频道",
+      "group": "International / 国际",
+      "country": "US",
+      "category": "Documentary / 纪录片",
+      "logo_file": "history.png",
+      "source_logo": "https://i.imgur.com/6UWM2ER.png",
+      "aliases": [
+        "History",
+        "历史频道"
+      ]
+    },
+    "CGTN Documentary": {
+      "name_en": "CGTN Documentary",
+      "name_zh": "CGTN 纪录片",
+      "display_name": "CGTN Documentary / CGTN 纪录片",
+      "group": "Greater China / 大中华",
+      "country": "CN",
+      "category": "Documentary / 纪录片",
+      "logo_file": "cgtn-documentary.png",
+      "source_logo": "https://i.imgur.com/JHv0WxM.png",
+      "aliases": [
+        "CGTN Documentary",
+        "CGTN 纪录片"
+      ]
+    },
+    "Nickelodeon": {
+      "name_en": "Nickelodeon",
+      "name_zh": "尼克儿童频道",
+      "display_name": "Nickelodeon / 尼克儿童频道",
+      "group": "International / 国际",
+      "country": "US",
+      "category": "Kids / 儿童",
+      "logo_file": "nickelodeon.png",
+      "source_logo": "https://i.imgur.com/E84jnP8.png",
+      "aliases": [
+        "Nickelodeon",
+        "尼克儿童频道"
+      ]
+    },
+    "Nick Jr": {
+      "name_en": "Nick Jr",
+      "name_zh": "小尼克",
+      "display_name": "Nick Jr / 小尼克",
+      "group": "International / 国际",
+      "country": "US",
+      "category": "Kids / 儿童",
+      "logo_file": "nick-jr.png",
+      "source_logo": "https://i.imgur.com/KT4tdQs.png",
+      "aliases": [
+        "Nick Jr",
+        "小尼克"
+      ]
+    },
+    "Moonbug Kids": {
+      "name_en": "Moonbug Kids",
+      "name_zh": "月亮虫儿童",
+      "display_name": "Moonbug Kids / 月亮虫儿童",
+      "group": "International / 国际",
+      "country": "GB",
+      "category": "Kids / 儿童",
+      "logo_file": "moonbug-kids.png",
+      "source_logo": "https://i.imgur.com/vZHtxQb.png",
+      "aliases": [
+        "Moonbug Kids",
+        "月亮虫儿童"
+      ]
+    },
+    "AXN": {
+      "name_en": "AXN",
+      "name_zh": "AXN 亚洲",
+      "display_name": "AXN / AXN 亚洲",
+      "group": "International / 国际",
+      "country": "SG",
+      "category": "Entertainment / 娱乐",
+      "logo_file": "axn.png",
+      "source_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",
+      "aliases": [
+        "AXN",
+        "AXN 亚洲"
+      ]
+    },
+    "Lifetime": {
+      "name_en": "Lifetime",
+      "name_zh": "生活频道",
+      "display_name": "Lifetime / 生活频道",
+      "group": "International / 国际",
+      "country": "US",
+      "category": "Entertainment / 娱乐",
+      "logo_file": "lifetime.png",
+      "source_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/960px-Logo_Lifetime_2020.svg.png",
+      "aliases": [
+        "Lifetime",
+        "生活频道"
+      ]
+    },
+    "HGTV": {
+      "name_en": "HGTV",
+      "name_zh": "家居频道",
+      "display_name": "HGTV / 家居频道",
+      "group": "International / 国际",
+      "country": "US",
+      "category": "Entertainment / 娱乐",
+      "logo_file": "hgtv.png",
+      "source_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/960px-HGTV_US_Logo_2015.svg.png",
+      "aliases": [
+        "HGTV",
+        "家居频道"
+      ]
+    },
+    "Astro Grandstand": {
+      "name_en": "Astro Grandstand",
+      "name_zh": "Astro 大看台",
+      "display_name": "Astro Grandstand / Astro 大看台",
+      "group": "Malaysia / 马来西亚",
+      "country": "MY",
+      "category": "Sports / 体育",
+      "logo_file": "astro-grandstand.png",
+      "source_logo": "https://epg.pw/media/images/channel/2024/10/19/large/20241019181734867306_96.png",
+      "aliases": [
+        "Astro Grandstand",
+        "Astro 大看台"
+      ]
+    },
+    "Astro Premier League": {
+      "name_en": "Astro Premier League",
+      "name_zh": "Astro 英超",
+      "display_name": "Astro Premier League / Astro 英超",
+      "group": "Malaysia / 马来西亚",
+      "country": "MY",
+      "category": "Sports / 体育",
+      "logo_file": "astro-premier-league.png",
+      "source_logo": "https://epg.pw/media/images/channel/2024/10/28/large/20241028154405349622_26.png",
+      "aliases": [
+        "Astro Premier League",
+        "Astro 英超"
+      ]
+    },
+    "Astro Premier League 2": {
+      "name_en": "Astro Premier League 2",
+      "name_zh": "Astro 英超 2",
+      "display_name": "Astro Premier League 2 / Astro 英超 2",
+      "group": "Malaysia / 马来西亚",
+      "country": "MY",
+      "category": "Sports / 体育",
+      "logo_file": "astro-premier-league-2.png",
+      "source_logo": "https://epg.pw/media/images/channel/2024/10/28/large/20241028154354983236_16.png",
+      "aliases": [
+        "Astro Premier League 2",
+        "Astro 英超 2"
+      ]
+    },
+    "Astro Football": {
+      "name_en": "Astro Football",
+      "name_zh": "Astro 足球",
+      "display_name": "Astro Football / Astro 足球",
+      "group": "Malaysia / 马来西亚",
+      "country": "MY",
+      "category": "Sports / 体育",
+      "logo_file": "astro-football.png",
+      "source_logo": "https://epg.pw/media/images/channel/2024/10/19/large/20241019181752911817_82.png",
+      "aliases": [
+        "Astro Football",
+        "Astro 足球"
+      ]
+    },
+    "Astro Badminton": {
+      "name_en": "Astro Badminton",
+      "name_zh": "Astro 羽毛球",
+      "display_name": "Astro Badminton / Astro 羽毛球",
+      "group": "Malaysia / 马来西亚",
+      "country": "MY",
+      "category": "Sports / 体育",
+      "logo_file": "astro-badminton.png",
+      "source_logo": "https://epg.pw/media/images/channel/2024/10/18/large/20241018015520001285_15.png",
+      "aliases": [
+        "Astro Badminton",
+        "Astro 羽毛球"
+      ]
+    },
+    "Astro Sports Plus": {
+      "name_en": "Astro Sports Plus",
+      "name_zh": "Astro 体育加",
+      "display_name": "Astro Sports Plus / Astro 体育加",
+      "group": "Malaysia / 马来西亚",
+      "country": "MY",
+      "category": "Sports / 体育",
+      "logo_file": "astro-sports-plus.png",
+      "source_logo": "https://epg.pw/media/images/channel/2024/10/19/large/20241019181826872623_21.png",
+      "aliases": [
+        "Astro Sports Plus",
+        "Astro 体育加"
+      ]
+    },
+    "BBC News": {
+      "name_en": "BBC News",
+      "name_zh": "BBC 新闻",
+      "display_name": "BBC News / BBC 新闻",
+      "group": "International / 国际",
+      "country": "GB",
+      "category": "News / 新闻",
+      "logo_file": "bbc-news.png",
+      "source_logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png",
+      "aliases": [
+        "BBC News",
+        "BBC 新闻"
+      ]
+    },
+    "Reuters": {
+      "name_en": "Reuters",
+      "name_zh": "路透社",
+      "display_name": "Reuters / 路透社",
+      "group": "International / 国际",
+      "country": "GB",
+      "category": "News / 新闻",
+      "logo_file": "reuters.png",
+      "source_logo": "https://provider-static.plex.tv/epg/cms/production/8cf9c131-2d92-4d91-86b1-22ef458d703f/reuters_reutersnow_1RDX.png",
+      "aliases": [
+        "Reuters",
+        "路透社"
+      ]
+    },
+    "Disney XD": {
+      "name_en": "Disney XD",
+      "name_zh": "迪士尼 XD",
+      "display_name": "Disney XD / 迪士尼 XD",
+      "group": "International / 国际",
+      "country": "US",
+      "category": "Kids / 儿童",
+      "logo_file": "disney-xd.svg",
+      "source_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg",
+      "aliases": [
+        "Disney XD",
+        "迪士尼 XD"
+      ]
+    },
+    "Big Ten Network": {
+      "name_en": "Big Ten Network",
+      "name_zh": "十大联盟体育台",
+      "display_name": "Big Ten Network / 十大联盟体育台",
+      "group": "International / 国际",
+      "country": "US",
+      "category": "Sports / 体育",
+      "logo_file": "big-ten-network.svg",
+      "source_logo": "https://upload.wikimedia.org/wikipedia/en/3/39/Big_Ten_Network_Logo.svg",
+      "aliases": [
+        "Big Ten Network",
+        "十大联盟体育台"
+      ]
+    },
+    "National Geographic": {
+      "name_en": "National Geographic",
+      "name_zh": "国家地理频道",
+      "display_name": "National Geographic / 国家地理频道",
+      "group": "International / 国际",
+      "country": "US",
+      "category": "Documentary / 纪录片",
+      "logo_file": "national-geographic.png",
+      "source_logo": "https://dtil.tmsimg.com/assets/s143574_ld_h15_aa.png?lock=720x540",
+      "aliases": [
+        "National Geographic",
+        "国家地理频道"
+      ]
+    },
+    "Wild Earth": {
+      "name_en": "Wild Earth",
+      "name_zh": "野生地球",
+      "display_name": "Wild Earth / 野生地球",
+      "group": "International / 国际",
+      "country": "US",
+      "category": "Documentary / 纪录片",
+      "logo_file": "wild-earth.png",
+      "source_logo": "https://i.imgur.com/Vhv5gjN.png",
+      "aliases": [
+        "Wild Earth",
+        "野生地球"
+      ]
+    },
+    "Kartoon Channel": {
+      "name_en": "Kartoon Channel",
+      "name_zh": "卡通频道",
+      "display_name": "Kartoon Channel / 卡通频道",
+      "group": "International / 国际",
+      "country": "US",
+      "category": "Kids / 儿童",
+      "logo_file": "kartoon-channel.png",
+      "source_logo": "https://i.imgur.com/1luzP3T.png",
+      "aliases": [
+        "Kartoon Channel",
+        "卡通频道"
+      ]
+    },
+    "History Hit": {
+      "name_en": "History Hit",
+      "name_zh": "History Hit 历史",
+      "display_name": "History Hit / History Hit 历史",
+      "group": "International / 国际",
+      "country": "GB",
+      "category": "Documentary / 纪录片",
+      "logo_file": "history-hit.png",
+      "source_logo": "https://i.imgur.com/ulHoqlP.png",
+      "aliases": [
+        "History Hit",
+        "History Hit 历史"
+      ]
+    },
+    "beIN Sports Xtra": {
+      "name_en": "beIN Sports Xtra",
+      "name_zh": "beIN Sports Xtra 体育",
+      "display_name": "beIN Sports Xtra / beIN Sports Xtra 体育",
+      "group": "International / 国际",
+      "country": "US",
+      "category": "Sports / 体育",
+      "logo_file": "bein-sports-xtra.png",
+      "source_logo": "https://image.xumo.com/v1/channels/channel/99991387/168x168.png?type=color_onBlack",
+      "aliases": [
+        "beIN Sports Xtra",
+        "beIN Sports Xtra 体育"
+      ]
+    },
+    "CGTN纪录": {
+      "name_en": "CGTN Documentary",
+      "name_zh": "CGTN 纪录片",
+      "display_name": "CGTN Documentary / CGTN 纪录片",
+      "group": "Greater China / 大中华",
+      "country": "CN",
+      "category": "Documentary / 纪录片",
+      "logo_file": "cgtn.png",
+      "source_logo": "https://i.imgur.com/JHv0WxM.png",
+      "aliases": [
+        "CGTN纪录",
+        "CGTN Documentary",
+        "CGTN 纪录片"
+      ]
+    },
+    "CCTV4": {
+      "name_en": "CCTV4",
+      "name_zh": "CCTV-4 中文国际",
+      "display_name": "CCTV4 / CCTV-4 中文国际",
+      "group": "Greater China / 大中华",
+      "country": "CN",
+      "category": "News / 新闻",
+      "logo_file": "cctv4.png",
+      "source_logo": "https://i.imgur.com/HGLFdfk.png",
+      "aliases": [
+        "CCTV4",
+        "CCTV-4 中文国际"
+      ]
+    },
+    "CCTV世界地理": {
+      "name_en": "CCTV World Geography",
+      "name_zh": "CCTV 世界地理",
+      "display_name": "CCTV World Geography / CCTV 世界地理",
+      "group": "Greater China / 大中华",
+      "country": "CN",
+      "category": "Documentary / 纪录片",
+      "logo_file": "cctv.png",
+      "source_logo": "https://www.xn--rgv465a.top/tvlogo/%E4%B8%96%E7%95%8C%E5%9C%B0%E7%90%86.png",
+      "aliases": [
+        "CCTV世界地理",
+        "CCTV World Geography",
+        "CCTV 世界地理"
+      ]
+    },
+    "TVBS-Asia": {
+      "name_en": "TVBS Asia",
+      "name_zh": "TVBS 亚洲",
+      "display_name": "TVBS Asia / TVBS 亚洲",
+      "group": "Greater China / 大中华",
+      "country": "TW",
+      "category": "News / 新闻",
+      "logo_file": "tvbs-asia.png",
+      "source_logo": "https://i.imgur.com/4S1rkhm.png",
+      "aliases": [
+        "TVBS-Asia",
+        "TVBS Asia",
+        "TVBS 亚洲"
+      ]
+    }
+  }
+}

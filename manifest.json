@@ -761,5 +761,21 @@
     }
   },
   "logo_policy": "Every playlist entry includes tvg-logo; source-provided logos are preferred, with source-backed manual name mappings where the selected stream line lacked a logo.",
-  "logo_count": 49
+  "logo_count": 49,
+  "repository_profile": {
+    "audience": [
+      "Malaysia",
+      "Singapore"
+    ],
+    "languages": [
+      "English",
+      "Chinese (Simplified)"
+    ],
+    "display_style": "English / 简体中文",
+    "reference_repository": "https://github.com/CCSH/IPTV",
+    "generator": "scripts/build_playlists.py",
+    "metadata": "assets/channel_metadata.json",
+    "logo_directory": "logo",
+    "asset_strategy": "curated local logos with manifest URL provenance"
+  }
 }
