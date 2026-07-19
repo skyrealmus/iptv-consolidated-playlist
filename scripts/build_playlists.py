@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build bilingual M3U outputs from the checked-in stream manifest."""
+"""Build a language-specific M3U output from the checked-in stream manifest."""
 from __future__ import annotations
 
 import argparse
@@ -39,6 +39,8 @@ def render_entry(entry: dict, info: dict) -> str:
         f'tvg-id="{attr(requested)}"',
         f'tvg-name="{attr(display)}"',
         f'tvg-logo="{attr(logo)}"',
+        f'tvg-language="{attr(info["language"])}"',
+        f'audio-language="{attr(info["audio_language"])}"',
     ]
     if entry.get("epg") is not None:
         fields.append(f'tvg-chno="{attr(entry["epg"])}"')
@@ -55,7 +57,7 @@ def render(entries: list[dict], metadata: dict) -> str:
     for entry in entries:
         info = metadata.get(entry["requested"])
         if not info:
-            raise ValueError(f"No bilingual metadata for {entry['requested']}")
+            raise ValueError(f"No channel metadata for {entry['requested']}")
         blocks.append(render_entry(entry, info))
     return "\n".join(blocks) + "\n"
 

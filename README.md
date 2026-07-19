@@ -1,6 +1,6 @@
-# Malaysia & Singapore IPTV — English / 中文
+# Malaysia & Singapore IPTV — Language-specific channel names
 
-A curated public IPTV playlist for Malaysia and Singapore users, with **English-first channel names followed by Simplified Chinese labels**.
+A curated public IPTV playlist for Malaysia and Singapore users. Chinese-language channels use Chinese display names; English-language channels use English display names.
 
 ## Playlist links
 
@@ -12,13 +12,13 @@ Raw URLs:
 https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/playlist.m3u
 ```
 
-The playlist includes `tvg-name`, `tvg-logo`, `tvg-country`, English-only `tvg-category` and `group-title`, and available `tvg-chno` metadata. Example:
+The playlist includes `tvg-name`, `tvg-logo`, `tvg-country`, `tvg-language`, `audio-language`, English-only `tvg-category` and `group-title`, and available `tvg-chno` metadata. Example:
 
 ```text
-#EXTINF:-1 tvg-name="CNA HD / 亚洲新闻台" tvg-logo="..." group-title="Singapore" tvg-category="News",CNA HD / 亚洲新闻台
+#EXTINF:-1 tvg-name="CNA HD" tvg-logo="..." tvg-language="English" audio-language="English" group-title="Singapore" tvg-category="News",CNA HD
 ```
 
-English is the canonical matching name; Chinese is the player-facing label after `/`. This keeps English-language IPTV apps readable while making the list convenient for Chinese-speaking users.
+Channel aliases remain bilingual for source matching, but published channel names are single-language. `audio-language="English"` identifies English-language channels; it does not transcode or alter a provider's HLS audio track.
 
 ## Current snapshot
 
@@ -27,7 +27,7 @@ English is the canonical matching name; Chinese is the player-facing label after
 - Probe method: Guovin/iptv-api parser and stream probe
 - Main policy: one selected URL per requested channel, grouped by similarity
 - Local channel logos: 51
-- Public source inputs: 14
+- Public source inputs: 16
 
 Streams are public third-party endpoints and may be geo-blocked, rate-limited, changed, or removed without notice. A playlist HTTP 200 or a prior probe is not a guarantee of continuous playback. Obvious token-bearing fallback URLs are not published.
 
@@ -35,8 +35,9 @@ Streams are public third-party endpoints and may be geo-blocked, rate-limited, c
 
 ```text
 assets/
-  sources.txt             # public M3U/TXT inputs
-  channel_metadata.json   # English / 简体中文 names, regions, categories, logo files
+  sources.txt             # active public M3U/TXT inputs
+  ccsh-urls.txt           # imported 102-URL CCSH source inventory
+  channel_metadata.json   # language-specific names, regions, categories, audio metadata
   channel_aliases.txt     # human-editable aliases
   logo-sources.txt        # logo provenance/reference inputs
 logo/                     # curated local logos used by every published entry
@@ -54,6 +55,8 @@ manifest.json             # stream snapshot, source provenance, and repo profile
 ```
 
 The repository intentionally keeps logos local, so players do not depend on third-party logo hosts. The manifest retains the original logo URL as provenance.
+
+The CCSH IPTV source inventory is recorded in [`assets/ccsh-urls.txt`](./assets/ccsh-urls.txt). Its listed `assets/test.txt` feed and canonical `live.m3u` output are tracked in [`assets/sources.txt`](./assets/sources.txt). CCSH inputs are available for future matching/probing; the published playlist remains a curated one-stream-per-channel snapshot.
 
 ## Automation
 
@@ -85,7 +88,7 @@ python3 scripts/check_sources.py
 
 ## Sources
 
-The complete input list is maintained in [`assets/sources.txt`](./assets/sources.txt).
+The active input list is maintained in [`assets/sources.txt`](./assets/sources.txt); the imported CCSH catalog is maintained in [`assets/ccsh-urls.txt`](./assets/ccsh-urls.txt).
 
 ## Disclaimer
 

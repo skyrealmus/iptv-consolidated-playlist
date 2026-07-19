@@ -26,11 +26,17 @@ def parse(path: Path):
     if not entries:
         raise AssertionError(f"{path.name}: no EXTINF entries")
     for attrs, display, url in entries:
-        for required in ("tvg-id", "tvg-name", "tvg-logo", "group-title", "tvg-country", "tvg-category"):
+        for required in ("tvg-id", "tvg-name", "tvg-logo", "tvg-language", "audio-language", "group-title", "tvg-country", "tvg-category"):
             if not attrs.get(required):
                 raise AssertionError(f"{path.name}: missing {required} for {display}")
-        if " / " not in attrs["tvg-name"]:
-            raise AssertionError(f"{path.name}: non-bilingual tvg-name for {display}")
+        if " / " in attrs["tvg-name"]:
+            raise AssertionError(f"{path.name}: bilingual tvg-name for {display}")
+        if attrs["tvg-language"] not in {"English", "Chinese"}:
+            raise AssertionError(f"{path.name}: unsupported tvg-language for {display}")
+        if attrs["tvg-language"] == "English" and attrs["audio-language"] != "English":
+            raise AssertionError(f"{path.name}: English channel is not tagged with English audio for {display}")
+        if display != attrs["tvg-name"]:
+            raise AssertionError(f"{path.name}: display name differs from tvg-name for {display}")
         if " / " in attrs["group-title"] or " / " in attrs["tvg-category"]:
             raise AssertionError(f"{path.name}: group/category must be English-only for {display}")
         parts = urlsplit(url)
@@ -49,6 +55,13 @@ def main():
         raise AssertionError("repository_profile must declare English and Chinese")
     if (ROOT / "accepted.m3u").exists():
         raise AssertionError("accepted.m3u must not be published")
+    sources = manifest.get("sources", [])
+    if any(not isinstance(url, str) or not url.startswith(("http://", "https://")) for url in sources):
+        raise AssertionError("manifest contains an invalid source URL")
+    for entry in manifest["entries"]:
+        index = entry.get("source_index")
+        if not isinstance(index, int) or not 0 <= index < len(sources):
+            raise AssertionError(f"source_index out of range for {entry.get('requested')}")
     all_entries = parse(ROOT / "playlist.m3u")
     if len(all_entries) != expected:
         raise AssertionError(f"playlist count {len(all_entries)} != manifest {expected}")

@@ -218,7 +218,7 @@
       "requested": "TVBS Asia",
       "url": "http://38.64.72.148/hls/modn/list/4005/playlist.m3u8",
       "label": "TVBS Asia",
-      "source_index": 14,
+      "source_index": 13,
       "delay": 1405,
       "speed": 0.18881795973034293,
       "resolution": "1920x1080",
@@ -736,9 +736,11 @@
     "https://bit.ly/suxuang",
     "https://iptv-org.github.io/iptv/index.m3u",
     "https://www.3kjs.com/tv.txt",
-    "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8"
+    "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8",
+    "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/assets/test.txt",
+    "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.m3u"
   ],
-  "source_checks": "Grouped by channel similarity; duplicate logical channels removed; requested removals applied. CNA HD uses explicit CNA source; TVBS Asia uses the 4005 TVBS Asia source.",
+  "source_checks": "Grouped by channel similarity; duplicate logical channels removed; requested removals applied. CCSH IPTV source inventory imported; its canonical live.m3u and listed assets/test.txt are tracked as active inputs. CNA HD uses explicit CNA source; TVBS Asia uses the 4005 TVBS Asia source.",
   "logo_policy": "Every playlist entry includes tvg-logo; source-provided logos are preferred, with source-backed manual name mappings where the selected stream line lacked a logo.",
   "logo_count": 51,
   "repository_profile": {
@@ -750,11 +752,22 @@
       "English",
       "Chinese (Simplified)"
     ],
-    "display_style": "English / 简体中文",
+    "display_style": "Language-specific channel names",
     "reference_repository": "https://github.com/CCSH/IPTV",
     "generator": "scripts/build_playlists.py",
     "metadata": "assets/channel_metadata.json",
     "logo_directory": "logo",
-    "asset_strategy": "curated local logos with manifest URL provenance"
-  }
+    "asset_strategy": "curated local logos with manifest URL provenance",
+    "channel_name_policy": "Chinese for Chinese-language channels; English for English-language channels.",
+    "audio_policy": "English-language channels are tagged with audio-language=\"English\"; no stream transcoding is performed."
+  },
+  "source_catalogs": [
+    {
+      "name": "CCSH IPTV source inventory",
+      "url": "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/assets/urls.txt",
+      "snapshot": "assets/ccsh-urls.txt",
+      "source_count": 102,
+      "note": "Imported for future matching/probing; the current playlist remains a curated one-stream-per-request snapshot."
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "format": "English-first bilingual channel labels; English-only regions and categories",
+  "format": "Language-specific channel names; English and Chinese audio metadata; English-only regions and categories",
   "audience": [
     "Malaysia",
     "Singapore"
@@ -8,7 +8,7 @@
     "CCTV-1": {
       "name_en": "CCTV-1",
       "name_zh": "CCTV-1 综合",
-      "display_name": "CCTV-1 / CCTV-1 综合",
+      "display_name": "CCTV-1 综合",
       "group": "China",
       "country": "CN",
       "category": "General",
@@ -17,12 +17,14 @@
       "aliases": [
         "CCTV-1",
         "CCTV-1 综合"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "CCTV-5": {
       "name_en": "CCTV-5",
       "name_zh": "CCTV-5 体育",
-      "display_name": "CCTV-5 / CCTV-5 体育",
+      "display_name": "CCTV-5 体育",
       "group": "China",
       "country": "CN",
       "category": "Sports",
@@ -31,12 +33,14 @@
       "aliases": [
         "CCTV-5",
         "CCTV-5 体育"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "CCTV-5+": {
       "name_en": "CCTV-5+",
       "name_zh": "CCTV-5+ 体育赛事",
-      "display_name": "CCTV-5+ / CCTV-5+ 体育赛事",
+      "display_name": "CCTV-5+ 体育赛事",
       "group": "China",
       "country": "CN",
       "category": "Sports",
@@ -46,12 +50,14 @@
         "CCTV-5+",
         "CCTV5+",
         "CCTV-5+ 体育赛事"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "CCTV-7": {
       "name_en": "CCTV-7",
       "name_zh": "CCTV-7 国防军事",
-      "display_name": "CCTV-7 / CCTV-7 国防军事",
+      "display_name": "CCTV-7 国防军事",
       "group": "China",
       "country": "CN",
       "category": "General",
@@ -60,12 +66,14 @@
       "aliases": [
         "CCTV-7",
         "CCTV-7 国防军事"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "CCTV-9": {
       "name_en": "CCTV-9",
       "name_zh": "CCTV-9 纪录",
-      "display_name": "CCTV-9 / CCTV-9 纪录",
+      "display_name": "CCTV-9 纪录",
       "group": "China",
       "country": "CN",
       "category": "Documentary",
@@ -74,12 +82,14 @@
       "aliases": [
         "CCTV-9",
         "CCTV-9 纪录"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "CCTV-10": {
       "name_en": "CCTV-10",
       "name_zh": "CCTV-10 科教",
-      "display_name": "CCTV-10 / CCTV-10 科教",
+      "display_name": "CCTV-10 科教",
       "group": "China",
       "country": "CN",
       "category": "Documentary",
@@ -88,12 +98,14 @@
       "aliases": [
         "CCTV-10",
         "CCTV-10 科教"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "CCTV-16": {
       "name_en": "CCTV-16",
       "name_zh": "CCTV-16 奥林匹克",
-      "display_name": "CCTV-16 / CCTV-16 奥林匹克",
+      "display_name": "CCTV-16 奥林匹克",
       "group": "China",
       "country": "CN",
       "category": "Sports",
@@ -102,12 +114,14 @@
       "aliases": [
         "CCTV-16",
         "CCTV-16 奥林匹克"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "CCTV Fengyun Football": {
       "name_en": "CCTV Fengyun Football",
       "name_zh": "CCTV 风云足球",
-      "display_name": "CCTV Fengyun Football / CCTV 风云足球",
+      "display_name": "CCTV 风云足球",
       "group": "China",
       "country": "CN",
       "category": "Sports",
@@ -117,12 +131,14 @@
         "CCTV Fengyun Football",
         "风云足球",
         "CCTV 风云足球"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "CCTV世界地理": {
       "name_en": "CCTV World Geography",
       "name_zh": "CCTV 世界地理",
-      "display_name": "CCTV World Geography / CCTV 世界地理",
+      "display_name": "CCTV 世界地理",
       "group": "China",
       "country": "CN",
       "category": "Documentary",
@@ -132,12 +148,14 @@
         "CCTV世界地理",
         "CCTV World Geography",
         "CCTV 世界地理"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "CCTV Weaponry Technology": {
       "name_en": "CCTV Weaponry Technology",
       "name_zh": "CCTV 兵器科技",
-      "display_name": "CCTV Weaponry Technology / CCTV 兵器科技",
+      "display_name": "CCTV 兵器科技",
       "group": "China",
       "country": "CN",
       "category": "Documentary",
@@ -147,12 +165,14 @@
         "CCTV Weaponry Technology",
         "兵器科技",
         "CCTV 兵器科技"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "CCTV4 HD": {
       "name_en": "CCTV4 HD",
       "name_zh": "CCTV-4 中文国际",
-      "display_name": "CCTV4 HD / CCTV-4 中文国际",
+      "display_name": "CCTV-4 中文国际",
       "group": "China",
       "country": "CN",
       "category": "News",
@@ -161,12 +181,14 @@
       "aliases": [
         "CCTV4 HD",
         "CCTV-4 中文国际"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "Pearl": {
       "name_en": "Pearl",
       "name_zh": "明珠台",
-      "display_name": "Pearl / 明珠台",
+      "display_name": "Pearl",
       "group": "Hong Kong",
       "country": "HK",
       "category": "General",
@@ -175,12 +197,14 @@
       "aliases": [
         "Pearl",
         "明珠台"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "Phoenix Chinese Channel HD": {
       "name_en": "Phoenix Chinese Channel HD",
       "name_zh": "凤凰中文台",
-      "display_name": "Phoenix Chinese Channel HD / 凤凰中文台",
+      "display_name": "凤凰中文台",
       "group": "China",
       "country": "CN",
       "category": "Entertainment",
@@ -190,12 +214,14 @@
         "Phoenix Chinese Channel HD",
         "凤凰中文台",
         "凤凰中文"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "Phoenix Info News HD": {
       "name_en": "Phoenix Info News HD",
       "name_zh": "凤凰资讯台",
-      "display_name": "Phoenix Info News HD / 凤凰资讯台",
+      "display_name": "凤凰资讯台",
       "group": "China",
       "country": "CN",
       "category": "News",
@@ -205,12 +231,14 @@
         "Phoenix Info News HD",
         "凤凰资讯台",
         "凤凰资讯"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "Phoenix Hong Kong": {
       "name_en": "Phoenix Hong Kong",
       "name_zh": "凤凰香港",
-      "display_name": "Phoenix Hong Kong / 凤凰香港",
+      "display_name": "凤凰香港",
       "group": "Hong Kong",
       "country": "HK",
       "category": "News",
@@ -219,12 +247,14 @@
       "aliases": [
         "Phoenix Hong Kong",
         "凤凰香港"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "Phoenix TV": {
       "name_en": "Phoenix TV",
       "name_zh": "凤凰卫视",
-      "display_name": "Phoenix TV / 凤凰卫视",
+      "display_name": "凤凰卫视",
       "group": "Hong Kong",
       "country": "HK",
       "category": "News",
@@ -233,12 +263,14 @@
       "aliases": [
         "Phoenix TV",
         "凤凰卫视"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "TVBS Asia": {
       "name_en": "TVBS Asia",
       "name_zh": "TVBS 亚洲",
-      "display_name": "TVBS Asia / TVBS 亚洲",
+      "display_name": "TVBS 亚洲",
       "group": "Taiwan",
       "country": "TW",
       "category": "News",
@@ -249,12 +281,14 @@
         "TVBS-Asia",
         "TVBS 亚洲",
         "TVBS亚洲"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "EBC Variety": {
       "name_en": "EBC Variety",
       "name_zh": "东森综合",
-      "display_name": "EBC Variety / 东森综合",
+      "display_name": "东森综合",
       "group": "Taiwan",
       "country": "TW",
       "category": "Entertainment",
@@ -263,12 +297,14 @@
       "aliases": [
         "EBC Variety",
         "东森综合"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "TVB Jade": {
       "name_en": "TVB Jade",
       "name_zh": "TVB 翡翠台",
-      "display_name": "TVB Jade / TVB 翡翠台",
+      "display_name": "TVB 翡翠台",
       "group": "Hong Kong",
       "country": "HK",
       "category": "Entertainment",
@@ -277,12 +313,14 @@
       "aliases": [
         "TVB Jade",
         "TVB 翡翠台"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "TVB Entertainment News": {
       "name_en": "TVB Entertainment News",
       "name_zh": "TVB 娱乐新闻",
-      "display_name": "TVB Entertainment News / TVB 娱乐新闻",
+      "display_name": "TVB 娱乐新闻",
       "group": "Hong Kong",
       "country": "HK",
       "category": "News",
@@ -291,12 +329,14 @@
       "aliases": [
         "TVB Entertainment News",
         "TVB 娱乐新闻"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "TVB Xing He HD": {
       "name_en": "TVB Xing He HD",
       "name_zh": "TVB 星河",
-      "display_name": "TVB Xing He HD / TVB 星河",
+      "display_name": "TVB 星河",
       "group": "Hong Kong",
       "country": "HK",
       "category": "Entertainment",
@@ -305,12 +345,14 @@
       "aliases": [
         "TVB Xing He HD",
         "TVB 星河"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "CGTN HD": {
       "name_en": "CGTN HD",
       "name_zh": "中国国际电视台",
-      "display_name": "CGTN HD / 中国国际电视台",
+      "display_name": "CGTN HD",
       "group": "China",
       "country": "CN",
       "category": "News",
@@ -319,12 +361,14 @@
       "aliases": [
         "CGTN HD",
         "中国国际电视台"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "CGTN Documentary": {
       "name_en": "CGTN Documentary",
       "name_zh": "CGTN 纪录片",
-      "display_name": "CGTN Documentary / CGTN 纪录片",
+      "display_name": "CGTN Documentary",
       "group": "China",
       "country": "CN",
       "category": "Documentary",
@@ -333,12 +377,14 @@
       "aliases": [
         "CGTN Documentary",
         "CGTN 纪录片"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "CNA HD": {
       "name_en": "CNA HD",
       "name_zh": "亚洲新闻台",
-      "display_name": "CNA HD / 亚洲新闻台",
+      "display_name": "CNA HD",
       "group": "Singapore",
       "country": "SG",
       "category": "News",
@@ -347,12 +393,14 @@
       "aliases": [
         "CNA HD",
         "亚洲新闻台"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "8TV": {
       "name_en": "8TV",
       "name_zh": "八度空间",
-      "display_name": "8TV / 八度空间",
+      "display_name": "八度空间",
       "group": "Malaysia",
       "country": "MY",
       "category": "General",
@@ -361,12 +409,14 @@
       "aliases": [
         "8TV",
         "八度空间"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "Astro AEC HD": {
       "name_en": "Astro AEC HD",
       "name_zh": "Astro AEC 高清",
-      "display_name": "Astro AEC HD / Astro AEC 高清",
+      "display_name": "Astro AEC 高清",
       "group": "Malaysia",
       "country": "MY",
       "category": "Entertainment",
@@ -375,12 +425,14 @@
       "aliases": [
         "Astro AEC HD",
         "Astro AEC 高清"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "Astro QJ": {
       "name_en": "Astro QJ",
       "name_zh": "Astro QJ 娱乐",
-      "display_name": "Astro QJ / Astro QJ 娱乐",
+      "display_name": "Astro QJ 娱乐",
       "group": "Malaysia",
       "country": "MY",
       "category": "Entertainment",
@@ -388,12 +440,14 @@
       "source_logo": "https://epg.pw/media/images/channel/2023/10/26/large/20231026184205607217_59.png",
       "aliases": [
         "Astro QJ"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "Astro AOD HD": {
       "name_en": "Astro AOD HD",
       "name_zh": "Astro AOD 高清",
-      "display_name": "Astro AOD HD / Astro AOD 高清",
+      "display_name": "Astro AOD 高清",
       "group": "Malaysia",
       "country": "MY",
       "category": "Entertainment",
@@ -402,12 +456,14 @@
       "aliases": [
         "Astro AOD HD",
         "Astro AOD 高清"
-      ]
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "Astro Grandstand": {
       "name_en": "Astro Grandstand",
       "name_zh": "Astro 大看台",
-      "display_name": "Astro Grandstand / Astro 大看台",
+      "display_name": "Astro Grandstand",
       "group": "Malaysia",
       "country": "MY",
       "category": "Sports",
@@ -416,12 +472,14 @@
       "aliases": [
         "Astro Grandstand",
         "Astro 大看台"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "Astro Premier League": {
       "name_en": "Astro Premier League",
       "name_zh": "Astro 英超",
-      "display_name": "Astro Premier League / Astro 英超",
+      "display_name": "Astro Premier League",
       "group": "Malaysia",
       "country": "MY",
       "category": "Sports",
@@ -430,12 +488,14 @@
       "aliases": [
         "Astro Premier League",
         "Astro 英超"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "Astro Premier League 2": {
       "name_en": "Astro Premier League 2",
       "name_zh": "Astro 英超 2",
-      "display_name": "Astro Premier League 2 / Astro 英超 2",
+      "display_name": "Astro Premier League 2",
       "group": "Malaysia",
       "country": "MY",
       "category": "Sports",
@@ -444,12 +504,14 @@
       "aliases": [
         "Astro Premier League 2",
         "Astro 英超 2"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "Astro Football": {
       "name_en": "Astro Football",
       "name_zh": "Astro 足球",
-      "display_name": "Astro Football / Astro 足球",
+      "display_name": "Astro Football",
       "group": "Malaysia",
       "country": "MY",
       "category": "Sports",
@@ -458,12 +520,14 @@
       "aliases": [
         "Astro Football",
         "Astro 足球"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "Astro Badminton": {
       "name_en": "Astro Badminton",
       "name_zh": "Astro 羽毛球",
-      "display_name": "Astro Badminton / Astro 羽毛球",
+      "display_name": "Astro Badminton",
       "group": "Malaysia",
       "country": "MY",
       "category": "Sports",
@@ -472,12 +536,14 @@
       "aliases": [
         "Astro Badminton",
         "Astro 羽毛球"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "Astro Sports Plus": {
       "name_en": "Astro Sports Plus",
       "name_zh": "Astro 体育加",
-      "display_name": "Astro Sports Plus / Astro 体育加",
+      "display_name": "Astro Sports Plus",
       "group": "Malaysia",
       "country": "MY",
       "category": "Sports",
@@ -486,12 +552,14 @@
       "aliases": [
         "Astro Sports Plus",
         "Astro 体育加"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "CNN HD": {
       "name_en": "CNN HD",
       "name_zh": "CNN 新闻",
-      "display_name": "CNN HD / CNN 新闻",
+      "display_name": "CNN HD",
       "group": "International",
       "country": "US",
       "category": "News",
@@ -500,12 +568,14 @@
       "aliases": [
         "CNN HD",
         "CNN 新闻"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "Bloomberg Television": {
       "name_en": "Bloomberg Television",
       "name_zh": "彭博电视",
-      "display_name": "Bloomberg Television / 彭博电视",
+      "display_name": "Bloomberg Television",
       "group": "International",
       "country": "US",
       "category": "News",
@@ -514,12 +584,14 @@
       "aliases": [
         "Bloomberg Television",
         "彭博电视"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "Love Nature 4K": {
       "name_en": "Love Nature 4K",
       "name_zh": "爱自然 4K",
-      "display_name": "Love Nature 4K / 爱自然 4K",
+      "display_name": "Love Nature 4K",
       "group": "International",
       "country": "CA",
       "category": "Documentary",
@@ -528,12 +600,14 @@
       "aliases": [
         "Love Nature 4K",
         "爱自然 4K"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "BBC Earth": {
       "name_en": "BBC Earth",
       "name_zh": "BBC 地球",
-      "display_name": "BBC Earth / BBC 地球",
+      "display_name": "BBC Earth",
       "group": "International",
       "country": "GB",
       "category": "Documentary",
@@ -542,12 +616,14 @@
       "aliases": [
         "BBC Earth",
         "BBC 地球"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "History": {
       "name_en": "History",
       "name_zh": "历史频道",
-      "display_name": "History / 历史频道",
+      "display_name": "History",
       "group": "International",
       "country": "US",
       "category": "Documentary",
@@ -556,12 +632,14 @@
       "aliases": [
         "History",
         "历史频道"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "Nickelodeon": {
       "name_en": "Nickelodeon",
       "name_zh": "尼克儿童频道",
-      "display_name": "Nickelodeon / 尼克儿童频道",
+      "display_name": "Nickelodeon",
       "group": "International",
       "country": "US",
       "category": "Kids",
@@ -570,12 +648,14 @@
       "aliases": [
         "Nickelodeon",
         "尼克儿童频道"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "Nick Jr": {
       "name_en": "Nick Jr",
       "name_zh": "小尼克",
-      "display_name": "Nick Jr / 小尼克",
+      "display_name": "Nick Jr",
       "group": "International",
       "country": "US",
       "category": "Kids",
@@ -584,12 +664,14 @@
       "aliases": [
         "Nick Jr",
         "小尼克"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "Moonbug Kids": {
       "name_en": "Moonbug Kids",
       "name_zh": "月亮虫儿童",
-      "display_name": "Moonbug Kids / 月亮虫儿童",
+      "display_name": "Moonbug Kids",
       "group": "International",
       "country": "GB",
       "category": "Kids",
@@ -598,12 +680,14 @@
       "aliases": [
         "Moonbug Kids",
         "月亮虫儿童"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "AXN": {
       "name_en": "AXN",
       "name_zh": "AXN 亚洲",
-      "display_name": "AXN / AXN 亚洲",
+      "display_name": "AXN",
       "group": "International",
       "country": "SG",
       "category": "Entertainment",
@@ -612,12 +696,14 @@
       "aliases": [
         "AXN",
         "AXN 亚洲"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "BBC News": {
       "name_en": "BBC News",
       "name_zh": "BBC 新闻",
-      "display_name": "BBC News / BBC 新闻",
+      "display_name": "BBC News",
       "group": "International",
       "country": "GB",
       "category": "News",
@@ -626,12 +712,14 @@
       "aliases": [
         "BBC News",
         "BBC 新闻"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "Reuters": {
       "name_en": "Reuters",
       "name_zh": "路透社",
-      "display_name": "Reuters / 路透社",
+      "display_name": "Reuters",
       "group": "International",
       "country": "GB",
       "category": "News",
@@ -640,12 +728,14 @@
       "aliases": [
         "Reuters",
         "路透社"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "Disney XD": {
       "name_en": "Disney XD",
       "name_zh": "迪士尼 XD",
-      "display_name": "Disney XD / 迪士尼 XD",
+      "display_name": "Disney XD",
       "group": "International",
       "country": "US",
       "category": "Kids",
@@ -654,12 +744,14 @@
       "aliases": [
         "Disney XD",
         "迪士尼 XD"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "National Geographic": {
       "name_en": "National Geographic",
       "name_zh": "国家地理频道",
-      "display_name": "National Geographic / 国家地理频道",
+      "display_name": "National Geographic",
       "group": "International",
       "country": "US",
       "category": "Documentary",
@@ -668,12 +760,14 @@
       "aliases": [
         "National Geographic",
         "国家地理频道"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "Wild Earth": {
       "name_en": "Wild Earth",
       "name_zh": "野生地球",
-      "display_name": "Wild Earth / 野生地球",
+      "display_name": "Wild Earth",
       "group": "International",
       "country": "US",
       "category": "Documentary",
@@ -682,12 +776,14 @@
       "aliases": [
         "Wild Earth",
         "野生地球"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "Kartoon Channel": {
       "name_en": "Kartoon Channel",
       "name_zh": "卡通频道",
-      "display_name": "Kartoon Channel / 卡通频道",
+      "display_name": "Kartoon Channel",
       "group": "International",
       "country": "US",
       "category": "Kids",
@@ -696,12 +792,14 @@
       "aliases": [
         "Kartoon Channel",
         "卡通频道"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "History Hit": {
       "name_en": "History Hit",
       "name_zh": "History Hit 历史",
-      "display_name": "History Hit / History Hit 历史",
+      "display_name": "History Hit",
       "group": "International",
       "country": "GB",
       "category": "Documentary",
@@ -710,12 +808,14 @@
       "aliases": [
         "History Hit",
         "History Hit 历史"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     },
     "beIN Sports Xtra": {
       "name_en": "beIN Sports Xtra",
       "name_zh": "beIN Sports Xtra 体育",
-      "display_name": "beIN Sports Xtra / beIN Sports Xtra 体育",
+      "display_name": "beIN Sports Xtra",
       "group": "International",
       "country": "US",
       "category": "Sports",
@@ -724,7 +824,11 @@
       "aliases": [
         "beIN Sports Xtra",
         "beIN Sports Xtra 体育"
-      ]
+      ],
+      "language": "English",
+      "audio_language": "English"
     }
-  }
+  },
+  "channel_name_policy": "Chinese display names for Chinese-language channels; English display names for English-language channels.",
+  "audio_policy": "English-language channels are tagged audio-language=\"English\"; stream audio is not transcoded by the playlist."
 }
