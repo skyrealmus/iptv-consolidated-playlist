@@ -14,14 +14,21 @@ Raw URLs:
 
 ## Current snapshot
 
-- Requested channels: 70
-- Channels with a responding candidate: 36
-- Strict quality-pass channels: 2
+- Unique requested channel names tracked: 85
+- Channels with a responding candidate: 49
+- Strict quality-pass channels: 10
 - Probe method: Guovin/iptv-api parser and stream probe
 - Main playlist policy: one best responding URL per requested channel; strict passes are preferred
 - Strict thresholds: minimum 0.5 MiB/s and 1280x720–3840x2160 resolution
+- Entries without a supplied EPG number omit `tvg-chno`
 
-The streams are public third-party endpoints and may be geo-blocked, rate-limited, changed, or removed without notice. A playlist HTTP 200 or a prior probe is not a guarantee of continuous playback. No credentials or private URLs are included.
+The streams are public third-party endpoints and may be geo-blocked, rate-limited, changed, or removed without notice. A playlist HTTP 200 or a prior probe is not a guarantee of continuous playback. Obvious token-bearing fallback URLs were not published.
+
+## Additional requested channels
+
+Added candidates were checked for: BBC News, Eurosport 4K, Reuters, Discovery Channel, Disney XD, Big Ten Network, National Geographic, Cartoon Network, Wild Earth, Animal Planet (the supplied name was spelled `Animal Plannet`), BBC Earth, Kartoon Channel, History Hit, beIN Sports Xtra, CGTN纪录, CCTV4, CCTV世界地理, and TVBS-Asia.
+
+No trustworthy responding candidate was available in this snapshot for: **Eurosport 4K, Discovery Channel, Cartoon Network, or Animal Planet**. The original requested set included 70 names; the added set contributes 15 new unique names because Discovery Channel, Cartoon Network, and BBC Earth were already requested. `BBC Earth` was already present and was refreshed to the fastest current responding endpoint.
 
 ## Sources
 

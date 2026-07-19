@@ -7,3 +7,27 @@ https://stream1.freetv.fun/b5c189b5554c989af65830d3adb0c57afc82d713dd13cf60aff56
 # accepted; source 11 (bit.ly suxuang); label: TVB翡翠台 4K; measured speed: 12.232 MiB/s; resolution: 3840x2160; delay: 334 ms
 #EXTINF:-1 tvg-id="TVB Jade" tvg-name="TVB Jade" tvg-chno="310" group-title="Consolidated IPTV",TVB Jade
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4
+# accepted; source 1 (eng.m3u); label: BBC Earth (1080p); measured speed: 0.791 MiB/s; resolution: 1920x1080; delay: 3103 ms
+#EXTINF:-1 tvg-id="BBC Earth" tvg-name="BBC Earth" tvg-chno="554" group-title="Consolidated IPTV",BBC Earth
+https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8
+# accepted; source 3 (YueChan Global.m3u); label: BBC News; measured speed: 1.012 MiB/s; resolution: 1280x720; delay: 2167 ms
+#EXTINF:-1 tvg-id="BBC News" tvg-name="BBC News" group-title="Consolidated IPTV",BBC News
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+# accepted; source 3 (YueChan Global.m3u); label: Reuters; measured speed: 2.450 MiB/s; resolution: 1920x1080; delay: 1175 ms
+#EXTINF:-1 tvg-id="Reuters" tvg-name="Reuters" group-title="Consolidated IPTV",Reuters
+https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/e7493ea5-5c1c-4d7a-a3f7-e95516048ad8/3.m3u8
+# accepted; source 3 (YueChan Global.m3u); label: Wild Earth; measured speed: 1.118 MiB/s; resolution: 1920x1080; delay: 1503 ms
+#EXTINF:-1 tvg-id="Wild Earth" tvg-name="Wild Earth" group-title="Consolidated IPTV",Wild Earth
+https://wildearth-plex.amagi.tv/masterR1080p.m3u8
+# accepted; source 1 (eng.m3u); label: Kartoon Channel (1080p); measured speed: 0.716 MiB/s; resolution: 1920x1080; delay: 3711 ms
+#EXTINF:-1 tvg-id="Kartoon Channel" tvg-name="Kartoon Channel" group-title="Consolidated IPTV",Kartoon Channel
+https://lightning-fnf-samsungaus.amagi.tv/playlist.m3u8
+# accepted; source 3 (YueChan Global.m3u); label: History Hit; measured speed: 0.597 MiB/s; resolution: 1280x720; delay: 1533 ms
+#EXTINF:-1 tvg-id="History Hit" tvg-name="History Hit" group-title="Consolidated IPTV",History Hit
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/ldsAAAAAA-timeline-samsungau/playlist.m3u8
+# accepted; source 3 (YueChan Global.m3u); label: beIN SPORTS XTRA; measured speed: 1.949 MiB/s; resolution: 1920x1080; delay: 1575 ms
+#EXTINF:-1 tvg-id="beIN Sports Xtra" tvg-name="beIN Sports Xtra" group-title="Consolidated IPTV",beIN Sports Xtra
+https://d9ssxzmclhfo4.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t7en7ol3kq3sp/f881b29a-280a-4416-be20-40db0fcc0f07/3.m3u8
+# accepted; source 7 (aptv jsDelivr); label: CGTN纪录; measured speed: 1.837 MiB/s; resolution: 1920x1080; delay: 1093 ms
+#EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" group-title="Consolidated IPTV",CGTN纪录
+https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8

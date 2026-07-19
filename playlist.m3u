@@ -64,9 +64,9 @@ https://bloomberg.com/media-manifest/streams/asia.m3u8
 # responded; source 12 (iptv-org index); label: Love Nature 4K (2160p) [Geo-blocked]; measured speed: 0.271 MiB/s; resolution: 3840x2160; delay: 18133 ms
 #EXTINF:-1 tvg-id="Love Nature 4K" tvg-name="Love Nature 4K" tvg-chno="549" group-title="Consolidated IPTV",Love Nature 4K
 https://pb-ehs1glsha1juy.akamaized.net/Love_Nature_4K.m3u8
-# responded; source 3 (YueChan Global.m3u); label: BBC Earth; measured speed: 0.174 MiB/s; resolution: 1920x1080; delay: 15499 ms
+# accepted; source 1 (eng.m3u); label: BBC Earth (1080p); measured speed: 0.791 MiB/s; resolution: 1920x1080; delay: 3103 ms
 #EXTINF:-1 tvg-id="BBC Earth" tvg-name="BBC Earth" tvg-chno="554" group-title="Consolidated IPTV",BBC Earth
-https://aegis-cloudfront-1.tubi.video/bb1fc6ad-9948-42ea-aaf3-20acfcdeecac/playlist.m3u8
+https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8
 # responded; source 12 (iptv-org index); label: History; measured speed: 0.107 MiB/s; resolution: unknown; delay: 8720 ms
 #EXTINF:-1 tvg-id="History" tvg-name="History" tvg-chno="555" group-title="Consolidated IPTV",History
 http://213.91.179.28:8000/play/a0c1
@@ -109,3 +109,42 @@ https://stream1.freetv.fun/5de6f5959c51613983a566f7215c076239b9f2df509caec8f3fc2
 # responded; source 2 (malaysia.m3u); label: [BD]Astro Sports Plus *tv; measured speed: 0.005 MiB/s; resolution: unknown; delay: 19195 ms
 #EXTINF:-1 tvg-id="Astro Sports Plus" tvg-name="Astro Sports Plus" tvg-chno="817" group-title="Consolidated IPTV",Astro Sports Plus
 https://stream1.freetv.fun/a9a3a2ce9d274736c4e6f5bcf7c85622208f39cc7b8e2f762dd3660bd527e943.ctv
+# accepted; source 3 (YueChan Global.m3u); label: BBC News; measured speed: 1.012 MiB/s; resolution: 1280x720; delay: 2167 ms
+#EXTINF:-1 tvg-id="BBC News" tvg-name="BBC News" group-title="Consolidated IPTV",BBC News
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+# accepted; source 3 (YueChan Global.m3u); label: Reuters; measured speed: 2.450 MiB/s; resolution: 1920x1080; delay: 1175 ms
+#EXTINF:-1 tvg-id="Reuters" tvg-name="Reuters" group-title="Consolidated IPTV",Reuters
+https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/e7493ea5-5c1c-4d7a-a3f7-e95516048ad8/3.m3u8
+# responded; source 1 (eng.m3u); label: Disney XD (720p); measured speed: 0.132 MiB/s; resolution: 1280x720; delay: 6673 ms
+#EXTINF:-1 tvg-id="Disney XD" tvg-name="Disney XD" group-title="Consolidated IPTV",Disney XD
+http://40.160.24.52/DISNEY_XD_HD/index.m3u8
+# responded; source 1 (eng.m3u); label: Big Ten Network (720p); measured speed: 0.345 MiB/s; resolution: 1920x1080; delay: 4503 ms
+#EXTINF:-1 tvg-id="Big Ten Network" tvg-name="Big Ten Network" group-title="Consolidated IPTV",Big Ten Network
+http://23.237.104.106:8080/USA_BTN/index.m3u8
+# responded; source 12 (iptv-org index); label: National Geographic (576p); measured speed: 0.337 MiB/s; resolution: 1920x1080; delay: 5371 ms
+#EXTINF:-1 tvg-id="National Geographic" tvg-name="National Geographic" group-title="Consolidated IPTV",National Geographic
+http://stream.mcquack.net/116/index.m3u8
+# accepted; source 3 (YueChan Global.m3u); label: Wild Earth; measured speed: 1.118 MiB/s; resolution: 1920x1080; delay: 1503 ms
+#EXTINF:-1 tvg-id="Wild Earth" tvg-name="Wild Earth" group-title="Consolidated IPTV",Wild Earth
+https://wildearth-plex.amagi.tv/masterR1080p.m3u8
+# accepted; source 1 (eng.m3u); label: Kartoon Channel (1080p); measured speed: 0.716 MiB/s; resolution: 1920x1080; delay: 3711 ms
+#EXTINF:-1 tvg-id="Kartoon Channel" tvg-name="Kartoon Channel" group-title="Consolidated IPTV",Kartoon Channel
+https://lightning-fnf-samsungaus.amagi.tv/playlist.m3u8
+# accepted; source 3 (YueChan Global.m3u); label: History Hit; measured speed: 0.597 MiB/s; resolution: 1280x720; delay: 1533 ms
+#EXTINF:-1 tvg-id="History Hit" tvg-name="History Hit" group-title="Consolidated IPTV",History Hit
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/ldsAAAAAA-timeline-samsungau/playlist.m3u8
+# accepted; source 3 (YueChan Global.m3u); label: beIN SPORTS XTRA; measured speed: 1.949 MiB/s; resolution: 1920x1080; delay: 1575 ms
+#EXTINF:-1 tvg-id="beIN Sports Xtra" tvg-name="beIN Sports Xtra" group-title="Consolidated IPTV",beIN Sports Xtra
+https://d9ssxzmclhfo4.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t7en7ol3kq3sp/f881b29a-280a-4416-be20-40db0fcc0f07/3.m3u8
+# accepted; source 7 (aptv jsDelivr); label: CGTN纪录; measured speed: 1.837 MiB/s; resolution: 1920x1080; delay: 1093 ms
+#EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" group-title="Consolidated IPTV",CGTN纪录
+https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
+# responded; source 4 (Guovin result.m3u); label: CCTV-4; measured speed: 0.240 MiB/s; resolution: unknown; delay: 1581 ms
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" group-title="Consolidated IPTV",CCTV4
+https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
+# responded; source 4 (Guovin result.m3u); label: 世界地理; measured speed: 0.141 MiB/s; resolution: unknown; delay: 1110 ms
+#EXTINF:-1 tvg-id="CCTV世界地理" tvg-name="CCTV世界地理" group-title="Consolidated IPTV",CCTV世界地理
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=sjdl
+# responded; source 5 (zho.m3u); label: TVBS Asia (1080p); measured speed: 0.091 MiB/s; resolution: 1920x1080; delay: 8300 ms
+#EXTINF:-1 tvg-id="TVBS-Asia" tvg-name="TVBS-Asia" group-title="Consolidated IPTV",TVBS-Asia
+http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
