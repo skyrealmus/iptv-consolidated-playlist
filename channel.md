@@ -4,12 +4,14 @@ This is the complete requested-channel register for the daily live-source refres
 
 ## Current snapshot
 
-- Requested channels: **53**
+- Requested channels: **67**
 - Published in `playlist.m3u`: **44**
 - Withheld pending a verified source: **9**
-- Snapshot date: **2026-07-19**
+- Newly requested and not yet checked: **14**
+- Snapshot date: **2026-07-20**
 - Machine source of truth for selected URLs: [`manifest.json`](./manifest.json)
-- Machine source of truth for names, region, category, and language: [`assets/channel_metadata.json`](./assets/channel_metadata.json)
+- Machine source of truth for published and verified names, region, category, and language: [`assets/channel_metadata.json`](./assets/channel_metadata.json)
+- `REQUESTED` rows remain register-only until a source passes verification and is added to the machine metadata.
 
 ## Full channel list
 
@@ -70,6 +72,20 @@ This is the complete requested-channel register for the daily live-source refres
 | 51 | — | `Kartoon Channel` | Kartoon Channel | International | Kids | English | PUBLISHED | speed=0.716x; resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
 | 52 | — | `History Hit` | History Hit | International | Documentary | English | PUBLISHED | speed=0.597x; resolution=1280x720 | Retest daily; replace only after playback and identity pass. |
 | 53 | — | `beIN Sports Xtra` | beIN Sports Xtra | International | Sports | English | PUBLISHED | speed=1.949x; resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
+| 54 | New request | `爱奇艺 iQIYI` | 爱奇艺 | China | Entertainment | Chinese | REQUESTED | not yet checked | Discover and verify a current source before publication. |
+| 55 | New request | `中天亚洲台 CTI Asia` | 中天亚洲台 | Taiwan | News | Chinese | REQUESTED | not yet checked | Discover and verify a current source before publication. |
+| 56 | New request | `Astro欢喜台 Astro Hua Hee Dai` | Astro 欢喜台 | Malaysia | Entertainment | Chinese | REQUESTED | not yet checked | Discover and verify a current source before publication. |
+| 57 | New request | `Cartoon Network` | Cartoon Network | International | Kids | English | REQUESTED | not yet checked | Discover and verify a current source before publication. |
+| 58 | New request | `Asian Food Network` | Asian Food Network | International | Entertainment | English | REQUESTED | not yet checked | Discover and verify a current source before publication. |
+| 59 | New request | `Astro Tennis` | Astro Tennis | Malaysia | Sports | English | REQUESTED | not yet checked | Discover and verify a current source before publication. |
+| 60 | New request | `beIN SPORTS 1` | beIN SPORTS 1 | International | Sports | English | REQUESTED | not yet checked | Discover and verify a current source before publication. |
+| 61 | New request | `beIN SPORTS 2` | beIN SPORTS 2 | International | Sports | English | REQUESTED | not yet checked | Discover and verify a current source before publication. |
+| 62 | New request | `beIN SPORTS 3` | beIN SPORTS 3 | International | Sports | English | REQUESTED | not yet checked | Discover and verify a current source before publication. |
+| 63 | New request | `Premier Sports` | Premier Sports | International | Sports | English | REQUESTED | not yet checked | Discover and verify a current source before publication. |
+| 64 | New request | `CNBC` | CNBC | International | News | English | REQUESTED | not yet checked | Discover and verify a current source before publication. |
+| 65 | New request | `Fox News` | Fox News | International | News | English | REQUESTED | not yet checked | Discover and verify a current source before publication. |
+| 66 | New request | `Animal Planet` | Animal Planet | International | Documentary | English | REQUESTED | not yet checked | Discover and verify a current source before publication. |
+| 67 | New request | `Discovery` | Discovery | International | Documentary | English | REQUESTED | not yet checked | Discover and verify a current source before publication. |
 
 ## Daily refresh workflow
 
@@ -95,6 +111,7 @@ This is the complete requested-channel register for the daily live-source refres
 
 - `PUBLISHED`: one selected public source is currently included in `playlist.m3u`; it still requires daily retesting.
 - `WITHHELD`: no source currently passes identity and playback checks, or the source is unsafe to publish. Keep the request row and record the reason in `manifest.json`/the audit report.
+- `REQUESTED`: the channel has been added to this register but has not yet completed source, playback, and identity verification.
 - A faster source is not automatically better: prefer a source that is both materially stable and identity-correct.
 - Never restore a removed mapping only because the URL responds HTTP 200; require decoded playback and channel-identity evidence.
 
