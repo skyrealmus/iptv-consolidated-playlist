@@ -19,6 +19,8 @@ https://bloomberg.com/media-manifest/streams/asia.m3u8
 https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
 #EXTINF:-1 tvg-id="CNA HD" tvg-name="CNA HD" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/cna-hd.png" tvg-language="English" audio-language="English" tvg-chno="515" group-title="Singapore" tvg-country="SG" tvg-category="News",CNA HD
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+#EXTINF:-1 tvg-id="CNBC" tvg-name="CNBC" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/cnbc.png" tvg-language="English" audio-language="English" group-title="International" tvg-country="GB" tvg-category="News",CNBC
+https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="CNN HD" tvg-name="CNN HD" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/cnn-hd.png" tvg-language="English" audio-language="English" tvg-chno="511" group-title="International" tvg-country="US" tvg-category="News",CNN HD
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="Reuters" tvg-name="Reuters" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/reuters.png" tvg-language="English" audio-language="English" group-title="International" tvg-country="GB" tvg-category="News",Reuters
@@ -63,10 +65,14 @@ http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gfjs
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv10hd
 #EXTINF:-1 tvg-id="CCTV-9" tvg-name="CCTV-9 纪录" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/cctv-9.png" tvg-language="Chinese" audio-language="Chinese" group-title="China" tvg-country="CN" tvg-category="Documentary",CCTV-9 纪录
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv9hd
+#EXTINF:-1 tvg-id="Animal Planet" tvg-name="Animal Planet" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/animal-planet.png" tvg-language="English" audio-language="English" group-title="International" tvg-country="US" tvg-category="Documentary",Animal Planet
+https://t.freetv.fun/live/animal-planet-1.m3u8
 #EXTINF:-1 tvg-id="BBC Earth" tvg-name="BBC Earth" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/bbc-earth.png" tvg-language="English" audio-language="English" tvg-chno="554" group-title="International" tvg-country="GB" tvg-category="Documentary",BBC Earth
 https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8
 #EXTINF:-1 tvg-id="CGTN Documentary" tvg-name="CGTN Documentary" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/cgtn-documentary.png" tvg-language="English" audio-language="English" tvg-chno="556" group-title="China" tvg-country="CN" tvg-category="Documentary",CGTN Documentary
 https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
+#EXTINF:-1 tvg-id="Discovery" tvg-name="Discovery" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/discovery.png" tvg-language="English" audio-language="English" group-title="International" tvg-country="IT" tvg-category="Documentary",Discovery
+https://t.freetv.fun/live/discovery-b.m3u8
 #EXTINF:-1 tvg-id="History" tvg-name="History" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/history.png" tvg-language="English" audio-language="English" tvg-chno="555" group-title="International" tvg-country="US" tvg-category="Documentary",History
 http://213.91.179.28:8000/play/a0c1
 #EXTINF:-1 tvg-id="History Hit" tvg-name="History Hit" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/history-hit.png" tvg-language="English" audio-language="English" group-title="International" tvg-country="GB" tvg-category="Documentary",History Hit

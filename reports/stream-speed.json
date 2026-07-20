@@ -1,23 +1,19 @@
 {
-  "tested_at": "2026-07-19T16:22:34Z",
+  "tested_at": "2026-07-20T02:48:50Z",
   "method": {
-    "catalog_match": "16 active public M3U/TXT catalogs",
-    "stream_probe": "ffprobe with 15-second read timeout and VLC-like user agent",
-    "playback_probe": "8-second FFmpeg decode; a probe is not accepted without a valid video frame",
+    "catalog_match": "82 active public M3U/TXT catalogs",
+    "stream_probe": "ffprobe with 10-second read timeout and bounded process timeout",
+    "playback_probe": "5-second FFmpeg decode; a candidate is not accepted without a valid video frame",
     "identity_check": "sample video frames were checked for channel watermark/identity; interruption pages and wrong logos fail",
     "publication_rule": "no credential-bearing or token-bearing fallback URL is published"
   },
   "catalog_health": {
-    "tested": 16,
-    "http_200": 14,
+    "tested": 82,
+    "http_200": 81,
     "failed": [
       {
-        "url": "https://tv.iill.top/m3u/Gather",
-        "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
-      },
-      {
-        "url": "https://www.3kjs.com/tv.txt",
-        "error": "TimeoutError: The read operation timed out"
+        "url": "https://live.freetv.top/douyuyqk.m3u",
+        "error": "HTTP 504 Gateway Timeout"
       }
     ]
   },
@@ -87,6 +83,139 @@
       "status": "withheld_no_verified_playback",
       "probe_evidence": "vpstv candidate returned HTTP 403; alternate source contained a token-bearing URL and was not eligible",
       "action": "removed from public playlist"
+    },
+    "Cartoon Network": {
+      "status": "published_frame_verified",
+      "selected": {
+        "url": "http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5CM5SY98BF24PL/143/index.m3u8",
+        "source_index": 57,
+        "video": "1024x576 H.264"
+      },
+      "identity_evidence": "sample frame visibly contained the CN Cartoon Network watermark; alternate stream used because the first candidate showed an interruption page",
+      "action": "added to public playlist"
+    },
+    "beIN SPORTS 1": {
+      "status": "withheld_ambiguous_identity",
+      "tested_candidates": 7,
+      "probe_evidence": "one safe candidate decoded, but the sampled frame showed beIN SPORTS without a channel number; remaining candidates failed or returned 403",
+      "action": "kept in register only"
+    },
+    "beIN SPORTS 2": {
+      "status": "withheld_no_verified_playback",
+      "tested_candidates": 7,
+      "probe_evidence": "all safe exact candidates failed ffprobe or FFmpeg decode",
+      "action": "kept in register only"
+    },
+    "beIN SPORTS 3": {
+      "status": "published_frame_verified",
+      "selected": {
+        "url": "http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5CM5SY98BF24PL/6124/index.m3u8",
+        "source_index": 57,
+        "video": "1920x1080 H.264"
+      },
+      "identity_evidence": "sample frame visibly contained the beIN SPORTS 3 watermark",
+      "action": "added to public playlist"
+    },
+    "CNBC": {
+      "status": "published_frame_verified",
+      "selected": {
+        "url": "https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8",
+        "source_index": 10,
+        "video": "640x360 H.264"
+      },
+      "identity_evidence": "sample frame visibly contained the CNBC logo and CNBC programme branding",
+      "action": "added to public playlist"
+    },
+    "Animal Planet": {
+      "status": "published_frame_verified",
+      "selected": {
+        "url": "https://t.freetv.fun/live/animal-planet-1.m3u8",
+        "source_index": 62,
+        "video": "1920x1080 H.264"
+      },
+      "identity_evidence": "sample frame visibly contained the Animal Planet watermark",
+      "action": "added to public playlist"
+    },
+    "Discovery": {
+      "status": "published_frame_verified",
+      "selected": {
+        "url": "https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DISCOVERYCHANNEL/CMAF/index.m3u8",
+        "source_index": 24,
+        "video": "1920x1080 H.264"
+      },
+      "identity_evidence": "sample frame visibly contained the Discovery Channel watermark and matching programming",
+      "action": "added to public playlist"
+    },
+    "爱奇艺 iQIYI": {
+      "status": "withheld_no_verified_playback",
+      "tested_candidates": 7,
+      "probe_evidence": "all safe label-matched candidates failed ffprobe or FFmpeg decode",
+      "action": "kept in register only"
+    },
+    "中天亚洲台 CTI Asia": {
+      "status": "withheld_no_verified_playback",
+      "tested_candidates": 2,
+      "probe_evidence": "all safe exact candidates failed ffprobe or FFmpeg decode",
+      "action": "kept in register only"
+    },
+    "Astro欢喜台 Astro Hua Hee Dai": {
+      "status": "withheld_no_verified_playback",
+      "tested_candidates": 7,
+      "probe_evidence": "all safe exact candidates failed ffprobe or FFmpeg decode",
+      "action": "kept in register only"
+    },
+    "Asian Food Network": {
+      "status": "withheld_no_candidate",
+      "probe_evidence": "no exact or explicit candidate found in the 82 active catalogs",
+      "action": "kept in register only"
+    },
+    "Astro Tennis": {
+      "status": "withheld_no_candidate",
+      "probe_evidence": "no exact or explicit candidate found in the 82 active catalogs",
+      "action": "kept in register only"
+    },
+    "Premier Sports": {
+      "status": "withheld_no_verified_playback",
+      "tested_candidates": 6,
+      "probe_evidence": "all safe exact candidates failed ffprobe or FFmpeg decode",
+      "action": "kept in register only"
+    },
+    "Fox News": {
+      "status": "withheld_wrong_mapping",
+      "tested_candidates": 5,
+      "probe_evidence": "the only decoded candidate showed LIVE NOW FOX, not Fox News Channel; other candidates failed playback",
+      "action": "kept in register only"
+    }
+  },
+  "summary": {
+    "previous_snapshot_published": 44,
+    "current_snapshot_published": 47,
+    "newly_published": 3,
+    "newly_withheld": 11,
+    "replaced": 1
+  },
+  "results": {
+    "Cartoon Network": {
+      "status": "withheld_current_interruption",
+      "tested_candidates": 8,
+      "probe_evidence": "current t.freetv retry showed the signal-interrupted page; the alternate ilook candidate returned no video stream",
+      "action": "kept in register only"
+    },
+    "beIN SPORTS 3": {
+      "status": "withheld_no_current_playback",
+      "tested_candidates": 7,
+      "probe_evidence": "QA and TR candidates returned no video streams on two retries; vpstv candidates returned 403; earlier frame evidence was not currently repeatable",
+      "action": "kept in register only"
+    },
+    "Discovery": {
+      "status": "published_replaced_frame_verified",
+      "selected": {
+        "url": "https://t.freetv.fun/live/discovery-b.m3u8",
+        "source_index": 73,
+        "video": "1920x1080 H.264"
+      },
+      "identity_evidence": "sample frame visibly contained the Warner Bros. Discovery | Discovery watermark and programme video",
+      "action": "added to public playlist after replacing the timed-out Aurora candidate"
     }
   }
 }

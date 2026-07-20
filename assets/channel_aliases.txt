@@ -49,3 +49,6 @@ Wild Earth | 野生地球 | Wild Earth, 野生地球
 Kartoon Channel | 卡通频道 | Kartoon Channel, 卡通频道
 History Hit | History Hit 历史 | History Hit, History Hit 历史
 beIN Sports Xtra | beIN Sports Xtra 体育 | beIN Sports Xtra, beIN Sports Xtra 体育
+CNBC = CNBC | CNBC (1080p)
+Animal Planet = Animal Planet | Animal Planet HD
+Discovery = Discovery | Discovery Channel

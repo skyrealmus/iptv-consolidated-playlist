@@ -1,5 +1,5 @@
 {
-  "tested_at": "2026-07-19T16:22:34Z",
+  "tested_at": "2026-07-20T02:48:50Z",
   "scope": [
     "Channel 8",
     "Channel U",
@@ -10,19 +10,34 @@
     "TVB Entertainment News",
     "TVB Xing He HD",
     "Phoenix Hong Kong",
-    "EBC Variety"
+    "EBC Variety",
+    "Cartoon Network",
+    "beIN SPORTS 1",
+    "beIN SPORTS 2",
+    "beIN SPORTS 3",
+    "CNBC",
+    "Animal Planet",
+    "Discovery",
+    "爱奇艺 iQIYI",
+    "中天亚洲台 CTI Asia",
+    "Astro欢喜台 Astro Hua Hee Dai",
+    "Asian Food Network",
+    "Astro Tennis",
+    "Premier Sports",
+    "Fox News"
   ],
   "method": {
-    "catalog_match": "16 active public M3U/TXT catalogs",
-    "stream_probe": "ffprobe with 15-second read timeout and VLC-like user agent",
-    "playback_probe": "8-second FFmpeg decode; a probe is not accepted without a valid video frame",
+    "catalog_match": "82 active public M3U/TXT catalogs",
+    "stream_probe": "ffprobe with 10-second read timeout and bounded process timeout",
+    "playback_probe": "5-second FFmpeg decode; a candidate is not accepted without a valid video frame",
     "identity_check": "sample video frames were checked for channel watermark/identity; interruption pages and wrong logos fail",
     "publication_rule": "no credential-bearing or token-bearing fallback URL is published"
   },
   "summary": {
-    "published_before": 53,
-    "published_after": 44,
-    "removed_or_withheld": 9,
+    "previous_snapshot_published": 44,
+    "current_snapshot_published": 47,
+    "newly_published": 3,
+    "newly_withheld": 11,
     "replaced": 1
   },
   "results": {
@@ -91,6 +106,100 @@
       "status": "withheld_no_verified_playback",
       "probe_evidence": "vpstv candidate returned HTTP 403; alternate source contained a token-bearing URL and was not eligible",
       "action": "removed from public playlist"
+    },
+    "Cartoon Network": {
+      "status": "withheld_current_interruption",
+      "tested_candidates": 8,
+      "probe_evidence": "current t.freetv retry showed the signal-interrupted page; the alternate ilook candidate returned no video stream",
+      "action": "kept in register only"
+    },
+    "beIN SPORTS 1": {
+      "status": "withheld_ambiguous_identity",
+      "tested_candidates": 7,
+      "probe_evidence": "one safe candidate decoded, but the sampled frame showed beIN SPORTS without a channel number; remaining candidates failed or returned 403",
+      "action": "kept in register only"
+    },
+    "beIN SPORTS 2": {
+      "status": "withheld_no_verified_playback",
+      "tested_candidates": 7,
+      "probe_evidence": "all safe exact candidates failed ffprobe or FFmpeg decode",
+      "action": "kept in register only"
+    },
+    "beIN SPORTS 3": {
+      "status": "withheld_no_current_playback",
+      "tested_candidates": 7,
+      "probe_evidence": "QA and TR candidates returned no video streams on two retries; vpstv candidates returned 403; earlier frame evidence was not currently repeatable",
+      "action": "kept in register only"
+    },
+    "CNBC": {
+      "status": "published_frame_verified",
+      "selected": {
+        "url": "https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8",
+        "source_index": 10,
+        "video": "640x360 H.264"
+      },
+      "identity_evidence": "sample frame visibly contained the CNBC logo and CNBC programme branding",
+      "action": "added to public playlist"
+    },
+    "Animal Planet": {
+      "status": "published_frame_verified",
+      "selected": {
+        "url": "https://t.freetv.fun/live/animal-planet-1.m3u8",
+        "source_index": 62,
+        "video": "1920x1080 H.264"
+      },
+      "identity_evidence": "sample frame visibly contained the Animal Planet watermark",
+      "action": "added to public playlist"
+    },
+    "Discovery": {
+      "status": "published_replaced_frame_verified",
+      "selected": {
+        "url": "https://t.freetv.fun/live/discovery-b.m3u8",
+        "source_index": 73,
+        "video": "1920x1080 H.264"
+      },
+      "identity_evidence": "sample frame visibly contained the Warner Bros. Discovery | Discovery watermark and programme video",
+      "action": "added to public playlist after replacing the timed-out Aurora candidate"
+    },
+    "爱奇艺 iQIYI": {
+      "status": "withheld_no_verified_playback",
+      "tested_candidates": 7,
+      "probe_evidence": "all safe label-matched candidates failed ffprobe or FFmpeg decode",
+      "action": "kept in register only"
+    },
+    "中天亚洲台 CTI Asia": {
+      "status": "withheld_no_verified_playback",
+      "tested_candidates": 2,
+      "probe_evidence": "all safe exact candidates failed ffprobe or FFmpeg decode",
+      "action": "kept in register only"
+    },
+    "Astro欢喜台 Astro Hua Hee Dai": {
+      "status": "withheld_no_verified_playback",
+      "tested_candidates": 7,
+      "probe_evidence": "all safe exact candidates failed ffprobe or FFmpeg decode",
+      "action": "kept in register only"
+    },
+    "Asian Food Network": {
+      "status": "withheld_no_candidate",
+      "probe_evidence": "no exact or explicit candidate found in the 82 active catalogs",
+      "action": "kept in register only"
+    },
+    "Astro Tennis": {
+      "status": "withheld_no_candidate",
+      "probe_evidence": "no exact or explicit candidate found in the 82 active catalogs",
+      "action": "kept in register only"
+    },
+    "Premier Sports": {
+      "status": "withheld_no_verified_playback",
+      "tested_candidates": 6,
+      "probe_evidence": "all safe exact candidates failed ffprobe or FFmpeg decode",
+      "action": "kept in register only"
+    },
+    "Fox News": {
+      "status": "withheld_wrong_mapping",
+      "tested_candidates": 5,
+      "probe_evidence": "the only decoded candidate showed LIVE NOW FOX, not Fox News Channel; other candidates failed playback",
+      "action": "kept in register only"
     }
   }
 }

@@ -5,9 +5,9 @@ This is the complete requested-channel register for the daily live-source refres
 ## Current snapshot
 
 - Requested channels: **67**
-- Published in `playlist.m3u`: **44**
-- Withheld pending a verified source: **9**
-- Newly requested and not yet checked: **14**
+- Published in `playlist.m3u`: **47**
+- Withheld pending a verified source: **20**
+- Newly requested and not yet checked: **0**
 - Snapshot date: **2026-07-20**
 - Machine source of truth for selected URLs: [`manifest.json`](./manifest.json)
 - Machine source of truth for published and verified names, region, category, and language: [`assets/channel_metadata.json`](./assets/channel_metadata.json)
@@ -72,20 +72,20 @@ This is the complete requested-channel register for the daily live-source refres
 | 51 | — | `Kartoon Channel` | Kartoon Channel | International | Kids | English | PUBLISHED | speed=0.716x; resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
 | 52 | — | `History Hit` | History Hit | International | Documentary | English | PUBLISHED | speed=0.597x; resolution=1280x720 | Retest daily; replace only after playback and identity pass. |
 | 53 | — | `beIN Sports Xtra` | beIN Sports Xtra | International | Sports | English | PUBLISHED | speed=1.949x; resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
-| 54 | New request | `爱奇艺 iQIYI` | 爱奇艺 | China | Entertainment | Chinese | REQUESTED | not yet checked | Discover and verify a current source before publication. |
-| 55 | New request | `中天亚洲台 CTI Asia` | 中天亚洲台 | Taiwan | News | Chinese | REQUESTED | not yet checked | Discover and verify a current source before publication. |
-| 56 | New request | `Astro欢喜台 Astro Hua Hee Dai` | Astro 欢喜台 | Malaysia | Entertainment | Chinese | REQUESTED | not yet checked | Discover and verify a current source before publication. |
-| 57 | New request | `Cartoon Network` | Cartoon Network | International | Kids | English | REQUESTED | not yet checked | Discover and verify a current source before publication. |
-| 58 | New request | `Asian Food Network` | Asian Food Network | International | Entertainment | English | REQUESTED | not yet checked | Discover and verify a current source before publication. |
-| 59 | New request | `Astro Tennis` | Astro Tennis | Malaysia | Sports | English | REQUESTED | not yet checked | Discover and verify a current source before publication. |
-| 60 | New request | `beIN SPORTS 1` | beIN SPORTS 1 | International | Sports | English | REQUESTED | not yet checked | Discover and verify a current source before publication. |
-| 61 | New request | `beIN SPORTS 2` | beIN SPORTS 2 | International | Sports | English | REQUESTED | not yet checked | Discover and verify a current source before publication. |
-| 62 | New request | `beIN SPORTS 3` | beIN SPORTS 3 | International | Sports | English | REQUESTED | not yet checked | Discover and verify a current source before publication. |
-| 63 | New request | `Premier Sports` | Premier Sports | International | Sports | English | REQUESTED | not yet checked | Discover and verify a current source before publication. |
-| 64 | New request | `CNBC` | CNBC | International | News | English | REQUESTED | not yet checked | Discover and verify a current source before publication. |
-| 65 | New request | `Fox News` | Fox News | International | News | English | REQUESTED | not yet checked | Discover and verify a current source before publication. |
-| 66 | New request | `Animal Planet` | Animal Planet | International | Documentary | English | REQUESTED | not yet checked | Discover and verify a current source before publication. |
-| 67 | New request | `Discovery` | Discovery | International | Documentary | English | REQUESTED | not yet checked | Discover and verify a current source before publication. |
+| 54 | New request | `爱奇艺 iQIYI` | 爱奇艺 | China | Entertainment | Chinese | WITHHELD | all safe label-matched candidates failed ffprobe or FFmpeg decode | Keep withheld; publish only after correct identity and playback pass. |
+| 55 | New request | `中天亚洲台 CTI Asia` | 中天亚洲台 | Taiwan | News | Chinese | WITHHELD | all safe exact candidates failed ffprobe or FFmpeg decode | Keep withheld; publish only after correct identity and playback pass. |
+| 56 | New request | `Astro欢喜台 Astro Hua Hee Dai` | Astro 欢喜台 | Malaysia | Entertainment | Chinese | WITHHELD | all safe exact candidates failed ffprobe or FFmpeg decode | Keep withheld; publish only after correct identity and playback pass. |
+| 57 | New request | `Cartoon Network` | Cartoon Network | International | Kids | English | WITHHELD | current retry showed signal interruption; alternate candidate returned no video stream | Keep withheld; publish only after correct identity and playback pass. |
+| 58 | New request | `Asian Food Network` | Asian Food Network | International | Entertainment | English | WITHHELD | no exact or explicit candidate in 82 active catalogs | Keep withheld; publish only after correct identity and playback pass. |
+| 59 | New request | `Astro Tennis` | Astro Tennis | Malaysia | Sports | English | WITHHELD | no exact or explicit candidate in 82 active catalogs | Keep withheld; publish only after correct identity and playback pass. |
+| 60 | New request | `beIN SPORTS 1` | beIN SPORTS 1 | International | Sports | English | WITHHELD | decoded frame showed beIN SPORTS but no channel number; identity ambiguous | Keep withheld; publish only after correct identity and playback pass. |
+| 61 | New request | `beIN SPORTS 2` | beIN SPORTS 2 | International | Sports | English | WITHHELD | all safe exact candidates failed ffprobe or FFmpeg decode | Keep withheld; publish only after correct identity and playback pass. |
+| 62 | New request | `beIN SPORTS 3` | beIN SPORTS 3 | International | Sports | English | WITHHELD | QA/TR candidates returned no video on two retries; prior frame evidence not currently repeatable | Keep withheld; publish only after correct identity and playback pass. |
+| 63 | New request | `Premier Sports` | Premier Sports | International | Sports | English | WITHHELD | all safe exact candidates failed ffprobe or FFmpeg decode | Keep withheld; publish only after correct identity and playback pass. |
+| 64 | New request | `CNBC` | CNBC | International | News | English | PUBLISHED | resolution=640x360; frame-verified CNBC logo and programme branding | Retest daily; replace only after playback and identity pass. |
+| 65 | New request | `Fox News` | Fox News | International | News | English | WITHHELD | decoded frame showed LIVE NOW FOX, not Fox News Channel | Keep withheld; publish only after correct identity and playback pass. |
+| 66 | New request | `Animal Planet` | Animal Planet | International | Documentary | English | PUBLISHED | resolution=1920x1080; frame-verified Animal Planet watermark | Retest daily; replace only after playback and identity pass. |
+| 67 | New request | `Discovery` | Discovery | International | Documentary | English | PUBLISHED | resolution=1920x1080; frame-verified Discovery Channel watermark | Retest daily; replace only after playback and identity pass. |
 
 ## Daily refresh workflow
 

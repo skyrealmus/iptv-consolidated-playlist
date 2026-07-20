@@ -864,6 +864,54 @@
       ],
       "language": "English",
       "audio_language": "English"
+    },
+    "CNBC": {
+      "name_en": "CNBC",
+      "name_zh": "CNBC 财经",
+      "display_name": "CNBC",
+      "group": "International",
+      "country": "GB",
+      "category": "News",
+      "logo_file": "cnbc.png",
+      "source_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png",
+      "aliases": [
+        "CNBC",
+        "CNBC (1080p)"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Animal Planet": {
+      "name_en": "Animal Planet",
+      "name_zh": "动物星球",
+      "display_name": "Animal Planet",
+      "group": "International",
+      "country": "US",
+      "category": "Documentary",
+      "logo_file": "animal-planet.png",
+      "source_logo": "http://epg.one/img2/365.png",
+      "aliases": [
+        "Animal Planet",
+        "Animal Planet HD"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Discovery": {
+      "name_en": "Discovery",
+      "name_zh": "探索频道",
+      "display_name": "Discovery",
+      "group": "International",
+      "country": "IT",
+      "category": "Documentary",
+      "logo_file": "discovery.png",
+      "source_logo": "https://i.imgur.com/5IxIFJ0.png",
+      "aliases": [
+        "Discovery",
+        "Discovery Channel"
+      ],
+      "language": "English",
+      "audio_language": "English"
     }
   },
   "channel_name_policy": "Chinese display names for Chinese-language channels; English display names for English-language channels.",
