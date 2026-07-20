@@ -4,15 +4,26 @@ on:
   push:
     paths:
       - "manifest.json"
-      - "assets/**"
+      - "assets/channel_metadata.json"
+      - "assets/channel_aliases.txt"
       - "logo/**"
-      - "playlist.m3u"
       - "scripts/**"
   pull_request:
+    paths:
+      - "manifest.json"
+      - "assets/channel_metadata.json"
+      - "assets/channel_aliases.txt"
+      - "logo/**"
+      - "scripts/**"
   workflow_dispatch:
 
 permissions:
   contents: read
+
+concurrency:
+  # Generated-playlist commits are validated by their generating workflow.
+  group: validate-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 jobs:
   validate:

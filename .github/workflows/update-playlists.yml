@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: playlist-update
+  group: repository-generated-files
   cancel-in-progress: false
 
 jobs:
