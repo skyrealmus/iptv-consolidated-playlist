@@ -1,8 +1,8 @@
 # Repository assets
 
-This directory follows the useful parts of the [CCSH/IPTV](https://github.com/CCSH/IPTV) layout while staying small and focused on Malaysia/Singapore use:
+This directory contains the source catalogs, channel metadata, and local logo inputs for Malaysia/Singapore use:
 
-- `sources.txt` — active public playlist inputs (84 URLs after the latest health quarantine).
+- `sources.txt` — active public playlist inputs (82 URLs after removing unavailable upstream references and the latest health quarantine).
 - `failed-sources.txt` — 31 URLs quarantined from the active list after the latest source-health failure, with failure reasons.
 - `channel_metadata.json` — language-specific display labels, English-only region/category, and audio/logo mapping.
 - `channel_aliases.txt` — human-editable bilingual naming and alias list.

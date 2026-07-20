@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-07-20T01:48:59.412214+00:00",
+  "checked_at": "2026-07-20T01:54:37.821349+00:00",
   "sources": [
     {
       "url": "https://live.hacks.tools/iptv/languages/eng.m3u",
@@ -7,7 +7,7 @@
       "bytes_sampled": 703321,
       "content_type": "audio/x-mpegurl",
       "m3u_entries_sampled": 3093,
-      "elapsed_ms": 203
+      "elapsed_ms": 197
     },
     {
       "url": "https://live.hacks.tools/iptv/languages/malaysia.m3u",
@@ -15,7 +15,7 @@
       "bytes_sampled": 16481,
       "content_type": "audio/x-mpegurl",
       "m3u_entries_sampled": 50,
-      "elapsed_ms": 132
+      "elapsed_ms": 143
     },
     {
       "url": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u",
@@ -23,7 +23,7 @@
       "bytes_sampled": 22574,
       "content_type": "text/plain",
       "m3u_entries_sampled": 80,
-      "elapsed_ms": 294
+      "elapsed_ms": 221
     },
     {
       "url": "https://raw.githubusercontent.com/Guovin/TV/gd/output/result.m3u",
@@ -31,7 +31,7 @@
       "bytes_sampled": 451112,
       "content_type": "text/plain",
       "m3u_entries_sampled": 1807,
-      "elapsed_ms": 321
+      "elapsed_ms": 232
     },
     {
       "url": "https://live.hacks.tools/iptv/languages/zho.m3u",
@@ -39,7 +39,7 @@
       "bytes_sampled": 43284,
       "content_type": "audio/x-mpegurl",
       "m3u_entries_sampled": 214,
-      "elapsed_ms": 164
+      "elapsed_ms": 145
     },
     {
       "url": "https://live.hacks.tools/iptv/languages/singapore.m3u",
@@ -47,7 +47,7 @@
       "bytes_sampled": 7941,
       "content_type": "audio/x-mpegurl",
       "m3u_entries_sampled": 25,
-      "elapsed_ms": 176
+      "elapsed_ms": 144
     },
     {
       "url": "https://cdn.jsdelivr.net/gh/Kimentanm/aptv/m3u/iptv.m3u",
@@ -55,7 +55,7 @@
       "bytes_sampled": 21946,
       "content_type": "audio/x-mpegurl",
       "m3u_entries_sampled": 120,
-      "elapsed_ms": 49
+      "elapsed_ms": 31
     },
     {
       "url": "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
@@ -63,7 +63,7 @@
       "bytes_sampled": 21940,
       "content_type": "text/plain",
       "m3u_entries_sampled": 120,
-      "elapsed_ms": 14
+      "elapsed_ms": 17
     },
     {
       "url": "https://bit.ly/iptv-aptv",
@@ -71,7 +71,7 @@
       "bytes_sampled": 21940,
       "content_type": "text/plain",
       "m3u_entries_sampled": 120,
-      "elapsed_ms": 291
+      "elapsed_ms": 296
     },
     {
       "url": "https://bit.ly/suxuang",
@@ -79,7 +79,7 @@
       "bytes_sampled": 200521,
       "content_type": "text/plain",
       "m3u_entries_sampled": 862,
-      "elapsed_ms": 562
+      "elapsed_ms": 500
     },
     {
       "url": "https://iptv-org.github.io/iptv/index.m3u",
@@ -87,7 +87,7 @@
       "bytes_sampled": 2000000,
       "content_type": "audio/x-mpegurl",
       "m3u_entries_sampled": 9266,
-      "elapsed_ms": 44
+      "elapsed_ms": 43
     },
     {
       "url": "https://www.3kjs.com/tv.txt",
@@ -95,7 +95,7 @@
       "bytes_sampled": 397169,
       "content_type": "text/plain",
       "m3u_entries_sampled": 1985,
-      "elapsed_ms": 2137
+      "elapsed_ms": 2177
     },
     {
       "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8",
@@ -103,23 +103,7 @@
       "bytes_sampled": 16233,
       "content_type": "text/plain",
       "m3u_entries_sampled": 68,
-      "elapsed_ms": 302
-    },
-    {
-      "url": "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/assets/test.txt",
-      "status": 200,
-      "bytes_sampled": 172969,
-      "content_type": "text/plain",
-      "m3u_entries_sampled": 0,
-      "elapsed_ms": 237
-    },
-    {
-      "url": "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.m3u",
-      "status": 200,
-      "bytes_sampled": 1148245,
-      "content_type": "text/plain",
-      "m3u_entries_sampled": 4414,
-      "elapsed_ms": 340
+      "elapsed_ms": 238
     },
     {
       "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt",
@@ -127,7 +111,7 @@
       "bytes_sampled": 170584,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 289
+      "elapsed_ms": 313
     },
     {
       "url": "https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt",
@@ -135,7 +119,7 @@
       "bytes_sampled": 246770,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 227
+      "elapsed_ms": 240
     },
     {
       "url": "https://raw.githubusercontent.com/zwc456baby/iptv_alive/refs/heads/master/live.m3u",
@@ -143,7 +127,7 @@
       "bytes_sampled": 6576,
       "content_type": "text/plain",
       "m3u_entries_sampled": 32,
-      "elapsed_ms": 289
+      "elapsed_ms": 232
     },
     {
       "url": "https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv4.m3u",
@@ -151,7 +135,7 @@
       "bytes_sampled": 268671,
       "content_type": "text/plain",
       "m3u_entries_sampled": 1272,
-      "elapsed_ms": 304
+      "elapsed_ms": 268
     },
     {
       "url": "https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv6.m3u",
@@ -159,7 +143,7 @@
       "bytes_sampled": 200521,
       "content_type": "text/plain",
       "m3u_entries_sampled": 862,
-      "elapsed_ms": 241
+      "elapsed_ms": 243
     },
     {
       "url": "https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/%E5%92%AA%E5%92%95%E7%9B%B4%E6%92%AD.txt",
@@ -167,7 +151,7 @@
       "bytes_sampled": 11387,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 309
+      "elapsed_ms": 240
     },
     {
       "url": "https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/%E5%B0%8F%E8%82%A5%E7%BE%8A.m3u",
@@ -175,7 +159,7 @@
       "bytes_sampled": 41281,
       "content_type": "text/plain",
       "m3u_entries_sampled": 196,
-      "elapsed_ms": 309
+      "elapsed_ms": 235
     },
     {
       "url": "https://raw.githubusercontent.com/skddyj/iptv/refs/heads/main/IPTV.m3u",
@@ -183,7 +167,7 @@
       "bytes_sampled": 25215,
       "content_type": "text/plain",
       "m3u_entries_sampled": 82,
-      "elapsed_ms": 331
+      "elapsed_ms": 243
     },
     {
       "url": "https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
@@ -191,7 +175,7 @@
       "bytes_sampled": 65367,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 312
+      "elapsed_ms": 321
     },
     {
       "url": "https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.txt",
@@ -199,7 +183,7 @@
       "bytes_sampled": 268,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 317
+      "elapsed_ms": 235
     },
     {
       "url": "https://raw.githubusercontent.com/kakaxi-1/IPTV/refs/heads/main/ipv4.txt",
@@ -207,7 +191,7 @@
       "bytes_sampled": 65393,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 238
+      "elapsed_ms": 236
     },
     {
       "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
@@ -215,7 +199,7 @@
       "bytes_sampled": 530377,
       "content_type": "text/plain",
       "m3u_entries_sampled": 1930,
-      "elapsed_ms": 304
+      "elapsed_ms": 302
     },
     {
       "url": "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
@@ -223,7 +207,7 @@
       "bytes_sampled": 29341,
       "content_type": "text/plain",
       "m3u_entries_sampled": 129,
-      "elapsed_ms": 17
+      "elapsed_ms": 15
     },
     {
       "url": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
@@ -231,7 +215,7 @@
       "bytes_sampled": 25215,
       "content_type": "text/plain",
       "m3u_entries_sampled": 82,
-      "elapsed_ms": 248
+      "elapsed_ms": 235
     },
     {
       "url": "https://raw.githubusercontent.com/cyh92/iptv-api-weishi/refs/heads/master/output/weishi.m3u",
@@ -239,7 +223,7 @@
       "bytes_sampled": 28345,
       "content_type": "text/plain",
       "m3u_entries_sampled": 73,
-      "elapsed_ms": 295
+      "elapsed_ms": 240
     },
     {
       "url": "https://raw.githubusercontent.com/kimwang1978/collect-txt/refs/heads/main/bbxx.txt",
@@ -247,7 +231,7 @@
       "bytes_sampled": 1747710,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 341
+      "elapsed_ms": 266
     },
     {
       "url": "https://raw.githubusercontent.com/kimwang1978/collect-txt/refs/heads/main/others_output.txt",
@@ -255,7 +239,7 @@
       "bytes_sampled": 1461243,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 243
+      "elapsed_ms": 253
     },
     {
       "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/refs/heads/main/cnTV_AutoUpdate.m3u8",
@@ -263,7 +247,7 @@
       "bytes_sampled": 16233,
       "content_type": "text/plain",
       "m3u_entries_sampled": 68,
-      "elapsed_ms": 303
+      "elapsed_ms": 322
     },
     {
       "url": "https://raw.githubusercontent.com/jiangnan1224/iptv_ipv4_live/refs/heads/main/live_ipv4.txt",
@@ -271,7 +255,7 @@
       "bytes_sampled": 1286727,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 322
+      "elapsed_ms": 253
     },
     {
       "url": "https://raw.githubusercontent.com/liuchuang0321/K-TV/refs/heads/master/output/user_result.m3u",
@@ -279,7 +263,7 @@
       "bytes_sampled": 67909,
       "content_type": "text/plain",
       "m3u_entries_sampled": 384,
-      "elapsed_ms": 298
+      "elapsed_ms": 239
     },
     {
       "url": "https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.txt",
@@ -287,7 +271,7 @@
       "bytes_sampled": 10327,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 302
+      "elapsed_ms": 309
     },
     {
       "url": "https://raw.githubusercontent.com/zhi35/iptv/refs/heads/master/iptv.m3u",
@@ -295,7 +279,7 @@
       "bytes_sampled": 97506,
       "content_type": "text/plain",
       "m3u_entries_sampled": 410,
-      "elapsed_ms": 304
+      "elapsed_ms": 247
     },
     {
       "url": "https://raw.githubusercontent.com/cyh92/iptv-api-cctv/refs/heads/master/output/cctv.m3u",
@@ -303,7 +287,7 @@
       "bytes_sampled": 24155,
       "content_type": "text/plain",
       "m3u_entries_sampled": 54,
-      "elapsed_ms": 308
+      "elapsed_ms": 310
     },
     {
       "url": "https://raw.githubusercontent.com/0610840119/iptv-api/refs/heads/master/output/xp_result.m3u",
@@ -311,7 +295,7 @@
       "bytes_sampled": 156156,
       "content_type": "text/plain",
       "m3u_entries_sampled": 680,
-      "elapsed_ms": 340
+      "elapsed_ms": 244
     },
     {
       "url": "https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u",
@@ -319,7 +303,7 @@
       "bytes_sampled": 8021,
       "content_type": "text/plain",
       "m3u_entries_sampled": 58,
-      "elapsed_ms": 298
+      "elapsed_ms": 231
     },
     {
       "url": "https://raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/hotel.txt",
@@ -327,7 +311,7 @@
       "bytes_sampled": 5408,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 309
+      "elapsed_ms": 307
     },
     {
       "url": "https://raw.githubusercontent.com/mlzlzj/hnyuan/refs/heads/main/iptv_list.txt",
@@ -335,7 +319,7 @@
       "bytes_sampled": 354640,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 332
+      "elapsed_ms": 257
     },
     {
       "url": "https://raw.githubusercontent.com/altn2025/iptv/main/iptv.m3u",
@@ -343,7 +327,7 @@
       "bytes_sampled": 109502,
       "content_type": "text/plain",
       "m3u_entries_sampled": 371,
-      "elapsed_ms": 301
+      "elapsed_ms": 306
     },
     {
       "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/list.txt",
@@ -351,7 +335,7 @@
       "bytes_sampled": 16038,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 308
+      "elapsed_ms": 231
     },
     {
       "url": "https://raw.githubusercontent.com/zwc456baby/iptv_alive/master/live.txt",
@@ -359,7 +343,7 @@
       "bytes_sampled": 2909,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 309
+      "elapsed_ms": 315
     },
     {
       "url": "https://raw.githubusercontent.com/junge3333/juds6/main/yszb1.txt",
@@ -367,7 +351,7 @@
       "bytes_sampled": 105076,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 296
+      "elapsed_ms": 247
     },
     {
       "url": "https://raw.githubusercontent.com/zzmaze/iptv/main/itvlist.txt",
@@ -375,7 +359,7 @@
       "bytes_sampled": 8566,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 233
+      "elapsed_ms": 240
     },
     {
       "url": "https://raw.githubusercontent.com/maitel2020/iptv-self-use/main/iptv.txt",
@@ -383,7 +367,7 @@
       "bytes_sampled": 54202,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 306
+      "elapsed_ms": 240
     },
     {
       "url": "https://raw.githubusercontent.com/n3rddd/CTVLive/refs/heads/main/live.txt",
@@ -391,7 +375,7 @@
       "bytes_sampled": 37783,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 234
+      "elapsed_ms": 235
     },
     {
       "url": "https://raw.githubusercontent.com/xiongjian83/TvBox/refs/heads/main/live.txt",
@@ -407,7 +391,7 @@
       "bytes_sampled": 127202,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 335
+      "elapsed_ms": 243
     },
     {
       "url": "https://raw.githubusercontent.com/alienlu/iptv/refs/heads/master/iptv.txt",
@@ -415,7 +399,7 @@
       "bytes_sampled": 21556,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 292
+      "elapsed_ms": 234
     },
     {
       "url": "https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
@@ -423,7 +407,7 @@
       "bytes_sampled": 57277,
       "content_type": "text/plain",
       "m3u_entries_sampled": 270,
-      "elapsed_ms": 318
+      "elapsed_ms": 293
     },
     {
       "url": "https://raw.githubusercontent.com/yuanzl77/IPTV/refs/heads/main/live.txt",
@@ -431,7 +415,7 @@
       "bytes_sampled": 1511401,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 330
+      "elapsed_ms": 331
     },
     {
       "url": "https://2121.ccwu.cc",
@@ -439,7 +423,7 @@
       "bytes_sampled": 5287,
       "content_type": "text/html",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 351
+      "elapsed_ms": 332
     },
     {
       "url": "https://sports.de5.net/xiaohongshu/xhsworldcup.m3u",
@@ -447,7 +431,7 @@
       "bytes_sampled": 528,
       "content_type": "application/octet-stream",
       "m3u_entries_sampled": 2,
-      "elapsed_ms": 395
+      "elapsed_ms": 555
     },
     {
       "url": "http://rihou.cc:555/gggg.nzk",
@@ -455,7 +439,7 @@
       "bytes_sampled": 289206,
       "content_type": "application/octet-stream",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 1627
+      "elapsed_ms": 1479
     },
     {
       "url": "https://seep.eu.org/develop202.github.io/migu_video/interface.txt",
@@ -463,15 +447,15 @@
       "bytes_sampled": 57277,
       "content_type": "text/plain",
       "m3u_entries_sampled": 270,
-      "elapsed_ms": 557
+      "elapsed_ms": 541
     },
     {
       "url": "https://yg.ygbox.de5.net/huya.php",
       "status": 200,
-      "bytes_sampled": 71125,
+      "bytes_sampled": 70654,
       "content_type": "application/x-javascript",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 17414
+      "elapsed_ms": 1361
     },
     {
       "url": "https://ilook.epg.one/5CM5SY98BF24PL/2",
@@ -479,7 +463,7 @@
       "bytes_sampled": 862567,
       "content_type": "text/html",
       "m3u_entries_sampled": 3952,
-      "elapsed_ms": 2099
+      "elapsed_ms": 1873
     },
     {
       "url": "https://iptv.catvod.com/tv.m3u",
@@ -487,7 +471,7 @@
       "bytes_sampled": 253,
       "content_type": "application/vnd.apple.mpegurl",
       "m3u_entries_sampled": 2,
-      "elapsed_ms": 513
+      "elapsed_ms": 1077
     },
     {
       "url": "https://xn--6orr3pi6g9uu.top/zb/zb.txt",
@@ -495,7 +479,7 @@
       "bytes_sampled": 2000000,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 3080
+      "elapsed_ms": 3615
     },
     {
       "url": "https://live.freetv.top/douyuyqk.m3u",
@@ -503,7 +487,7 @@
       "bytes_sampled": 178529,
       "content_type": "application/octet-stream",
       "m3u_entries_sampled": 940,
-      "elapsed_ms": 3596
+      "elapsed_ms": 3685
     },
     {
       "url": "https://live.zhoujie218.top/tv/iptv4.txt",
@@ -511,7 +495,7 @@
       "bytes_sampled": 65367,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 555
+      "elapsed_ms": 455
     },
     {
       "url": "https://t.freetv.fun/m3u/playlist.txt",
@@ -519,7 +503,7 @@
       "bytes_sampled": 205366,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 63
+      "elapsed_ms": 60
     },
     {
       "url": "https://t.freetv.fun/m3u/taiwan.txt",
@@ -527,7 +511,7 @@
       "bytes_sampled": 11755,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 30
+      "elapsed_ms": 33
     },
     {
       "url": "https://t.freetv.fun/m3u/hong_kong.txt",
@@ -535,7 +519,7 @@
       "bytes_sampled": 5795,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 29
+      "elapsed_ms": 31
     },
     {
       "url": "https://t.freetv.fun/m3u/macao.txt",
@@ -543,7 +527,7 @@
       "bytes_sampled": 1815,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 41
+      "elapsed_ms": 32
     },
     {
       "url": "https://t.freetv.fun/m3u/japan.txt",
@@ -551,7 +535,7 @@
       "bytes_sampled": 2575,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 34
+      "elapsed_ms": 35
     },
     {
       "url": "https://live.iptv-free.com/iptv/categories/general.m3u",
@@ -559,7 +543,7 @@
       "bytes_sampled": 614179,
       "content_type": "audio/x-mpegurl",
       "m3u_entries_sampled": 2820,
-      "elapsed_ms": 178
+      "elapsed_ms": 168
     },
     {
       "url": "https://live.iptv-free.com/iptv/categories/movies.m3u",
@@ -567,7 +551,7 @@
       "bytes_sampled": 187133,
       "content_type": "audio/x-mpegurl",
       "m3u_entries_sampled": 743,
-      "elapsed_ms": 147
+      "elapsed_ms": 157
     },
     {
       "url": "https://tv.850930.xyz/kdsb.txt",
@@ -575,7 +559,7 @@
       "bytes_sampled": 365895,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 1850
+      "elapsed_ms": 1877
     },
     {
       "url": "https://tv.850930.xyz/pix.m3u",
@@ -583,7 +567,7 @@
       "bytes_sampled": 13285,
       "content_type": "audio/x-mpegurl",
       "m3u_entries_sampled": 59,
-      "elapsed_ms": 548
+      "elapsed_ms": 573
     },
     {
       "url": "https://live.zbds.org/tv/iptv4.txt",
@@ -591,7 +575,7 @@
       "bytes_sampled": 65367,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 74
+      "elapsed_ms": 229
     },
     {
       "url": "https://iptv.zsdc.eu.org/home/iptv.m3u8",
@@ -599,7 +583,7 @@
       "bytes_sampled": 47543,
       "content_type": "application/vnd.apple.mpegurl",
       "m3u_entries_sampled": 154,
-      "elapsed_ms": 589
+      "elapsed_ms": 139
     },
     {
       "url": "https://freetv.fun/test_channels_original_new.txt",
@@ -607,7 +591,7 @@
       "bytes_sampled": 222822,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 470
+      "elapsed_ms": 476
     },
     {
       "url": "https://jihulab.com/-/snippets/5265/raw/main/.txt",
@@ -615,7 +599,7 @@
       "bytes_sampled": 26834,
       "content_type": "text/html",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 1418
+      "elapsed_ms": 1390
     },
     {
       "url": "https://cc-im-kefu-cos.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/d4fe44c5-107c-4511-af02-aa08fb10dff7/2024-04-25/2024-04-25_17:22:21/1714036941087/98644330/wexiptv.txt",
@@ -623,7 +607,7 @@
       "bytes_sampled": 152081,
       "content_type": "application/octet-stream",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 1233
+      "elapsed_ms": 2099
     },
     {
       "url": "https://m3u.ibert.me/txt/fmml_ipv6.txt",
@@ -631,7 +615,7 @@
       "bytes_sampled": 15219,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 36
+      "elapsed_ms": 546
     },
     {
       "url": "https://m3u.ibert.me/txt/ycl_iptv.txt",
@@ -639,7 +623,7 @@
       "bytes_sampled": 3395,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 17
+      "elapsed_ms": 241
     },
     {
       "url": "https://m3u.ibert.me/txt/y_g.txt",
@@ -647,7 +631,7 @@
       "bytes_sampled": 13548,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 16
+      "elapsed_ms": 266
     },
     {
       "url": "https://gitlab.com/p2v5/wangtv/-/raw/main/lunbo.txt",
@@ -655,7 +639,7 @@
       "bytes_sampled": 36279,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 442
+      "elapsed_ms": 462
     },
     {
       "url": "https://gitee.com/tushaoyong/live/raw/master/%E6%8E%A5%E5%8F%A3/IPV6.txt",
@@ -663,7 +647,7 @@
       "bytes_sampled": 25162,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 3181
+      "elapsed_ms": 4106
     },
     {
       "url": "http://tot.totalh.net/tttt.txt",
@@ -671,7 +655,7 @@
       "bytes_sampled": 63689,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 817
+      "elapsed_ms": 830
     }
   ]
 }

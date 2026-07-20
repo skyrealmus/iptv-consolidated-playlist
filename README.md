@@ -29,7 +29,7 @@ Channel aliases remain bilingual for source matching, but published channel name
 - Main policy: one selected URL per requested channel, grouped by category in this order: General, News, Entertainment, Sports, Documentary, Kids; Chinese channels precede English channels within each category
 - Singapore additions: Channel U (`U频道`) and Channel 8 (`8频道`) are tracked in metadata but withheld from the public playlist until a non-DRM, identity-verified public stream is available
 - Local logos: 53 tracked; 44 referenced by the public playlist
-- Public source inputs: 84 active URLs; 31 failed URLs quarantined in [`assets/failed-sources.txt`](./assets/failed-sources.txt)
+- Public source inputs: 82 active URLs; 31 failed URLs quarantined in [`assets/failed-sources.txt`](./assets/failed-sources.txt)
 
 Streams are public third-party endpoints and may be geo-blocked, rate-limited, changed, or removed without notice. A playlist HTTP 200 or a prior probe is not a guarantee of continuous playback. Obvious token-bearing fallback URLs are not published.
 
@@ -61,7 +61,7 @@ manifest.json             # stream snapshot, source provenance, and repo profile
 
 The repository intentionally keeps logos local, so players do not depend on third-party logo hosts. The manifest retains the original logo URL as provenance.
 
-The CCSH IPTV inventory is merged into [`assets/sources.txt`](./assets/sources.txt), which is the active public source inventory with 84 URLs. URLs that failed the latest health check are quarantined in [`assets/failed-sources.txt`](./assets/failed-sources.txt) and are not scanned as active inputs until revalidated.
+[`assets/sources.txt`](./assets/sources.txt) is the active public source inventory with 82 URLs. URLs that failed the latest health check are quarantined in [`assets/failed-sources.txt`](./assets/failed-sources.txt) and are not scanned as active inputs until revalidated.
 
 ## Automation
 
