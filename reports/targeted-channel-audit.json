@@ -1,30 +1,24 @@
 {
-  "tested_at": "2026-07-20T05:24:25Z",
+  "tested_at": "2026-07-20T06:57:22Z",
   "scope": [
     "Channel 8",
-    "Channel U",
     "Astro Badminton",
-    "8TV",
-    "CNA HD",
     "明珠台",
     "TVB Entertainment News",
     "TVB Xing He HD",
     "Phoenix Hong Kong",
     "EBC Variety",
-    "Cartoon Network",
-    "beIN SPORTS 1",
-    "beIN SPORTS 2",
-    "beIN SPORTS 3",
-    "CNBC",
-    "Animal Planet",
-    "Discovery",
     "爱奇艺 iQIYI",
     "中天亚洲台 CTI Asia",
     "Astro欢喜台 Astro Hua Hee Dai",
     "Asian Food Network",
     "Astro Tennis",
+    "beIN SPORTS 1",
+    "beIN SPORTS 2",
     "Premier Sports",
-    "Fox News"
+    "Fox News",
+    "Cartoon Network",
+    "beIN SPORTS 3"
   ],
   "method": {
     "catalog_match": "82 active public M3U/TXT catalogs",
@@ -35,11 +29,11 @@
     "geo_blocked_fallback_rule": "A user-approved VPN/geo-blocked fallback may be published when no better exact candidate passes current playback checks; append (Geo-blocked) to the normal display name and record the access note."
   },
   "summary": {
-    "previous_snapshot_published": 44,
-    "current_snapshot_published": 49,
-    "newly_published": 5,
-    "newly_withheld": 10,
-    "replaced": 1
+    "previous_snapshot_published": 49,
+    "current_snapshot_published": 51,
+    "newly_published": 2,
+    "newly_withheld": 0,
+    "replaced": 0
   },
   "results": {
     "Channel 8": {
@@ -49,7 +43,13 @@
       "official_reference": "https://www.mewatch.sg/channels/channel-8/97104",
       "official_constraint": "page metadata marks Encryption=True and Territory=Singapore (VPN ON); browser-loaded media is DRM/HDCP protected",
       "catalog_refresh": "82/82 active public catalogs returned HTTP 200 at 2026-07-20T05:24:25Z",
-      "action": "kept withheld; no safe Geo-blocked fallback"
+      "action": "kept withheld; no safe Geo-blocked fallback",
+      "fresh_refresh": {
+        "at": "2026-07-20T06:51:42Z",
+        "candidate_urls": 14,
+        "probed_urls": 14,
+        "decoded_urls": 9
+      }
     },
     "Channel U": {
       "status": "published_geo_blocked_catalog_extracted",
@@ -74,7 +74,13 @@
       "status": "withheld_wrong_mapping",
       "old_label": "[HD]Astro Badminton 2 *tv",
       "identity_evidence": "frame showed astro AWANI, not a badminton channel",
-      "action": "removed from public playlist"
+      "action": "removed from public playlist",
+      "fresh_refresh": {
+        "at": "2026-07-20T06:51:42Z",
+        "candidate_urls": 1,
+        "probed_urls": 1,
+        "decoded_urls": 1
+      }
     },
     "8TV": {
       "status": "published_geo_blocked_reused_previous",
@@ -110,55 +116,125 @@
       "action": "manifest URL replaced"
     },
     "明珠台": {
-      "status": "withheld_no_verified_playback",
-      "tested_candidates": 12,
-      "probe_evidence": "all candidates failed ffprobe; cdn.hklive.tv/cdn.hkyoutv.com also failed DNS",
-      "action": "removed from public playlist"
+      "status": "withheld_ambiguous_identity",
+      "tested_candidates": 11,
+      "probe_evidence": "One current candidate decoded, but the captured frame was an unbranded black-and-white performance with no TVB Pearl/明珠台 identity; no safe publishable replacement.",
+      "fresh_refresh": {
+        "at": "2026-07-20T06:51:42Z",
+        "candidate_urls": 11,
+        "probed_urls": 11,
+        "decoded_urls": 1
+      },
+      "action": "kept in register only"
     },
     "TVB Entertainment News": {
       "status": "withheld_no_verified_playback",
-      "tested_candidates": 5,
+      "tested_candidates": 2,
       "probe_evidence": "all candidates failed ffprobe; vpstv gateway returned HTTP 403",
-      "action": "removed from public playlist"
+      "action": "removed from public playlist",
+      "fresh_refresh": {
+        "at": "2026-07-20T06:51:42Z",
+        "candidate_urls": 2,
+        "probed_urls": 2,
+        "decoded_urls": 0
+      }
     },
     "TVB Xing He HD": {
       "status": "withheld_wrong_or_unverified_mapping",
       "probe_evidence": "playable label-matched candidates showed CCTV-8, CCTV-16, or CCTV-6 frames; not TVB星河",
-      "action": "removed from public playlist"
+      "action": "removed from public playlist",
+      "fresh_refresh": {
+        "at": "2026-07-20T06:51:42Z",
+        "candidate_urls": 4,
+        "probed_urls": 4,
+        "decoded_urls": 0
+      }
     },
     "Phoenix Hong Kong": {
       "status": "withheld_no_verified_playback",
       "probe_evidence": "stream1 candidate showed signal-interrupted page; another candidate showed expired-link QR page; remaining candidates failed ffprobe",
-      "action": "removed from public playlist"
+      "action": "removed from public playlist",
+      "fresh_refresh": {
+        "at": "2026-07-20T06:51:42Z",
+        "candidate_urls": 11,
+        "probed_urls": 11,
+        "decoded_urls": 0
+      }
     },
     "EBC Variety": {
       "status": "withheld_no_verified_playback",
       "probe_evidence": "vpstv candidate returned HTTP 403; a catalog-extracted token URL was permitted by policy but timed out on the final probe",
-      "action": "removed from public playlist"
+      "action": "removed from public playlist",
+      "fresh_refresh": {
+        "at": "2026-07-20T06:51:42Z",
+        "candidate_urls": 4,
+        "probed_urls": 4,
+        "decoded_urls": 0
+      }
     },
     "Cartoon Network": {
-      "status": "withheld_current_interruption",
-      "tested_candidates": 8,
-      "probe_evidence": "current t.freetv retry showed the signal-interrupted page; the alternate ilook candidate returned no video stream",
-      "action": "kept in register only"
+      "status": "published_frame_verified",
+      "selected": {
+        "url": "http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5CM5SY98BF24PL/9261/index.m3u8",
+        "source_index": 57,
+        "catalog": "https://ilook.epg.one/5CM5SY98BF24PL/2",
+        "label": "Cartoon Network HD orig",
+        "video": "1920x1080 H.264",
+        "audio": "MP2"
+      },
+      "identity_evidence": "Three final-gate frames visibly showed the Cartoon Network watermark; FFmpeg decoded continuously.",
+      "access_note": "User-approved Geo-blocked fallback; URL was directly extracted from the public catalog, has no query string, username, or password, and passed the current playback plus three-frame identity gate.",
+      "action": "added to public playlist as Cartoon Network (Geo-blocked)",
+      "fresh_refresh": {
+        "at": "2026-07-20T06:51:42Z",
+        "candidate_urls": 7,
+        "probed_urls": 7,
+        "decoded_urls": 5
+      }
     },
     "beIN SPORTS 1": {
       "status": "withheld_ambiguous_identity",
-      "tested_candidates": 7,
-      "probe_evidence": "one safe candidate decoded, but the sampled frame showed beIN SPORTS without a channel number; remaining candidates failed or returned 403",
-      "action": "kept in register only"
+      "tested_candidates": 3,
+      "probe_evidence": "current candidate decoded, but three final-gate frames showed only a generic beIN SPORTS watermark without a channel number; not safe to map to beIN SPORTS 1.",
+      "action": "kept in register only",
+      "fresh_refresh": {
+        "at": "2026-07-20T06:51:42Z",
+        "candidate_urls": 3,
+        "probed_urls": 3,
+        "decoded_urls": 1
+      }
     },
     "beIN SPORTS 2": {
-      "status": "withheld_no_verified_playback",
-      "tested_candidates": 7,
-      "probe_evidence": "all safe exact candidates failed ffprobe or FFmpeg decode",
-      "action": "kept in register only"
+      "status": "withheld_wrong_mapping",
+      "tested_candidates": 2,
+      "probe_evidence": "the current decoded candidate displayed a Russian unavailable slate rather than beIN SPORTS 2; no verified exact replacement.",
+      "action": "kept in register only",
+      "fresh_refresh": {
+        "at": "2026-07-20T06:51:42Z",
+        "candidate_urls": 2,
+        "probed_urls": 2,
+        "decoded_urls": 1
+      }
     },
     "beIN SPORTS 3": {
-      "status": "withheld_no_current_playback",
-      "tested_candidates": 7,
-      "probe_evidence": "QA and TR candidates returned no video streams on two retries; vpstv candidates returned 403; earlier frame evidence was not currently repeatable",
-      "action": "kept in register only"
+      "status": "published_frame_verified",
+      "selected": {
+        "url": "http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5CM5SY98BF24PL/6124/index.m3u8",
+        "source_index": 57,
+        "catalog": "https://ilook.epg.one/5CM5SY98BF24PL/2",
+        "label": "beIN Sports 3 HD QA",
+        "video": "1920x1080 H.264",
+        "audio": "AAC"
+      },
+      "identity_evidence": "Three final-gate frames visibly showed the beIN SPORTS 3 watermark; FFmpeg decoded continuously.",
+      "access_note": "User-approved Geo-blocked fallback; URL was directly extracted from the public catalog, has no query string, username, or password, and passed the current playback plus three-frame identity gate.",
+      "action": "added to public playlist as beIN SPORTS 3 (Geo-blocked)",
+      "fresh_refresh": {
+        "at": "2026-07-20T06:51:42Z",
+        "candidate_urls": 3,
+        "probed_urls": 3,
+        "decoded_urls": 2
+      }
     },
     "CNBC": {
       "status": "published_frame_verified",
@@ -192,43 +268,91 @@
     },
     "爱奇艺 iQIYI": {
       "status": "withheld_no_verified_playback",
-      "tested_candidates": 7,
+      "tested_candidates": 0,
       "probe_evidence": "all safe label-matched candidates failed ffprobe or FFmpeg decode",
-      "action": "kept in register only"
+      "action": "kept in register only",
+      "fresh_refresh": {
+        "at": "2026-07-20T06:51:42Z",
+        "candidate_urls": 0,
+        "probed_urls": 0,
+        "decoded_urls": 0
+      }
     },
     "中天亚洲台 CTI Asia": {
       "status": "withheld_no_verified_playback",
-      "tested_candidates": 2,
+      "tested_candidates": 0,
       "probe_evidence": "all safe exact candidates failed ffprobe or FFmpeg decode",
-      "action": "kept in register only"
+      "action": "kept in register only",
+      "fresh_refresh": {
+        "at": "2026-07-20T06:51:42Z",
+        "candidate_urls": 0,
+        "probed_urls": 0,
+        "decoded_urls": 0
+      }
     },
     "Astro欢喜台 Astro Hua Hee Dai": {
       "status": "withheld_no_verified_playback",
-      "tested_candidates": 7,
+      "tested_candidates": 0,
       "probe_evidence": "all safe exact candidates failed ffprobe or FFmpeg decode",
-      "action": "kept in register only"
+      "action": "kept in register only",
+      "fresh_refresh": {
+        "at": "2026-07-20T06:51:42Z",
+        "candidate_urls": 0,
+        "probed_urls": 0,
+        "decoded_urls": 0
+      }
     },
     "Asian Food Network": {
       "status": "withheld_no_candidate",
       "probe_evidence": "no exact or explicit candidate found in the 82 active catalogs",
-      "action": "kept in register only"
+      "action": "kept in register only",
+      "fresh_refresh": {
+        "at": "2026-07-20T06:51:42Z",
+        "candidate_urls": 0,
+        "probed_urls": 0,
+        "decoded_urls": 0
+      }
     },
     "Astro Tennis": {
       "status": "withheld_no_candidate",
       "probe_evidence": "no exact or explicit candidate found in the 82 active catalogs",
-      "action": "kept in register only"
+      "action": "kept in register only",
+      "fresh_refresh": {
+        "at": "2026-07-20T06:51:42Z",
+        "candidate_urls": 0,
+        "probed_urls": 0,
+        "decoded_urls": 0
+      }
     },
     "Premier Sports": {
-      "status": "withheld_no_verified_playback",
-      "tested_candidates": 6,
-      "probe_evidence": "all safe exact candidates failed ffprobe or FFmpeg decode",
-      "action": "kept in register only"
+      "status": "withheld_ambiguous_identity",
+      "tested_candidates": 5,
+      "probe_evidence": "current playable candidates were explicitly Premier Sports 1 or Premier Sports 2, not the requested unnumbered Premier Sports target; no safe name mapping was made.",
+      "action": "kept in register only",
+      "fresh_refresh": {
+        "at": "2026-07-20T06:51:42Z",
+        "candidate_urls": 5,
+        "probed_urls": 5,
+        "decoded_urls": 2
+      }
     },
     "Fox News": {
-      "status": "withheld_wrong_mapping",
-      "tested_candidates": 5,
-      "probe_evidence": "the only decoded candidate showed LIVE NOW FOX, not Fox News Channel; other candidates failed playback",
-      "action": "kept in register only"
+      "status": "withheld_ambiguous_identity",
+      "tested_candidates": 4,
+      "probe_evidence": "the final-gate Fox News-labelled candidate decoded three frames, but all were commercials with no Fox News channel identity; official RadioVid is not a verified Fox News TV mapping.",
+      "action": "kept in register only",
+      "fresh_refresh": {
+        "at": "2026-07-20T06:51:42Z",
+        "candidate_urls": 4,
+        "probed_urls": 4,
+        "decoded_urls": 2
+      }
     }
+  },
+  "candidate_refresh": {
+    "at": "2026-07-20T06:51:42Z",
+    "active_catalogs": 82,
+    "targets": 18,
+    "unique_candidate_urls": 71
   }
 }

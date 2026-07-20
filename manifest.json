@@ -2,7 +2,7 @@
   "generated_at": "2026-07-20",
   "method": "Guovin/iptv-api",
   "requested_count": 67,
-  "responding_count": 49,
+  "responding_count": 51,
   "strict_count": 25,
   "entries": [
     {
@@ -645,6 +645,36 @@
       "access_note": "User-approved VPN fallback; current refresh host reached the endpoint without VPN.",
       "logo": "https://epg.pw/media/images/channel/2020/05/12/large/20200512130107352553_81.png",
       "logo_source": "https://live.hacks.tools/iptv/languages/malaysia.m3u"
+    },
+    {
+      "epg": null,
+      "requested": "beIN SPORTS 3",
+      "url": "http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5CM5SY98BF24PL/6124/index.m3u8",
+      "label": "beIN Sports 3 HD QA",
+      "source_index": 57,
+      "delay": null,
+      "speed": null,
+      "resolution": "1920x1080",
+      "accepted": false,
+      "geo_blocked": true,
+      "access_note": "User-approved Geo-blocked fallback; URL was directly extracted from the public catalog, has no query string, username, or password, and passed the current playback plus three-frame identity gate.",
+      "logo": "http://epg.one/img2/3048.png",
+      "logo_source": "https://ilook.epg.one/5CM5SY98BF24PL/2"
+    },
+    {
+      "epg": null,
+      "requested": "Cartoon Network",
+      "url": "http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5CM5SY98BF24PL/9261/index.m3u8",
+      "label": "Cartoon Network HD orig",
+      "source_index": 57,
+      "delay": null,
+      "speed": null,
+      "resolution": "1920x1080",
+      "accepted": false,
+      "geo_blocked": true,
+      "access_note": "User-approved Geo-blocked fallback; URL was directly extracted from the public catalog, has no query string, username, or password, and passed the current playback plus three-frame identity gate.",
+      "logo": "http://epg.one/img2/601.png",
+      "logo_source": "https://ilook.epg.one/5CM5SY98BF24PL/2"
     }
   ],
   "requested_channels": [
@@ -851,8 +881,6 @@
     "beIN SPORTS 1": "one safe candidate decoded, but the sampled frame showed beIN SPORTS without a distinguishing channel number; other candidates failed or returned 403",
     "beIN SPORTS 2": "all safe exact candidates failed ffprobe or FFmpeg decode; no verified replacement",
     "Premier Sports": "all safe exact candidates failed ffprobe or FFmpeg decode; no verified replacement",
-    "Fox News": "decoded frame showed LIVE NOW FOX, not Fox News Channel; other candidates failed playback",
-    "Cartoon Network": "current retry showed the source interruption page; alternate candidate did not return a video stream, so prior frame evidence was not currently repeatable",
-    "beIN SPORTS 3": "QA and TR candidates returned no video streams on two retries; other candidates returned 403, so earlier frame evidence was not currently repeatable"
+    "Fox News": "decoded frame showed LIVE NOW FOX, not Fox News Channel; other candidates failed playback"
   }
 }

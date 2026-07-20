@@ -912,6 +912,42 @@
       ],
       "language": "English",
       "audio_language": "English"
+    },
+    "beIN SPORTS 3": {
+      "name_en": "beIN SPORTS 3",
+      "name_zh": "beIN SPORTS 3",
+      "display_name": "beIN SPORTS 3 (Geo-blocked)",
+      "group": "International",
+      "country": "QA",
+      "category": "Sports",
+      "logo_file": "bein-sports-3.png",
+      "source_logo": "http://epg.one/img2/3048.png",
+      "aliases": [
+        "beIN SPORTS 3",
+        "beIN Sports 3 HD QA",
+        "beIN Sports 3 HD TR",
+        "beIN Sports 3 HD FR"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Cartoon Network": {
+      "name_en": "Cartoon Network",
+      "name_zh": "Cartoon Network",
+      "display_name": "Cartoon Network (Geo-blocked)",
+      "group": "International",
+      "country": "US",
+      "category": "Kids",
+      "logo_file": "cartoon-network.png",
+      "source_logo": "http://epg.one/img2/601.png",
+      "aliases": [
+        "Cartoon Network",
+        "Cartoon Network HD",
+        "Cartoon Network HD orig",
+        "Cartoon Network Arabic"
+      ],
+      "language": "English",
+      "audio_language": "English"
     }
   },
   "channel_name_policy": "Chinese display names for Chinese-language channels; English display names for English-language channels.",

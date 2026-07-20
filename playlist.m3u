@@ -59,6 +59,8 @@ https://stream1.freetv.fun/5aa3d10c9b5cfd1ce920a5ac3b18cb737b81db93304977553d098
 https://stream1.freetv.fun/67a9feb6e44bb87bd52ea27f9e1775e3bea21b750aede87c356e2dcdea107252.ctv
 #EXTINF:-1 tvg-id="Astro Sports Plus" tvg-name="Astro Sports Plus" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/astro-sports-plus.png" tvg-language="English" audio-language="English" tvg-chno="817" group-title="Malaysia" tvg-country="MY" tvg-category="Sports",Astro Sports Plus
 https://stream1.freetv.fun/a9a3a2ce9d274736c4e6f5bcf7c85622208f39cc7b8e2f762dd3660bd527e943.ctv
+#EXTINF:-1 tvg-id="beIN SPORTS 3" tvg-name="beIN SPORTS 3 (Geo-blocked)" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/bein-sports-3.png" tvg-language="English" audio-language="English" group-title="International" tvg-country="QA" tvg-category="Sports",beIN SPORTS 3 (Geo-blocked)
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5CM5SY98BF24PL/6124/index.m3u8
 #EXTINF:-1 tvg-id="beIN Sports Xtra" tvg-name="beIN Sports Xtra" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/bein-sports-xtra.png" tvg-language="English" audio-language="English" group-title="International" tvg-country="US" tvg-category="Sports",beIN Sports Xtra
 https://d9ssxzmclhfo4.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t7en7ol3kq3sp/f881b29a-280a-4416-be20-40db0fcc0f07/3.m3u8
 #EXTINF:-1 tvg-id="CCTV世界地理" tvg-name="CCTV 世界地理" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/cctv.png" tvg-language="Chinese" audio-language="Chinese" group-title="China" tvg-country="CN" tvg-category="Documentary",CCTV 世界地理
@@ -87,6 +89,8 @@ https://pb-ehs1glsha1juy.akamaized.net/Love_Nature_4K.m3u8
 http://stream.mcquack.net/116/index.m3u8
 #EXTINF:-1 tvg-id="Wild Earth" tvg-name="Wild Earth" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/wild-earth.png" tvg-language="English" audio-language="English" group-title="International" tvg-country="US" tvg-category="Documentary",Wild Earth
 https://wildearth-plex.amagi.tv/masterR1080p.m3u8
+#EXTINF:-1 tvg-id="Cartoon Network" tvg-name="Cartoon Network (Geo-blocked)" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/cartoon-network.png" tvg-language="English" audio-language="English" group-title="International" tvg-country="US" tvg-category="Kids",Cartoon Network (Geo-blocked)
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5CM5SY98BF24PL/9261/index.m3u8
 #EXTINF:-1 tvg-id="Disney XD" tvg-name="Disney XD" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/disney-xd.svg" tvg-language="English" audio-language="English" group-title="International" tvg-country="US" tvg-category="Kids",Disney XD
 http://40.160.24.52/DISNEY_XD_HD/index.m3u8
 #EXTINF:-1 tvg-id="Kartoon Channel" tvg-name="Kartoon Channel" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/kartoon-channel.png" tvg-language="English" audio-language="English" group-title="International" tvg-country="US" tvg-category="Kids",Kartoon Channel
