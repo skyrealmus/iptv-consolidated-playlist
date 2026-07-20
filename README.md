@@ -29,7 +29,7 @@ Channel aliases remain bilingual for source matching, but published channel name
 - Main policy: one selected URL per requested channel, grouped by category in this order: General, News, Entertainment, Sports, Documentary, Kids; Chinese channels precede English channels within each category
 - Singapore additions: Channel U (`U频道`) and Channel 8 (`8频道`) are tracked in metadata but withheld from the public playlist until a non-DRM, identity-verified public stream is available
 - Local logos: 53 tracked; 44 referenced by the public playlist
-- Public source inputs: 16
+- Public source inputs: 115 unique URLs
 
 Streams are public third-party endpoints and may be geo-blocked, rate-limited, changed, or removed without notice. A playlist HTTP 200 or a prior probe is not a guarantee of continuous playback. Obvious token-bearing fallback URLs are not published.
 
@@ -37,8 +37,7 @@ Streams are public third-party endpoints and may be geo-blocked, rate-limited, c
 
 ```text
 assets/
-  sources.txt             # active public M3U/TXT inputs
-  ccsh-urls.txt           # imported 102-URL CCSH source inventory
+  sources.txt             # merged active public M3U/TXT inputs (115 unique URLs)
   channel_metadata.json   # language-specific names, regions, categories, audio metadata
   channel_aliases.txt     # human-editable aliases
   logo-sources.txt        # logo provenance/reference inputs
@@ -61,7 +60,7 @@ manifest.json             # stream snapshot, source provenance, and repo profile
 
 The repository intentionally keeps logos local, so players do not depend on third-party logo hosts. The manifest retains the original logo URL as provenance.
 
-The CCSH IPTV source inventory is recorded in [`assets/ccsh-urls.txt`](./assets/ccsh-urls.txt). Its listed `assets/test.txt` feed and canonical `live.m3u` output are tracked in [`assets/sources.txt`](./assets/sources.txt). CCSH inputs are available for future matching/probing; the published playlist remains a curated one-stream-per-channel snapshot.
+The CCSH IPTV source inventory has been merged into [`assets/sources.txt`](./assets/sources.txt), which is now the single active public source inventory with 115 unique URLs. CCSH inputs remain available for future matching/probing; the published playlist remains a curated one-stream-per-channel snapshot.
 
 ## Automation
 
@@ -93,7 +92,7 @@ python3 scripts/check_sources.py
 
 ## Sources
 
-The active input list is maintained in [`assets/sources.txt`](./assets/sources.txt); the imported CCSH catalog is maintained in [`assets/ccsh-urls.txt`](./assets/ccsh-urls.txt).
+The complete active input list is maintained in [`assets/sources.txt`](./assets/sources.txt).
 
 ## Disclaimer
 

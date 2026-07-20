@@ -2,8 +2,7 @@
 
 This directory follows the useful parts of the [CCSH/IPTV](https://github.com/CCSH/IPTV) layout while staying small and focused on Malaysia/Singapore use:
 
-- `sources.txt` — active public playlist inputs, including the CCSH feeds and ChinaIPTV source.
-- `ccsh-urls.txt` — the imported 102-URL source inventory from CCSH/IPTV.
+- `sources.txt` — the merged active public playlist inputs, including the CCSH inventory and ChinaIPTV source (115 unique URLs).
 - `channel_metadata.json` — language-specific display labels, English-only region/category, and audio/logo mapping.
 - `channel_aliases.txt` — human-editable bilingual naming and alias list.
 - `logo-sources.txt` — provenance/reference list for logo assets.

@@ -674,11 +674,11 @@
   },
   "source_catalogs": [
     {
-      "name": "CCSH IPTV source inventory",
+      "name": "Merged public source inventory",
       "url": "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/assets/urls.txt",
-      "snapshot": "assets/ccsh-urls.txt",
-      "source_count": 102,
-      "note": "Imported for future matching/probing; the current playlist remains a curated one-stream-per-request snapshot."
+      "snapshot": "assets/sources.txt",
+      "source_count": 115,
+      "note": "Merged from the repository source list and CCSH/IPTV inventory with exact duplicate URLs removed; the current playlist remains a curated one-stream-per-request snapshot."
     }
   ],
   "published_count": 44,
