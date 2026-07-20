@@ -28,7 +28,7 @@ This is the complete requested-channel register for the daily live-source refres
 | 9 | — | `CCTV世界地理` | CCTV 世界地理 | China | Documentary | Chinese | PUBLISHED | speed=0.141x; recheck flag | Retest daily; replace only after playback and identity pass. |
 | 10 | — | `CCTV Weaponry Technology` | CCTV 兵器科技 | China | Documentary | Chinese | PUBLISHED | resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
 | 11 | — | `CCTV4 HD` | CCTV-4 中文国际 | China | News | Chinese | PUBLISHED | speed=0.050x; recheck flag | Retest daily; replace only after playback and identity pass. |
-| 12 | Playback failed | `Pearl` | Pearl | Hong Kong | General | English | WITHHELD | withheld — all tested public candidates failed ffprobe; no verified replacement | Keep withheld; publish only after correct identity and playback pass. |
+| 12 | Playback failed | `明珠台` | 明珠台 | Hong Kong | General | Chinese | WITHHELD | withheld — all tested public candidates failed ffprobe; no verified replacement | Keep withheld; publish only after correct identity and playback pass. |
 | 13 | — | `Phoenix Chinese Channel HD` | 凤凰中文台 | China | Entertainment | Chinese | PUBLISHED | speed=0.066x | Retest daily; replace only after playback and identity pass. |
 | 14 | — | `Phoenix Info News HD` | 凤凰资讯台 | China | News | Chinese | PUBLISHED | speed=0.013x | Retest daily; replace only after playback and identity pass. |
 | 15 | Playback failed | `Phoenix Hong Kong` | 凤凰香港 | Hong Kong | News | Chinese | WITHHELD | withheld — tested candidates were interruption/expired pages or failed ffprobe | Keep withheld; publish only after correct identity and playback pass. |

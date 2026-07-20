@@ -185,21 +185,21 @@
       "language": "Chinese",
       "audio_language": "Chinese"
     },
-    "Pearl": {
+    "明珠台": {
       "name_en": "Pearl",
       "name_zh": "明珠台",
-      "display_name": "Pearl",
+      "display_name": "明珠台",
       "group": "Hong Kong",
       "country": "HK",
       "category": "General",
       "logo_file": "pearl.png",
       "source_logo": "https://www.xn--rgv465a.top/tvlogo/%E6%98%8E%E7%8F%A0%E5%8F%B0.png",
       "aliases": [
-        "Pearl",
-        "明珠台"
+        "明珠台",
+        "Pearl"
       ],
-      "language": "English",
-      "audio_language": "English"
+      "language": "Chinese",
+      "audio_language": "Chinese"
     },
     "Phoenix Chinese Channel HD": {
       "name_en": "Phoenix Chinese Channel HD",

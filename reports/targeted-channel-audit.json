@@ -6,7 +6,7 @@
     "Astro Badminton",
     "8TV",
     "CNA HD",
-    "Pearl",
+    "明珠台",
     "TVB Entertainment News",
     "TVB Xing He HD",
     "Phoenix Hong Kong",
@@ -65,7 +65,7 @@
       "identity_evidence": "frame visibly contained the CNA logo and news ticker",
       "action": "manifest URL replaced"
     },
-    "Pearl": {
+    "明珠台": {
       "status": "withheld_no_verified_playback",
       "tested_candidates": 12,
       "probe_evidence": "all candidates failed ffprobe; cdn.hklive.tv/cdn.hkyoutv.com also failed DNS",
