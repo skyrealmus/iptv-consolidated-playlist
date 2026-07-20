@@ -36,7 +36,7 @@ This is the complete requested-channel register for the daily live-source refres
 | 15 | Playback failed | `Phoenix Hong Kong` | 凤凰香港 | Hong Kong | News | Chinese | WITHHELD | withheld — tested candidates were interruption/expired pages or failed ffprobe | Keep withheld; publish only after correct identity and playback pass. |
 | 16 | — | `Phoenix TV` | 凤凰卫视 | Hong Kong | News | Chinese | PUBLISHED | speed/resolution not recorded; recheck flag | Retest daily; replace only after playback and identity pass. |
 | 17 | — | `TVBS Asia` | TVBS 亚洲 | Taiwan | News | Chinese | PUBLISHED | speed=0.189x; resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
-| 18 | Playback failed | `EBC Variety` | 东森综合 | Taiwan | Entertainment | Chinese | WITHHELD | withheld — candidate returned 403; alternate token-bearing URL was not eligible for publication | Keep withheld; publish only after correct identity and playback pass. |
+| 18 | Playback failed | `EBC Variety` | 东森综合 | Taiwan | Entertainment | Chinese | WITHHELD | withheld — vpstv candidate returned 403; catalog-extracted token URL was allowed by policy but timed out on the final probe | Keep withheld; publish only after a current exact candidate passes playback and identity checks. |
 | 19 | — | `TVB Jade` | TVB 翡翠台 | Hong Kong | Entertainment | Chinese | PUBLISHED | speed=12.232x; resolution=3840x2160 | Retest daily; replace only after playback and identity pass. |
 | 20 | Playback failed | `TVB Entertainment News` | TVB 娱乐新闻 | Hong Kong | News | Chinese | WITHHELD | withheld — all tested public candidates failed ffprobe or returned 403 | Keep withheld; publish only after correct identity and playback pass. |
 | 21 | Playback failed | `TVB Xing He HD` | TVB 星河 | Hong Kong | Entertainment | Chinese | WITHHELD | withheld — label-matched candidates showed CCTV channels, not TVB星河 | Keep withheld; publish only after correct identity and playback pass. |
@@ -95,7 +95,7 @@ This is the complete requested-channel register for the daily live-source refres
 4. Probe candidates with FFprobe, then run a short FFmpeg decode to confirm actual video frames.
 5. Check quality: HTTP/HLS availability, startup delay, decode success, resolution, throughput/decode speed, stalls/glitches, and `403`/expired/`nosignal` responses.
 6. Check identity for reported, changed, or ambiguous channels using a visible logo/watermark or other on-screen evidence. A wrong channel fails even when playback works.
-7. Do not publish credential-bearing, token-bearing, DRM-only, expired, or identity-mismatched URLs. A user-approved VPN/geo-blocked fallback may be published when no better exact candidate passes current playback checks; append `(Geo-blocked)` after the normal display name and record the access note.
+7. Do not publish private credential-bearing URLs (such as embedded usernames/passwords or user-specific secrets), DRM-only, expired, or identity-mismatched URLs. A token or signed query parameter is allowed when the complete URL was directly extracted from a public source catalog, its catalog provenance/source index is recorded, and the current playback and identity checks pass. A user-approved VPN/geo-blocked fallback may also be published when no better exact candidate passes; append `(Geo-blocked)` after the normal display name and record the access note.
 8. Update the selected URL and evidence in `manifest.json` and `reports/stream-speed.json`; update this file's status/snapshot when the result changes.
 9. Run the repository checks:
 

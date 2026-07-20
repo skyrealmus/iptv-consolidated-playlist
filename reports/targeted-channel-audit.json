@@ -31,8 +31,8 @@
     "stream_probe": "ffprobe with 10-second read timeout and bounded process timeout",
     "playback_probe": "5-second FFmpeg decode; a candidate is not accepted without a valid video frame",
     "identity_check": "sample video frames were checked for channel watermark/identity; interruption pages and wrong logos fail",
-    "publication_rule": "no credential-bearing or token-bearing fallback URL is published",
-    "geo_blocked_fallback_rule": "A user-approved VPN/geo-blocked fallback may be published only when no better exact candidate passes current playback checks; append (Geo-blocked) to the normal display name and keep credential-bearing/token-bearing URLs excluded."
+    "publication_rule": "private credential-bearing URLs are never published; token/signed-query URLs are allowed only when directly extracted from a public source catalog with provenance and current playback plus identity verification",
+    "geo_blocked_fallback_rule": "A user-approved VPN/geo-blocked fallback may be published when no better exact candidate passes current playback checks; append (Geo-blocked) to the normal display name and record the access note."
   },
   "summary": {
     "previous_snapshot_published": 44,
@@ -121,7 +121,7 @@
     },
     "EBC Variety": {
       "status": "withheld_no_verified_playback",
-      "probe_evidence": "vpstv candidate returned HTTP 403; alternate source contained a token-bearing URL and was not eligible",
+      "probe_evidence": "vpstv candidate returned HTTP 403; a catalog-extracted token URL was permitted by policy but timed out on the final probe",
       "action": "removed from public playlist"
     },
     "Cartoon Network": {

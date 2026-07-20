@@ -785,6 +785,11 @@
     "http://tot.totalh.net/tttt.txt"
   ],
   "source_checks": "82 active public M3U/TXT catalogs health-checked at 2026-07-20T02:48:50Z; 81 returned HTTP 200 and one returned a transient HTTP 504. Candidate streams were independently checked with ffprobe, FFmpeg decode, and sampled-frame identity review; 8TV was restored using its previous endpoint as a user-approved VPN/Geo-blocked fallback because no better exact candidate passed current playback checks. The published display is labeled (Geo-blocked). See reports/source-health.json, reports/stream-speed.json, and reports/targeted-channel-audit.json.",
+  "stream_url_policy": {
+    "private_credentials": "never publish embedded usernames, passwords, or user-specific secrets",
+    "catalog_tokens": "allowed only when the complete URL is directly extracted from a public source catalog, catalog provenance/source_index is recorded, and current playback plus identity checks pass",
+    "manual_token_invention": "not allowed"
+  },
   "logo_policy": "Every playlist entry includes tvg-logo; source-provided logos are preferred, with source-backed manual name mappings where the selected stream line lacked a logo.",
   "logo_count": 48,
   "repository_profile": {
@@ -823,7 +828,7 @@
     "TVB Entertainment News": "all tested public candidates failed ffprobe or returned 403",
     "TVB Xing He HD": "label-matched candidates showed CCTV channels, not TVB星河",
     "Phoenix Hong Kong": "tested candidates were interruption/expired pages or failed ffprobe",
-    "EBC Variety": "candidate returned 403; alternate token-bearing URL was not eligible for publication",
+    "EBC Variety": "vpstv candidate returned 403; catalog-extracted token URL was allowed by policy but timed out on the final probe; no verified replacement",
     "爱奇艺 iQIYI": "all safe label-matched candidates failed ffprobe or FFmpeg decode; no verified replacement",
     "中天亚洲台 CTI Asia": "all safe exact candidates failed ffprobe or FFmpeg decode; no verified replacement",
     "Astro欢喜台 Astro Hua Hee Dai": "all safe exact candidates failed ffprobe or FFmpeg decode; no verified replacement",
