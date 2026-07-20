@@ -2,7 +2,7 @@
   "generated_at": "2026-07-20",
   "method": "Guovin/iptv-api",
   "requested_count": 67,
-  "responding_count": 48,
+  "responding_count": 49,
   "strict_count": 25,
   "entries": [
     {
@@ -617,6 +617,21 @@
       "logo_source": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u"
     },
     {
+      "epg": null,
+      "requested": "Channel U",
+      "url": "https://stream1.freetv.fun/0f948f505ded651d2271f5b206468fbd0780f04eeb63119a971ebee7fc2faa00.m3u8",
+      "label": "[SD]Mediacorp U @b",
+      "source_index": 5,
+      "delay": null,
+      "speed": null,
+      "resolution": "960x540",
+      "accepted": false,
+      "geo_blocked": true,
+      "access_note": "User-approved Geo-blocked fallback; URL was directly extracted from the public Singapore catalog and has no query string or user credentials.",
+      "logo": "https://epg.pw/media/uploads/tmp_logo/2016/05/19/20160519140203515097_77.jpg",
+      "logo_source": "https://live.hacks.tools/iptv/languages/singapore.m3u"
+    },
+    {
       "epg": 1122,
       "requested": "8TV",
       "url": "https://stream1.freetv.fun/a8689b73ff805df64e23f886f310bb655802abe03d5a4c78e3cf8bd638a7b4dc.ctv",
@@ -784,14 +799,14 @@
     "https://gitee.com/tushaoyong/live/raw/master/%E6%8E%A5%E5%8F%A3/IPV6.txt",
     "http://tot.totalh.net/tttt.txt"
   ],
-  "source_checks": "82 active public M3U/TXT catalogs health-checked at 2026-07-20T02:48:50Z; 81 returned HTTP 200 and one returned a transient HTTP 504. Candidate streams were independently checked with ffprobe, FFmpeg decode, and sampled-frame identity review; 8TV was restored using its previous endpoint as a user-approved VPN/Geo-blocked fallback because no better exact candidate passed current playback checks. The published display is labeled (Geo-blocked). See reports/source-health.json, reports/stream-speed.json, and reports/targeted-channel-audit.json.",
+  "source_checks": "82 active public M3U/TXT catalogs were refreshed for the Channel U/Channel 8 target review at 2026-07-20T05:24:25Z; all target candidates were available then. The later full health snapshot at 2026-07-20T05:32:01Z returned 81/82 HTTP 200, with one unrelated transient read timeout. Candidate streams were independently checked with ffprobe, FFmpeg decode, and sampled-frame identity review; Channel U was added from a public catalog-extracted Geo-blocked fallback after Singapore identity and playback passed, while Channel 8 remained withheld because every playable label-matched candidate was the wrong station and the official source is DRM-restricted. 8TV remains a user-approved Geo-blocked fallback. See reports/source-health.json, reports/stream-speed.json, and reports/targeted-channel-audit.json.",
   "stream_url_policy": {
     "private_credentials": "never publish embedded usernames, passwords, or user-specific secrets",
     "catalog_tokens": "allowed only when the complete URL is directly extracted from a public source catalog, catalog provenance/source_index is recorded, and current playback plus identity checks pass",
     "manual_token_invention": "not allowed"
   },
   "logo_policy": "Every playlist entry includes tvg-logo; source-provided logos are preferred, with source-backed manual name mappings where the selected stream line lacked a logo.",
-  "logo_count": 48,
+  "logo_count": 49,
   "repository_profile": {
     "audience": [
       "Malaysia",
@@ -819,10 +834,9 @@
       "note": "Merged source inventory with failed health-check URLs quarantined separately; the current playlist remains a curated one-stream-per-request snapshot."
     }
   ],
-  "published_count": 48,
+  "published_count": 49,
   "withheld_channels": {
-    "Channel 8": "wrong mapping: tested stream showed Channel 8 Thailand; official meWATCH stream is encrypted and Singapore VPN restricted",
-    "Channel U": "wrong mapping: tested stream showed Shenzhen TV; official meWATCH stream is encrypted and Singapore VPN restricted",
+    "Channel 8": "fresh review: playable label-matched candidates showed Thailand, Russia/MIR, or other non-Singapore stations; official meWATCH stream is DRM-restricted and Singapore VPN restricted; no verified Geo-blocked fallback",
     "Astro Badminton": "wrong mapping: tested source labelled Astro Badminton 2 showed astro AWANI",
     "明珠台": "all tested public candidates failed ffprobe; no verified replacement",
     "TVB Entertainment News": "all tested public candidates failed ffprobe or returned 403",

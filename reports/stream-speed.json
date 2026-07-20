@@ -1,5 +1,5 @@
 {
-  "tested_at": "2026-07-20T03:25:02Z",
+  "tested_at": "2026-07-20T05:32:01Z",
   "method": {
     "catalog_match": "82 active public M3U/TXT catalogs",
     "stream_probe": "ffprobe with 10-second read timeout and bounded process timeout",
@@ -14,26 +14,38 @@
     "failed": [
       {
         "url": "https://live.freetv.top/douyuyqk.m3u",
-        "error": "HTTP 504 Gateway Timeout"
+        "error": "TimeoutError: The read operation timed out"
       }
-    ]
+    ],
+    "target_review_refresh": "82/82 target-candidate catalog checks returned HTTP 200 at 2026-07-20T05:24:25Z"
   },
   "channels": {
     "Channel 8": {
       "status": "withheld_wrong_mapping",
       "old_label": "Channel 8 (1080p) [Not 24/7]",
-      "identity_evidence": "frame showed Channel 8 Thailand / channel8thailand.com, not Singapore 8频道",
+      "identity_evidence": "Fresh playable label-matched candidates showed Channel 8 Thailand, Russia/MIR, or other non-Singapore station branding; none matched Singapore 8频道.",
       "official_reference": "https://www.mewatch.sg/channels/channel-8/97104",
-      "official_constraint": "page metadata marks Encryption=True and Territory=Singapore (VPN ON)",
-      "action": "removed from public playlist"
+      "official_constraint": "page metadata marks Encryption=True and Territory=Singapore (VPN ON); browser-loaded media is DRM/HDCP protected",
+      "catalog_refresh": "82/82 active public catalogs returned HTTP 200 at 2026-07-20T05:24:25Z",
+      "action": "kept withheld; no safe Geo-blocked fallback"
     },
     "Channel U": {
-      "status": "withheld_wrong_mapping",
+      "status": "published_geo_blocked_catalog_extracted",
       "old_label": "[HD]Mediacorp U",
-      "identity_evidence": "frame showed 深圳卫视, not Mediacorp U / U频道",
+      "selected": {
+        "url": "https://stream1.freetv.fun/0f948f505ded651d2271f5b206468fbd0780f04eeb63119a971ebee7fc2faa00.m3u8",
+        "source_index": 5,
+        "video": "960x540 H.264",
+        "audio": "AAC",
+        "ffprobe_ok": true,
+        "ffmpeg_decode_ok": true,
+        "frames_checked": 3
+      },
+      "identity_evidence": "Three current frames showed the U watermark, Chinese programming, Singapore phone 6373 9898, wondershop.sg, and SGD pricing; the earlier HD branch showed Shenzhen TV and was rejected.",
       "official_reference": "https://www.mewatch.sg/channels/channel-u/97129",
-      "official_constraint": "page metadata marks Encryption=True and Territory=Singapore (VPN ON)",
-      "action": "removed from public playlist"
+      "official_constraint": "official page metadata marks Encryption=True and Territory=Singapore (VPN ON); selected fallback is non-DRM and has no query string or user credentials",
+      "access_note": "Public catalog-extracted URL; user-approved Geo-blocked fallback",
+      "action": "added to public playlist as U频道 (Geo-blocked)"
     },
     "Astro Badminton": {
       "status": "withheld_wrong_mapping",
@@ -206,8 +218,8 @@
   },
   "summary": {
     "previous_snapshot_published": 44,
-    "current_snapshot_published": 48,
-    "newly_published": 4,
+    "current_snapshot_published": 49,
+    "newly_published": 5,
     "newly_withheld": 10,
     "replaced": 1
   },

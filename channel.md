@@ -5,8 +5,8 @@ This is the complete requested-channel register for the daily live-source refres
 ## Current snapshot
 
 - Requested channels: **67**
-- Published in `playlist.m3u`: **48**
-- Withheld pending a verified source: **19**
+- Published in `playlist.m3u`: **49**
+- Withheld pending a verified source: **18**
 - Newly requested and not yet checked: **0**
 - Snapshot date: **2026-07-20**
 - Machine source of truth for selected URLs: [`manifest.json`](./manifest.json)
@@ -43,8 +43,8 @@ This is the complete requested-channel register for the daily live-source refres
 | 22 | — | `CGTN HD` | CGTN HD | China | News | English | PUBLISHED | speed=0.210x; resolution=1920x1080; recheck flag | Retest daily; replace only after playback and identity pass. |
 | 23 | — | `CGTN Documentary` | CGTN Documentary | China | Documentary | English | PUBLISHED | speed=0.208x; resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
 | 24 | Playback failed | `CNA HD` | CNA HD | Singapore | News | English | PUBLISHED | speed=9.270x; resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
-| 25 | Playback failed | `Channel U` | U频道 | Singapore | Entertainment | Chinese | WITHHELD | withheld — wrong mapping: tested stream showed Shenzhen TV; official meWATCH stream is encrypted and Singapore VPN restricted | Keep withheld; publish only after correct identity and playback pass. |
-| 26 | Wrong mapping | `Channel 8` | 8频道 | Singapore | General | Chinese | WITHHELD | withheld — wrong mapping: tested stream showed Channel 8 Thailand; official meWATCH stream is encrypted and Singapore VPN restricted | Keep withheld; publish only after correct identity and playback pass. |
+| 25 | Slow / VPN fallback | `Channel U` | U频道 (Geo-blocked) | Singapore | Entertainment | Chinese | PUBLISHED | 960x540 H.264/AAC; three current frames showed the U watermark, wondershop.sg, Singapore phone 6373 9898, and SGD pricing; public catalog source_index=5 | Retest daily; replace only after a better exact/source-only candidate passes playback and identity checks. |
+| 26 | Wrong mapping | `Channel 8` | 8频道 | Singapore | General | Chinese | WITHHELD | fresh playable candidates showed Thailand, Russia/MIR, or other non-Singapore stations; official meWATCH source is DRM-restricted and Singapore VPN restricted | Keep withheld; publish only after correct identity and playback pass. |
 | 27 | Slow / Glitch / VPN fallback | `8TV` | 八度空间 (Geo-blocked) | Malaysia | General | Chinese | PUBLISHED | reused previous URL; resolution=1920x1080; current FFmpeg decode passed; historical speed=0.00347x; frame showed 8 LIVE/WOWshop; marked Geo-blocked for player-side VPN use | Retest daily; replace only after a better exact candidate passes playback and identity checks. |
 | 28 | — | `Astro AEC HD` | Astro AEC 高清 | Malaysia | Entertainment | Chinese | PUBLISHED | speed=0.009x; recheck flag | Retest daily; replace only after playback and identity pass. |
 | 29 | — | `Astro QJ` | Astro QJ 娱乐 | Malaysia | Entertainment | Chinese | PUBLISHED | speed=0.003x; recheck flag | Retest daily; replace only after playback and identity pass. |
