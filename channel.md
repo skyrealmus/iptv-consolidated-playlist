@@ -29,7 +29,7 @@ This is the complete requested-channel register for the daily live-source refres
 | 8 | — | `CCTV Fengyun Football` | CCTV 风云足球 | China | Sports | Chinese | PUBLISHED | resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
 | 9 | — | `CCTV世界地理` | CCTV 世界地理 | China | Documentary | Chinese | PUBLISHED | speed=0.141x; recheck flag | Retest daily; replace only after playback and identity pass. |
 | 10 | — | `CCTV Weaponry Technology` | CCTV 兵器科技 | China | Documentary | Chinese | PUBLISHED | resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
-| 11 | — | `CCTV4 HD` | CCTV-4 中文国际 | China | News | Chinese | PUBLISHED | speed=0.050x; recheck flag | Retest daily; replace only after playback and identity pass. |
+| 11 | — | `CCTV4 HD` | CCTV-4 中文国际 | China | News | Chinese | PUBLISHED | resolution=1920x1080; China mainland version verified; Europe variant excluded | Retest daily; replace only after playback and identity pass. |
 | 12 | Playback/identity failed | `明珠台` | 明珠台 | Hong Kong | General | Chinese | WITHHELD | 11 current candidates probed; 1 decoded an unbranded black-and-white performance with no TVB Pearl identity | Keep withheld; publish only after correct identity and playback pass. |
 | 13 | — | `Phoenix Chinese Channel HD` | 凤凰中文台 | China | Entertainment | Chinese | PUBLISHED | speed=0.066x | Retest daily; replace only after playback and identity pass. |
 | 14 | — | `Phoenix Info News HD` | 凤凰资讯台 | China | News | Chinese | PUBLISHED | speed=0.013x | Retest daily; replace only after playback and identity pass. |

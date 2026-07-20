@@ -36,6 +36,22 @@
     "replaced": 0
   },
   "results": {
+    "CCTV4 HD": {
+      "status": "published_mainland_version_verified",
+      "selected": {
+        "url": "https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1784595600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-26c6fcc5de7bd61f3da1e32d73bfb314&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c",
+        "source_index": 12,
+        "source_catalog": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8",
+        "video": "1920x1080 H.264",
+        "audio": "AAC stereo",
+        "ffprobe_ok": true,
+        "ffmpeg_decode_ok": true,
+        "frames_checked": 3
+      },
+      "identity_evidence": "Three current frames showed the CCTV 4 中文国际 watermark, Chinese programme text, and the 中国新闻 mark; no Europe, America, or Asia variant branding was visible.",
+      "replaced_previous": "The previous dash2.antik.sk source was explicitly labelled CCTV-4 Europe and was removed.",
+      "action": "replaced in public playlist with the verified China mainland source"
+    },
     "Channel 8": {
       "status": "withheld_wrong_mapping",
       "old_label": "Channel 8 (1080p) [Not 24/7]",

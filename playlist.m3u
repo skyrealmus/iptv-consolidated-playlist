@@ -6,7 +6,7 @@ http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv7hd
 #EXTINF:-1 tvg-id="8TV" tvg-name="八度空间 (Geo-blocked)" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/8tv.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="1122" group-title="Malaysia" tvg-country="MY" tvg-category="General",八度空间 (Geo-blocked)
 https://stream1.freetv.fun/a8689b73ff805df64e23f886f310bb655802abe03d5a4c78e3cf8bd638a7b4dc.ctv
 #EXTINF:-1 tvg-id="CCTV4 HD" tvg-name="CCTV-4 中文国际" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/cctv4-hd.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="335" group-title="China" tvg-country="CN" tvg-category="News",CCTV-4 中文国际
-https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1784595600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-26c6fcc5de7bd61f3da1e32d73bfb314&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 #EXTINF:-1 tvg-id="TVBS Asia" tvg-name="TVBS 亚洲" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/tvbs-asia.png" tvg-language="Chinese" audio-language="Chinese" group-title="Taiwan" tvg-country="TW" tvg-category="News",TVBS 亚洲
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1 tvg-id="Phoenix TV" tvg-name="凤凰卫视" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/phoenix-tv.png" tvg-language="Chinese" audio-language="Chinese" group-title="Hong Kong" tvg-country="HK" tvg-category="News",凤凰卫视
