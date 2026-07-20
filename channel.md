@@ -74,7 +74,7 @@ This is the complete requested-channel register for the daily live-source refres
 ## Daily refresh workflow
 
 1. Read every row in this file; do not silently drop `WITHHELD` channels.
-2. Discover current candidates from the single merged public catalog in [`assets/sources.txt`](./assets/sources.txt) and other configured source inputs.
+2. Discover current candidates from the active public catalog in [`assets/sources.txt`](./assets/sources.txt). Do not use [`assets/failed-sources.txt`](./assets/failed-sources.txt) until a recheck passes.
 3. Match candidates using the requested name and aliases. Do not trust a source label alone.
 4. Probe candidates with FFprobe, then run a short FFmpeg decode to confirm actual video frames.
 5. Check quality: HTTP/HLS availability, startup delay, decode success, resolution, throughput/decode speed, stalls/glitches, and `403`/expired/`nosignal` responses.

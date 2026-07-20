@@ -1,0 +1,65 @@
+# Quarantined source URLs that failed the full source-health check before quarantine.
+# Recheck before restoring them to sources.txt.
+# Failed check: 2026-07-20T01:42:56.757201+00:00
+# URLError: <urlopen error [Errno -2] Name or service not known>
+https://tv.iill.top/m3u/Gather
+# HTTPError: HTTP Error 404: Not Found
+https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u
+# HTTPError: HTTP Error 404: Not Found
+https://raw.githubusercontent.com/cyalias/mytvs-github/refs/heads/main/mytv.txt
+# HTTPError: HTTP Error 404: Not Found
+https://raw.githubusercontent.com/onlylove2023/iptv/refs/heads/main/IPTV.m3u
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 48-53: ordinal not in range(128)
+https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/master/m3u/台湾香港澳门2023.m3u
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 48-52: ordinal not in range(128)
+https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/master/m3u/国内电视台2023.m3u8
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 48-49: ordinal not in range(128)
+https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/master/m3u/轮播_华数.黑莓.NewTV.SiTV.CIBN.m3u
+# URLError: <urlopen error [Errno -5] No address associated with hostname>
+https://jsnzkpg.us.ci/live.m3u
+# HTTPError: HTTP Error 403: Forbidden
+https://ha.msbot.dpdns.org/4gtv_api.php
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)
+https://live.hacks.tools/tv/ipv4/categories/地方频道.m3u
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)
+https://live.hacks.tools/tv/ipv4/categories/电影频道.m3u
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)
+https://live.hacks.tools/tv/ipv4/categories/儿童频道.m3u
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)
+https://live.hacks.tools/tv/ipv4/categories/纪录频道.m3u
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)
+https://live.hacks.tools/tv/ipv4/categories/其他频道.m3u
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)
+https://live.hacks.tools/tv/ipv4/categories/数字频道.m3u
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)
+https://live.hacks.tools/tv/ipv4/categories/体育频道.m3u
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)
+https://live.hacks.tools/tv/ipv4/categories/卫视频道.m3u
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)
+https://live.hacks.tools/tv/ipv4/categories/戏曲频道.m3u
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)
+https://live.hacks.tools/tv/ipv4/categories/央视频道.m3u
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)
+https://live.hacks.tools/tv/ipv4/categories/音乐频道.m3u
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)
+https://live.hacks.tools/tv/ipv4/categories/游戏频道.m3u
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)
+https://live.hacks.tools/tv/ipv4/categories/直播中国.m3u
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)
+https://live.hacks.tools/tv/ipv4/categories/综艺频道.m3u
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)
+https://live.hacks.tools/tv/ipv4/categories/解说频道.m3u
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)
+https://live.hacks.tools/tv/ipv6/categories/央视频道.m3u
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)
+https://live.hacks.tools/tv/ipv6/categories/地方频道.m3u
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)
+https://live.hacks.tools/tv/ipv6/categories/电影频道.m3u
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)
+https://live.hacks.tools/tv/ipv6/categories/儿童频道.m3u
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)
+https://live.hacks.tools/tv/ipv6/categories/其他频道.m3u
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)
+https://live.hacks.tools/tv/ipv6/categories/体育频道.m3u
+# UnicodeEncodeError: 'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)
+https://live.hacks.tools/tv/ipv6/categories/卫视频道.m3u

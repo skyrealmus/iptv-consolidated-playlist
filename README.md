@@ -29,7 +29,7 @@ Channel aliases remain bilingual for source matching, but published channel name
 - Main policy: one selected URL per requested channel, grouped by category in this order: General, News, Entertainment, Sports, Documentary, Kids; Chinese channels precede English channels within each category
 - Singapore additions: Channel U (`U频道`) and Channel 8 (`8频道`) are tracked in metadata but withheld from the public playlist until a non-DRM, identity-verified public stream is available
 - Local logos: 53 tracked; 44 referenced by the public playlist
-- Public source inputs: 115 unique URLs
+- Public source inputs: 84 active URLs; 31 failed URLs quarantined in [`assets/failed-sources.txt`](./assets/failed-sources.txt)
 
 Streams are public third-party endpoints and may be geo-blocked, rate-limited, changed, or removed without notice. A playlist HTTP 200 or a prior probe is not a guarantee of continuous playback. Obvious token-bearing fallback URLs are not published.
 
@@ -37,7 +37,8 @@ Streams are public third-party endpoints and may be geo-blocked, rate-limited, c
 
 ```text
 assets/
-  sources.txt             # merged active public M3U/TXT inputs (115 unique URLs)
+  sources.txt             # active public M3U/TXT inputs (84 URLs)
+  failed-sources.txt      # 31 URLs quarantined after the latest health failure
   channel_metadata.json   # language-specific names, regions, categories, audio metadata
   channel_aliases.txt     # human-editable aliases
   logo-sources.txt        # logo provenance/reference inputs
@@ -60,7 +61,7 @@ manifest.json             # stream snapshot, source provenance, and repo profile
 
 The repository intentionally keeps logos local, so players do not depend on third-party logo hosts. The manifest retains the original logo URL as provenance.
 
-The CCSH IPTV source inventory has been merged into [`assets/sources.txt`](./assets/sources.txt), which is now the single active public source inventory with 115 unique URLs. CCSH inputs remain available for future matching/probing; the published playlist remains a curated one-stream-per-channel snapshot.
+The CCSH IPTV inventory is merged into [`assets/sources.txt`](./assets/sources.txt), which is the active public source inventory with 84 URLs. URLs that failed the latest health check are quarantined in [`assets/failed-sources.txt`](./assets/failed-sources.txt) and are not scanned as active inputs until revalidated.
 
 ## Automation
 
@@ -92,7 +93,7 @@ python3 scripts/check_sources.py
 
 ## Sources
 
-The complete active input list is maintained in [`assets/sources.txt`](./assets/sources.txt).
+The active input list is maintained in [`assets/sources.txt`](./assets/sources.txt); quarantined failures are recorded in [`assets/failed-sources.txt`](./assets/failed-sources.txt).
 
 ## Disclaimer
 

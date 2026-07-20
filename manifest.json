@@ -677,8 +677,10 @@
       "name": "Merged public source inventory",
       "url": "https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/assets/urls.txt",
       "snapshot": "assets/sources.txt",
-      "source_count": 115,
-      "note": "Merged from the repository source list and CCSH/IPTV inventory with exact duplicate URLs removed; the current playlist remains a curated one-stream-per-request snapshot."
+      "source_count": 84,
+      "quarantine_snapshot": "assets/failed-sources.txt",
+      "quarantined_count": 31,
+      "note": "Merged source inventory with failed health-check URLs quarantined separately; the current playlist remains a curated one-stream-per-request snapshot."
     }
   ],
   "published_count": 44,
