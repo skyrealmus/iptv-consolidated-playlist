@@ -2,7 +2,7 @@
   "generated_at": "2026-07-20",
   "method": "Guovin/iptv-api",
   "requested_count": 67,
-  "responding_count": 47,
+  "responding_count": 48,
   "strict_count": 25,
   "entries": [
     {
@@ -615,6 +615,21 @@
       "accepted": true,
       "logo": "https://i.imgur.com/5IxIFJ0.png",
       "logo_source": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u"
+    },
+    {
+      "epg": 1122,
+      "requested": "8TV",
+      "url": "https://stream1.freetv.fun/a8689b73ff805df64e23f886f310bb655802abe03d5a4c78e3cf8bd638a7b4dc.ctv",
+      "label": "[BD]8TV *tv",
+      "source_index": 1,
+      "delay": 19228,
+      "speed": 0.0034692607206169524,
+      "resolution": "1920x1080",
+      "accepted": false,
+      "geo_blocked": true,
+      "access_note": "User-approved VPN fallback; current refresh host reached the endpoint without VPN.",
+      "logo": "https://epg.pw/media/images/channel/2020/05/12/large/20200512130107352553_81.png",
+      "logo_source": "https://live.hacks.tools/iptv/languages/malaysia.m3u"
     }
   ],
   "requested_channels": [
@@ -769,9 +784,9 @@
     "https://gitee.com/tushaoyong/live/raw/master/%E6%8E%A5%E5%8F%A3/IPV6.txt",
     "http://tot.totalh.net/tttt.txt"
   ],
-  "source_checks": "82 active public M3U/TXT catalogs health-checked at 2026-07-20T02:48:50Z; 81 returned HTTP 200 and one returned a transient HTTP 504. Candidate streams were independently checked with ffprobe, FFmpeg decode, and sampled-frame identity review; 3 new streams were published, while Cartoon Network and beIN SPORTS 3 remained withheld after current retries. See reports/source-health.json, reports/stream-speed.json, and reports/targeted-channel-audit.json.",
+  "source_checks": "82 active public M3U/TXT catalogs health-checked at 2026-07-20T02:48:50Z; 81 returned HTTP 200 and one returned a transient HTTP 504. Candidate streams were independently checked with ffprobe, FFmpeg decode, and sampled-frame identity review; 8TV was restored using its previous endpoint as a user-approved VPN/Geo-blocked fallback because no better exact candidate passed current playback checks. The published display is labeled (Geo-blocked). See reports/source-health.json, reports/stream-speed.json, and reports/targeted-channel-audit.json.",
   "logo_policy": "Every playlist entry includes tvg-logo; source-provided logos are preferred, with source-backed manual name mappings where the selected stream line lacked a logo.",
-  "logo_count": 47,
+  "logo_count": 48,
   "repository_profile": {
     "audience": [
       "Malaysia",
@@ -799,12 +814,11 @@
       "note": "Merged source inventory with failed health-check URLs quarantined separately; the current playlist remains a curated one-stream-per-request snapshot."
     }
   ],
-  "published_count": 47,
+  "published_count": 48,
   "withheld_channels": {
     "Channel 8": "wrong mapping: tested stream showed Channel 8 Thailand; official meWATCH stream is encrypted and Singapore VPN restricted",
     "Channel U": "wrong mapping: tested stream showed Shenzhen TV; official meWATCH stream is encrypted and Singapore VPN restricted",
     "Astro Badminton": "wrong mapping: tested source labelled Astro Badminton 2 showed astro AWANI",
-    "8TV": "no verified playable alternative; candidate returned expired.html and prior source was slow/glitchy",
     "明珠台": "all tested public candidates failed ffprobe; no verified replacement",
     "TVB Entertainment News": "all tested public candidates failed ffprobe or returned 403",
     "TVB Xing He HD": "label-matched candidates showed CCTV channels, not TVB星河",

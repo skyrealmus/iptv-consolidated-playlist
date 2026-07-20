@@ -5,8 +5,8 @@ This is the complete requested-channel register for the daily live-source refres
 ## Current snapshot
 
 - Requested channels: **67**
-- Published in `playlist.m3u`: **47**
-- Withheld pending a verified source: **20**
+- Published in `playlist.m3u`: **48**
+- Withheld pending a verified source: **19**
 - Newly requested and not yet checked: **0**
 - Snapshot date: **2026-07-20**
 - Machine source of truth for selected URLs: [`manifest.json`](./manifest.json)
@@ -45,7 +45,7 @@ This is the complete requested-channel register for the daily live-source refres
 | 24 | Playback failed | `CNA HD` | CNA HD | Singapore | News | English | PUBLISHED | speed=9.270x; resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
 | 25 | Playback failed | `Channel U` | U频道 | Singapore | Entertainment | Chinese | WITHHELD | withheld — wrong mapping: tested stream showed Shenzhen TV; official meWATCH stream is encrypted and Singapore VPN restricted | Keep withheld; publish only after correct identity and playback pass. |
 | 26 | Wrong mapping | `Channel 8` | 8频道 | Singapore | General | Chinese | WITHHELD | withheld — wrong mapping: tested stream showed Channel 8 Thailand; official meWATCH stream is encrypted and Singapore VPN restricted | Keep withheld; publish only after correct identity and playback pass. |
-| 27 | Slow / Glitch | `8TV` | 八度空间 | Malaysia | General | Chinese | WITHHELD | withheld — no verified playable alternative; candidate returned expired.html and prior source was slow/glitchy | Keep withheld; publish only after correct identity and playback pass. |
+| 27 | Slow / Glitch / VPN fallback | `8TV` | 八度空间 (Geo-blocked) | Malaysia | General | Chinese | PUBLISHED | reused previous URL; resolution=1920x1080; current FFmpeg decode passed; historical speed=0.00347x; frame showed 8 LIVE/WOWshop; marked Geo-blocked for player-side VPN use | Retest daily; replace only after a better exact candidate passes playback and identity checks. |
 | 28 | — | `Astro AEC HD` | Astro AEC 高清 | Malaysia | Entertainment | Chinese | PUBLISHED | speed=0.009x; recheck flag | Retest daily; replace only after playback and identity pass. |
 | 29 | — | `Astro QJ` | Astro QJ 娱乐 | Malaysia | Entertainment | Chinese | PUBLISHED | speed=0.003x; recheck flag | Retest daily; replace only after playback and identity pass. |
 | 30 | — | `Astro AOD HD` | Astro AOD 高清 | Malaysia | Entertainment | Chinese | PUBLISHED | speed=0.244x; resolution=1920x1080; recheck flag | Retest daily; replace only after playback and identity pass. |
@@ -95,7 +95,7 @@ This is the complete requested-channel register for the daily live-source refres
 4. Probe candidates with FFprobe, then run a short FFmpeg decode to confirm actual video frames.
 5. Check quality: HTTP/HLS availability, startup delay, decode success, resolution, throughput/decode speed, stalls/glitches, and `403`/expired/`nosignal` responses.
 6. Check identity for reported, changed, or ambiguous channels using a visible logo/watermark or other on-screen evidence. A wrong channel fails even when playback works.
-7. Do not publish credential-bearing, token-bearing, DRM-only, geo-restricted, expired, or identity-mismatched URLs.
+7. Do not publish credential-bearing, token-bearing, DRM-only, expired, or identity-mismatched URLs. A user-approved VPN/geo-blocked fallback may be published when no better exact candidate passes current playback checks; append `(Geo-blocked)` after the normal display name and record the access note.
 8. Update the selected URL and evidence in `manifest.json` and `reports/stream-speed.json`; update this file's status/snapshot when the result changes.
 9. Run the repository checks:
 

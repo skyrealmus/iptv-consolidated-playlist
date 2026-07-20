@@ -1,11 +1,12 @@
 {
-  "tested_at": "2026-07-20T02:48:50Z",
+  "tested_at": "2026-07-20T03:25:02Z",
   "method": {
     "catalog_match": "82 active public M3U/TXT catalogs",
     "stream_probe": "ffprobe with 10-second read timeout and bounded process timeout",
     "playback_probe": "5-second FFmpeg decode; a candidate is not accepted without a valid video frame",
     "identity_check": "sample video frames were checked for channel watermark/identity; interruption pages and wrong logos fail",
-    "publication_rule": "no credential-bearing or token-bearing fallback URL is published"
+    "publication_rule": "no credential-bearing or token-bearing fallback URL is published",
+    "geo_blocked_fallback_rule": "A user-approved VPN/geo-blocked fallback may be published only when no better exact candidate passes current playback checks; append (Geo-blocked) to the normal display name and keep credential-bearing/token-bearing URLs excluded."
   },
   "catalog_health": {
     "tested": 82,
@@ -41,10 +42,26 @@
       "action": "removed from public playlist"
     },
     "8TV": {
-      "status": "withheld_no_playable_alternative",
-      "candidate": "http://cdn6.163189.xyz/163189/8tv",
-      "probe_evidence": "HTTP response was expired.html; prior selected source had measured speed 0.00347x",
-      "action": "removed from public playlist"
+      "status": "published_geo_blocked_reused_previous",
+      "selected": {
+        "url": "https://stream1.freetv.fun/a8689b73ff805df64e23f886f310bb655802abe03d5a4c78e3cf8bd638a7b4dc.ctv",
+        "source_index": 1,
+        "video": "1920x1080 H.264",
+        "ffprobe_ok": true,
+        "ffmpeg_decode_ok": true,
+        "historical_decode_speed_x": 0.0034692607206169524
+      },
+      "tested_alternatives": {
+        "http://cdn6.163189.xyz/163189/8tv": "expired.html / invalid input",
+        "https://smt.1678520.xyz/smt3.2.1.php?id=TV8": "HTTP 404",
+        "https://smt.1678520.xyz/smt3.2.3.php?id=TV8": "HTTP 404",
+        "http://iptv.4666888.xyz/iptv2A.php?id=52": "connection timeout",
+        "https://php.jdshipin.com:2096/smt.php?id=TV8": "connection timeout",
+        "https://hls-gateway.vpstv.net/streams/476322.m3u8": "HTTP 403"
+      },
+      "identity_evidence": "Current frame showed a magenta 8 LIVE watermark, WOWshop shopping programme, Chinese product text, and Malaysian RM pricing; no interruption slate or wrong-station branding was observed.",
+      "access_note": "User requested the previous endpoint be retained as a VPN/Geo-blocked fallback; current refresh host reached it without VPN.",
+      "action": "restored to public playlist with display name 八度空间 (Geo-blocked)"
     },
     "CNA HD": {
       "status": "replaced_and_frame_verified",
@@ -189,9 +206,9 @@
   },
   "summary": {
     "previous_snapshot_published": 44,
-    "current_snapshot_published": 47,
-    "newly_published": 3,
-    "newly_withheld": 11,
+    "current_snapshot_published": 48,
+    "newly_published": 4,
+    "newly_withheld": 10,
     "replaced": 1
   },
   "results": {
