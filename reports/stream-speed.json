@@ -1,5 +1,5 @@
 {
-  "tested_at": "2026-07-20T06:57:22Z",
+  "tested_at": "2026-07-22T06:20:24.761607+00:00",
   "method": {
     "catalog_match": "82 active public M3U/TXT catalogs",
     "stream_probe": "ffprobe with 10-second read timeout and bounded process timeout",
@@ -10,14 +10,22 @@
   },
   "catalog_health": {
     "tested": 82,
-    "http_200": 81,
+    "http_200": 79,
     "failed": [
       {
-        "url": "https://live.freetv.top/douyuyqk.m3u",
-        "error": "TimeoutError: The read operation timed out"
+        "source": "https://2121.ccwu.cc/",
+        "error": "URLError: <urlopen error [Errno 111] Connection refused>"
+      },
+      {
+        "source": "https://live.freetv.top/douyuyqk.m3u",
+        "error": "HTTPError: HTTP Error 504: Gateway Timeout"
+      },
+      {
+        "source": "http://tot.totalh.net/tttt.txt",
+        "error": "URLError: <urlopen error [Errno 111] Connection refused>"
       }
     ],
-    "target_review_refresh": "82/82 target-candidate catalog checks returned HTTP 200 at 2026-07-20T05:24:25Z"
+    "refresh_method": "selected manifest source catalogs"
   },
   "channels": {
     "Channel 8": {
@@ -33,6 +41,23 @@
         "candidate_urls": 14,
         "probed_urls": 14,
         "decoded_urls": 9
+      },
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "Channel 8",
+          "Channel 8",
+          "Channel 8"
+        ],
+        "probe": {
+          "url_fingerprint": "292458b6b11b8019",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 1366,
+          "probe_error": "http://aktv.top/AKTV/live/aktv/channel8hd/AKTV.m3u8: Invalid data found when processing input"
+        }
       }
     },
     "Channel U": {
@@ -51,7 +76,22 @@
       "official_reference": "https://www.mewatch.sg/channels/channel-u/97129",
       "official_constraint": "official page metadata marks Encryption=True and Territory=Singapore (VPN ON); selected fallback is non-DRM and has no query string or user credentials",
       "access_note": "Public catalog-extracted URL; user-approved Geo-blocked fallback",
-      "action": "added to public playlist as U频道 (Geo-blocked)"
+      "action": "added to public playlist as U频道 (Geo-blocked)",
+      "daily_refresh": {
+        "status": "probe_failed",
+        "source_index": 5,
+        "candidate_count": 1,
+        "candidate_labels": [
+          "[SD]Mediacorp U @b[geo-blocked]"
+        ],
+        "probe": {
+          "url_fingerprint": "5e93e0dd5876359e",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 5722,
+          "probe_error": "HTTPError: HTTP Error 502: Bad Gateway"
+        }
+      }
     },
     "Astro Badminton": {
       "status": "withheld_wrong_mapping",
@@ -63,6 +103,11 @@
         "candidate_urls": 1,
         "probed_urls": 1,
         "decoded_urls": 1
+      },
+      "daily_refresh": {
+        "status": "withheld_no_match",
+        "source_index": null,
+        "candidate_count": 0
       }
     },
     "8TV": {
@@ -85,7 +130,23 @@
       },
       "identity_evidence": "Current frame showed a magenta 8 LIVE watermark, WOWshop shopping programme, Chinese product text, and Malaysian RM pricing; no interruption slate or wrong-station branding was observed.",
       "access_note": "User requested the previous endpoint be retained as a VPN/Geo-blocked fallback; current refresh host reached it without VPN.",
-      "action": "restored to public playlist with display name 八度空间 (Geo-blocked)"
+      "action": "restored to public playlist with display name 八度空间 (Geo-blocked)",
+      "daily_refresh": {
+        "status": "verified_unchanged",
+        "source_index": 1,
+        "candidate_count": 1,
+        "candidate_labels": [
+          "[BD]8TV *tv"
+        ],
+        "probe": {
+          "url_fingerprint": "029782b221650934",
+          "ffprobe_ok": true,
+          "ffmpeg_decode_ok": true,
+          "elapsed_ms": 4328,
+          "codec": "h264",
+          "resolution": "1920x1080"
+        }
+      }
     },
     "CNA HD": {
       "status": "replaced_and_frame_verified",
@@ -96,7 +157,23 @@
         "decode_speed_x": 9.27
       },
       "identity_evidence": "frame visibly contained the CNA logo and news ticker",
-      "action": "manifest URL replaced"
+      "action": "manifest URL replaced",
+      "daily_refresh": {
+        "status": "verified_unchanged",
+        "source_index": 2,
+        "candidate_count": 1,
+        "candidate_labels": [
+          "CNA"
+        ],
+        "probe": {
+          "url_fingerprint": "af2cc5e6409b43d1",
+          "ffprobe_ok": true,
+          "ffmpeg_decode_ok": true,
+          "elapsed_ms": 750,
+          "codec": "h264",
+          "resolution": "1920x1080"
+        }
+      }
     },
     "明珠台": {
       "status": "withheld_ambiguous_identity",
@@ -108,7 +185,24 @@
         "probed_urls": 11,
         "decoded_urls": 1
       },
-      "action": "kept in register only"
+      "action": "kept in register only",
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "明珠台",
+          "明珠台",
+          "明珠台"
+        ],
+        "probe": {
+          "url_fingerprint": "72c36fde42e5e9db",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 3062,
+          "probe_error": "HTTPError: HTTP Error 521: <none>"
+        }
+      }
     },
     "TVB Entertainment News": {
       "status": "withheld_no_verified_playback",
@@ -120,6 +214,23 @@
         "candidate_urls": 2,
         "probed_urls": 2,
         "decoded_urls": 0
+      },
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "TVB娱乐新闻",
+          "TVB娱乐新闻",
+          "TVB娱乐新闻"
+        ],
+        "probe": {
+          "url_fingerprint": "3d6c0221e13e1bba",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 5387,
+          "probe_error": "http://ali.hlspull.yximgs.com/live/6425965d63a08c85ca806bfcc8c75cf4.flv: Server returned 403 Forbidden (access denied)"
+        }
       }
     },
     "TVB Xing He HD": {
@@ -131,6 +242,23 @@
         "candidate_urls": 4,
         "probed_urls": 4,
         "decoded_urls": 0
+      },
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "TVB星河",
+          "TVB星河",
+          "TVB星河"
+        ],
+        "probe": {
+          "url_fingerprint": "5a82b1fcc40c6a4d",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 368,
+          "probe_error": "http://php.jdshipin.com/TVOD/iptv.php?[REDACTED] Invalid data found when processing input"
+        }
       }
     },
     "Phoenix Hong Kong": {
@@ -142,6 +270,23 @@
         "candidate_urls": 11,
         "probed_urls": 11,
         "decoded_urls": 0
+      },
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "凤凰香港",
+          "凤凰香港",
+          "凤凰香港"
+        ],
+        "probe": {
+          "url_fingerprint": "fdec7c4c51617bf9",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 308,
+          "probe_error": "HTTPError: HTTP Error 521: <none>"
+        }
       }
     },
     "EBC Variety": {
@@ -153,6 +298,23 @@
         "candidate_urls": 4,
         "probed_urls": 4,
         "decoded_urls": 0
+      },
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "东森综合",
+          "东森综合",
+          "东森综合"
+        ],
+        "probe": {
+          "url_fingerprint": "0e464e563d79b4fc",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 43,
+          "probe_error": "HTTPError: HTTP Error 403: Forbidden"
+        }
       }
     },
     "Cartoon Network": {
@@ -173,6 +335,11 @@
         "candidate_urls": 7,
         "probed_urls": 7,
         "decoded_urls": 5
+      },
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 58,
+        "candidate_count": 0
       }
     },
     "beIN SPORTS 1": {
@@ -185,6 +352,22 @@
         "candidate_urls": 3,
         "probed_urls": 3,
         "decoded_urls": 1
+      },
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "beIN SPORTS1",
+          "beIN SPORTS 1"
+        ],
+        "probe": {
+          "url_fingerprint": "b6c0d27e2cddd272",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 28,
+          "probe_error": "HTTPError: HTTP Error 403: Forbidden"
+        }
       }
     },
     "beIN SPORTS 2": {
@@ -197,6 +380,23 @@
         "candidate_urls": 2,
         "probed_urls": 2,
         "decoded_urls": 1
+      },
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "beIN Sports 2",
+          "beIN SPORTS 2",
+          "beIN SPORTS 2"
+        ],
+        "probe": {
+          "url_fingerprint": "b76f604a3f0f9395",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 399,
+          "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
+        }
       }
     },
     "beIN SPORTS 3": {
@@ -217,6 +417,11 @@
         "candidate_urls": 3,
         "probed_urls": 3,
         "decoded_urls": 2
+      },
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 58,
+        "candidate_count": 0
       }
     },
     "CNBC": {
@@ -227,7 +432,24 @@
         "video": "640x360 H.264"
       },
       "identity_evidence": "sample frame visibly contained the CNBC logo and CNBC programme branding",
-      "action": "added to public playlist"
+      "action": "added to public playlist",
+      "daily_refresh": {
+        "status": "verified_unchanged",
+        "source_index": 10,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "CNBC (1080p)",
+          "CNBC (1080p)"
+        ],
+        "probe": {
+          "url_fingerprint": "ee8d45a572bdd7e6",
+          "ffprobe_ok": true,
+          "ffmpeg_decode_ok": true,
+          "elapsed_ms": 1655,
+          "codec": "h264",
+          "resolution": "640x360"
+        }
+      }
     },
     "Animal Planet": {
       "status": "published_frame_verified",
@@ -237,7 +459,24 @@
         "video": "1920x1080 H.264"
       },
       "identity_evidence": "sample frame visibly contained the Animal Planet watermark",
-      "action": "added to public playlist"
+      "action": "added to public playlist",
+      "daily_refresh": {
+        "status": "probe_failed",
+        "source_index": 62,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "Animal Planet",
+          "Animal Planet",
+          "Animal Planet"
+        ],
+        "probe": {
+          "url_fingerprint": "d47b78eae8224fdc",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 1041,
+          "probe_error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\n/tmp/iptv-refresh-xf02xiou/window.ts: Invalid data found when processing input"
+        }
+      }
     },
     "Discovery": {
       "status": "published_frame_verified",
@@ -247,7 +486,23 @@
         "video": "1920x1080 H.264"
       },
       "identity_evidence": "sample frame visibly contained the Discovery Channel watermark and matching programming",
-      "action": "added to public playlist"
+      "action": "added to public playlist",
+      "daily_refresh": {
+        "status": "probe_failed",
+        "source_index": 73,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "[BD]discovery",
+          "[BD]Discovery"
+        ],
+        "probe": {
+          "url_fingerprint": "29b0b2cbdab616b1",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 3250,
+          "probe_error": "HTTPError: HTTP Error 502: Bad Gateway"
+        }
+      }
     },
     "爱奇艺 iQIYI": {
       "status": "withheld_no_verified_playback",
@@ -259,6 +514,23 @@
         "candidate_urls": 0,
         "probed_urls": 0,
         "decoded_urls": 0
+      },
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "爱奇艺",
+          "爱奇艺",
+          "爱奇艺"
+        ],
+        "probe": {
+          "url_fingerprint": "ba4aa2a3690887b3",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 19976,
+          "probe_error": "[hls @ 0x55e59b8e52c0] URL https://smt2.1678520.xyz/smt3.2.1.php?[REDACTED] is not in allowed_segment_extensions\nhttp://php.jdshipin.com/smt.php?[REDACTED] Invalid data found when processing input"
+        }
       }
     },
     "中天亚洲台 CTI Asia": {
@@ -271,6 +543,21 @@
         "candidate_urls": 0,
         "probed_urls": 0,
         "decoded_urls": 0
+      },
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 1,
+        "candidate_labels": [
+          "中天亚洲台"
+        ],
+        "probe": {
+          "url_fingerprint": "f93d260b696c20ad",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 1,
+          "probe_error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+        }
       }
     },
     "Astro欢喜台 Astro Hua Hee Dai": {
@@ -283,6 +570,22 @@
         "candidate_urls": 0,
         "probed_urls": 0,
         "decoded_urls": 0
+      },
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "Astro欢喜台",
+          "Astro 欢喜台"
+        ],
+        "probe": {
+          "url_fingerprint": "2678cc43b294128a",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 20035,
+          "probe_error": "[hls @ 0x55b355d10300] URL https://smt2.1678520.xyz/smt3.2.1.php?[REDACTED] is not in allowed_segment_extensions\nhttp://php.jdshipin.com/smt.php?[REDACTED] Invalid data found when processing input"
+        }
       }
     },
     "Asian Food Network": {
@@ -294,6 +597,11 @@
         "candidate_urls": 0,
         "probed_urls": 0,
         "decoded_urls": 0
+      },
+      "daily_refresh": {
+        "status": "withheld_no_match",
+        "source_index": null,
+        "candidate_count": 0
       }
     },
     "Astro Tennis": {
@@ -305,6 +613,11 @@
         "candidate_urls": 0,
         "probed_urls": 0,
         "decoded_urls": 0
+      },
+      "daily_refresh": {
+        "status": "withheld_no_match",
+        "source_index": null,
+        "candidate_count": 0
       }
     },
     "Premier Sports": {
@@ -317,6 +630,23 @@
         "candidate_urls": 5,
         "probed_urls": 5,
         "decoded_urls": 2
+      },
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "PREMIERSPORTS",
+          "Premier Sports",
+          "Premier Sports (1080p)"
+        ],
+        "probe": {
+          "url_fingerprint": "19355eb9e02ea512",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 30,
+          "probe_error": "HTTPError: HTTP Error 403: Forbidden"
+        }
       }
     },
     "Fox News": {
@@ -329,6 +659,435 @@
         "candidate_urls": 4,
         "probed_urls": 4,
         "decoded_urls": 2
+      },
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 1,
+        "candidate_labels": [
+          "Fox News"
+        ],
+        "probe": {
+          "url_fingerprint": "e7c22dec4845a04a",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 33,
+          "probe_error": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    "TVBS Asia": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 14,
+        "candidate_count": 0
+      }
+    },
+    "Phoenix TV": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 4,
+        "candidate_count": 0
+      }
+    },
+    "BBC News": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 3,
+        "candidate_count": 0
+      }
+    },
+    "Bloomberg Television": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 12,
+        "candidate_count": 0
+      }
+    },
+    "CGTN HD": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 12,
+        "candidate_count": 0
+      }
+    },
+    "CNN HD": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 3,
+        "candidate_count": 0
+      }
+    },
+    "Reuters": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 3,
+        "candidate_count": 0
+      }
+    },
+    "Astro AEC HD": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 2,
+        "candidate_count": 0
+      }
+    },
+    "Astro AOD HD": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 2,
+        "candidate_count": 0
+      }
+    },
+    "Astro QJ": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 2,
+        "candidate_count": 0
+      }
+    },
+    "TVB Jade": {
+      "daily_refresh": {
+        "status": "probe_failed",
+        "source_index": 11,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "翡翠台",
+          "翡翠台",
+          "翡翠台"
+        ],
+        "probe": {
+          "url_fingerprint": "c1be310994ac453b",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 2,
+          "probe_error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+        }
+      }
+    },
+    "AXN": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 12,
+        "candidate_count": 0
+      }
+    },
+    "CCTV Fengyun Football": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 4,
+        "candidate_count": 0
+      }
+    },
+    "CCTV-5": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 4,
+        "candidate_count": 0
+      }
+    },
+    "CCTV-5+": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 4,
+        "candidate_count": 0
+      }
+    },
+    "Astro Football": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 2,
+        "candidate_count": 0
+      }
+    },
+    "Astro Grandstand": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 2,
+        "candidate_count": 0
+      }
+    },
+    "Astro Premier League": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 2,
+        "candidate_count": 0
+      }
+    },
+    "Astro Premier League 2": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 2,
+        "candidate_count": 0
+      }
+    },
+    "Astro Sports Plus": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 2,
+        "candidate_count": 0
+      }
+    },
+    "beIN Sports Xtra": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 3,
+        "candidate_count": 0
+      }
+    },
+    "CCTV Weaponry Technology": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 4,
+        "candidate_count": 0
+      }
+    },
+    "BBC Earth": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 1,
+        "candidate_count": 0
+      }
+    },
+    "CGTN Documentary": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 7,
+        "candidate_count": 0
+      }
+    },
+    "History": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 12,
+        "candidate_count": 0
+      }
+    },
+    "History Hit": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 3,
+        "candidate_count": 0
+      }
+    },
+    "Love Nature 4K": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 12,
+        "candidate_count": 0
+      }
+    },
+    "National Geographic": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 12,
+        "candidate_count": 0
+      }
+    },
+    "Wild Earth": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 3,
+        "candidate_count": 0
+      }
+    },
+    "Disney XD": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 1,
+        "candidate_count": 0
+      }
+    },
+    "Kartoon Channel": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 1,
+        "candidate_count": 0
+      }
+    },
+    "Moonbug Kids": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 14,
+        "candidate_count": 0
+      }
+    },
+    "Nick Jr": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 12,
+        "candidate_count": 0
+      }
+    },
+    "Nickelodeon": {
+      "daily_refresh": {
+        "status": "no_same_catalog_match",
+        "source_index": 12,
+        "candidate_count": 0
+      }
+    },
+    "CCTV-1": {
+      "daily_refresh": {
+        "status": "verified_unchanged",
+        "source_index": 4,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "CCTV+ 1 (600p) [Not 24/7]",
+          "CCTV-1 (720p)",
+          "CCTV-1 (1080p)"
+        ],
+        "probe": {
+          "url_fingerprint": "1ef1a9402f5b3ed8",
+          "ffprobe_ok": true,
+          "ffmpeg_decode_ok": true,
+          "elapsed_ms": 5383,
+          "codec": "h264",
+          "resolution": "426x240"
+        }
+      }
+    },
+    "CCTV-7": {
+      "daily_refresh": {
+        "status": "probe_failed",
+        "source_index": 4,
+        "candidate_count": 1,
+        "candidate_labels": [
+          "CCTV-7 (720p)"
+        ],
+        "probe": {
+          "url_fingerprint": "5f08c93ca779baa7",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 1236,
+          "probe_error": "HTTPError: HTTP Error 404: Not Found"
+        }
+      }
+    },
+    "CCTV4 HD": {
+      "daily_refresh": {
+        "status": "url_refreshed",
+        "source_index": 12,
+        "candidate_count": 1,
+        "candidate_labels": [
+          "CCTV-4 中文国际"
+        ],
+        "probe": {
+          "url_fingerprint": "32cd7fce6dc418fe",
+          "ffprobe_ok": true,
+          "ffmpeg_decode_ok": true,
+          "elapsed_ms": 3309,
+          "codec": "h264",
+          "resolution": "1920x1080"
+        }
+      }
+    },
+    "Phoenix Info News HD": {
+      "daily_refresh": {
+        "status": "verified_unchanged",
+        "source_index": 14,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "凤凰资讯",
+          "凤凰资讯",
+          "凤凰资讯"
+        ],
+        "probe": {
+          "url_fingerprint": "25eccae4948485c5",
+          "ffprobe_ok": true,
+          "ffmpeg_decode_ok": true,
+          "elapsed_ms": 9484,
+          "codec": "mpeg2video",
+          "resolution": null
+        }
+      }
+    },
+    "Phoenix Chinese Channel HD": {
+      "daily_refresh": {
+        "status": "verified_unchanged",
+        "source_index": 14,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "凤凰中文",
+          "凤凰中文",
+          "凤凰中文"
+        ],
+        "probe": {
+          "url_fingerprint": "7f1c40293716a3d8",
+          "ffprobe_ok": true,
+          "ffmpeg_decode_ok": true,
+          "elapsed_ms": 10442,
+          "codec": "mpeg2video",
+          "resolution": null
+        }
+      }
+    },
+    "CCTV-16": {
+      "daily_refresh": {
+        "status": "probe_failed",
+        "source_index": 4,
+        "candidate_count": 1,
+        "candidate_labels": [
+          "CCTV-16 (1080p)"
+        ],
+        "probe": {
+          "url_fingerprint": "fc960b6562477539",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 911,
+          "probe_error": "http://74.91.26.218:82/live/cctv16hd.m3u8: Invalid data found when processing input"
+        }
+      }
+    },
+    "CCTV世界地理": {
+      "daily_refresh": {
+        "status": "probe_failed",
+        "source_index": 4,
+        "candidate_count": 1,
+        "candidate_labels": [
+          "CCTV-World Geography (1080p)"
+        ],
+        "probe": {
+          "url_fingerprint": "d22787e663833b0b",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 2122,
+          "probe_error": "HTTPError: HTTP Error 404: Not Found"
+        }
+      }
+    },
+    "CCTV-10": {
+      "daily_refresh": {
+        "status": "probe_failed",
+        "source_index": 4,
+        "candidate_count": 1,
+        "candidate_labels": [
+          "CCTV-10 (720p)"
+        ],
+        "probe": {
+          "url_fingerprint": "f9a3da70b56c6e61",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 1275,
+          "probe_error": "HTTPError: HTTP Error 404: Not Found"
+        }
+      }
+    },
+    "CCTV-9": {
+      "daily_refresh": {
+        "status": "verified_unchanged",
+        "source_index": 4,
+        "candidate_count": 1,
+        "candidate_labels": [
+          "CCTV-9 (576i)"
+        ],
+        "probe": {
+          "url_fingerprint": "0796a646dc1a0463",
+          "ffprobe_ok": true,
+          "ffmpeg_decode_ok": true,
+          "elapsed_ms": 4097,
+          "codec": "h264",
+          "resolution": "720x576"
+        }
       }
     }
   },
@@ -337,7 +1096,21 @@
     "current_snapshot_published": 51,
     "newly_published": 2,
     "newly_withheld": 0,
-    "replaced": 0
+    "replaced": 0,
+    "daily_refresh": {
+      "checked": 51,
+      "register_checked": 67,
+      "withheld_checked": 16,
+      "verified_unchanged": 7,
+      "url_refreshed": 1,
+      "probe_failed": 8,
+      "no_same_catalog_match": 35,
+      "catalog_unavailable": 0,
+      "source_not_active": 0,
+      "withheld_no_match": 3,
+      "withheld_probe_failed": 13,
+      "withheld_identity_review": 0
+    }
   },
   "results": {
     "Cartoon Network": {
@@ -368,5 +1141,23 @@
     "active_catalogs": 82,
     "targets": 18,
     "unique_candidate_urls": 71
+  },
+  "daily_refresh": {
+    "at": "2026-07-22T06:20:24.761607+00:00",
+    "method": "published same-source refresh + full-register withheld discovery + bounded ffprobe/FFmpeg; no automatic cross-catalog publication",
+    "summary": {
+      "checked": 51,
+      "register_checked": 67,
+      "withheld_checked": 16,
+      "verified_unchanged": 7,
+      "url_refreshed": 1,
+      "probe_failed": 8,
+      "no_same_catalog_match": 35,
+      "catalog_unavailable": 0,
+      "source_not_active": 0,
+      "withheld_no_match": 3,
+      "withheld_probe_failed": 13,
+      "withheld_identity_review": 0
+    }
   }
 }

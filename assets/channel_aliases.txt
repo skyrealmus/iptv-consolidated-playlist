@@ -16,7 +16,7 @@ Phoenix Hong Kong | 凤凰香港 | Phoenix Hong Kong, 凤凰香港
 Phoenix TV | 凤凰卫视 | Phoenix TV, 凤凰卫视
 TVBS Asia | TVBS 亚洲 | TVBS Asia, TVBS-Asia, TVBS 亚洲, TVBS亚洲
 EBC Variety | 东森综合 | EBC Variety, 东森综合
-TVB Jade | TVB 翡翠台 | TVB Jade, TVB 翡翠台
+TVB Jade | TVB 翡翠台 | TVB Jade, TVB 翡翠台, 翡翠台
 TVB Entertainment News | TVB 娱乐新闻 | TVB Entertainment News, TVB 娱乐新闻
 TVB Xing He HD | TVB 星河 | TVB Xing He HD, TVB 星河
 CGTN HD | 中国国际电视台 | CGTN HD, 中国国际电视台
@@ -52,3 +52,4 @@ beIN Sports Xtra | beIN Sports Xtra 体育 | beIN Sports Xtra, beIN Sports Xtra 
 CNBC = CNBC | CNBC (1080p)
 Animal Planet = Animal Planet | Animal Planet HD
 Discovery = Discovery | Discovery Channel
+Channel U | U频道 | Channel U, Mediacorp U, U频道

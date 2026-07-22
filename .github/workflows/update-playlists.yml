@@ -2,8 +2,8 @@ name: Build playlists
 
 on:
   schedule:
-    # 01:00 Asia/Singapore daily (17:00 UTC)
-    - cron: "0 17 * * *"
+    # 01:17 Asia/Singapore daily (17:17 UTC); off-minute reduces schedule contention.
+    - cron: "17 17 * * *"
   workflow_dispatch:
 
 permissions:
@@ -16,6 +16,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - name: Checkout
         uses: actions/checkout@v4.2.2
@@ -25,6 +26,8 @@ jobs:
         uses: actions/setup-python@v5.2.0
         with:
           python-version: "3.13"
+      - name: Refresh selected public source mappings
+        run: python scripts/refresh_sources.py
       - name: Build language-specific playlist
         run: python scripts/build_playlists.py
       - name: Validate outputs
@@ -33,7 +36,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add playlist.m3u
+          git add channel.md manifest.json playlist.m3u reports/daily-refresh.json reports/stream-speed.json
           if git diff --cached --quiet; then
             echo "No playlist changes."
           else

@@ -29,6 +29,7 @@ assets/
 logo/                     # curated local logos
 scripts/
   build_playlists.py      # deterministic playlist generator
+  refresh_sources.py      # refreshes mapped URLs and reviews withheld rows with bounded probes
   check_sources.py        # source HTTP health check
   sync_logos.py           # fetches missing logos
   validate_repo.py        # playlist and asset validation
@@ -45,7 +46,18 @@ From the repository root:
 python3 scripts/build_playlists.py
 python3 scripts/validate_repo.py
 python3 scripts/build_playlists.py --check
+
+# Preview the daily source refresh without changing manifest.json
+python3 scripts/refresh_sources.py --dry-run
 ```
+
+The scheduled workflow refreshes existing channel-to-catalog mappings: the
+catalog label must match a configured alias, and the candidate must pass FFprobe
+plus a short FFmpeg decode. It also scans all register rows, including
+`WITHHELD`, and records bounded candidate probes for manual identity review.
+It never automatically publishes a new cross-catalog mapping because stream
+identity still requires human review.
+The latest run is recorded in [`reports/daily-refresh.json`](./reports/daily-refresh.json).
 
 ## Disclaimer
 
