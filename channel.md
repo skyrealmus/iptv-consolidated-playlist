@@ -10,10 +10,10 @@ This is the complete requested-channel register for the daily live-source refres
 - Newly requested and not yet checked: **0**
 - Snapshot date: **2026-07-22**
 <!-- DAILY_REFRESH_STATUS:START -->
-- Last automated source refresh: **2026-07-22T06:20:24.761607+00:00**
-- Mapped channels checked: **51**; verified unchanged: **7**; URLs refreshed: **1**
+- Last automated source refresh: **2026-07-22T18:22:00.467480+00:00**
+- Mapped channels checked: **51**; verified unchanged: **0**; URLs refreshed: **0**
 - Register rows checked: **67**; withheld rows reviewed: **16**; identity-review candidates: **0**; withheld probe failures: **13**
-- Safe failures retained without replacement: probe failures **8**, unavailable catalogs **0**, no same-catalog alias match **35**, withheld no-match **3**
+- Safe failures retained without replacement: probe failures **15**, unavailable catalogs **0**, no same-catalog alias match **36**, withheld no-match **3**
 - Publication policy: same-source alias match plus FFprobe and short FFmpeg decode; cross-catalog replacements remain manual identity review.
 <!-- DAILY_REFRESH_STATUS:END -->
 - Machine source of truth for selected URLs: [`manifest.json`](./manifest.json)

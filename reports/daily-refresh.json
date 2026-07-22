@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-07-22T06:20:24.761607+00:00",
+  "checked_at": "2026-07-22T18:22:00.467480+00:00",
   "method": "published same-source refresh + full-register withheld discovery + bounded ffprobe/FFmpeg; no automatic cross-catalog publication",
   "summary": {
     "checked": 51,
     "register_checked": 67,
     "withheld_checked": 16,
-    "verified_unchanged": 7,
-    "url_refreshed": 1,
-    "probe_failed": 8,
-    "no_same_catalog_match": 35,
+    "verified_unchanged": 0,
+    "url_refreshed": 0,
+    "probe_failed": 15,
+    "no_same_catalog_match": 36,
     "catalog_unavailable": 0,
     "source_not_active": 0,
     "withheld_no_match": 3,
@@ -22,15 +22,15 @@
       "status": 200,
       "bytes": 714632,
       "candidate_count": 3130,
-      "elapsed_ms": 252
+      "elapsed_ms": 520
     },
     {
       "source_index": 1,
       "source": "https://live.hacks.tools/iptv/languages/malaysia.m3u",
       "status": 200,
-      "bytes": 17467,
-      "candidate_count": 53,
-      "elapsed_ms": 202
+      "bytes": 14098,
+      "candidate_count": 43,
+      "elapsed_ms": 704
     },
     {
       "source_index": 2,
@@ -38,7 +38,7 @@
       "status": 200,
       "bytes": 22574,
       "candidate_count": 80,
-      "elapsed_ms": 313
+      "elapsed_ms": 130
     },
     {
       "source_index": 3,
@@ -46,7 +46,7 @@
       "status": 200,
       "bytes": 451112,
       "candidate_count": 1802,
-      "elapsed_ms": 367
+      "elapsed_ms": 152
     },
     {
       "source_index": 4,
@@ -54,15 +54,15 @@
       "status": 200,
       "bytes": 43284,
       "candidate_count": 213,
-      "elapsed_ms": 192
+      "elapsed_ms": 319
     },
     {
       "source_index": 5,
       "source": "https://live.hacks.tools/iptv/languages/singapore.m3u",
       "status": 200,
-      "bytes": 6952,
-      "candidate_count": 22,
-      "elapsed_ms": 169
+      "bytes": 6515,
+      "candidate_count": 21,
+      "elapsed_ms": 516
     },
     {
       "source_index": 6,
@@ -70,7 +70,7 @@
       "status": 200,
       "bytes": 21945,
       "candidate_count": 119,
-      "elapsed_ms": 56
+      "elapsed_ms": 72
     },
     {
       "source_index": 7,
@@ -78,7 +78,7 @@
       "status": 200,
       "bytes": 21945,
       "candidate_count": 119,
-      "elapsed_ms": 227
+      "elapsed_ms": 66
     },
     {
       "source_index": 8,
@@ -86,7 +86,7 @@
       "status": 200,
       "bytes": 21945,
       "candidate_count": 119,
-      "elapsed_ms": 302
+      "elapsed_ms": 82
     },
     {
       "source_index": 9,
@@ -94,7 +94,7 @@
       "status": 200,
       "bytes": 200521,
       "candidate_count": 853,
-      "elapsed_ms": 580
+      "elapsed_ms": 306
     },
     {
       "source_index": 10,
@@ -102,7 +102,7 @@
       "status": 200,
       "bytes": 2900195,
       "candidate_count": 13472,
-      "elapsed_ms": 148
+      "elapsed_ms": 260
     },
     {
       "source_index": 11,
@@ -110,15 +110,15 @@
       "status": 200,
       "bytes": 397169,
       "candidate_count": 1693,
-      "elapsed_ms": 2189
+      "elapsed_ms": 2376
     },
     {
       "source_index": 12,
       "source": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8",
       "status": 200,
-      "bytes": 15248,
-      "candidate_count": 65,
-      "elapsed_ms": 16
+      "bytes": 16569,
+      "candidate_count": 70,
+      "elapsed_ms": 109
     },
     {
       "source_index": 13,
@@ -126,15 +126,15 @@
       "status": 200,
       "bytes": 170584,
       "candidate_count": 1802,
-      "elapsed_ms": 343
+      "elapsed_ms": 127
     },
     {
       "source_index": 14,
       "source": "https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt",
       "status": 200,
-      "bytes": 193330,
-      "candidate_count": 837,
-      "elapsed_ms": 249
+      "bytes": 192796,
+      "candidate_count": 841,
+      "elapsed_ms": 109
     },
     {
       "source_index": 15,
@@ -142,7 +142,7 @@
       "status": 200,
       "bytes": 6410,
       "candidate_count": 30,
-      "elapsed_ms": 321
+      "elapsed_ms": 94
     },
     {
       "source_index": 16,
@@ -150,7 +150,7 @@
       "status": 200,
       "bytes": 268671,
       "candidate_count": 1210,
-      "elapsed_ms": 330
+      "elapsed_ms": 446
     },
     {
       "source_index": 17,
@@ -158,7 +158,7 @@
       "status": 200,
       "bytes": 200521,
       "candidate_count": 853,
-      "elapsed_ms": 266
+      "elapsed_ms": 269
     },
     {
       "source_index": 18,
@@ -166,7 +166,7 @@
       "status": 200,
       "bytes": 11387,
       "candidate_count": 165,
-      "elapsed_ms": 315
+      "elapsed_ms": 85
     },
     {
       "source_index": 19,
@@ -174,7 +174,7 @@
       "status": 200,
       "bytes": 41281,
       "candidate_count": 196,
-      "elapsed_ms": 332
+      "elapsed_ms": 211
     },
     {
       "source_index": 20,
@@ -182,15 +182,15 @@
       "status": 200,
       "bytes": 25215,
       "candidate_count": 82,
-      "elapsed_ms": 313
+      "elapsed_ms": 69
     },
     {
       "source_index": 21,
       "source": "https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
       "status": 200,
-      "bytes": 60723,
-      "candidate_count": 795,
-      "elapsed_ms": 325
+      "bytes": 55251,
+      "candidate_count": 711,
+      "elapsed_ms": 81
     },
     {
       "source_index": 22,
@@ -198,15 +198,15 @@
       "status": 200,
       "bytes": 268,
       "candidate_count": 2,
-      "elapsed_ms": 308
+      "elapsed_ms": 51
     },
     {
       "source_index": 23,
       "source": "https://raw.githubusercontent.com/kakaxi-1/IPTV/refs/heads/main/ipv4.txt",
       "status": 200,
-      "bytes": 68188,
-      "candidate_count": 802,
-      "elapsed_ms": 255
+      "bytes": 39007,
+      "candidate_count": 162,
+      "elapsed_ms": 86
     },
     {
       "source_index": 24,
@@ -214,7 +214,7 @@
       "status": 200,
       "bytes": 530377,
       "candidate_count": 1924,
-      "elapsed_ms": 345
+      "elapsed_ms": 80
     },
     {
       "source_index": 25,
@@ -222,7 +222,7 @@
       "status": 200,
       "bytes": 29341,
       "candidate_count": 129,
-      "elapsed_ms": 19
+      "elapsed_ms": 204
     },
     {
       "source_index": 26,
@@ -230,7 +230,7 @@
       "status": 200,
       "bytes": 25215,
       "candidate_count": 82,
-      "elapsed_ms": 237
+      "elapsed_ms": 58
     },
     {
       "source_index": 27,
@@ -238,7 +238,7 @@
       "status": 200,
       "bytes": 28345,
       "candidate_count": 73,
-      "elapsed_ms": 324
+      "elapsed_ms": 85
     },
     {
       "source_index": 28,
@@ -246,7 +246,7 @@
       "status": 200,
       "bytes": 1730395,
       "candidate_count": 20939,
-      "elapsed_ms": 434
+      "elapsed_ms": 277
     },
     {
       "source_index": 29,
@@ -254,15 +254,15 @@
       "status": 200,
       "bytes": 1385846,
       "candidate_count": 14883,
-      "elapsed_ms": 427
+      "elapsed_ms": 373
     },
     {
       "source_index": 30,
       "source": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/refs/heads/main/cnTV_AutoUpdate.m3u8",
       "status": 200,
-      "bytes": 15248,
-      "candidate_count": 65,
-      "elapsed_ms": 391
+      "bytes": 16569,
+      "candidate_count": 70,
+      "elapsed_ms": 127
     },
     {
       "source_index": 31,
@@ -270,15 +270,15 @@
       "status": 200,
       "bytes": 1286727,
       "candidate_count": 12011,
-      "elapsed_ms": 465
+      "elapsed_ms": 374
     },
     {
       "source_index": 32,
       "source": "https://raw.githubusercontent.com/liuchuang0321/K-TV/refs/heads/master/output/user_result.m3u",
       "status": 200,
-      "bytes": 68201,
-      "candidate_count": 381,
-      "elapsed_ms": 326
+      "bytes": 67914,
+      "candidate_count": 379,
+      "elapsed_ms": 134
     },
     {
       "source_index": 33,
@@ -286,15 +286,15 @@
       "status": 200,
       "bytes": 10327,
       "candidate_count": 58,
-      "elapsed_ms": 304
+      "elapsed_ms": 46
     },
     {
       "source_index": 34,
       "source": "https://raw.githubusercontent.com/zhi35/iptv/refs/heads/master/iptv.m3u",
       "status": 200,
-      "bytes": 97625,
-      "candidate_count": 410,
-      "elapsed_ms": 317
+      "bytes": 94371,
+      "candidate_count": 393,
+      "elapsed_ms": 187
     },
     {
       "source_index": 35,
@@ -302,15 +302,15 @@
       "status": 200,
       "bytes": 24155,
       "candidate_count": 54,
-      "elapsed_ms": 328
+      "elapsed_ms": 142
     },
     {
       "source_index": 36,
       "source": "https://raw.githubusercontent.com/0610840119/iptv-api/refs/heads/master/output/xp_result.m3u",
       "status": 200,
-      "bytes": 155279,
-      "candidate_count": 423,
-      "elapsed_ms": 328
+      "bytes": 157000,
+      "candidate_count": 388,
+      "elapsed_ms": 115
     },
     {
       "source_index": 37,
@@ -318,7 +318,7 @@
       "status": 200,
       "bytes": 8021,
       "candidate_count": 58,
-      "elapsed_ms": 316
+      "elapsed_ms": 75
     },
     {
       "source_index": 38,
@@ -326,7 +326,7 @@
       "status": 200,
       "bytes": 5408,
       "candidate_count": 50,
-      "elapsed_ms": 309
+      "elapsed_ms": 110
     },
     {
       "source_index": 39,
@@ -334,7 +334,7 @@
       "status": 200,
       "bytes": 354640,
       "candidate_count": 5698,
-      "elapsed_ms": 380
+      "elapsed_ms": 127
     },
     {
       "source_index": 40,
@@ -342,7 +342,7 @@
       "status": 200,
       "bytes": 109502,
       "candidate_count": 359,
-      "elapsed_ms": 320
+      "elapsed_ms": 98
     },
     {
       "source_index": 41,
@@ -350,7 +350,7 @@
       "status": 200,
       "bytes": 16038,
       "candidate_count": 202,
-      "elapsed_ms": 326
+      "elapsed_ms": 89
     },
     {
       "source_index": 42,
@@ -358,7 +358,7 @@
       "status": 200,
       "bytes": 2852,
       "candidate_count": 30,
-      "elapsed_ms": 313
+      "elapsed_ms": 57
     },
     {
       "source_index": 43,
@@ -366,7 +366,7 @@
       "status": 200,
       "bytes": 105076,
       "candidate_count": 806,
-      "elapsed_ms": 352
+      "elapsed_ms": 75
     },
     {
       "source_index": 44,
@@ -374,7 +374,7 @@
       "status": 200,
       "bytes": 8566,
       "candidate_count": 92,
-      "elapsed_ms": 253
+      "elapsed_ms": 107
     },
     {
       "source_index": 45,
@@ -382,15 +382,15 @@
       "status": 200,
       "bytes": 54202,
       "candidate_count": 72,
-      "elapsed_ms": 312
+      "elapsed_ms": 66
     },
     {
       "source_index": 46,
       "source": "https://raw.githubusercontent.com/n3rddd/CTVLive/refs/heads/main/live.txt",
       "status": 200,
-      "bytes": 40483,
-      "candidate_count": 370,
-      "elapsed_ms": 252
+      "bytes": 41784,
+      "candidate_count": 372,
+      "elapsed_ms": 68
     },
     {
       "source_index": 47,
@@ -398,7 +398,7 @@
       "status": 200,
       "bytes": 66955,
       "candidate_count": 663,
-      "elapsed_ms": 288
+      "elapsed_ms": 73
     },
     {
       "source_index": 48,
@@ -406,7 +406,7 @@
       "status": 200,
       "bytes": 127202,
       "candidate_count": 1288,
-      "elapsed_ms": 336
+      "elapsed_ms": 94
     },
     {
       "source_index": 49,
@@ -414,15 +414,15 @@
       "status": 200,
       "bytes": 21556,
       "candidate_count": 332,
-      "elapsed_ms": 334
+      "elapsed_ms": 183
     },
     {
       "source_index": 50,
       "source": "https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
       "status": 200,
-      "bytes": 71476,
-      "candidate_count": 286,
-      "elapsed_ms": 321
+      "bytes": 52091,
+      "candidate_count": 266,
+      "elapsed_ms": 62
     },
     {
       "source_index": 51,
@@ -430,16 +430,15 @@
       "status": 200,
       "bytes": 1511401,
       "candidate_count": 13527,
-      "elapsed_ms": 415
+      "elapsed_ms": 250
     },
     {
       "source_index": 52,
       "source": "https://2121.ccwu.cc/",
-      "status": null,
-      "bytes": 0,
-      "candidate_count": 0,
-      "elapsed_ms": 4,
-      "error": "URLError: <urlopen error [Errno 111] Connection refused>"
+      "status": 200,
+      "bytes": 5376,
+      "candidate_count": 2,
+      "elapsed_ms": 939
     },
     {
       "source_index": 53,
@@ -447,31 +446,31 @@
       "status": 200,
       "bytes": 528,
       "candidate_count": 2,
-      "elapsed_ms": 413
+      "elapsed_ms": 1242
     },
     {
       "source_index": 54,
       "source": "http://rihou.cc:555/gggg.nzk",
       "status": 200,
-      "bytes": 275324,
-      "candidate_count": 2099,
-      "elapsed_ms": 6748
+      "bytes": 274643,
+      "candidate_count": 2089,
+      "elapsed_ms": 3912
     },
     {
       "source_index": 55,
       "source": "https://seep.eu.org/develop202.github.io/migu_video/interface.txt",
       "status": 200,
-      "bytes": 71476,
-      "candidate_count": 286,
-      "elapsed_ms": 529
+      "bytes": 52091,
+      "candidate_count": 266,
+      "elapsed_ms": 873
     },
     {
       "source_index": 56,
       "source": "https://yg.ygbox.de5.net/huya.php",
       "status": 200,
-      "bytes": 70170,
-      "candidate_count": 791,
-      "elapsed_ms": 1571
+      "bytes": 69886,
+      "candidate_count": 788,
+      "elapsed_ms": 285
     },
     {
       "source_index": 57,
@@ -479,7 +478,7 @@
       "status": 200,
       "bytes": 862567,
       "candidate_count": 3952,
-      "elapsed_ms": 1553
+      "elapsed_ms": 933
     },
     {
       "source_index": 58,
@@ -487,7 +486,7 @@
       "status": 200,
       "bytes": 38515,
       "candidate_count": 127,
-      "elapsed_ms": 394
+      "elapsed_ms": 143
     },
     {
       "source_index": 59,
@@ -495,7 +494,7 @@
       "status": 200,
       "bytes": 10828638,
       "candidate_count": 164392,
-      "elapsed_ms": 37220
+      "elapsed_ms": 12633
     },
     {
       "source_index": 60,
@@ -503,40 +502,40 @@
       "status": null,
       "bytes": 0,
       "candidate_count": 0,
-      "elapsed_ms": 20217,
+      "elapsed_ms": 20896,
       "error": "HTTPError: HTTP Error 504: Gateway Timeout"
     },
     {
       "source_index": 61,
       "source": "https://live.zhoujie218.top/tv/iptv4.txt",
       "status": 200,
-      "bytes": 60723,
-      "candidate_count": 795,
-      "elapsed_ms": 220
+      "bytes": 55251,
+      "candidate_count": 711,
+      "elapsed_ms": 1259
     },
     {
       "source_index": 62,
       "source": "https://t.freetv.fun/m3u/playlist.txt",
       "status": 200,
-      "bytes": 223168,
-      "candidate_count": 3687,
-      "elapsed_ms": 105
+      "bytes": 215536,
+      "candidate_count": 3560,
+      "elapsed_ms": 255
     },
     {
       "source_index": 63,
       "source": "https://t.freetv.fun/m3u/taiwan.txt",
       "status": 200,
-      "bytes": 15432,
-      "candidate_count": 214,
-      "elapsed_ms": 47
+      "bytes": 12361,
+      "candidate_count": 165,
+      "elapsed_ms": 145
     },
     {
       "source_index": 64,
       "source": "https://t.freetv.fun/m3u/hong_kong.txt",
       "status": 200,
-      "bytes": 6436,
-      "candidate_count": 81,
-      "elapsed_ms": 34
+      "bytes": 5928,
+      "candidate_count": 72,
+      "elapsed_ms": 51
     },
     {
       "source_index": 65,
@@ -544,15 +543,15 @@
       "status": 200,
       "bytes": 1815,
       "candidate_count": 4,
-      "elapsed_ms": 45
+      "elapsed_ms": 352
     },
     {
       "source_index": 66,
       "source": "https://t.freetv.fun/m3u/japan.txt",
       "status": 200,
-      "bytes": 3045,
-      "candidate_count": 24,
-      "elapsed_ms": 47
+      "bytes": 2982,
+      "candidate_count": 23,
+      "elapsed_ms": 361
     },
     {
       "source_index": 67,
@@ -560,7 +559,7 @@
       "status": 200,
       "bytes": 620169,
       "candidate_count": 2830,
-      "elapsed_ms": 214
+      "elapsed_ms": 786
     },
     {
       "source_index": 68,
@@ -568,7 +567,7 @@
       "status": 200,
       "bytes": 192215,
       "candidate_count": 756,
-      "elapsed_ms": 193
+      "elapsed_ms": 319
     },
     {
       "source_index": 69,
@@ -576,7 +575,7 @@
       "status": 200,
       "bytes": 365895,
       "candidate_count": 5305,
-      "elapsed_ms": 1866
+      "elapsed_ms": 819
     },
     {
       "source_index": 70,
@@ -584,15 +583,15 @@
       "status": 200,
       "bytes": 13285,
       "candidate_count": 59,
-      "elapsed_ms": 565
+      "elapsed_ms": 250
     },
     {
       "source_index": 71,
       "source": "https://live.zbds.org/tv/iptv4.txt",
       "status": 200,
-      "bytes": 60723,
-      "candidate_count": 795,
-      "elapsed_ms": 391
+      "bytes": 55251,
+      "candidate_count": 711,
+      "elapsed_ms": 706
     },
     {
       "source_index": 72,
@@ -600,15 +599,15 @@
       "status": 200,
       "bytes": 47543,
       "candidate_count": 8,
-      "elapsed_ms": 59
+      "elapsed_ms": 555
     },
     {
       "source_index": 73,
       "source": "https://freetv.fun/test_channels_original_new.txt",
       "status": 200,
-      "bytes": 239011,
-      "candidate_count": 3687,
-      "elapsed_ms": 522
+      "bytes": 230127,
+      "candidate_count": 3547,
+      "elapsed_ms": 929
     },
     {
       "source_index": 74,
@@ -616,7 +615,7 @@
       "status": 200,
       "bytes": 26834,
       "candidate_count": 11,
-      "elapsed_ms": 2084
+      "elapsed_ms": 1820
     },
     {
       "source_index": 75,
@@ -624,7 +623,7 @@
       "status": 200,
       "bytes": 152081,
       "candidate_count": 1923,
-      "elapsed_ms": 2107
+      "elapsed_ms": 2005
     },
     {
       "source_index": 76,
@@ -632,7 +631,7 @@
       "status": 200,
       "bytes": 15219,
       "candidate_count": 82,
-      "elapsed_ms": 20
+      "elapsed_ms": 211
     },
     {
       "source_index": 77,
@@ -640,7 +639,7 @@
       "status": 200,
       "bytes": 3395,
       "candidate_count": 0,
-      "elapsed_ms": 20
+      "elapsed_ms": 42
     },
     {
       "source_index": 78,
@@ -648,7 +647,7 @@
       "status": 200,
       "bytes": 13548,
       "candidate_count": 129,
-      "elapsed_ms": 23
+      "elapsed_ms": 42
     },
     {
       "source_index": 79,
@@ -656,7 +655,7 @@
       "status": 200,
       "bytes": 36279,
       "candidate_count": 483,
-      "elapsed_ms": 480
+      "elapsed_ms": 277
     },
     {
       "source_index": 80,
@@ -664,16 +663,15 @@
       "status": 200,
       "bytes": 25162,
       "candidate_count": 254,
-      "elapsed_ms": 5420
+      "elapsed_ms": 5180
     },
     {
       "source_index": 81,
       "source": "http://tot.totalh.net/tttt.txt",
-      "status": null,
-      "bytes": 0,
-      "candidate_count": 0,
-      "elapsed_ms": 2,
-      "error": "URLError: <urlopen error [Errno 111] Connection refused>"
+      "status": 200,
+      "bytes": 63689,
+      "candidate_count": 759,
+      "elapsed_ms": 619
     }
   ],
   "channels": {
@@ -842,6 +840,11 @@
       "source_index": 12,
       "candidate_count": 0
     },
+    "Channel U": {
+      "status": "no_same_catalog_match",
+      "source_index": 5,
+      "candidate_count": 0
+    },
     "beIN SPORTS 3": {
       "status": "no_same_catalog_match",
       "source_index": 58,
@@ -868,7 +871,7 @@
       "candidate_count": 0
     },
     "CCTV-1": {
-      "status": "verified_unchanged",
+      "status": "probe_failed",
       "source_index": 4,
       "candidate_count": 3,
       "candidate_labels": [
@@ -878,11 +881,10 @@
       ],
       "probe": {
         "url_fingerprint": "1ef1a9402f5b3ed8",
-        "ffprobe_ok": true,
-        "ffmpeg_decode_ok": true,
-        "elapsed_ms": 5383,
-        "codec": "h264",
-        "resolution": "426x240"
+        "ffprobe_ok": false,
+        "ffmpeg_decode_ok": false,
+        "elapsed_ms": 4934,
+        "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
       }
     },
     "CCTV-7": {
@@ -896,28 +898,27 @@
         "url_fingerprint": "5f08c93ca779baa7",
         "ffprobe_ok": false,
         "ffmpeg_decode_ok": false,
-        "elapsed_ms": 1236,
+        "elapsed_ms": 244,
         "probe_error": "HTTPError: HTTP Error 404: Not Found"
       }
     },
     "CCTV4 HD": {
-      "status": "url_refreshed",
+      "status": "probe_failed",
       "source_index": 12,
       "candidate_count": 1,
       "candidate_labels": [
         "CCTV-4 中文国际"
       ],
       "probe": {
-        "url_fingerprint": "32cd7fce6dc418fe",
-        "ffprobe_ok": true,
-        "ffmpeg_decode_ok": true,
-        "elapsed_ms": 3309,
-        "codec": "h264",
-        "resolution": "1920x1080"
+        "url_fingerprint": "2c33869b9e931994",
+        "ffprobe_ok": false,
+        "ffmpeg_decode_ok": false,
+        "elapsed_ms": 723,
+        "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
       }
     },
     "Phoenix Info News HD": {
-      "status": "verified_unchanged",
+      "status": "probe_failed",
       "source_index": 14,
       "candidate_count": 3,
       "candidate_labels": [
@@ -927,15 +928,14 @@
       ],
       "probe": {
         "url_fingerprint": "25eccae4948485c5",
-        "ffprobe_ok": true,
-        "ffmpeg_decode_ok": true,
-        "elapsed_ms": 9484,
-        "codec": "mpeg2video",
-        "resolution": null
+        "ffprobe_ok": false,
+        "ffmpeg_decode_ok": false,
+        "elapsed_ms": 12927,
+        "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
       }
     },
     "CNA HD": {
-      "status": "verified_unchanged",
+      "status": "probe_failed",
       "source_index": 2,
       "candidate_count": 1,
       "candidate_labels": [
@@ -943,11 +943,10 @@
       ],
       "probe": {
         "url_fingerprint": "af2cc5e6409b43d1",
-        "ffprobe_ok": true,
-        "ffmpeg_decode_ok": true,
-        "elapsed_ms": 750,
-        "codec": "h264",
-        "resolution": "1920x1080"
+        "ffprobe_ok": false,
+        "ffmpeg_decode_ok": false,
+        "elapsed_ms": 242,
+        "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
       }
     },
     "TVB Jade": {
@@ -963,12 +962,12 @@
         "url_fingerprint": "c1be310994ac453b",
         "ffprobe_ok": false,
         "ffmpeg_decode_ok": false,
-        "elapsed_ms": 2,
+        "elapsed_ms": 188,
         "probe_error": "URLError: <urlopen error [Errno -2] Name or service not known>"
       }
     },
     "Phoenix Chinese Channel HD": {
-      "status": "verified_unchanged",
+      "status": "probe_failed",
       "source_index": 14,
       "candidate_count": 3,
       "candidate_labels": [
@@ -978,11 +977,10 @@
       ],
       "probe": {
         "url_fingerprint": "7f1c40293716a3d8",
-        "ffprobe_ok": true,
-        "ffmpeg_decode_ok": true,
-        "elapsed_ms": 10442,
-        "codec": "mpeg2video",
-        "resolution": null
+        "ffprobe_ok": false,
+        "ffmpeg_decode_ok": false,
+        "elapsed_ms": 15878,
+        "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
       }
     },
     "CCTV-16": {
@@ -996,8 +994,8 @@
         "url_fingerprint": "fc960b6562477539",
         "ffprobe_ok": false,
         "ffmpeg_decode_ok": false,
-        "elapsed_ms": 911,
-        "probe_error": "http://74.91.26.218:82/live/cctv16hd.m3u8: Invalid data found when processing input"
+        "elapsed_ms": 82,
+        "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
       }
     },
     "CCTV世界地理": {
@@ -1011,7 +1009,7 @@
         "url_fingerprint": "d22787e663833b0b",
         "ffprobe_ok": false,
         "ffmpeg_decode_ok": false,
-        "elapsed_ms": 2122,
+        "elapsed_ms": 337,
         "probe_error": "HTTPError: HTTP Error 404: Not Found"
       }
     },
@@ -1026,12 +1024,12 @@
         "url_fingerprint": "f9a3da70b56c6e61",
         "ffprobe_ok": false,
         "ffmpeg_decode_ok": false,
-        "elapsed_ms": 1275,
+        "elapsed_ms": 242,
         "probe_error": "HTTPError: HTTP Error 404: Not Found"
       }
     },
     "CCTV-9": {
-      "status": "verified_unchanged",
+      "status": "probe_failed",
       "source_index": 4,
       "candidate_count": 1,
       "candidate_labels": [
@@ -1039,15 +1037,14 @@
       ],
       "probe": {
         "url_fingerprint": "0796a646dc1a0463",
-        "ffprobe_ok": true,
-        "ffmpeg_decode_ok": true,
-        "elapsed_ms": 4097,
-        "codec": "h264",
-        "resolution": "720x576"
+        "ffprobe_ok": false,
+        "ffmpeg_decode_ok": false,
+        "elapsed_ms": 4542,
+        "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
       }
     },
     "CNBC": {
-      "status": "verified_unchanged",
+      "status": "probe_failed",
       "source_index": 10,
       "candidate_count": 2,
       "candidate_labels": [
@@ -1056,11 +1053,10 @@
       ],
       "probe": {
         "url_fingerprint": "ee8d45a572bdd7e6",
-        "ffprobe_ok": true,
-        "ffmpeg_decode_ok": true,
-        "elapsed_ms": 1655,
-        "codec": "h264",
-        "resolution": "640x360"
+        "ffprobe_ok": false,
+        "ffmpeg_decode_ok": false,
+        "elapsed_ms": 900,
+        "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
       }
     },
     "Animal Planet": {
@@ -1076,8 +1072,8 @@
         "url_fingerprint": "d47b78eae8224fdc",
         "ffprobe_ok": false,
         "ffmpeg_decode_ok": false,
-        "elapsed_ms": 1041,
-        "probe_error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\n/tmp/iptv-refresh-xf02xiou/window.ts: Invalid data found when processing input"
+        "elapsed_ms": 674,
+        "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
       }
     },
     "Discovery": {
@@ -1092,27 +1088,12 @@
         "url_fingerprint": "29b0b2cbdab616b1",
         "ffprobe_ok": false,
         "ffmpeg_decode_ok": false,
-        "elapsed_ms": 3250,
-        "probe_error": "HTTPError: HTTP Error 502: Bad Gateway"
-      }
-    },
-    "Channel U": {
-      "status": "probe_failed",
-      "source_index": 5,
-      "candidate_count": 1,
-      "candidate_labels": [
-        "[SD]Mediacorp U @b[geo-blocked]"
-      ],
-      "probe": {
-        "url_fingerprint": "5e93e0dd5876359e",
-        "ffprobe_ok": false,
-        "ffmpeg_decode_ok": false,
-        "elapsed_ms": 5722,
-        "probe_error": "HTTPError: HTTP Error 502: Bad Gateway"
+        "elapsed_ms": 312,
+        "probe_error": "URLError: <urlopen error [Errno -2] Name or service not known>"
       }
     },
     "8TV": {
-      "status": "verified_unchanged",
+      "status": "probe_failed",
       "source_index": 1,
       "candidate_count": 1,
       "candidate_labels": [
@@ -1120,11 +1101,10 @@
       ],
       "probe": {
         "url_fingerprint": "029782b221650934",
-        "ffprobe_ok": true,
-        "ffmpeg_decode_ok": true,
-        "elapsed_ms": 4328,
-        "codec": "h264",
-        "resolution": "1920x1080"
+        "ffprobe_ok": false,
+        "ffmpeg_decode_ok": false,
+        "elapsed_ms": 1,
+        "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
       }
     },
     "明珠台": {
@@ -1140,7 +1120,7 @@
         "url_fingerprint": "72c36fde42e5e9db",
         "ffprobe_ok": false,
         "ffmpeg_decode_ok": false,
-        "elapsed_ms": 3062,
+        "elapsed_ms": 1745,
         "probe_error": "HTTPError: HTTP Error 521: <none>"
       }
     },
@@ -1157,7 +1137,7 @@
         "url_fingerprint": "fdec7c4c51617bf9",
         "ffprobe_ok": false,
         "ffmpeg_decode_ok": false,
-        "elapsed_ms": 308,
+        "elapsed_ms": 1578,
         "probe_error": "HTTPError: HTTP Error 521: <none>"
       }
     },
@@ -1174,7 +1154,7 @@
         "url_fingerprint": "0e464e563d79b4fc",
         "ffprobe_ok": false,
         "ffmpeg_decode_ok": false,
-        "elapsed_ms": 43,
+        "elapsed_ms": 82,
         "probe_error": "HTTPError: HTTP Error 403: Forbidden"
       }
     },
@@ -1191,8 +1171,8 @@
         "url_fingerprint": "3d6c0221e13e1bba",
         "ffprobe_ok": false,
         "ffmpeg_decode_ok": false,
-        "elapsed_ms": 5387,
-        "probe_error": "http://ali.hlspull.yximgs.com/live/6425965d63a08c85ca806bfcc8c75cf4.flv: Server returned 403 Forbidden (access denied)"
+        "elapsed_ms": 1,
+        "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
       }
     },
     "TVB Xing He HD": {
@@ -1208,8 +1188,8 @@
         "url_fingerprint": "5a82b1fcc40c6a4d",
         "ffprobe_ok": false,
         "ffmpeg_decode_ok": false,
-        "elapsed_ms": 368,
-        "probe_error": "http://php.jdshipin.com/TVOD/iptv.php?[REDACTED] Invalid data found when processing input"
+        "elapsed_ms": 0,
+        "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
       }
     },
     "Channel 8": {
@@ -1225,8 +1205,8 @@
         "url_fingerprint": "292458b6b11b8019",
         "ffprobe_ok": false,
         "ffmpeg_decode_ok": false,
-        "elapsed_ms": 1366,
-        "probe_error": "http://aktv.top/AKTV/live/aktv/channel8hd/AKTV.m3u8: Invalid data found when processing input"
+        "elapsed_ms": 323,
+        "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
       }
     },
     "爱奇艺 iQIYI": {
@@ -1242,8 +1222,8 @@
         "url_fingerprint": "ba4aa2a3690887b3",
         "ffprobe_ok": false,
         "ffmpeg_decode_ok": false,
-        "elapsed_ms": 19976,
-        "probe_error": "[hls @ 0x55e59b8e52c0] URL https://smt2.1678520.xyz/smt3.2.1.php?[REDACTED] is not in allowed_segment_extensions\nhttp://php.jdshipin.com/smt.php?[REDACTED] Invalid data found when processing input"
+        "elapsed_ms": 1,
+        "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
       }
     },
     "中天亚洲台 CTI Asia": {
@@ -1257,7 +1237,7 @@
         "url_fingerprint": "f93d260b696c20ad",
         "ffprobe_ok": false,
         "ffmpeg_decode_ok": false,
-        "elapsed_ms": 1,
+        "elapsed_ms": 188,
         "probe_error": "URLError: <urlopen error [Errno -2] Name or service not known>"
       }
     },
@@ -1273,8 +1253,8 @@
         "url_fingerprint": "2678cc43b294128a",
         "ffprobe_ok": false,
         "ffmpeg_decode_ok": false,
-        "elapsed_ms": 20035,
-        "probe_error": "[hls @ 0x55b355d10300] URL https://smt2.1678520.xyz/smt3.2.1.php?[REDACTED] is not in allowed_segment_extensions\nhttp://php.jdshipin.com/smt.php?[REDACTED] Invalid data found when processing input"
+        "elapsed_ms": 1,
+        "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
       }
     },
     "beIN SPORTS 1": {
@@ -1289,7 +1269,7 @@
         "url_fingerprint": "b6c0d27e2cddd272",
         "ffprobe_ok": false,
         "ffmpeg_decode_ok": false,
-        "elapsed_ms": 28,
+        "elapsed_ms": 29,
         "probe_error": "HTTPError: HTTP Error 403: Forbidden"
       }
     },
@@ -1306,8 +1286,8 @@
         "url_fingerprint": "b76f604a3f0f9395",
         "ffprobe_ok": false,
         "ffmpeg_decode_ok": false,
-        "elapsed_ms": 399,
-        "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
+        "elapsed_ms": 1,
+        "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
       }
     },
     "Premier Sports": {
@@ -1323,7 +1303,7 @@
         "url_fingerprint": "19355eb9e02ea512",
         "ffprobe_ok": false,
         "ffmpeg_decode_ok": false,
-        "elapsed_ms": 30,
+        "elapsed_ms": 51,
         "probe_error": "HTTPError: HTTP Error 403: Forbidden"
       }
     },
@@ -1338,7 +1318,7 @@
         "url_fingerprint": "e7c22dec4845a04a",
         "ffprobe_ok": false,
         "ffmpeg_decode_ok": false,
-        "elapsed_ms": 33,
+        "elapsed_ms": 36,
         "probe_error": "HTTPError: HTTP Error 403: Forbidden"
       }
     }
