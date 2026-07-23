@@ -34,6 +34,7 @@ scripts/
   sync_logos.py           # fetches missing logos
   validate_repo.py        # playlist and asset validation
 reports/                  # source and stream-check evidence
+reports/source-quality.json # generated HIGH/LOW source catalog classification
 manifest.json             # selected streams and metadata
 .github/workflows/        # validation and scheduled maintenance
 ```
@@ -56,8 +57,10 @@ catalog label must match a configured alias, and the candidate must pass FFprobe
 plus a short FFmpeg decode. It also scans all register rows, including
 `WITHHELD`, and records bounded candidate probes for manual identity review.
 It never automatically publishes a new cross-catalog mapping because stream
-identity still requires human review.
-The latest run is recorded in [`reports/daily-refresh.json`](./reports/daily-refresh.json).
+identity still requires human review. The latest run is recorded in
+[`reports/daily-refresh.json`](./reports/daily-refresh.json).
+
+The weekly source check also writes [`reports/source-quality.json`](./reports/source-quality.json). `HIGH` means HTTP 200, sampled `#EXTINF` entries, HTTPS, a response within 5 seconds, and a playlist-compatible content type. `LOW` means reachable but at least one of those catalog-quality checks failed; it remains available for rechecking and channel discovery. Transport failures are removed from the active inventory and retained in [`assets/failed-sources.txt`](./assets/failed-sources.txt). This catalog classification does not claim that every individual stream inside a source is playable.
 
 ## Disclaimer
 

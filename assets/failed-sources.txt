@@ -1,6 +1,16 @@
 # Quarantined source URLs that failed the full source-health check before quarantine.
 # Recheck before restoring them to sources.txt.
-# Failed check: 2026-07-20T01:42:56.757201+00:00
+# Failed check: 2026-07-23T06:24:21.729510+00:00
+# TimeoutError: timed out
+http://rihou.cc:555/gggg.nzk
+# TimeoutError: The read operation timed out
+https://yg.ygbox.de5.net/huya.php
+# URLError: <urlopen error [Errno 111] Connection refused>
+https://2121.ccwu.cc
+# HTTPError: HTTP Error 504: Gateway Timeout
+https://live.freetv.top/douyuyqk.m3u
+# URLError: <urlopen error [Errno 111] Connection refused>
+http://tot.totalh.net/tttt.txt
 # URLError: <urlopen error [Errno -2] Name or service not known>
 https://tv.iill.top/m3u/Gather
 # HTTPError: HTTP Error 404: Not Found
