@@ -1,6 +1,6 @@
 # Malaysia & Singapore IPTV Playlist
 
-A curated public playlist with **44 verified entries** for **53 requested channels**. Nine channels remain withheld until a correct, playable, identity-verified source is available.
+A curated public playlist with **51 current entries** for the **83-channel request register**. New requests remain register-only until a correct, playable, identity-verified source is available.
 
 ## Use
 

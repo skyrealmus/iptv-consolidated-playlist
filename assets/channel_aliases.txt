@@ -53,3 +53,18 @@ CNBC = CNBC | CNBC (1080p)
 Animal Planet = Animal Planet | Animal Planet HD
 Discovery = Discovery | Discovery Channel
 Channel U | U频道 | Channel U, Mediacorp U, U频道
+CCTV-4 | CCTV4 HD | CCTV-4 中文国际
+翡翠台 | TVB Jade | TVB 翡翠台, TVB翡翠台
+无线新闻台 | TVB News | TVB News HD, 无线新闻
+TVB Plus | TVB Plus
+凤凰中文 | Phoenix Chinese Channel HD | 凤凰中文台
+凤凰香港 | Phoenix Hong Kong
+凤凰资讯 | Phoenix Info News HD
+ViuTV | ViuTV
+华丽翡翠台 | 华丽翡翠台
+中天亚洲 | 中天亚洲台 CTI Asia | CTI Asia, 中天亚洲台
+8TV / 八度空间 | 8TV | 八度空间
+Astro AEC | Astro AEC HD | Astro AEC 高清
+Astro AOD | Astro AOD HD | Astro AOD 高清
+Astro 欢喜台 | Astro欢喜台 Astro Hua Hee Dai
+爱奇艺 | 爱奇艺 iQIYI
