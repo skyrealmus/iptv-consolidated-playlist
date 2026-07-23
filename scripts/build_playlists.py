@@ -12,7 +12,7 @@ from urllib.parse import quote
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "manifest.json"
 METADATA = ROOT / "assets" / "channel_metadata.json"
-CATEGORY_ORDER = ("General", "News", "Entertainment", "Sports", "Documentary", "Kids")
+CATEGORY_ORDER = ("General", "News", "Sports", "Documentary", "Kids")
 LANGUAGE_ORDER = {"Chinese": 0, "English": 1}
 
 
