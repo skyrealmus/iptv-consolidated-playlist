@@ -1674,5 +1674,63 @@
       "withheld_probe_failed": 35,
       "withheld_identity_review": 0
     }
+  },
+  "manual_publish_review": {
+    "at": "2026-07-23T08:11:27Z",
+    "source_index": 77,
+    "catalog": "https://iptv.1989.click/playlist.m3u",
+    "published": [
+      {
+        "requested": "无线新闻台",
+        "url": "https://cdn.qd.je/163189/wxxw",
+        "video": "1920x1080 H.264",
+        "audio": "AAC",
+        "identity": "visible 无线新闻台 watermark"
+      },
+      {
+        "requested": "ViuTV",
+        "url": "https://cdn.qd.je/163189/viu",
+        "video": "1920x1080 H.264",
+        "audio": "AAC rendition verified",
+        "identity": "visible viuTV watermark"
+      },
+      {
+        "requested": "DreamWorks",
+        "url": "https://cdn.qd.je/163189/dreamworks",
+        "video": "1920x1080 H.264",
+        "audio": "AAC",
+        "identity": "visible DreamWorks crescent watermark"
+      },
+      {
+        "requested": "Hub Sports 1",
+        "url": "https://iptv.1989.click/sprt/d85zff?[REDACTED]",
+        "video": "1920x1080 H.264",
+        "audio": "not declared by current playlist",
+        "identity": "visible HUB sports 1 watermark",
+        "provenance": "exact catalog entry; signed query omitted here"
+      }
+    ],
+    "not_published": [
+      {
+        "requested": "TVB Plus",
+        "reason": "current frame lacked TVB Plus identity"
+      },
+      {
+        "requested": "华丽翡翠台",
+        "reason": "current frame showed base 翡翠台 only; exact variant unverified"
+      },
+      {
+        "requested": "Channel 8",
+        "reason": "current frame was WATCH NEXT VIDEO placeholder"
+      },
+      {
+        "requested": "Channel 5",
+        "reason": "current frame was WATCH NEXT VIDEO placeholder"
+      }
+    ],
+    "existing_retained": [
+      "TVB Jade",
+      "Channel U"
+    ]
   }
 }

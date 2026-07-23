@@ -948,6 +948,75 @@
       ],
       "language": "English",
       "audio_language": "English"
+    },
+    "无线新闻台": {
+      "name_en": "TVB News",
+      "name_zh": "无线新闻台",
+      "display_name": "无线新闻台",
+      "group": "Hong Kong",
+      "country": "HK",
+      "category": "News",
+      "logo_file": "tvb-entertainment-news.png",
+      "source_logo": "https://www.xn--rgv465a.top/tvlogo/%E6%97%A0%E7%BA%BF%E6%96%B0%E9%97%BB.png",
+      "aliases": [
+        "无线新闻台",
+        "TVB News",
+        "TVB News HD",
+        "无线新闻",
+        "TVB Entertainment News",
+        "TVB 娱乐新闻"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "ViuTV": {
+      "name_en": "ViuTV",
+      "name_zh": "ViuTV",
+      "display_name": "ViuTV",
+      "group": "Hong Kong",
+      "country": "HK",
+      "category": "General",
+      "logo_file": "viutv.png",
+      "source_logo": "https://material.1989.click/logo/ViuTV.png",
+      "aliases": [
+        "ViuTV",
+        "Viu TV"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "DreamWorks": {
+      "name_en": "DreamWorks",
+      "name_zh": "DreamWorks",
+      "display_name": "DreamWorks",
+      "group": "International",
+      "country": "US",
+      "category": "Kids",
+      "logo_file": "dreamworks.png",
+      "source_logo": "https://material.1989.click/logo/DreamWorks-%E5%A4%A2%E5%B7%A5%E5%BB%A0%E5%8B%95%E7%95%AB.png",
+      "aliases": [
+        "DreamWorks",
+        "DreamWorks 夢工廠動畫",
+        "DreamWorks梦工厂动画"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Hub Sports 1": {
+      "name_en": "Hub Sports 1",
+      "name_zh": "Hub Sports 1",
+      "display_name": "Hub Sports 1",
+      "group": "International",
+      "country": "SG",
+      "category": "Sports",
+      "logo_file": "hub-sports-1.png",
+      "source_logo": "https://material.1989.click/logo/Hub-Sports-1.png",
+      "aliases": [
+        "Hub Sports 1",
+        "Hub Sports 1 HD"
+      ],
+      "language": "English",
+      "audio_language": "English"
     }
   },
   "channel_name_policy": "Chinese display names for Chinese-language channels; English display names for English-language channels.",

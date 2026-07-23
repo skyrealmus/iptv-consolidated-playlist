@@ -5,10 +5,11 @@ This register tracks the current requested channels and the latest daily refresh
 ## Current snapshot
 
 - Requested channels: **83**
-- Published matches in `playlist.m3u`: **45**
+- Published matches in `playlist.m3u`: **49**
 - Withheld pending a verified source: **13**
-- New requests not yet checked: **25**
-- Existing playlist entries retained: **51**; this register replacement does not publish new streams.
+- New requests not yet checked: **21**
+- Playlist entries in `playlist.m3u`: **55**; published additions are reflected in `manifest.json`.
+- Manual final publication review: **2026-07-23T08:11:27Z**; four catalog-backed candidates published.
 - Snapshot date: **2026-07-23**
 <!-- DAILY_REFRESH_STATUS:START -->
 - Last automated source refresh: **2026-07-23T07:19:09.682418+00:00**
@@ -40,22 +41,22 @@ This register tracks the current requested channels and the latest daily refresh
 | 11 | — | `CCTV世界地理` | CCTV 世界地理 | China | Documentary | Chinese | PUBLISHED | speed=0.141x; recheck flag | Retest daily; replace only after playback and identity pass. |
 | 12 | — | `CCTV 兵器科技` | CCTV 兵器科技 | China | Documentary | Chinese | PUBLISHED | resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
 | 13 | — | `翡翠台` | TVB 翡翠台 | Hong Kong | General | Chinese | PUBLISHED | speed=12.232x; resolution=3840x2160 | Retest daily; replace only after playback and identity pass. |
-| 14 | New request | `无线新闻台` | 无线新闻台 | Hong Kong | News | Chinese | REQUESTED | not yet checked | Discover and verify source, playback, and identity before publication. |
-| 15 | New request | `TVB Plus` | TVB Plus | Hong Kong | General | Chinese | REQUESTED | not yet checked | Discover and verify source, playback, and identity before publication. |
+| 14 | — | `无线新闻台` | 无线新闻台 | Hong Kong | News | Chinese | PUBLISHED | 1920x1080 H.264/AAC; visible 无线新闻台 watermark; source_index=77 | Retest daily; replace only after playback and identity pass. |
+| 15 | New request | `TVB Plus` | TVB Plus | Hong Kong | General | Chinese | REQUESTED | current frame lacked TVB Plus identity | Keep REQUESTED; publish only after correct identity and playback pass. |
 | 16 | — | `凤凰中文` | 凤凰中文台 | China | General | Chinese | PUBLISHED | speed=0.066x | Retest daily; replace only after playback and identity pass. |
 | 17 | Playback failed | `凤凰香港` | 凤凰香港 | Hong Kong | News | Chinese | WITHHELD | withheld — tested candidates were interruption/expired pages or failed ffprobe | Keep withheld; publish only after correct identity and playback pass. |
 | 18 | — | `凤凰资讯` | 凤凰资讯台 | China | News | Chinese | PUBLISHED | speed=0.013x | Retest daily; replace only after playback and identity pass. |
-| 19 | New request | `ViuTV` | ViuTV | Hong Kong | General | Chinese | REQUESTED | not yet checked | Discover and verify source, playback, and identity before publication. |
+| 19 | — | `ViuTV` | ViuTV | Hong Kong | General | Chinese | PUBLISHED | 1920x1080 H.264; AAC rendition verified; visible viuTV watermark; source_index=77 | Retest daily; replace only after playback and identity pass. |
 | 20 | Playback/identity failed | `明珠台` | 明珠台 | Hong Kong | General | Chinese | WITHHELD | 11 current candidates probed; 1 decoded an unbranded black-and-white performance with no TVB Pearl identity | Keep withheld; publish only after correct identity and playback pass. |
 | 21 | — | `TVBS Asia` | TVBS 亚洲 | Taiwan | News | Chinese | PUBLISHED | speed=0.189x; resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
 | 22 | Playback failed | `EBC Variety` | 东森综合 | Taiwan | General | Chinese | WITHHELD | withheld — vpstv candidate returned 403; catalog-extracted token URL was allowed by policy but timed out on the final probe | Keep withheld; publish only after a current exact candidate passes playback and identity checks. |
-| 23 | New request | `华丽翡翠台` | 华丽翡翠台 | Hong Kong | General | Chinese | REQUESTED | not yet checked | Discover and verify source, playback, and identity before publication. |
+| 23 | New request | `华丽翡翠台` | 华丽翡翠台 | Hong Kong | General | Chinese | REQUESTED | current frame showed only base 翡翠台; exact variant unverified | Keep REQUESTED; publish only after exact variant identity passes. |
 | 24 | Playback failed | `TVB 星河` | TVB 星河 | Hong Kong | General | Chinese | WITHHELD | withheld — label-matched candidates showed CCTV channels, not TVB星河 | Keep withheld; publish only after correct identity and playback pass. |
 | 25 | New request | `中天亚洲` | 中天亚洲台 | Taiwan | News | Chinese | WITHHELD | all safe exact candidates failed ffprobe or FFmpeg decode | Keep withheld; publish only after correct identity and playback pass. |
 | 26 | Playback failed | `CNA HD` | CNA HD | Singapore | News | English | PUBLISHED | speed=9.270x; resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
 | 27 | Slow / VPN fallback | `Channel U` | U频道 (Geo-blocked) | Singapore | General | Chinese | PUBLISHED | 960x540 H.264/AAC; three current frames showed the U watermark, wondershop.sg, Singapore phone 6373 9898, and SGD pricing; public catalog source_index=5 | Retest daily; replace only after a better exact/source-only candidate passes playback and identity checks. |
 | 28 | Wrong mapping | `Channel 8` | 8频道 | Singapore | General | Chinese | WITHHELD | fresh playable candidates showed Thailand, Russia/MIR, or other non-Singapore stations; official meWATCH source is DRM-restricted and Singapore VPN restricted | Keep withheld; publish only after correct identity and playback pass. |
-| 29 | New request | `Channel 5` | Channel 5 | Singapore | General | English | REQUESTED | not yet checked | Discover and verify source, playback, and identity before publication. |
+| 29 | New request | `Channel 5` | Channel 5 | Singapore | General | English | REQUESTED | current frame was WATCH NEXT VIDEO placeholder | Keep REQUESTED; publish only after correct identity and playback pass. |
 | 30 | Slow / Glitch / VPN fallback | `8TV / 八度空间` | 八度空间 (Geo-blocked) | Malaysia | General | Chinese | PUBLISHED | reused previous URL; resolution=1920x1080; current FFmpeg decode passed; historical speed=0.00347x; frame showed 8 LIVE/WOWshop; marked Geo-blocked for player-side VPN use | Retest daily; replace only after a better exact candidate passes playback and identity checks. |
 | 31 | — | `Astro AEC` | Astro AEC 高清 | Malaysia | General | Chinese | PUBLISHED | speed=0.009x; recheck flag | Retest daily; replace only after playback and identity pass. |
 | 32 | — | `Astro QJ` | Astro QJ 娱乐 | Malaysia | General | Chinese | PUBLISHED | speed=0.003x; recheck flag | Retest daily; replace only after playback and identity pass. |
@@ -82,7 +83,7 @@ This register tracks the current requested channels and the latest daily refresh
 | 53 | — | `Nickelodeon` | Nickelodeon | International | Kids | English | PUBLISHED | speed=0.085x; resolution=1920x1080; recheck flag | Retest daily; replace only after playback and identity pass. |
 | 54 | — | `Nick Jr` | Nick Jr | International | Kids | English | PUBLISHED | speed=0.028x; resolution=1048x576; recheck flag | Retest daily; replace only after playback and identity pass. |
 | 55 | — | `Moonbug Kids` | Moonbug Kids | International | Kids | English | PUBLISHED | speed=0.165x; resolution=1920x1080; recheck flag | Retest daily; replace only after playback and identity pass. |
-| 56 | New request | `DreamWorks` | DreamWorks | International | Kids | English | REQUESTED | not yet checked | Discover and verify source, playback, and identity before publication. |
+| 56 | — | `DreamWorks` | DreamWorks | International | Kids | English | PUBLISHED | 1920x1080 H.264/AAC; DreamWorks crescent watermark visible; source_index=77 | Retest daily; replace only after playback and identity pass. |
 | 57 | New request | `Cartoon Network` | Cartoon Network (Geo-blocked) | International | Kids | English | PUBLISHED | resolution=1920x1080; three final-gate frames showed Cartoon Network watermark; public catalog source_index=57 | Retest daily; replace only after playback and identity pass. |
 | 58 | — | `Love Nature 4K` | Love Nature 4K | International | Documentary | English | PUBLISHED | speed=0.271x; resolution=3840x2160; recheck flag | Retest daily; replace only after playback and identity pass. |
 | 59 | — | `BBC Earth` | BBC Earth | International | Documentary | English | PUBLISHED | speed=0.791x; resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
@@ -101,7 +102,7 @@ This register tracks the current requested channels and the latest daily refresh
 | 72 | New request | `TNT Sport 2` | TNT Sport 2 | International | Sports | English | REQUESTED | not yet checked | Discover and verify source, playback, and identity before publication. |
 | 73 | New request | `TNT Sport 3` | TNT Sport 3 | International | Sports | English | REQUESTED | not yet checked | Discover and verify source, playback, and identity before publication. |
 | 74 | New request | `TNT Sport 4` | TNT Sport 4 | International | Sports | English | REQUESTED | not yet checked | Discover and verify source, playback, and identity before publication. |
-| 75 | New request | `Hub Sports 1` | Hub Sports 1 | International | Sports | English | REQUESTED | not yet checked | Discover and verify source, playback, and identity before publication. |
+| 75 | — | `Hub Sports 1` | Hub Sports 1 | International | Sports | English | PUBLISHED | 1920x1080 H.264; HUB sports 1 watermark visible; catalog-derived signed URL; current video-only playlist | Retest daily; replace only after playback and identity pass. |
 | 76 | New request | `Hub Sports 2` | Hub Sports 2 | International | Sports | English | REQUESTED | not yet checked | Discover and verify source, playback, and identity before publication. |
 | 77 | New request | `Hub Sports 3` | Hub Sports 3 | International | Sports | English | REQUESTED | not yet checked | Discover and verify source, playback, and identity before publication. |
 | 78 | New request | `Hub Sports 4` | Hub Sports 4 | International | Sports | English | REQUESTED | not yet checked | Discover and verify source, playback, and identity before publication. |

@@ -2,7 +2,7 @@
   "generated_at": "2026-07-23",
   "method": "Guovin/iptv-api",
   "requested_count": 83,
-  "responding_count": 51,
+  "responding_count": 55,
   "strict_count": 25,
   "entries": [
     {
@@ -675,6 +675,59 @@
       "access_note": "User-approved Geo-blocked fallback; URL was directly extracted from the public catalog, has no query string, username, or password, and passed the current playback plus three-frame identity gate.",
       "logo": "http://epg.one/img2/601.png",
       "logo_source": "https://ilook.epg.one/5CM5SY98BF24PL/2"
+    },
+    {
+      "epg": null,
+      "requested": "无线新闻台",
+      "url": "https://cdn.qd.je/163189/wxxw",
+      "label": "无线新闻台",
+      "source_index": 77,
+      "delay": null,
+      "speed": null,
+      "resolution": "1920x1080",
+      "accepted": true,
+      "logo": "https://www.xn--rgv465a.top/tvlogo/%E6%97%A0%E7%BA%BF%E6%96%B0%E9%97%BB.png",
+      "logo_source": "https://www.xn--rgv465a.top/tvlogo/%E6%97%A0%E7%BA%BF%E6%96%B0%E9%97%BB.png"
+    },
+    {
+      "epg": null,
+      "requested": "ViuTV",
+      "url": "https://cdn.qd.je/163189/viu",
+      "label": "ViuTV",
+      "source_index": 77,
+      "delay": null,
+      "speed": null,
+      "resolution": "1920x1080",
+      "accepted": true,
+      "logo": "https://material.1989.click/logo/ViuTV.png",
+      "logo_source": "https://material.1989.click/logo/ViuTV.png"
+    },
+    {
+      "epg": null,
+      "requested": "DreamWorks",
+      "url": "https://cdn.qd.je/163189/dreamworks",
+      "label": "DreamWorks",
+      "source_index": 77,
+      "delay": null,
+      "speed": null,
+      "resolution": "1920x1080",
+      "accepted": true,
+      "logo": "https://material.1989.click/logo/DreamWorks-%E5%A4%A2%E5%B7%A5%E5%BB%A0%E5%8B%95%E7%95%AB.png",
+      "logo_source": "https://material.1989.click/logo/DreamWorks-%E5%A4%A2%E5%B7%A5%E5%BB%A0%E5%8B%95%E7%95%AB.png"
+    },
+    {
+      "epg": null,
+      "requested": "Hub Sports 1",
+      "url": "https://iptv.1989.click/sprt/d85zff?token=d1895efc662d3fc0310691a6bf1d1a02ed08952c1b41ffcb",
+      "label": "Hub Sports 1",
+      "source_index": 77,
+      "delay": null,
+      "speed": null,
+      "resolution": "1920x1080",
+      "accepted": true,
+      "logo": "https://material.1989.click/logo/Hub-Sports-1.png",
+      "logo_source": "https://material.1989.click/logo/Hub-Sports-1.png",
+      "access_note": "Signed URL directly extracted from public source catalog index 77; current video and identity checks passed; no private credentials used."
     }
   ],
   "requested_channels": [
