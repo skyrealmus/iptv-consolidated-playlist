@@ -12,7 +12,7 @@ Raw URL:
 https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/playlist.m3u
 ```
 
-The playlist includes channel names, logos, language, country, category, and audio-language metadata. Chinese channels use Chinese display names; English channels use English display names.
+The playlist includes channel names, logos, language, country, category, and audio-language metadata. Player groups use channel types such as News, Kids, Sports, and Documentary; country remains available in `tvg-country`. Chinese channels use Chinese display names; English channels use English display names.
 
 ## Channel refresh
 

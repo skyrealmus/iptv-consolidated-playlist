@@ -47,7 +47,7 @@ def render_entry(entry: dict, info: dict) -> str:
     if entry.get("epg") is not None:
         fields.append(f'tvg-chno="{attr(entry["epg"])}"')
     fields.extend([
-        f'group-title="{attr(info["group"])}"',
+        f'group-title="{attr(info["category"])}"',
         f'tvg-country="{attr(info["country"])}"',
         f'tvg-category="{attr(info["category"])}"',
     ])

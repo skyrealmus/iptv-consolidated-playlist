@@ -39,6 +39,8 @@ def parse(path: Path):
             raise AssertionError(f"{path.name}: display name differs from tvg-name for {display}")
         if " / " in attrs["group-title"] or " / " in attrs["tvg-category"]:
             raise AssertionError(f"{path.name}: group/category must be English-only for {display}")
+        if attrs["group-title"] != attrs["tvg-category"]:
+            raise AssertionError(f"{path.name}: group-title must use channel category for {display}")
         parts = urlsplit(url)
         if parts.username or parts.password:
             raise AssertionError(f"{path.name}: credential-bearing stream URL")
