@@ -828,9 +828,10 @@
     "https://m3u.ibert.me/txt/y_g.txt",
     "https://gitlab.com/p2v5/wangtv/-/raw/main/lunbo.txt",
     "https://gitee.com/tushaoyong/live/raw/master/%E6%8E%A5%E5%8F%A3/IPV6.txt",
-    "http://tot.totalh.net/tttt.txt"
+    "http://tot.totalh.net/tttt.txt",
+    "https://iptv.1989.click/playlist.m3u"
   ],
-  "source_checks": "82 active public M3U/TXT catalogs were refreshed for the Channel U/Channel 8 target review at 2026-07-20T05:24:25Z; all target candidates were available then. The later full health snapshot at 2026-07-20T05:32:01Z returned 81/82 HTTP 200, with one unrelated transient read timeout. Candidate streams were independently checked with ffprobe, FFmpeg decode, and sampled-frame identity review; Channel U was added from a public catalog-extracted Geo-blocked fallback after Singapore identity and playback passed, while Channel 8 remained withheld because every playable label-matched candidate was the wrong station and the official source is DRM-restricted. 8TV remains a user-approved Geo-blocked fallback. See reports/source-health.json, reports/stream-speed.json, and reports/targeted-channel-audit.json.",
+  "source_checks": "The historical 2026-07-20 Channel U/Channel 8 target review covered 82 active public M3U/TXT catalogs; the current source inventory contains 83 catalogs, including https://iptv.1989.click/playlist.m3u. The later full health snapshot at 2026-07-20T05:32:01Z returned 81/82 HTTP 200, with one unrelated transient read timeout. Candidate streams were independently checked with ffprobe, FFmpeg decode, and sampled-frame identity review; Channel U was added from a public catalog-extracted Geo-blocked fallback after Singapore identity and playback passed, while Channel 8 remained withheld because every playable label-matched candidate was the wrong station and the official source is DRM-restricted. 8TV remains a user-approved Geo-blocked fallback. See reports/source-health.json, reports/stream-speed.json, and reports/targeted-channel-audit.json.",
   "stream_url_policy": {
     "private_credentials": "never publish embedded usernames, passwords, or user-specific secrets",
     "catalog_tokens": "allowed only when the complete URL is directly extracted from a public source catalog, catalog provenance/source_index is recorded, and current playback plus identity checks pass",
@@ -859,7 +860,7 @@
     {
       "name": "Public source inventory",
       "snapshot": "assets/sources.txt",
-      "source_count": 82,
+      "source_count": 83,
       "quarantine_snapshot": "assets/failed-sources.txt",
       "quarantined_count": 31,
       "note": "Merged source inventory with failed health-check URLs quarantined separately; the current playlist remains a curated one-stream-per-request snapshot."
