@@ -12,10 +12,10 @@ This register tracks the current requested channels and the latest daily refresh
 - Manual final publication review: **2026-07-23T08:11:27Z**; four catalog-backed candidates published.
 - Snapshot date: **2026-07-23**
 <!-- DAILY_REFRESH_STATUS:START -->
-- Last automated source refresh: **2026-07-23T07:19:09.682418+00:00**
-- Mapped channels checked: **51**; verified unchanged: **6**; URLs refreshed: **1**
-- Register rows checked: **83**; withheld rows reviewed: **38**; identity-review candidates: **0**; withheld probe failures: **35**
-- Safe failures retained without replacement: probe failures **8**, unavailable catalogs **0**, no same-catalog alias match **36**, withheld no-match **3**
+- Last automated source refresh: **2026-07-23T18:38:15.143803+00:00**
+- Mapped channels checked: **55**; verified unchanged: **0**; URLs refreshed: **0**
+- Register rows checked: **83**; withheld rows reviewed: **34**; identity-review candidates: **0**; withheld probe failures: **31**
+- Safe failures retained without replacement: probe failures **18**, unavailable catalogs **0**, no same-catalog alias match **37**, withheld no-match **3**
 - Publication policy: same-source alias match plus FFprobe and short FFmpeg decode; cross-catalog replacements remain manual identity review.
 <!-- DAILY_REFRESH_STATUS:END -->
 - Machine source of truth for selected URLs: [`manifest.json`](./manifest.json)
