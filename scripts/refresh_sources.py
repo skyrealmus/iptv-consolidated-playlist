@@ -592,7 +592,7 @@ def main() -> int:
     withheld_results = [channel_results[row["requested"]] for row in review_rows if row["requested"] in channel_results]
     summary = {
         "checked": len(entries),
-        "register_checked": len(entries) + len(review_rows),
+        "register_checked": len(register_rows),
         "withheld_checked": len(review_rows),
         "verified_unchanged": sum(item["status"] == "verified_unchanged" for item in published_results),
         "url_refreshed": sum(item["status"] == "url_refreshed" for item in published_results),

@@ -1,5 +1,5 @@
 {
-  "tested_at": "2026-07-22T18:22:00.467480+00:00",
+  "tested_at": "2026-07-23T07:19:09.682418+00:00",
   "method": {
     "catalog_match": "82 active public M3U/TXT catalogs",
     "stream_probe": "ffprobe with 10-second read timeout and bounded process timeout",
@@ -9,14 +9,9 @@
     "geo_blocked_fallback_rule": "A user-approved VPN/geo-blocked fallback may be published when no better exact candidate passes current playback checks; append (Geo-blocked) to the normal display name and record the access note."
   },
   "catalog_health": {
-    "tested": 82,
-    "http_200": 81,
-    "failed": [
-      {
-        "source": "https://live.freetv.top/douyuyqk.m3u",
-        "error": "HTTPError: HTTP Error 504: Gateway Timeout"
-      }
-    ],
+    "tested": 78,
+    "http_200": 78,
+    "failed": [],
     "refresh_method": "selected manifest source catalogs"
   },
   "channels": {
@@ -47,8 +42,8 @@
           "url_fingerprint": "292458b6b11b8019",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 323,
-          "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
+          "elapsed_ms": 2281,
+          "probe_error": "http://aktv.top/AKTV/live/aktv/channel8hd/AKTV.m3u8: Invalid data found when processing input"
         }
       }
     },
@@ -124,8 +119,8 @@
           "url_fingerprint": "029782b221650934",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 1,
-          "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
+          "elapsed_ms": 20299,
+          "probe_error": "[tls @ 0x556f699ab7c0] Error in the pull function.\n[tls @ 0x556f699ab7c0] IO error: Connection timed out\nhttps://stream1.freetv.fun/a8689b73ff805df64e23f886f310bb655802abe03d5a4c78e3cf8bd638a7b4dc.ctv: Connection timed out"
         }
       }
     },
@@ -140,7 +135,7 @@
       "identity_evidence": "frame visibly contained the CNA logo and news ticker",
       "action": "manifest URL replaced",
       "daily_refresh": {
-        "status": "probe_failed",
+        "status": "verified_unchanged",
         "source_index": 2,
         "candidate_count": 1,
         "candidate_labels": [
@@ -148,10 +143,11 @@
         ],
         "probe": {
           "url_fingerprint": "af2cc5e6409b43d1",
-          "ffprobe_ok": false,
-          "ffmpeg_decode_ok": false,
-          "elapsed_ms": 242,
-          "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
+          "ffprobe_ok": true,
+          "ffmpeg_decode_ok": true,
+          "elapsed_ms": 893,
+          "codec": "h264",
+          "resolution": "1920x1080"
         }
       }
     },
@@ -179,7 +175,7 @@
           "url_fingerprint": "72c36fde42e5e9db",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 1745,
+          "elapsed_ms": 257,
           "probe_error": "HTTPError: HTTP Error 521: <none>"
         }
       }
@@ -292,7 +288,7 @@
           "url_fingerprint": "0e464e563d79b4fc",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 82,
+          "elapsed_ms": 27,
           "probe_error": "HTTPError: HTTP Error 403: Forbidden"
         }
       }
@@ -318,7 +314,7 @@
       },
       "daily_refresh": {
         "status": "no_same_catalog_match",
-        "source_index": 58,
+        "source_index": 55,
         "candidate_count": 0
       }
     },
@@ -374,8 +370,8 @@
           "url_fingerprint": "b76f604a3f0f9395",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 1,
-          "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
+          "elapsed_ms": 413,
+          "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
         }
       }
     },
@@ -400,7 +396,7 @@
       },
       "daily_refresh": {
         "status": "no_same_catalog_match",
-        "source_index": 58,
+        "source_index": 55,
         "candidate_count": 0
       }
     },
@@ -414,7 +410,7 @@
       "identity_evidence": "sample frame visibly contained the CNBC logo and CNBC programme branding",
       "action": "added to public playlist",
       "daily_refresh": {
-        "status": "probe_failed",
+        "status": "verified_unchanged",
         "source_index": 10,
         "candidate_count": 2,
         "candidate_labels": [
@@ -423,10 +419,11 @@
         ],
         "probe": {
           "url_fingerprint": "ee8d45a572bdd7e6",
-          "ffprobe_ok": false,
-          "ffmpeg_decode_ok": false,
-          "elapsed_ms": 900,
-          "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
+          "ffprobe_ok": true,
+          "ffmpeg_decode_ok": true,
+          "elapsed_ms": 2612,
+          "codec": "h264",
+          "resolution": "640x360"
         }
       }
     },
@@ -441,7 +438,7 @@
       "action": "added to public playlist",
       "daily_refresh": {
         "status": "probe_failed",
-        "source_index": 62,
+        "source_index": 58,
         "candidate_count": 3,
         "candidate_labels": [
           "Animal Planet",
@@ -452,8 +449,8 @@
           "url_fingerprint": "d47b78eae8224fdc",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 674,
-          "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
+          "elapsed_ms": 1007,
+          "probe_error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\n/tmp/iptv-refresh-5873yu0h/window.ts: Invalid data found when processing input"
         }
       }
     },
@@ -468,18 +465,17 @@
       "action": "added to public playlist",
       "daily_refresh": {
         "status": "probe_failed",
-        "source_index": 73,
-        "candidate_count": 2,
+        "source_index": 69,
+        "candidate_count": 1,
         "candidate_labels": [
-          "[BD]discovery",
           "[BD]Discovery"
         ],
         "probe": {
-          "url_fingerprint": "29b0b2cbdab616b1",
+          "url_fingerprint": "12811db92e48daf0",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 312,
-          "probe_error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+          "elapsed_ms": 1002,
+          "probe_error": "Not detecting m3u8/hls with non standard extension and non standard mime type\n    Last message repeated 1 times\n/tmp/iptv-refresh-1wbw979t/window.ts: Invalid data found when processing input"
         }
       }
     },
@@ -623,7 +619,7 @@
           "url_fingerprint": "19355eb9e02ea512",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 51,
+          "elapsed_ms": 41,
           "probe_error": "HTTPError: HTTP Error 403: Forbidden"
         }
       }
@@ -650,7 +646,7 @@
           "url_fingerprint": "e7c22dec4845a04a",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 36,
+          "elapsed_ms": 31,
           "probe_error": "HTTPError: HTTP Error 403: Forbidden"
         }
       }
@@ -739,7 +735,7 @@
           "url_fingerprint": "c1be310994ac453b",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 188,
+          "elapsed_ms": 24,
           "probe_error": "URLError: <urlopen error [Errno -2] Name or service not known>"
         }
       }
@@ -907,7 +903,7 @@
     },
     "CCTV-1": {
       "daily_refresh": {
-        "status": "probe_failed",
+        "status": "verified_unchanged",
         "source_index": 4,
         "candidate_count": 3,
         "candidate_labels": [
@@ -917,10 +913,11 @@
         ],
         "probe": {
           "url_fingerprint": "1ef1a9402f5b3ed8",
-          "ffprobe_ok": false,
-          "ffmpeg_decode_ok": false,
-          "elapsed_ms": 4934,
-          "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
+          "ffprobe_ok": true,
+          "ffmpeg_decode_ok": true,
+          "elapsed_ms": 4495,
+          "codec": "h264",
+          "resolution": "426x240"
         }
       }
     },
@@ -936,31 +933,32 @@
           "url_fingerprint": "5f08c93ca779baa7",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 244,
+          "elapsed_ms": 1243,
           "probe_error": "HTTPError: HTTP Error 404: Not Found"
         }
       }
     },
     "CCTV4 HD": {
       "daily_refresh": {
-        "status": "probe_failed",
+        "status": "url_refreshed",
         "source_index": 12,
         "candidate_count": 1,
         "candidate_labels": [
           "CCTV-4 中文国际"
         ],
         "probe": {
-          "url_fingerprint": "2c33869b9e931994",
-          "ffprobe_ok": false,
-          "ffmpeg_decode_ok": false,
-          "elapsed_ms": 723,
-          "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
+          "url_fingerprint": "b751a851bd4d7cc6",
+          "ffprobe_ok": true,
+          "ffmpeg_decode_ok": true,
+          "elapsed_ms": 4029,
+          "codec": "h264",
+          "resolution": "1920x1080"
         }
       }
     },
     "Phoenix Info News HD": {
       "daily_refresh": {
-        "status": "probe_failed",
+        "status": "verified_unchanged",
         "source_index": 14,
         "candidate_count": 3,
         "candidate_labels": [
@@ -970,16 +968,17 @@
         ],
         "probe": {
           "url_fingerprint": "25eccae4948485c5",
-          "ffprobe_ok": false,
-          "ffmpeg_decode_ok": false,
-          "elapsed_ms": 12927,
-          "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
+          "ffprobe_ok": true,
+          "ffmpeg_decode_ok": true,
+          "elapsed_ms": 9775,
+          "codec": "mpeg2video",
+          "resolution": "720x576"
         }
       }
     },
     "Phoenix Chinese Channel HD": {
       "daily_refresh": {
-        "status": "probe_failed",
+        "status": "verified_unchanged",
         "source_index": 14,
         "candidate_count": 3,
         "candidate_labels": [
@@ -989,10 +988,11 @@
         ],
         "probe": {
           "url_fingerprint": "7f1c40293716a3d8",
-          "ffprobe_ok": false,
-          "ffmpeg_decode_ok": false,
-          "elapsed_ms": 15878,
-          "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
+          "ffprobe_ok": true,
+          "ffmpeg_decode_ok": true,
+          "elapsed_ms": 14253,
+          "codec": "mpeg2video",
+          "resolution": "720x576"
         }
       }
     },
@@ -1008,8 +1008,8 @@
           "url_fingerprint": "fc960b6562477539",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 82,
-          "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
+          "elapsed_ms": 952,
+          "probe_error": "http://74.91.26.218:82/live/cctv16hd.m3u8: Invalid data found when processing input"
         }
       }
     },
@@ -1025,7 +1025,7 @@
           "url_fingerprint": "d22787e663833b0b",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 337,
+          "elapsed_ms": 1381,
           "probe_error": "HTTPError: HTTP Error 404: Not Found"
         }
       }
@@ -1042,14 +1042,14 @@
           "url_fingerprint": "f9a3da70b56c6e61",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 242,
+          "elapsed_ms": 1254,
           "probe_error": "HTTPError: HTTP Error 404: Not Found"
         }
       }
     },
     "CCTV-9": {
       "daily_refresh": {
-        "status": "probe_failed",
+        "status": "verified_unchanged",
         "source_index": 4,
         "candidate_count": 1,
         "candidate_labels": [
@@ -1057,10 +1057,551 @@
         ],
         "probe": {
           "url_fingerprint": "0796a646dc1a0463",
+          "ffprobe_ok": true,
+          "ffmpeg_decode_ok": true,
+          "elapsed_ms": 4676,
+          "codec": "h264",
+          "resolution": "720x576"
+        }
+      }
+    },
+    "Now Sports Prime": {
+      "daily_refresh": {
+        "status": "withheld_no_match",
+        "source_index": null,
+        "candidate_count": 0
+      }
+    },
+    "CCTV-13": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "CCTV13",
+          "CCTV13",
+          "CCTV13"
+        ],
+        "probe": {
+          "url_fingerprint": "1aad1b7e91f72240",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 4542,
-          "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
+          "elapsed_ms": 3365,
+          "probe_error": "http://101.35.240.114:88/live.php?[REDACTED] Server returned 404 Not Found"
+        }
+      }
+    },
+    "无线新闻台": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "无线新闻",
+          "无线新闻",
+          "无线新闻"
+        ],
+        "probe": {
+          "url_fingerprint": "cd0ad4e99cd8a230",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 3524,
+          "probe_error": "[hls @ 0x563dc7dde300] URL http://smt2.1678520.xyz/smt3.2.1.php?[REDACTED] is not in allowed_segment_extensions\nhttp://cdn9.163189.xyz/smt1.1.php?[REDACTED] Invalid data found when processing input"
+        }
+      }
+    },
+    "TVB Plus": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "TVBPLUS",
+          "TVBPLUS",
+          "TVBPlus"
+        ],
+        "probe": {
+          "url_fingerprint": "80287b9b809b111b",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 281,
+          "probe_error": "http://cdn.163189.xyz/live/tvbp/stream.m3u8: Invalid data found when processing input"
+        }
+      }
+    },
+    "凤凰香港": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "凤凰香港",
+          "凤凰香港",
+          "凤凰香港"
+        ],
+        "probe": {
+          "url_fingerprint": "fdec7c4c51617bf9",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 350,
+          "probe_error": "HTTPError: HTTP Error 521: <none>"
+        }
+      }
+    },
+    "ViuTV": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "Viutv",
+          "ViuTV",
+          "ViuTV"
+        ],
+        "probe": {
+          "url_fingerprint": "38632c382475e563",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 416,
+          "probe_error": "http://php.jdshipin.com:8880/PLTV/iptv.php?[REDACTED] Invalid data found when processing input"
+        }
+      }
+    },
+    "华丽翡翠台": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "华丽翡翠台",
+          "华丽翡翠台",
+          "华丽翡翠台"
+        ],
+        "probe": {
+          "url_fingerprint": "29e0b530dd2894e2",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 3448,
+          "probe_error": "[hls @ 0x55d7b224d300] URL http://smt2.1678520.xyz/smt3.2.1.php?[REDACTED] is not in allowed_segment_extensions\nhttp://cdn9.163189.xyz/smt1.1.php?[REDACTED] Invalid data found when processing input"
+        }
+      }
+    },
+    "TVB 星河": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "TVB星河",
+          "TVB星河",
+          "TVB星河"
+        ],
+        "probe": {
+          "url_fingerprint": "5a82b1fcc40c6a4d",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 361,
+          "probe_error": "http://php.jdshipin.com/TVOD/iptv.php?[REDACTED] Invalid data found when processing input"
+        }
+      }
+    },
+    "中天亚洲": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "中天亚洲",
+          "中天亚洲",
+          "中天亚洲"
+        ],
+        "probe": {
+          "url_fingerprint": "e38799cb9f237a93",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 448,
+          "probe_error": "[http @ 0x5629e8f51c40] Stream ends prematurely at 0, should be 18446744073709551615\nhttp://185.243.7.13:80/play/live.php?[REDACTED] Input/output error"
+        }
+      }
+    },
+    "Channel 5": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "Channel 5",
+          "Channel 5",
+          "Channel 5"
+        ],
+        "probe": {
+          "url_fingerprint": "bc56f3e50937dc8a",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 1037,
+          "probe_error": "http://aktv.top/AKTV/live/aktv/channel5hd/AKTV.m3u8: Invalid data found when processing input"
+        }
+      }
+    },
+    "Astro 欢喜台": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "Astro欢喜台",
+          "Astro欢喜台",
+          "Astro 欢喜台"
+        ],
+        "probe": {
+          "url_fingerprint": "2678cc43b294128a",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 20238,
+          "probe_error": "[hls @ 0x55ec017ec300] URL https://smt2.1678520.xyz/smt3.2.1.php?[REDACTED] is not in allowed_segment_extensions\nhttp://php.jdshipin.com/smt.php?[REDACTED] Invalid data found when processing input"
+        }
+      }
+    },
+    "爱奇艺": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "爱奇艺",
+          "爱奇艺",
+          "爱奇艺"
+        ],
+        "probe": {
+          "url_fingerprint": "ba4aa2a3690887b3",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 19797,
+          "probe_error": "[hls @ 0x556b83abf2c0] URL https://smt2.1678520.xyz/smt3.2.1.php?[REDACTED] is not in allowed_segment_extensions\nhttp://php.jdshipin.com/smt.php?[REDACTED] Invalid data found when processing input"
+        }
+      }
+    },
+    "Now Sports 617": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 1,
+        "candidate_labels": [
+          "Now Sports 617"
+        ],
+        "probe": {
+          "url_fingerprint": "f17792509c96a396",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 436,
+          "probe_error": "https://iptv.1989.click/hkg/9892kw?[REDACTED] Server returned 403 Forbidden (access denied)"
+        }
+      }
+    },
+    "Now Sports 618": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 1,
+        "candidate_labels": [
+          "Now Sports 618"
+        ],
+        "probe": {
+          "url_fingerprint": "267656d548ddb654",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 433,
+          "probe_error": "https://iptv.1989.click/hkg/yhuv8f?[REDACTED] Server returned 403 Forbidden (access denied)"
+        }
+      }
+    },
+    "DreamWorks": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "DREAMWORKS",
+          "DreamWorks",
+          "DREAMWORKS"
+        ],
+        "probe": {
+          "url_fingerprint": "fca4e138f8b2325c",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 674,
+          "probe_error": "[tcp @ 0x55b5212dc580] Connection to tcp://108.181.20.255:39387 failed: No route to host\nhttp://108.181.20.255:27347/livehttpplay?[REDACTED] No route to host"
+        }
+      }
+    },
+    "beIN SPORTS": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "beIN SPORTS",
+          "beIN Sports",
+          "beIN SPORTS"
+        ],
+        "probe": {
+          "url_fingerprint": "c4a04fc7311393d0",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 427,
+          "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
+        }
+      }
+    },
+    "beIN SPORTS 4": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "beIN Sports 4",
+          "beIN Sports 4"
+        ],
+        "probe": {
+          "url_fingerprint": "6b09a2657fcdb3a0",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 438,
+          "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
+        }
+      }
+    },
+    "beIN SPORTS 5": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "beIN Sports 5",
+          "beIN Sports 5"
+        ],
+        "probe": {
+          "url_fingerprint": "926e4f7af3fb9fe8",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 420,
+          "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
+        }
+      }
+    },
+    "TNT Sport 1": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "TNTSport1",
+          "TNT Sport 1"
+        ],
+        "probe": {
+          "url_fingerprint": "c09b779c95181ac5",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 29,
+          "probe_error": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    "TNT Sport 2": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "TNTSport2",
+          "TNT Sport 2"
+        ],
+        "probe": {
+          "url_fingerprint": "f400825fdc44394d",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 25,
+          "probe_error": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    "TNT Sport 3": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "TNTSport3",
+          "TNT Sport 3"
+        ],
+        "probe": {
+          "url_fingerprint": "899252c532cecc45",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 26,
+          "probe_error": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    "TNT Sport 4": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "TNTSport4",
+          "TNT Sport 4"
+        ],
+        "probe": {
+          "url_fingerprint": "baaaf7e39abd7869",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 37,
+          "probe_error": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    "Hub Sports 1": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "Hub Sports 1",
+          "Hub Sports 1"
+        ],
+        "probe": {
+          "url_fingerprint": "c022354d098bd9f1",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 419,
+          "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
+        }
+      }
+    },
+    "Hub Sports 2": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "Hub Sports 2",
+          "Hub Sports 2"
+        ],
+        "probe": {
+          "url_fingerprint": "f75cf999b4b45b0e",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 384,
+          "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
+        }
+      }
+    },
+    "Hub Sports 3": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "Hub Sports 3",
+          "Hub Sports 3"
+        ],
+        "probe": {
+          "url_fingerprint": "8689513e40e8319d",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 441,
+          "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
+        }
+      }
+    },
+    "Hub Sports 4": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "Hub Sports 4",
+          "Hub Sports 4"
+        ],
+        "probe": {
+          "url_fingerprint": "67a82ad6ad1487c3",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 441,
+          "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
+        }
+      }
+    },
+    "Hub Sports 5": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "Hub Sports 5",
+          "Hub Sports 5"
+        ],
+        "probe": {
+          "url_fingerprint": "0c60cf64f0d91b3f",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 417,
+          "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
+        }
+      }
+    },
+    "Hub Sports 6": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "Hub Sports 6",
+          "Hub Sports 6"
+        ],
+        "probe": {
+          "url_fingerprint": "9931fc82c877fefd",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 476,
+          "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
+        }
+      }
+    },
+    "Hub Sports 7": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "Hub Sports 7",
+          "Hub Sports 7"
+        ],
+        "probe": {
+          "url_fingerprint": "ca1eb4ec82321d40",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 455,
+          "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
+        }
+      }
+    },
+    "Hub Sports 8": {
+      "daily_refresh": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "Hub Sports 8",
+          "Hub Sports 8"
+        ],
+        "probe": {
+          "url_fingerprint": "c8760aa300c75c16",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 423,
+          "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
         }
       }
     }
@@ -1073,16 +1614,16 @@
     "replaced": 0,
     "daily_refresh": {
       "checked": 51,
-      "register_checked": 67,
-      "withheld_checked": 16,
-      "verified_unchanged": 0,
-      "url_refreshed": 0,
-      "probe_failed": 15,
+      "register_checked": 83,
+      "withheld_checked": 38,
+      "verified_unchanged": 6,
+      "url_refreshed": 1,
+      "probe_failed": 8,
       "no_same_catalog_match": 36,
       "catalog_unavailable": 0,
       "source_not_active": 0,
       "withheld_no_match": 3,
-      "withheld_probe_failed": 13,
+      "withheld_probe_failed": 35,
       "withheld_identity_review": 0
     }
   },
@@ -1117,20 +1658,20 @@
     "unique_candidate_urls": 71
   },
   "daily_refresh": {
-    "at": "2026-07-22T18:22:00.467480+00:00",
+    "at": "2026-07-23T07:19:09.682418+00:00",
     "method": "published same-source refresh + full-register withheld discovery + bounded ffprobe/FFmpeg; no automatic cross-catalog publication",
     "summary": {
       "checked": 51,
-      "register_checked": 67,
-      "withheld_checked": 16,
-      "verified_unchanged": 0,
-      "url_refreshed": 0,
-      "probe_failed": 15,
+      "register_checked": 83,
+      "withheld_checked": 38,
+      "verified_unchanged": 6,
+      "url_refreshed": 1,
+      "probe_failed": 8,
       "no_same_catalog_match": 36,
       "catalog_unavailable": 0,
       "source_not_active": 0,
       "withheld_no_match": 3,
-      "withheld_probe_failed": 13,
+      "withheld_probe_failed": 35,
       "withheld_identity_review": 0
     }
   }

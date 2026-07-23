@@ -11,8 +11,10 @@ This register tracks the current requested channels and the latest daily refresh
 - Existing playlist entries retained: **51**; this register replacement does not publish new streams.
 - Snapshot date: **2026-07-23**
 <!-- DAILY_REFRESH_STATUS:START -->
-- Last automated source refresh: **2026-07-22T18:22:00.467480+00:00**
-- The register was replaced with the new **83-channel** request list; a full refresh of this list is pending.
+- Last automated source refresh: **2026-07-23T07:19:09.682418+00:00**
+- Mapped channels checked: **51**; verified unchanged: **6**; URLs refreshed: **1**
+- Register rows checked: **83**; withheld rows reviewed: **38**; identity-review candidates: **0**; withheld probe failures: **35**
+- Safe failures retained without replacement: probe failures **8**, unavailable catalogs **0**, no same-catalog alias match **36**, withheld no-match **3**
 - Publication policy: same-source alias match plus FFprobe and short FFmpeg decode; cross-catalog replacements remain manual identity review.
 <!-- DAILY_REFRESH_STATUS:END -->
 - Machine source of truth for selected URLs: [`manifest.json`](./manifest.json)
