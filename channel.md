@@ -1,6 +1,6 @@
-# Channel Request and Daily Live-Source Check
+# Channel Request Register
 
-This is the complete requested-channel register for the daily live-source refresh. Keep every requested channel in this file even when its stream is unavailable; use `WITHHELD` instead of deleting a request.
+This register tracks every requested channel and the latest daily refresh evidence. Keep unavailable requests as `WITHHELD`; do not delete them.
 
 ## Current snapshot
 
@@ -20,9 +20,9 @@ This is the complete requested-channel register for the daily live-source refres
 - Machine source of truth for published and verified names, region, category, and language: [`assets/channel_metadata.json`](./assets/channel_metadata.json)
 - `REQUESTED` rows remain register-only until a source passes verification and is added to the machine metadata.
 
-## Full channel list
+## Channel list
 
-`Requested` is the stable request key used for source matching. `Display` is the published single-language name. The quality snapshot is evidence from the latest checked-in manifest; refresh it after each daily run.
+`Requested` is the stable source-matching key. `Display` is the published name. The quality snapshot comes from the latest checked-in manifest.
 
 | # | Reported issue | Requested | Display | Region | Category | Language | Status | Latest quality snapshot | Daily action |
 |---:|---|---|---|---|---|---|---|---|---|
@@ -94,17 +94,13 @@ This is the complete requested-channel register for the daily live-source refres
 | 66 | New request | `Animal Planet` | Animal Planet | International | Documentary | English | PUBLISHED | resolution=1920x1080; frame-verified Animal Planet watermark | Retest daily; replace only after playback and identity pass. |
 | 67 | New request | `Discovery` | Discovery | International | Documentary | English | PUBLISHED | resolution=1920x1080; frame-verified Discovery Channel watermark | Retest daily; replace only after playback and identity pass. |
 
-## Daily refresh workflow
+## Daily refresh rules
 
-1. Read every row in this file; do not silently drop `WITHHELD` channels.
-2. Discover current candidates from the active public catalog in [`assets/sources.txt`](./assets/sources.txt). Do not use [`assets/failed-sources.txt`](./assets/failed-sources.txt) until a recheck passes.
-3. Match candidates using the requested name and aliases. Do not trust a source label alone.
-4. Probe candidates with FFprobe, then run a short FFmpeg decode to confirm actual video frames.
-5. Check quality: HTTP/HLS availability, startup delay, decode success, resolution, throughput/decode speed, stalls/glitches, and `403`/expired/`nosignal` responses.
-6. Check identity for reported, changed, or ambiguous channels using a visible logo/watermark or other on-screen evidence. A wrong channel fails even when playback works.
-7. Do not publish private credential-bearing URLs (such as embedded usernames/passwords or user-specific secrets), DRM-only, expired, or identity-mismatched URLs. A token or signed query parameter is allowed when the complete URL was directly extracted from a public source catalog, its catalog provenance/source index is recorded, and the current playback and identity checks pass. A user-approved VPN/geo-blocked fallback may also be published when no better exact candidate passes; append `(Geo-blocked)` after the normal display name and record the access note.
-8. Update the selected URL and evidence in `manifest.json` and `reports/stream-speed.json`; update this file's status/snapshot when the result changes.
-9. Run the repository checks:
+1. Check every row, including `WITHHELD` and `REQUESTED`, against active public catalogs in [`assets/sources.txt`](./assets/sources.txt). Do not use [`assets/failed-sources.txt`](./assets/failed-sources.txt) until rechecked.
+2. Accept a replacement only when the same catalog has the requested alias and the URL passes FFprobe, short FFmpeg decode, playback-quality checks, and visible identity verification.
+3. Never publish private credentials, DRM-only, expired, or identity-mismatched URLs. Catalog-derived signed URLs are allowed only with provenance and successful current checks. Geo-blocked fallbacks must be labelled `(Geo-blocked)`.
+4. Record selected URLs in `manifest.json`, evidence in `reports/stream-speed.json`, and changed status/snapshots here.
+5. Run:
 
    ```bash
    python3 scripts/build_playlists.py
@@ -112,16 +108,11 @@ This is the complete requested-channel register for the daily live-source refres
    python3 scripts/build_playlists.py --check
    ```
 
-10. Confirm `accepted.m3u` is absent, run `git diff --check`, and verify the public raw playlist after pushing.
+6. Confirm `accepted.m3u` is absent, then run `git diff --check` and verify the public playlist after pushing.
 
-## Status rules
+## Status
 
-- `PUBLISHED`: one selected public source is currently included in `playlist.m3u`; it still requires daily retesting.
-- `WITHHELD`: no source currently passes identity and playback checks, or the source is unsafe to publish. Keep the request row and record the reason in `manifest.json`/the audit report.
-- `REQUESTED`: the channel has been added to this register but has not yet completed source, playback, and identity verification.
-- A faster source is not automatically better: prefer a source that is both materially stable and identity-correct.
-- Never restore a removed mapping only because the URL responds HTTP 200; require decoded playback and channel-identity evidence.
-
-## Verification rule
-
-Do not accept a source from its label alone. Confirm playback with FFprobe/FFmpeg and verify the visible channel identity before publishing it in `playlist.m3u`.
+- `PUBLISHED`: a selected, currently verified source is in `playlist.m3u`; retest daily.
+- `WITHHELD`: no safe source currently passes playback and identity checks; keep the request and reason.
+- `REQUESTED`: source, playback, and identity verification are not complete.
+- HTTP `200` or a matching label alone is never sufficient; stability and identity matter more than speed.
