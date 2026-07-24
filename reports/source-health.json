@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-07-23T06:26:16.482454+00:00",
+  "checked_at": "2026-07-24T02:38:36.971565+00:00",
   "quality_scope": "catalog reachability and sampled playlist shape; not individual stream playback quality",
   "quality_criteria": {
     "HIGH": [
@@ -16,19 +16,19 @@
     {
       "url": "https://live.hacks.tools/iptv/languages/eng.m3u",
       "status": 200,
-      "bytes_sampled": 715310,
+      "bytes_sampled": 718138,
       "content_type": "audio/x-mpegurl",
-      "m3u_entries_sampled": 3136,
-      "elapsed_ms": 382,
+      "m3u_entries_sampled": 3149,
+      "elapsed_ms": 272,
       "quality": "HIGH"
     },
     {
       "url": "https://live.hacks.tools/iptv/languages/malaysia.m3u",
       "status": 200,
-      "bytes_sampled": 14406,
+      "bytes_sampled": 8099,
       "content_type": "audio/x-mpegurl",
-      "m3u_entries_sampled": 44,
-      "elapsed_ms": 182,
+      "m3u_entries_sampled": 25,
+      "elapsed_ms": 212,
       "quality": "HIGH"
     },
     {
@@ -37,7 +37,7 @@
       "bytes_sampled": 22574,
       "content_type": "text/plain",
       "m3u_entries_sampled": 80,
-      "elapsed_ms": 15,
+      "elapsed_ms": 91,
       "quality": "HIGH"
     },
     {
@@ -46,25 +46,25 @@
       "bytes_sampled": 451112,
       "content_type": "text/plain",
       "m3u_entries_sampled": 1807,
-      "elapsed_ms": 20,
+      "elapsed_ms": 157,
       "quality": "HIGH"
     },
     {
       "url": "https://live.hacks.tools/iptv/languages/zho.m3u",
       "status": 200,
-      "bytes_sampled": 43284,
+      "bytes_sampled": 43610,
       "content_type": "audio/x-mpegurl",
-      "m3u_entries_sampled": 214,
-      "elapsed_ms": 205,
+      "m3u_entries_sampled": 215,
+      "elapsed_ms": 182,
       "quality": "HIGH"
     },
     {
       "url": "https://live.hacks.tools/iptv/languages/singapore.m3u",
       "status": 200,
-      "bytes_sampled": 6249,
+      "bytes_sampled": 5977,
       "content_type": "audio/x-mpegurl",
-      "m3u_entries_sampled": 20,
-      "elapsed_ms": 153,
+      "m3u_entries_sampled": 19,
+      "elapsed_ms": 225,
       "quality": "HIGH"
     },
     {
@@ -73,7 +73,7 @@
       "bytes_sampled": 21945,
       "content_type": "audio/x-mpegurl",
       "m3u_entries_sampled": 120,
-      "elapsed_ms": 35,
+      "elapsed_ms": 99,
       "quality": "HIGH"
     },
     {
@@ -82,7 +82,7 @@
       "bytes_sampled": 21945,
       "content_type": "text/plain",
       "m3u_entries_sampled": 120,
-      "elapsed_ms": 239,
+      "elapsed_ms": 95,
       "quality": "HIGH"
     },
     {
@@ -91,7 +91,7 @@
       "bytes_sampled": 21945,
       "content_type": "text/plain",
       "m3u_entries_sampled": 120,
-      "elapsed_ms": 300,
+      "elapsed_ms": 188,
       "quality": "HIGH"
     },
     {
@@ -100,7 +100,7 @@
       "bytes_sampled": 200521,
       "content_type": "text/plain",
       "m3u_entries_sampled": 862,
-      "elapsed_ms": 335,
+      "elapsed_ms": 268,
       "quality": "HIGH"
     },
     {
@@ -108,8 +108,8 @@
       "status": 200,
       "bytes_sampled": 2000000,
       "content_type": "audio/x-mpegurl",
-      "m3u_entries_sampled": 9208,
-      "elapsed_ms": 235,
+      "m3u_entries_sampled": 9202,
+      "elapsed_ms": 117,
       "quality": "HIGH"
     },
     {
@@ -118,19 +118,16 @@
       "bytes_sampled": 397169,
       "content_type": "text/plain",
       "m3u_entries_sampled": 1985,
-      "elapsed_ms": 23321,
-      "quality": "LOW",
-      "quality_reasons": [
-        "catalog response exceeded 5000 ms"
-      ]
+      "elapsed_ms": 2751,
+      "quality": "HIGH"
     },
     {
       "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8",
       "status": 200,
-      "bytes_sampled": 16477,
+      "bytes_sampled": 16079,
       "content_type": "text/plain",
-      "m3u_entries_sampled": 70,
-      "elapsed_ms": 15,
+      "m3u_entries_sampled": 67,
+      "elapsed_ms": 116,
       "quality": "HIGH"
     },
     {
@@ -139,7 +136,7 @@
       "bytes_sampled": 170584,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 21,
+      "elapsed_ms": 130,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -148,10 +145,10 @@
     {
       "url": "https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt",
       "status": 200,
-      "bytes_sampled": 205804,
+      "bytes_sampled": 266089,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 26,
+      "elapsed_ms": 159,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -163,7 +160,7 @@
       "bytes_sampled": 6410,
       "content_type": "text/plain",
       "m3u_entries_sampled": 31,
-      "elapsed_ms": 15,
+      "elapsed_ms": 104,
       "quality": "HIGH"
     },
     {
@@ -172,7 +169,7 @@
       "bytes_sampled": 268671,
       "content_type": "text/plain",
       "m3u_entries_sampled": 1272,
-      "elapsed_ms": 22,
+      "elapsed_ms": 1805,
       "quality": "HIGH"
     },
     {
@@ -181,7 +178,7 @@
       "bytes_sampled": 200521,
       "content_type": "text/plain",
       "m3u_entries_sampled": 862,
-      "elapsed_ms": 23,
+      "elapsed_ms": 138,
       "quality": "HIGH"
     },
     {
@@ -190,7 +187,7 @@
       "bytes_sampled": 11387,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 23,
+      "elapsed_ms": 225,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -202,7 +199,7 @@
       "bytes_sampled": 41281,
       "content_type": "text/plain",
       "m3u_entries_sampled": 196,
-      "elapsed_ms": 18,
+      "elapsed_ms": 281,
       "quality": "HIGH"
     },
     {
@@ -211,16 +208,16 @@
       "bytes_sampled": 25215,
       "content_type": "text/plain",
       "m3u_entries_sampled": 82,
-      "elapsed_ms": 14,
+      "elapsed_ms": 140,
       "quality": "HIGH"
     },
     {
       "url": "https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt",
       "status": 200,
-      "bytes_sampled": 62392,
+      "bytes_sampled": 59118,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 19,
+      "elapsed_ms": 131,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -232,7 +229,7 @@
       "bytes_sampled": 268,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 16,
+      "elapsed_ms": 116,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -241,10 +238,10 @@
     {
       "url": "https://raw.githubusercontent.com/kakaxi-1/IPTV/refs/heads/main/ipv4.txt",
       "status": 200,
-      "bytes_sampled": 34782,
+      "bytes_sampled": 66224,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 13,
+      "elapsed_ms": 28,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -256,7 +253,7 @@
       "bytes_sampled": 530377,
       "content_type": "text/plain",
       "m3u_entries_sampled": 1930,
-      "elapsed_ms": 28,
+      "elapsed_ms": 141,
       "quality": "HIGH"
     },
     {
@@ -265,7 +262,7 @@
       "bytes_sampled": 29341,
       "content_type": "text/plain",
       "m3u_entries_sampled": 129,
-      "elapsed_ms": 14,
+      "elapsed_ms": 91,
       "quality": "HIGH"
     },
     {
@@ -274,7 +271,7 @@
       "bytes_sampled": 25215,
       "content_type": "text/plain",
       "m3u_entries_sampled": 82,
-      "elapsed_ms": 14,
+      "elapsed_ms": 88,
       "quality": "HIGH"
     },
     {
@@ -283,16 +280,16 @@
       "bytes_sampled": 28345,
       "content_type": "text/plain",
       "m3u_entries_sampled": 73,
-      "elapsed_ms": 18,
+      "elapsed_ms": 155,
       "quality": "HIGH"
     },
     {
       "url": "https://raw.githubusercontent.com/kimwang1978/collect-txt/refs/heads/main/bbxx.txt",
       "status": 200,
-      "bytes_sampled": 1697938,
+      "bytes_sampled": 1905011,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 33,
+      "elapsed_ms": 233,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -301,10 +298,10 @@
     {
       "url": "https://raw.githubusercontent.com/kimwang1978/collect-txt/refs/heads/main/others_output.txt",
       "status": 200,
-      "bytes_sampled": 1309706,
+      "bytes_sampled": 1734457,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 34,
+      "elapsed_ms": 228,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -313,10 +310,10 @@
     {
       "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/refs/heads/main/cnTV_AutoUpdate.m3u8",
       "status": 200,
-      "bytes_sampled": 16477,
+      "bytes_sampled": 16079,
       "content_type": "text/plain",
-      "m3u_entries_sampled": 70,
-      "elapsed_ms": 16,
+      "m3u_entries_sampled": 67,
+      "elapsed_ms": 124,
       "quality": "HIGH"
     },
     {
@@ -325,7 +322,7 @@
       "bytes_sampled": 1286727,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 37,
+      "elapsed_ms": 228,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -334,10 +331,10 @@
     {
       "url": "https://raw.githubusercontent.com/liuchuang0321/K-TV/refs/heads/master/output/user_result.m3u",
       "status": 200,
-      "bytes_sampled": 67914,
+      "bytes_sampled": 67909,
       "content_type": "text/plain",
       "m3u_entries_sampled": 384,
-      "elapsed_ms": 21,
+      "elapsed_ms": 164,
       "quality": "HIGH"
     },
     {
@@ -346,7 +343,7 @@
       "bytes_sampled": 10327,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 16,
+      "elapsed_ms": 127,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -355,10 +352,10 @@
     {
       "url": "https://raw.githubusercontent.com/zhi35/iptv/refs/heads/master/iptv.m3u",
       "status": 200,
-      "bytes_sampled": 97698,
+      "bytes_sampled": 97479,
       "content_type": "text/plain",
-      "m3u_entries_sampled": 410,
-      "elapsed_ms": 20,
+      "m3u_entries_sampled": 409,
+      "elapsed_ms": 119,
       "quality": "HIGH"
     },
     {
@@ -367,16 +364,16 @@
       "bytes_sampled": 24155,
       "content_type": "text/plain",
       "m3u_entries_sampled": 54,
-      "elapsed_ms": 18,
+      "elapsed_ms": 186,
       "quality": "HIGH"
     },
     {
       "url": "https://raw.githubusercontent.com/0610840119/iptv-api/refs/heads/master/output/xp_result.m3u",
       "status": 200,
-      "bytes_sampled": 155792,
+      "bytes_sampled": 155314,
       "content_type": "text/plain",
       "m3u_entries_sampled": 680,
-      "elapsed_ms": 23,
+      "elapsed_ms": 158,
       "quality": "HIGH"
     },
     {
@@ -385,7 +382,7 @@
       "bytes_sampled": 8021,
       "content_type": "text/plain",
       "m3u_entries_sampled": 58,
-      "elapsed_ms": 233,
+      "elapsed_ms": 143,
       "quality": "HIGH"
     },
     {
@@ -394,7 +391,7 @@
       "bytes_sampled": 5408,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 15,
+      "elapsed_ms": 124,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -406,7 +403,7 @@
       "bytes_sampled": 354640,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 21,
+      "elapsed_ms": 154,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -418,7 +415,7 @@
       "bytes_sampled": 109502,
       "content_type": "text/plain",
       "m3u_entries_sampled": 371,
-      "elapsed_ms": 24,
+      "elapsed_ms": 126,
       "quality": "HIGH"
     },
     {
@@ -427,7 +424,7 @@
       "bytes_sampled": 16038,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 14,
+      "elapsed_ms": 118,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -439,7 +436,7 @@
       "bytes_sampled": 2852,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 14,
+      "elapsed_ms": 135,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -451,7 +448,7 @@
       "bytes_sampled": 105076,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 21,
+      "elapsed_ms": 30,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -463,7 +460,7 @@
       "bytes_sampled": 8566,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 15,
+      "elapsed_ms": 110,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -475,7 +472,7 @@
       "bytes_sampled": 54202,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 17,
+      "elapsed_ms": 31,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -484,10 +481,10 @@
     {
       "url": "https://raw.githubusercontent.com/n3rddd/CTVLive/refs/heads/main/live.txt",
       "status": 200,
-      "bytes_sampled": 40496,
+      "bytes_sampled": 37927,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 17,
+      "elapsed_ms": 130,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -499,7 +496,7 @@
       "bytes_sampled": 66955,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 20,
+      "elapsed_ms": 134,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -511,7 +508,7 @@
       "bytes_sampled": 127202,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 18,
+      "elapsed_ms": 128,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -523,7 +520,7 @@
       "bytes_sampled": 21556,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 18,
+      "elapsed_ms": 152,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -532,10 +529,10 @@
     {
       "url": "https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
       "status": 200,
-      "bytes_sampled": 46492,
+      "bytes_sampled": 80319,
       "content_type": "text/plain",
-      "m3u_entries_sampled": 260,
-      "elapsed_ms": 307,
+      "m3u_entries_sampled": 299,
+      "elapsed_ms": 31,
       "quality": "HIGH"
     },
     {
@@ -544,7 +541,7 @@
       "bytes_sampled": 1511401,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 36,
+      "elapsed_ms": 194,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -556,7 +553,7 @@
       "bytes_sampled": 528,
       "content_type": "application/octet-stream",
       "m3u_entries_sampled": 2,
-      "elapsed_ms": 191,
+      "elapsed_ms": 669,
       "quality": "LOW",
       "quality_reasons": [
         "unexpected content type: application/octet-stream"
@@ -565,10 +562,10 @@
     {
       "url": "https://seep.eu.org/develop202.github.io/migu_video/interface.txt",
       "status": 200,
-      "bytes_sampled": 46492,
+      "bytes_sampled": 80319,
       "content_type": "text/plain",
-      "m3u_entries_sampled": 260,
-      "elapsed_ms": 129,
+      "m3u_entries_sampled": 299,
+      "elapsed_ms": 781,
       "quality": "HIGH"
     },
     {
@@ -577,7 +574,7 @@
       "bytes_sampled": 862567,
       "content_type": "text/html",
       "m3u_entries_sampled": 3952,
-      "elapsed_ms": 1666,
+      "elapsed_ms": 1384,
       "quality": "LOW",
       "quality_reasons": [
         "unexpected content type: text/html"
@@ -586,10 +583,10 @@
     {
       "url": "https://iptv.catvod.com/tv.m3u",
       "status": 200,
-      "bytes_sampled": 38515,
+      "bytes_sampled": 38380,
       "content_type": "application/octet-stream",
       "m3u_entries_sampled": 127,
-      "elapsed_ms": 1006,
+      "elapsed_ms": 169,
       "quality": "LOW",
       "quality_reasons": [
         "unexpected content type: application/octet-stream"
@@ -601,20 +598,19 @@
       "bytes_sampled": 2000000,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 10347,
+      "elapsed_ms": 2081,
       "quality": "LOW",
       "quality_reasons": [
-        "no #EXTINF entries in sampled content",
-        "catalog response exceeded 5000 ms"
+        "no #EXTINF entries in sampled content"
       ]
     },
     {
       "url": "https://live.zhoujie218.top/tv/iptv4.txt",
       "status": 200,
-      "bytes_sampled": 62392,
+      "bytes_sampled": 59118,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 176,
+      "elapsed_ms": 1584,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -623,10 +619,10 @@
     {
       "url": "https://t.freetv.fun/m3u/playlist.txt",
       "status": 200,
-      "bytes_sampled": 213581,
+      "bytes_sampled": 221592,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 50,
+      "elapsed_ms": 248,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -635,10 +631,10 @@
     {
       "url": "https://t.freetv.fun/m3u/taiwan.txt",
       "status": 200,
-      "bytes_sampled": 12600,
+      "bytes_sampled": 11602,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 35,
+      "elapsed_ms": 196,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -647,10 +643,10 @@
     {
       "url": "https://t.freetv.fun/m3u/hong_kong.txt",
       "status": 200,
-      "bytes_sampled": 5668,
+      "bytes_sampled": 5503,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 62,
+      "elapsed_ms": 197,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -662,7 +658,7 @@
       "bytes_sampled": 1815,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 38,
+      "elapsed_ms": 425,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -671,10 +667,10 @@
     {
       "url": "https://t.freetv.fun/m3u/japan.txt",
       "status": 200,
-      "bytes_sampled": 2977,
+      "bytes_sampled": 2609,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 35,
+      "elapsed_ms": 196,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -683,19 +679,19 @@
     {
       "url": "https://live.iptv-free.com/iptv/categories/general.m3u",
       "status": 200,
-      "bytes_sampled": 619880,
+      "bytes_sampled": 623632,
       "content_type": "audio/x-mpegurl",
-      "m3u_entries_sampled": 2833,
-      "elapsed_ms": 173,
+      "m3u_entries_sampled": 2850,
+      "elapsed_ms": 233,
       "quality": "HIGH"
     },
     {
       "url": "https://live.iptv-free.com/iptv/categories/movies.m3u",
       "status": 200,
-      "bytes_sampled": 192995,
+      "bytes_sampled": 193338,
       "content_type": "audio/x-mpegurl",
       "m3u_entries_sampled": 759,
-      "elapsed_ms": 166,
+      "elapsed_ms": 226,
       "quality": "HIGH"
     },
     {
@@ -704,7 +700,7 @@
       "bytes_sampled": 365895,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 1913,
+      "elapsed_ms": 1300,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -716,16 +712,16 @@
       "bytes_sampled": 13285,
       "content_type": "audio/x-mpegurl",
       "m3u_entries_sampled": 59,
-      "elapsed_ms": 576,
+      "elapsed_ms": 357,
       "quality": "HIGH"
     },
     {
       "url": "https://live.zbds.org/tv/iptv4.txt",
       "status": 200,
-      "bytes_sampled": 62392,
+      "bytes_sampled": 59118,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 171,
+      "elapsed_ms": 811,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -737,16 +733,16 @@
       "bytes_sampled": 47543,
       "content_type": "application/vnd.apple.mpegurl",
       "m3u_entries_sampled": 154,
-      "elapsed_ms": 47,
+      "elapsed_ms": 250,
       "quality": "HIGH"
     },
     {
       "url": "https://freetv.fun/test_channels_original_new.txt",
       "status": 200,
-      "bytes_sampled": 228878,
+      "bytes_sampled": 237241,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 482,
+      "elapsed_ms": 502,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -755,10 +751,10 @@
     {
       "url": "https://jihulab.com/-/snippets/5265/raw/main/.txt",
       "status": 200,
-      "bytes_sampled": 26834,
+      "bytes_sampled": 26848,
       "content_type": "text/html",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 1980,
+      "elapsed_ms": 1096,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content",
@@ -771,11 +767,10 @@
       "bytes_sampled": 152081,
       "content_type": "application/octet-stream",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 5450,
+      "elapsed_ms": 1739,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content",
-        "catalog response exceeded 5000 ms",
         "unexpected content type: application/octet-stream"
       ]
     },
@@ -785,7 +780,7 @@
       "bytes_sampled": 15219,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 14,
+      "elapsed_ms": 84,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -797,7 +792,7 @@
       "bytes_sampled": 3395,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 13,
+      "elapsed_ms": 26,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -809,7 +804,7 @@
       "bytes_sampled": 13548,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 15,
+      "elapsed_ms": 25,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -821,7 +816,7 @@
       "bytes_sampled": 36279,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 424,
+      "elapsed_ms": 117,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -833,7 +828,7 @@
       "bytes_sampled": 25162,
       "content_type": "text/plain",
       "m3u_entries_sampled": 0,
-      "elapsed_ms": 4896,
+      "elapsed_ms": 3930,
       "quality": "LOW",
       "quality_reasons": [
         "no #EXTINF entries in sampled content"
@@ -845,7 +840,7 @@
       "bytes_sampled": 136144,
       "content_type": "application/x-mpegurl",
       "m3u_entries_sampled": 466,
-      "elapsed_ms": 37,
+      "elapsed_ms": 168,
       "quality": "HIGH"
     }
   ]
