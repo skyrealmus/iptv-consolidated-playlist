@@ -86,16 +86,24 @@ def load_alias_rows(path: Path) -> list[list[str]]:
 
 
 def load_register(path: Path) -> list[dict[str, str]]:
+    """Read the channel register by column name, not by stale column offsets."""
     rows: list[dict[str, str]] = []
+    header: dict[str, int] | None = None
     for raw in path.read_text(encoding="utf-8").splitlines():
         if not raw.startswith("|"):
             continue
         fields = [field.strip() for field in raw.strip().strip("|").split("|")]
-        if len(fields) < 10 or not fields[0].isdigit():
+        if fields and fields[0] == "#":
+            header = {name: index for index, name in enumerate(fields)}
             continue
-        requested = fields[2].strip("`")
-        display = fields[3].strip("`")
-        status = fields[7].strip().upper()
+        if header is None or not fields or not fields[0].isdigit():
+            continue
+        required = {"Requested", "Display", "Status"}
+        if not required.issubset(header) or len(fields) <= max(header.values()):
+            continue
+        requested = fields[header["Requested"]].strip("`")
+        display = fields[header["Display"]].strip("`")
+        status = fields[header["Status"]].upper()
         if requested and status in {"PUBLISHED", "WITHHELD", "REQUESTED"}:
             rows.append({"requested": requested, "display": display, "status": status})
     return rows
