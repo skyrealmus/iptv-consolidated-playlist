@@ -1725,5 +1725,364 @@
       "TVB Jade",
       "Channel U"
     ]
+  },
+  "requested_channel_review": {
+    "at": "2026-07-25T10:16:41.425454+00:00",
+    "method": "fresh requested-only catalog review with bounded FFprobe/FFmpeg; no automatic publication; Now Sports Prime also received a current frame identity check",
+    "summary": {
+      "checked": 0,
+      "register_checked": 83,
+      "withheld_checked": 21,
+      "verified_unchanged": 0,
+      "url_refreshed": 0,
+      "probe_failed": 0,
+      "no_same_catalog_match": 0,
+      "catalog_unavailable": 0,
+      "source_not_active": 0,
+      "withheld_no_match": 0,
+      "withheld_probe_failed": 20,
+      "withheld_identity_review": 1
+    },
+    "channels": {
+      "CCTV-13": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "CCTV13",
+          "CCTV13",
+          "CCTV13"
+        ],
+        "probe": {
+          "url_fingerprint": "1aad1b7e91f72240",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 5097,
+          "probe_error": "[tcp @ 0x55d606b49700] Connection to tcp://101.35.240.114:88 failed: Connection timed out\nhttp://101.35.240.114:88/live.php?[REDACTED] Connection timed out"
+        }
+      },
+      "TVB Plus": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "TVBPLUS",
+          "TVBPLUS",
+          "TVBPlus"
+        ],
+        "probe": {
+          "url_fingerprint": "80287b9b809b111b",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 302,
+          "probe_error": "http://cdn.163189.xyz/live/tvbp/stream.m3u8: Invalid data found when processing input"
+        }
+      },
+      "华丽翡翠台": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "华丽翡翠台",
+          "华丽翡翠台",
+          "华丽翡翠台"
+        ],
+        "probe": {
+          "url_fingerprint": "29e0b530dd2894e2",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 1305,
+          "probe_error": "[hls @ 0x55d4ddc45300] URL http://smt2.1678520.xyz/smt3.2.1.php?[REDACTED] is not in allowed_segment_extensions\nhttp://cdn9.163189.xyz/smt1.1.php?[REDACTED] Invalid data found when processing input"
+        }
+      },
+      "Channel 5": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "Channel 5",
+          "Channel 5",
+          "Channel 5"
+        ],
+        "probe": {
+          "url_fingerprint": "bc56f3e50937dc8a",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 20636,
+          "probe_error": "URLError: <urlopen error timed out>"
+        }
+      },
+      "Now Sports Prime": {
+        "status": "withheld_identity_review",
+        "source_index": 57,
+        "candidate_count": 1,
+        "candidate_labels": [
+          "now Sports Prime"
+        ],
+        "probe": {
+          "url_fingerprint": "8c97491343768a29",
+          "ffprobe_ok": true,
+          "ffmpeg_decode_ok": true,
+          "elapsed_ms": 6010,
+          "codec": "h264",
+          "resolution": "1920x1080"
+        }
+      },
+      "Now Sports 617": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 1,
+        "candidate_labels": [
+          "Now Sports 617"
+        ],
+        "probe": {
+          "url_fingerprint": "c27bd39d807d6e56",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 335,
+          "probe_error": "https://iptv.1989.click/hkg/vm4b4p?[REDACTED] Server returned 403 Forbidden (access denied)"
+        }
+      },
+      "Now Sports 618": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 1,
+        "candidate_labels": [
+          "Now Sports 618"
+        ],
+        "probe": {
+          "url_fingerprint": "5245f9f22b14307c",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 374,
+          "probe_error": "https://iptv.1989.click/hkg/2aee8k?[REDACTED] Server returned 403 Forbidden (access denied)"
+        }
+      },
+      "beIN SPORTS": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 3,
+        "candidate_labels": [
+          "beIN SPORTS",
+          "beIN Sports",
+          "beIN SPORTS"
+        ],
+        "probe": {
+          "url_fingerprint": "c4a04fc7311393d0",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 436,
+          "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
+        }
+      },
+      "beIN SPORTS 4": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "beIN Sports 4",
+          "beIN Sports 4"
+        ],
+        "probe": {
+          "url_fingerprint": "6b09a2657fcdb3a0",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 419,
+          "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
+        }
+      },
+      "beIN SPORTS 5": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "beIN Sports 5",
+          "beIN Sports 5"
+        ],
+        "probe": {
+          "url_fingerprint": "926e4f7af3fb9fe8",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 437,
+          "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
+        }
+      },
+      "TNT Sport 1": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "TNTSport1",
+          "TNT Sport 1"
+        ],
+        "probe": {
+          "url_fingerprint": "c09b779c95181ac5",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 29,
+          "probe_error": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      },
+      "TNT Sport 2": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "TNTSport2",
+          "TNT Sport 2"
+        ],
+        "probe": {
+          "url_fingerprint": "f400825fdc44394d",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 21,
+          "probe_error": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      },
+      "TNT Sport 3": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "TNTSport3",
+          "TNT Sport 3"
+        ],
+        "probe": {
+          "url_fingerprint": "899252c532cecc45",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 27,
+          "probe_error": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      },
+      "TNT Sport 4": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "TNTSport4",
+          "TNT Sport 4"
+        ],
+        "probe": {
+          "url_fingerprint": "baaaf7e39abd7869",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 25,
+          "probe_error": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      },
+      "Hub Sports 2": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "Hub Sports 2",
+          "Hub Sports 2"
+        ],
+        "probe": {
+          "url_fingerprint": "f75cf999b4b45b0e",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 428,
+          "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
+        }
+      },
+      "Hub Sports 3": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "Hub Sports 3",
+          "Hub Sports 3"
+        ],
+        "probe": {
+          "url_fingerprint": "8689513e40e8319d",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 425,
+          "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
+        }
+      },
+      "Hub Sports 4": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "Hub Sports 4",
+          "Hub Sports 4"
+        ],
+        "probe": {
+          "url_fingerprint": "67a82ad6ad1487c3",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 426,
+          "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
+        }
+      },
+      "Hub Sports 5": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "Hub Sports 5",
+          "Hub Sports 5"
+        ],
+        "probe": {
+          "url_fingerprint": "0c60cf64f0d91b3f",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 446,
+          "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
+        }
+      },
+      "Hub Sports 6": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "Hub Sports 6",
+          "Hub Sports 6"
+        ],
+        "probe": {
+          "url_fingerprint": "9931fc82c877fefd",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 426,
+          "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
+        }
+      },
+      "Hub Sports 7": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "Hub Sports 7",
+          "Hub Sports 7"
+        ],
+        "probe": {
+          "url_fingerprint": "ca1eb4ec82321d40",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 413,
+          "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
+        }
+      },
+      "Hub Sports 8": {
+        "status": "withheld_probe_failed",
+        "source_index": null,
+        "candidate_count": 2,
+        "candidate_labels": [
+          "Hub Sports 8",
+          "Hub Sports 8"
+        ],
+        "probe": {
+          "url_fingerprint": "c8760aa300c75c16",
+          "ffprobe_ok": false,
+          "ffmpeg_decode_ok": false,
+          "elapsed_ms": 418,
+          "probe_error": "http://bak.dou.ddns-ip.net/api.php?[REDACTED] Invalid data found when processing input"
+        }
+      }
+    }
   }
 }
