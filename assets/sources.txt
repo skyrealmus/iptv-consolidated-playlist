@@ -65,14 +65,6 @@ https://live.iptv-free.com/iptv/categories/general.m3u
 https://live.iptv-free.com/iptv/categories/movies.m3u
 https://tv.850930.xyz/kdsb.txt
 https://tv.850930.xyz/pix.m3u
-https://live.zbds.org/tv/iptv4.txt
 https://iptv.zsdc.eu.org/home/iptv.m3u8
 https://freetv.fun/test_channels_original_new.txt
-https://jihulab.com/-/snippets/5265/raw/main/.txt
-https://cc-im-kefu-cos.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/d4fe44c5-107c-4511-af02-aa08fb10dff7/2024-04-25/2024-04-25_17:22:21/1714036941087/98644330/wexiptv.txt
-https://m3u.ibert.me/txt/fmml_ipv6.txt
-https://m3u.ibert.me/txt/ycl_iptv.txt
-https://m3u.ibert.me/txt/y_g.txt
-https://gitlab.com/p2v5/wangtv/-/raw/main/lunbo.txt
-https://gitee.com/tushaoyong/live/raw/master/%E6%8E%A5%E5%8F%A3/IPV6.txt
 https://iptv.1989.click/playlist.m3u
