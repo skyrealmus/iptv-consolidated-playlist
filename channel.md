@@ -10,9 +10,9 @@ This register tracks the current requested channels and the latest daily refresh
 - New requests not yet checked: **0**
 - Playlist entries in `playlist.m3u`: **55**; published additions are reflected in `manifest.json`.
 - Manual final publication review: **2026-07-23T08:11:27Z**; four catalog-backed candidates published.
-- Snapshot date: **2026-07-26**
+- Snapshot date: **2026-07-27**
 <!-- DAILY_REFRESH_STATUS:START -->
-- Last automated source refresh: **2026-07-26T18:12:54.200959+00:00**
+- Last automated source refresh: **2026-07-27T18:47:04.719907+00:00**
 - Mapped channels checked: **55**; verified unchanged: **0**; URLs refreshed: **0**
 - Register rows checked: **83**; withheld rows reviewed: **34**; identity-review candidates: **0**; withheld probe failures: **32**
 - Safe failures retained without replacement: probe failures **16**, unavailable catalogs **0**, no same-catalog alias match **39**, withheld no-match **2**

@@ -1,5 +1,5 @@
 {
-  "tested_at": "2026-07-26T18:12:54.200959+00:00",
+  "tested_at": "2026-07-27T18:47:04.719907+00:00",
   "method": {
     "catalog_match": "82 active public M3U/TXT catalogs",
     "stream_probe": "ffprobe with 10-second read timeout and bounded process timeout",
@@ -47,7 +47,7 @@
           "url_fingerprint": "292458b6b11b8019",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 284,
+          "elapsed_ms": 71,
           "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
         }
       }
@@ -140,7 +140,7 @@
           "url_fingerprint": "af2cc5e6409b43d1",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 593,
+          "elapsed_ms": 252,
           "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
         }
       }
@@ -169,7 +169,7 @@
           "url_fingerprint": "72c36fde42e5e9db",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 10015,
+          "elapsed_ms": 10022,
           "probe_error": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
         }
       }
@@ -282,7 +282,7 @@
           "url_fingerprint": "0e464e563d79b4fc",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 67,
+          "elapsed_ms": 37,
           "probe_error": "HTTPError: HTTP Error 403: Forbidden"
         }
       }
@@ -364,7 +364,7 @@
           "url_fingerprint": "b76f604a3f0f9395",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 1,
+          "elapsed_ms": 0,
           "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
         }
       }
@@ -415,7 +415,7 @@
           "url_fingerprint": "ee8d45a572bdd7e6",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 1497,
+          "elapsed_ms": 2938,
           "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
         }
       }
@@ -442,7 +442,7 @@
           "url_fingerprint": "d47b78eae8224fdc",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 1025,
+          "elapsed_ms": 1147,
           "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
         }
       }
@@ -467,7 +467,7 @@
           "url_fingerprint": "12811db92e48daf0",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 612,
+          "elapsed_ms": 372,
           "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
         }
       }
@@ -612,7 +612,7 @@
           "url_fingerprint": "19355eb9e02ea512",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 66,
+          "elapsed_ms": 45,
           "probe_error": "HTTPError: HTTP Error 403: Forbidden"
         }
       }
@@ -639,7 +639,7 @@
           "url_fingerprint": "e7c22dec4845a04a",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 66,
+          "elapsed_ms": 40,
           "probe_error": "HTTPError: HTTP Error 403: Forbidden"
         }
       }
@@ -728,7 +728,7 @@
           "url_fingerprint": "c1be310994ac453b",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 139,
+          "elapsed_ms": 316,
           "probe_error": "URLError: <urlopen error [Errno -2] Name or service not known>"
         }
       }
@@ -908,7 +908,7 @@
           "url_fingerprint": "1ef1a9402f5b3ed8",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 5663,
+          "elapsed_ms": 4855,
           "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
         }
       }
@@ -925,7 +925,7 @@
           "url_fingerprint": "5f08c93ca779baa7",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 210,
+          "elapsed_ms": 308,
           "probe_error": "HTTPError: HTTP Error 404: Not Found"
         }
       }
@@ -939,10 +939,10 @@
           "CCTV-4 中文国际"
         ],
         "probe": {
-          "url_fingerprint": "365a66986186cfa8",
+          "url_fingerprint": "8dd5cf03ad2e22c8",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 2395,
+          "elapsed_ms": 2480,
           "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
         }
       }
@@ -959,7 +959,7 @@
           "url_fingerprint": "11fd33746177c1c7",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 7355,
+          "elapsed_ms": 7170,
           "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
         }
       }
@@ -983,7 +983,7 @@
           "url_fingerprint": "fc960b6562477539",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 72,
+          "elapsed_ms": 103,
           "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
         }
       }
@@ -1000,7 +1000,7 @@
           "url_fingerprint": "d22787e663833b0b",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 220,
+          "elapsed_ms": 148,
           "probe_error": "HTTPError: HTTP Error 404: Not Found"
         }
       }
@@ -1017,7 +1017,7 @@
           "url_fingerprint": "f9a3da70b56c6e61",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 209,
+          "elapsed_ms": 313,
           "probe_error": "HTTPError: HTTP Error 404: Not Found"
         }
       }
@@ -1034,7 +1034,7 @@
           "url_fingerprint": "0796a646dc1a0463",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 4549,
+          "elapsed_ms": 4083,
           "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
         }
       }
@@ -1052,7 +1052,7 @@
           "url_fingerprint": "7038ee1d58e69ce1",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 1159,
+          "elapsed_ms": 1629,
           "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
         }
       }
@@ -1071,7 +1071,7 @@
           "url_fingerprint": "1aad1b7e91f72240",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 1,
+          "elapsed_ms": 0,
           "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
         }
       }
@@ -1097,7 +1097,7 @@
           "url_fingerprint": "80287b9b809b111b",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 675,
+          "elapsed_ms": 475,
           "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
         }
       }
@@ -1134,7 +1134,7 @@
           "url_fingerprint": "ba9ac5becbcc53a4",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 26,
+          "elapsed_ms": 0,
           "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
         }
       }
@@ -1210,7 +1210,7 @@
           "url_fingerprint": "bc56f3e50937dc8a",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 92,
+          "elapsed_ms": 72,
           "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
         }
       }
@@ -1248,7 +1248,7 @@
           "url_fingerprint": "ba4aa2a3690887b3",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 1,
+          "elapsed_ms": 0,
           "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
         }
       }
@@ -1262,10 +1262,10 @@
           "Now Sports 617"
         ],
         "probe": {
-          "url_fingerprint": "a6d0dd2ed1374d88",
+          "url_fingerprint": "4b5683422287cf51",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 1,
+          "elapsed_ms": 0,
           "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
         }
       }
@@ -1279,7 +1279,7 @@
           "Now Sports 618"
         ],
         "probe": {
-          "url_fingerprint": "c3d332fd1023d35d",
+          "url_fingerprint": "f7e0b0c4668015da",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
           "elapsed_ms": 0,
@@ -1299,7 +1299,7 @@
           "url_fingerprint": "ba8109d7afc33d57",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 1,
+          "elapsed_ms": 0,
           "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
         }
       }
@@ -1318,7 +1318,7 @@
           "url_fingerprint": "c4a04fc7311393d0",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 1,
+          "elapsed_ms": 0,
           "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
         }
       }
@@ -1336,7 +1336,7 @@
           "url_fingerprint": "6b09a2657fcdb3a0",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 1,
+          "elapsed_ms": 0,
           "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
         }
       }
@@ -1372,7 +1372,7 @@
           "url_fingerprint": "c09b779c95181ac5",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 72,
+          "elapsed_ms": 51,
           "probe_error": "HTTPError: HTTP Error 403: Forbidden"
         }
       }
@@ -1390,7 +1390,7 @@
           "url_fingerprint": "f400825fdc44394d",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 69,
+          "elapsed_ms": 41,
           "probe_error": "HTTPError: HTTP Error 403: Forbidden"
         }
       }
@@ -1408,7 +1408,7 @@
           "url_fingerprint": "899252c532cecc45",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 75,
+          "elapsed_ms": 45,
           "probe_error": "HTTPError: HTTP Error 403: Forbidden"
         }
       }
@@ -1426,7 +1426,7 @@
           "url_fingerprint": "baaaf7e39abd7869",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 76,
+          "elapsed_ms": 44,
           "probe_error": "HTTPError: HTTP Error 403: Forbidden"
         }
       }
@@ -1440,10 +1440,10 @@
           "Hub Sports 1"
         ],
         "probe": {
-          "url_fingerprint": "576a89c39700900d",
+          "url_fingerprint": "ef622d2aa09a4568",
           "ffprobe_ok": false,
           "ffmpeg_decode_ok": false,
-          "elapsed_ms": 1,
+          "elapsed_ms": 0,
           "probe_error": "[Errno 2] No such file or directory: 'ffprobe'"
         }
       }
@@ -1627,7 +1627,7 @@
     "unique_candidate_urls": 71
   },
   "daily_refresh": {
-    "at": "2026-07-26T18:12:54.200959+00:00",
+    "at": "2026-07-27T18:47:04.719907+00:00",
     "method": "published same-source refresh + full-register withheld discovery + bounded ffprobe/FFmpeg; no automatic cross-catalog publication",
     "summary": {
       "checked": 55,
