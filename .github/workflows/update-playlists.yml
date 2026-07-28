@@ -2,8 +2,8 @@ name: Build playlists
 
 on:
   schedule:
-    # 01:17 Asia/Singapore daily (17:17 UTC); off-minute reduces schedule contention.
-    - cron: "17 17 * * *"
+    # GitHub cron is UTC; 00:00 UTC is 08:00 Asia/Singapore (UTC+8).
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -16,18 +16,22 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
     steps:
       - name: Checkout
         uses: actions/checkout@v4.2.2
         with:
           fetch-depth: 1
+      - name: Install VLC playback probe
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends vlc
       - name: Set up Python
         uses: actions/setup-python@v5.2.0
         with:
           python-version: "3.13"
-      - name: Refresh selected public source mappings
-        run: python scripts/refresh_sources.py
+      - name: Check playlist URLs and refresh inaccessible streams
+        run: python scripts/refresh_sources.py --max-workers 6 --decode-seconds 5
       - name: Build language-specific playlist
         run: python scripts/build_playlists.py
       - name: Validate outputs

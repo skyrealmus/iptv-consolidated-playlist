@@ -33,6 +33,18 @@ USER_AGENT = "iptv-consolidated-playlist/daily-refresh"
 URL_RE = re.compile(r"https?://[^\s,|]+", re.IGNORECASE)
 ATTR_RE = re.compile(r"([\w-]+)=(?:\"([^\"]*)\"|'([^']*)')")
 QUALITY_RE = re.compile(r"(?:\b(?:hd|sd|fhd|uhd|4k|8k|\d{3,4}p)\b|\[[^\]]*\]|\([^)]*\)|@[^\s,|]+|\*[^\s,|]+)", re.IGNORECASE)
+FRAME_WIDTH = 160
+FRAME_HEIGHT = 90
+FRAME_BYTES = FRAME_WIDTH * FRAME_HEIGHT * 3
+BLACK_LUMA_MAX = 12
+BLACK_PIXEL_MAX = 16
+BLACK_PIXEL_FRACTION = 0.985
+BLACK_FRAME_FRACTION = 0.90
+BLANK_LUMA_STDDEV_MAX = 2.5
+BLANK_FRAME_FRACTION = 0.90
+STALE_FRAME_DIFF_MAX = 1.5
+STALE_PAIR_FRACTION = 0.90
+MIN_CONTENT_FRAMES = 3
 
 
 def now_utc() -> dt.datetime:
@@ -155,6 +167,28 @@ def append_candidate(candidates: list[dict], label: str, url: str, source_index:
         "url": url,
         "source_index": source_index,
     })
+
+
+def load_playlist_streams(path: Path) -> dict[str, dict[str, str]]:
+    """Read the generated playlist so the daily check tests published URLs."""
+    lines = path.read_text(encoding="utf-8").splitlines()
+    streams: dict[str, dict[str, str]] = {}
+    for index, line in enumerate(lines):
+        if not line.startswith("#EXTINF:"):
+            continue
+        if index + 1 >= len(lines):
+            raise ValueError(f"{path.name}: missing URL after line {index + 1}")
+        attrs = parse_attrs(line)
+        requested = attrs.get("tvg-id", "").strip()
+        url = lines[index + 1].strip()
+        if not requested or not safe_stream_url(url):
+            raise ValueError(f"{path.name}: invalid stream entry after line {index + 1}")
+        if requested in streams:
+            raise ValueError(f"{path.name}: duplicate tvg-id {requested}")
+        streams[requested] = {"url": url, "label": attrs.get("tvg-name", requested)}
+    if not streams:
+        raise ValueError(f"{path.name}: no published stream entries")
+    return streams
 
 
 def parse_catalog(text: str, source_index: int) -> list[dict]:
@@ -287,6 +321,71 @@ def parse_vlc_profile(output: str) -> dict[str, str | None]:
     return result
 
 
+def analyze_rgb_frames(path: Path) -> dict:
+    """Reject decoded video that is persistently black, blank, or unchanged."""
+    raw = path.read_bytes()
+    frame_count = len(raw) // FRAME_BYTES
+    result = {
+        "content_sample_resolution": f"{FRAME_WIDTH}x{FRAME_HEIGHT}",
+        "content_sampled_frames": frame_count,
+        "black_frame_fraction": 0.0,
+        "blank_frame_fraction": 0.0,
+        "stale_pair_fraction": 0.0,
+        "video_content_ok": False,
+    }
+    if frame_count < MIN_CONTENT_FRAMES:
+        result["content_failure"] = "insufficient decoded video frames"
+        return result
+
+    black_frames = 0
+    blank_frames = 0
+    stale_pairs = 0
+    previous: bytes | None = None
+    comparisons = 0
+    # A 160x90 sample keeps the analysis bounded even for 1080p/4K sources.
+    for frame_index in range(frame_count):
+        start = frame_index * FRAME_BYTES
+        frame = raw[start : start + FRAME_BYTES]
+        sampled_pixels = 0
+        luma_sum = 0
+        luma_squared_sum = 0
+        black_pixels = 0
+        for pixel in range(0, FRAME_BYTES, 9):
+            red, green, blue = frame[pixel : pixel + 3]
+            luma = (54 * red + 183 * green + 19 * blue) >> 8
+            sampled_pixels += 1
+            luma_sum += luma
+            luma_squared_sum += luma * luma
+            if luma <= BLACK_LUMA_MAX and red <= BLACK_PIXEL_MAX and green <= BLACK_PIXEL_MAX and blue <= BLACK_PIXEL_MAX:
+                black_pixels += 1
+        mean_luma = luma_sum / sampled_pixels
+        variance = max(0.0, (luma_squared_sum / sampled_pixels) - (mean_luma * mean_luma))
+        luma_stddev = variance ** 0.5
+        if black_pixels / sampled_pixels >= BLACK_PIXEL_FRACTION and mean_luma <= BLACK_LUMA_MAX:
+            black_frames += 1
+        if luma_stddev <= BLANK_LUMA_STDDEV_MAX:
+            blank_frames += 1
+        if previous is not None:
+            comparisons += 1
+            difference = sum(abs(frame[index] - previous[index]) for index in range(0, FRAME_BYTES, 9)) / (FRAME_BYTES / 9)
+            if difference <= STALE_FRAME_DIFF_MAX:
+                stale_pairs += 1
+        previous = frame
+
+    result["black_frame_fraction"] = round(black_frames / frame_count, 3)
+    result["blank_frame_fraction"] = round(blank_frames / frame_count, 3)
+    result["stale_pair_fraction"] = round(stale_pairs / comparisons, 3) if comparisons else 0.0
+    if result["black_frame_fraction"] >= BLACK_FRAME_FRACTION:
+        result["content_failure"] = "black video detected"
+    elif result["blank_frame_fraction"] >= BLANK_FRAME_FRACTION:
+        result["content_failure"] = "blank/uniform video detected"
+    elif comparisons >= MIN_CONTENT_FRAMES - 1 and result["stale_pair_fraction"] >= STALE_PAIR_FRACTION:
+        result["content_failure"] = "stale/unchanging video detected"
+    else:
+        result["video_content_ok"] = True
+    return result
+
+
 def probe_candidate(candidate: dict, probe_timeout: int, decode_seconds: int) -> dict:
     url = candidate["url"]
     started = time.monotonic()
@@ -306,34 +405,46 @@ def probe_candidate(candidate: dict, probe_timeout: int, decode_seconds: int) ->
             if urlsplit(url).path.lower().endswith((".m3u8", ".m3u")):
                 local_input = bounded_hls_input(url, probe_timeout, temp_dir)
             input_url = local_input or url
-            output = temp_dir / "vlc-profile.ts"
+            output = temp_dir / "vlc-frames.rgb"
             sout = (
-                f"#transcode{{vcodec=mp4v,acodec=mpga,vb=512,ab=96}}:"
-                f"std{{access=file,mux=ts,dst={output}}}"
+                f"#transcode{{vcodec=RV24,acodec=none,width={FRAME_WIDTH}}}:"
+                f"std{{access=file,mux=raw,dst={output}}}"
             )
             vlc = [
                 binary, "-vv", "--intf", "dummy", "--play-and-exit",
                 f"--run-time={max(1, decode_seconds)}",
                 f"--network-caching={max(250, probe_timeout * 1000 // 2)}",
-                "--no-video-title-show", "--sout", sout, input_url,
+                "--no-audio", "--no-video-title-show", "--sout", sout, input_url,
             ]
             return_code, stdout, stderr, timed_out = command_output(
                 vlc, probe_timeout + decode_seconds + 8
             )
             combined = f"{stdout}\n{stderr}"
             profile = parse_vlc_profile(combined)
+            content = analyze_rgb_frames(output) if output.is_file() and output.stat().st_size > 0 else {
+                "content_sample_resolution": f"{FRAME_WIDTH}x{FRAME_HEIGHT}",
+                "content_sampled_frames": 0,
+                "black_frame_fraction": 0.0,
+                "blank_frame_fraction": 0.0,
+                "stale_pair_fraction": 0.0,
+                "video_content_ok": False,
+                "content_failure": "no decoded video frames",
+            }
             result.update({
                 "vlc_binary": Path(binary).name,
-                "vlc_playback_ok": return_code == 0 and output.is_file() and output.stat().st_size > 0,
                 "vlc_output_bytes": output.stat().st_size if output.is_file() else 0,
                 "codec": profile["codec"],
                 "resolution": profile["resolution"],
+                **content,
+                "vlc_playback_ok": return_code == 0 and bool(content.get("video_content_ok")),
             })
             if not result["vlc_playback_ok"]:
                 if timed_out:
                     result["probe_error"] = "VLC playback timeout"
                 elif return_code != 0:
                     result["probe_error"] = redacted_text(stderr.strip()[-500:]) or f"VLC exit {return_code}"
+                elif content.get("content_failure"):
+                    result["probe_error"] = str(content["content_failure"])
                 else:
                     result["probe_error"] = "VLC produced no playable output"
     except Exception as exc:
@@ -376,7 +487,14 @@ def review_candidates(row: dict[str, str], catalogs: dict[int, dict], wanted: se
     return sorted(unique.values(), key=lambda candidate: (len(candidate["label"]), candidate["source_index"], candidate["url"]))
 
 
-def report_channel(status: str, entry: dict, source_index: int | None, candidates: list[dict], probe: dict | None = None) -> dict:
+def report_channel(
+    status: str,
+    entry: dict,
+    source_index: int | None,
+    candidates: list[dict],
+    probe: dict | None = None,
+    replacement_probe: dict | None = None,
+) -> dict:
     result = {
         "status": status,
         "source_index": source_index,
@@ -386,6 +504,8 @@ def report_channel(status: str, entry: dict, source_index: int | None, candidate
         result["candidate_labels"] = [candidate["label"] for candidate in candidates[:10]]
     if probe is not None:
         result["probe"] = probe
+    if replacement_probe is not None:
+        result["replacement_probe"] = replacement_probe
     return result
 
 
@@ -405,7 +525,7 @@ def update_stream_speed_report(report: dict) -> None:
             for item in report["catalogs"]
             if item.get("status") != 200
         ],
-        "refresh_method": "selected manifest source catalogs",
+        "refresh_method": "active source catalogs searched only after a published playlist URL failed",
     }
     channels = data.setdefault("channels", {})
     for requested, result in report["channels"].items():
@@ -429,10 +549,12 @@ def update_channel_register(report: dict) -> None:
     block = "\n".join([
         "<!-- DAILY_REFRESH_STATUS:START -->",
         f"- Last automated source refresh: **{report['checked_at']}**",
-        f"- Mapped channels checked: **{summary['checked']}**; verified unchanged: **{summary['verified_unchanged']}**; URLs refreshed: **{summary['url_refreshed']}**",
+        f"- Playlist URLs checked: **{summary['playlist_checked']}**; accessible: **{summary['playlist_accessible']}**; inaccessible: **{summary['playlist_inaccessible']}**",
+        f"- Content failures: black **{summary['black_video']}**, blank/uniform **{summary['blank_video']}**, stale/unchanging **{summary['stale_video']}**, no decoded video **{summary['no_decoded_video']}**",
+        f"- Replacement search: **{summary['replacement_searched']}** failed URLs; candidates found **{summary['replacement_candidates']}**; URLs refreshed **{summary['url_refreshed']}**",
         f"- Register rows checked: **{summary['register_checked']}**; withheld rows reviewed: **{summary['withheld_checked']}**; identity-review candidates: **{summary['withheld_identity_review']}**; withheld probe failures: **{summary['withheld_probe_failed']}**",
-        f"- Safe failures retained without replacement: probe failures **{summary['probe_failed']}**, unavailable catalogs **{summary['catalog_unavailable']}**, no same-catalog alias match **{summary['no_same_catalog_match']}**, withheld no-match **{summary['withheld_no_match']}**",
-        "- Publication policy: same-source alias match plus a bounded VLC playback profile; cross-catalog replacements remain manual identity review.",
+        f"- Safe failures retained without replacement: no replacement **{summary['replacement_no_match']}**, replacement probe failures **{summary['replacement_probe_failed']}**, unavailable catalogs **{summary['catalog_unavailable']}**, source not active **{summary['source_not_active']}**",
+        "- Publication policy: every published playlist URL is VLC-checked first; only exact normalized active-catalog matches that also pass VLC may replace an inaccessible URL.",
         "<!-- DAILY_REFRESH_STATUS:END -->",
     ])
     marker = re.compile(r"<!-- DAILY_REFRESH_STATUS:START -->.*?<!-- DAILY_REFRESH_STATUS:END -->", re.DOTALL)
@@ -480,15 +602,53 @@ def main() -> int:
     ]
     original_entry_indices = {entry["requested"]: entry["source_index"] for entry in manifest["entries"]}
 
-    needed_old_indices = sorted({entry["source_index"] for entry in entries})
+    playlist_streams = load_playlist_streams(ROOT / "playlist.m3u")
+    channel_results: dict[str, dict] = {}
+    playlist_check_entries: list[tuple[dict, dict]] = []
+    failed_entries: list[tuple[dict, dict]] = []
+    for entry in entries:
+        requested = entry["requested"]
+        stream = playlist_streams.get(requested)
+        if stream is None:
+            failed_entries.append((entry, {"vlc_playback_ok": False, "probe_error": "playlist URL missing"}))
+            continue
+        playlist_check_entries.append((entry, {
+            "label": stream["label"],
+            "url": stream["url"],
+            "source_index": entry.get("source_index"),
+        }))
+
+    preflight_probes: dict[str, dict] = {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, args.max_workers)) as pool:
+        futures = {
+            pool.submit(probe_candidate, candidate, args.probe_timeout, args.decode_seconds): candidate["url"]
+            for _entry, candidate in playlist_check_entries
+        }
+        for future in concurrent.futures.as_completed(futures):
+            url = futures[future]
+            try:
+                preflight_probes[url] = future.result()
+            except Exception as exc:  # keep one bad URL from aborting all channels
+                preflight_probes[url] = {
+                    "vlc_playback_ok": False,
+                    "probe_error": redacted_text(f"{type(exc).__name__}: {exc}"),
+                }
+
+    playlist_accessible = 0
+    for entry, candidate in playlist_check_entries:
+        requested = entry["requested"]
+        probe = preflight_probes.get(candidate["url"], {"vlc_playback_ok": False, "probe_error": "probe result missing"})
+        if probe.get("vlc_playback_ok"):
+            playlist_accessible += 1
+            channel_results[requested] = report_channel(
+                "verified_unchanged", entry, entry.get("source_index"), [candidate], probe
+            )
+        else:
+            failed_entries.append((entry, probe))
+
     fetch_items: dict[int, tuple[int, str]] = {}
-    if review_rows:
+    if failed_entries or review_rows:
         fetch_items = {index: (index, url) for index, url in enumerate(current_sources)}
-    else:
-        for index in needed_old_indices:
-            current_index = active_map.get(index)
-            if current_index is not None:
-                fetch_items[current_index] = (current_index, current_sources[current_index])
     catalogs: dict[int, dict] = {}
     with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, args.max_workers)) as pool:
         futures = {
@@ -499,26 +659,26 @@ def main() -> int:
             catalog = future.result()
             catalogs[catalog["source_index"]] = catalog
 
-    work: list[tuple[dict, list[dict]]] = []
-    channel_results: dict[str, dict] = {}
-    for entry in entries:
+    replacement_work: list[tuple[dict, dict, list[dict]]] = []
+    for entry, initial_probe in failed_entries:
         requested = entry["requested"]
-        old_index = entry["source_index"]
-        current_index = active_map.get(old_index)
-        if current_index is None:
-            channel_results[requested] = report_channel("source_not_active", entry, None, [])
-            continue
-        catalog = catalogs.get(current_index)
-        if not catalog or catalog.get("status") != 200:
-            channel_results[requested] = report_channel("catalog_unavailable", entry, current_index, [])
-            continue
         display = metadata.get(requested, {}).get("display_name", requested)
         wanted = aliases_for(requested, display, alias_rows)
-        matches = selected_candidates(entry, catalog, wanted)
-        if not matches:
-            channel_results[requested] = report_channel("no_same_catalog_match", entry, current_index, [])
+        available_catalogs = {index: catalog for index, catalog in catalogs.items() if catalog.get("status") == 200}
+        if not available_catalogs:
+            channel_results[requested] = report_channel(
+                "catalog_unavailable", entry, entry.get("source_index"), [], initial_probe
+            )
             continue
-        work.append((entry, matches[:3]))
+        matches = review_candidates(entry, available_catalogs, wanted)
+        current_url = entry.get("url")
+        matches = [candidate for candidate in matches if candidate["url"] != current_url]
+        if not matches:
+            channel_results[requested] = report_channel(
+                "replacement_no_match", entry, entry.get("source_index"), [], initial_probe
+            )
+            continue
+        replacement_work.append((entry, initial_probe, matches[:5]))
 
     review_work: list[tuple[dict[str, str], list[dict]]] = []
     for row in review_rows:
@@ -527,69 +687,77 @@ def main() -> int:
         if not matches:
             channel_results[row["requested"]] = report_channel("withheld_no_match", row, None, [])
             continue
-        review_work.append((row, matches[:3]))
+        review_work.append((row, matches[:5]))
 
-    probe_jobs: list[tuple[str, dict]] = []
-    for entry, matches in work:
+    probe_jobs: dict[str, dict] = {}
+    for _entry, _initial_probe, matches in replacement_work:
         for candidate in matches:
-            probe_jobs.append((entry["requested"], candidate))
-    for row, matches in review_work:
+            probe_jobs.setdefault(candidate["url"], candidate)
+    for _row, matches in review_work:
         for candidate in matches:
-            probe_jobs.append((row["requested"], candidate))
-    probes: dict[tuple[str, str], dict] = {}
+            probe_jobs.setdefault(candidate["url"], candidate)
+    replacement_probes: dict[str, dict] = {}
     with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, args.max_workers)) as pool:
         futures = {
-            pool.submit(probe_candidate, candidate, args.probe_timeout, args.decode_seconds): (requested, candidate["url"])
-            for requested, candidate in probe_jobs
+            pool.submit(probe_candidate, candidate, args.probe_timeout, args.decode_seconds): url
+            for url, candidate in probe_jobs.items()
         }
         for future in concurrent.futures.as_completed(futures):
-            key = futures[future]
+            url = futures[future]
             try:
-                probes[key] = future.result()
+                replacement_probes[url] = future.result()
             except Exception as exc:  # keep one bad URL from aborting all channels
-                probes[key] = {"vlc_playback_ok": False, "probe_error": redacted_text(f"{type(exc).__name__}: {exc}")}
+                replacement_probes[url] = {
+                    "vlc_playback_ok": False,
+                    "probe_error": redacted_text(f"{type(exc).__name__}: {exc}"),
+                }
 
     changed_entries = 0
-    for entry in entries:
+    for entry, initial_probe, matches in replacement_work:
         requested = entry["requested"]
-        if requested in channel_results:
-            continue
-        matches = next(matches for item, matches in work if item is entry)
         accepted: tuple[dict, dict] | None = None
         for candidate in matches:
-            probe = probes.get((requested, candidate["url"]), {})
+            probe = replacement_probes.get(candidate["url"], {})
             if probe.get("vlc_playback_ok"):
                 accepted = (candidate, probe)
                 break
-        current_index = active_map[entry["source_index"]]
         if accepted is None:
-            channel_results[requested] = report_channel("probe_failed", entry, current_index, matches, probes.get((requested, matches[0]["url"])))
+            first_probe = replacement_probes.get(matches[0]["url"], {})
+            channel_results[requested] = report_channel(
+                "replacement_probe_failed", entry, entry.get("source_index"), matches, initial_probe, first_probe
+            )
             continue
-        candidate, probe = accepted
-        url_changed = entry.get("url") != candidate["url"]
-        index_changed = entry.get("source_index") != current_index
-        if url_changed and not args.dry_run:
+        candidate, replacement_probe = accepted
+        source_url = current_sources[candidate["source_index"]]
+        replacement_source_index = manifest_index[source_url]
+        if not args.dry_run:
             entry["url"] = candidate["url"]
+            entry["source_index"] = replacement_source_index
             entry["delay"] = None
             entry["speed"] = None
-            entry["resolution"] = probe.get("resolution")
-        if index_changed and not args.dry_run:
-            entry["source_index"] = manifest_map[entry["source_index"]]
-        if url_changed or index_changed:
-            changed_entries += 1
-        status = "url_refreshed" if url_changed else "verified_unchanged"
-        channel_results[requested] = report_channel(status, entry, current_index, matches, probe)
+            entry["resolution"] = replacement_probe.get("resolution")
+            entry["accepted"] = False
+            entry["verification_status"] = "daily_active_catalog_vlc_playback_verified_not_identity_verified"
+            entry["playback_profile"] = {
+                "method": "bounded VLC playback profile",
+                **replacement_probe,
+                "source_inventory": "assets/sources.txt",
+            }
+        changed_entries += 1
+        channel_results[requested] = report_channel(
+            "url_refreshed", entry, replacement_source_index, matches, initial_probe, replacement_probe
+        )
 
     for row, matches in review_work:
         accepted: tuple[dict, dict] | None = None
         for candidate in matches:
-            probe = probes.get((row["requested"], candidate["url"]), {})
+            probe = replacement_probes.get(candidate["url"], {})
             if probe.get("vlc_playback_ok"):
                 accepted = (candidate, probe)
                 break
         if accepted is None:
             channel_results[row["requested"]] = report_channel(
-                "withheld_probe_failed", row, None, matches, probes.get((row["requested"], matches[0]["url"]))
+                "withheld_probe_failed", row, None, matches, replacement_probes.get(matches[0]["url"])
             )
         else:
             candidate, probe = accepted
@@ -611,24 +779,66 @@ def main() -> int:
         })
     published_results = [channel_results[entry["requested"]] for entry in entries if entry["requested"] in channel_results]
     withheld_results = [channel_results[row["requested"]] for row in review_rows if row["requested"] in channel_results]
+    replacement_candidate_count = sum(
+        channel_results[entry["requested"]].get("candidate_count", 0)
+        for entry, _probe in failed_entries
+        if entry["requested"] in channel_results
+    )
     summary = {
         "checked": len(entries),
+        "playlist_checked": len(entries),
+        "playlist_accessible": playlist_accessible,
+        "playlist_inaccessible": len(failed_entries),
+        "replacement_searched": len(failed_entries),
+        "replacement_candidates": replacement_candidate_count,
+        "black_video": sum(item.get("probe", {}).get("content_failure") == "black video detected" for item in published_results),
+        "blank_video": sum(item.get("probe", {}).get("content_failure") == "blank/uniform video detected" for item in published_results),
+        "stale_video": sum(item.get("probe", {}).get("content_failure") == "stale/unchanging video detected" for item in published_results),
+        "no_decoded_video": sum(item.get("probe", {}).get("content_failure") == "no decoded video frames" for item in published_results),
         "register_checked": len(register_rows),
         "withheld_checked": len(review_rows),
         "verified_unchanged": sum(item["status"] == "verified_unchanged" for item in published_results),
         "url_refreshed": sum(item["status"] == "url_refreshed" for item in published_results),
-        "probe_failed": sum(item["status"] == "probe_failed" for item in published_results),
-        "no_same_catalog_match": sum(item["status"] == "no_same_catalog_match" for item in published_results),
+        "probe_failed": sum(item["status"] == "replacement_probe_failed" for item in published_results),
+        "replacement_probe_failed": sum(item["status"] == "replacement_probe_failed" for item in published_results),
+        "replacement_no_match": sum(item["status"] == "replacement_no_match" for item in published_results),
+        "no_same_catalog_match": 0,
         "catalog_unavailable": sum(item["status"] == "catalog_unavailable" for item in published_results),
-        "source_not_active": sum(item["status"] == "source_not_active" for item in published_results),
+        "source_not_active": 0,
         "withheld_no_match": sum(item["status"] == "withheld_no_match" for item in withheld_results),
         "withheld_probe_failed": sum(item["status"] == "withheld_probe_failed" for item in withheld_results),
         "withheld_identity_review": sum(item["status"] == "withheld_identity_review" for item in withheld_results),
     }
     report = {
         "checked_at": now_utc().isoformat(),
-        "method": "published same-source refresh + full-register withheld discovery + bounded VLC playback profile; no automatic cross-catalog publication",
+        "method": "full published playlist VLC preflight with raw-RGB black/blank/stale content gate; failed URLs searched against active assets/sources.txt catalogs; exact normalized matches only",
+        "content_gate": {
+            "method": "VLC-decoded raw RGB temporal sample",
+            "sample_resolution": f"{FRAME_WIDTH}x{FRAME_HEIGHT}",
+            "decode_seconds": args.decode_seconds,
+            "minimum_frames": MIN_CONTENT_FRAMES,
+            "black": {
+                "pixel_luma_max": BLACK_LUMA_MAX,
+                "pixel_fraction": BLACK_PIXEL_FRACTION,
+                "frame_fraction": BLACK_FRAME_FRACTION,
+            },
+            "blank_uniform": {
+                "luma_stddev_max": BLANK_LUMA_STDDEV_MAX,
+                "frame_fraction": BLANK_FRAME_FRACTION,
+            },
+            "stale": {
+                "mean_rgb_difference_max": STALE_FRAME_DIFF_MAX,
+                "pair_fraction": STALE_PAIR_FRACTION,
+            },
+        },
         "summary": summary,
+        "playlist_check": {
+            "checked": len(entries),
+            "accessible": playlist_accessible,
+            "inaccessible": len(failed_entries),
+            "replacement_searched": len(failed_entries),
+            "urls_refreshed": summary["url_refreshed"],
+        },
         "catalogs": catalog_report,
         "channels": channel_results,
     }
@@ -642,6 +852,9 @@ def main() -> int:
         update_stream_speed_report(report)
         update_channel_register(report)
         for entry in manifest["entries"]:
+            result = channel_results.get(entry["requested"], {})
+            if result.get("status") == "url_refreshed":
+                continue
             target_index = manifest_map.get(original_entry_indices[entry["requested"]])
             if target_index is not None:
                 entry["source_index"] = target_index
