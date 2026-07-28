@@ -19,16 +19,16 @@
       "timeout": 35,
       "ok": 58,
       "error": 1,
-      "method": "HTTP first-byte sample with an 8-second per-channel timeout; not FFprobe, decode, or identity verification."
+      "method": "HTTP first-byte sample with an 8-second per-channel timeout; not a playback or identity verification."
     },
     "probe_sample": {
       "checked": 94,
-      "verified_unchanged": 49,
-      "probe_failed": 45,
+      "verified_unchanged": 58,
+      "probe_failed": 36,
       "url_refreshed": 0,
       "no_same_catalog_match": 0,
       "catalog_unavailable": 0,
-      "method": "Same-catalog alias match followed by bounded FFprobe and 2-second FFmpeg decode; dry-run only; no visible identity verification."
+      "method": "Same-catalog alias match followed by bounded VLC playback profile with a 2-second run; no visible identity verification."
     }
   },
   "sources": [

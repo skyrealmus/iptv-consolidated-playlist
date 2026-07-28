@@ -16,7 +16,7 @@ The current inventory is a direct **94-entry import** from:
 - `assets/sources.txt` — active catalog inventory, including the supplied source
 - `assets/failed-sources.txt` — quarantined historical sources
 
-`IMPORTED` entries are retained because the user requested an exact catalog replacement. They are not represented as independently playback- or identity-verified. A bounded HTTP first-byte sample reached 58/94 entries at import time; 35 timed out and 1 returned an error. The subsequent conservative dry-run probe passed FFprobe plus a short FFmpeg decode for 49 entries and failed for 45; no visible identity verification was performed.
+`IMPORTED` entries are retained because the user requested an exact catalog replacement. They are not represented as independently identity-verified. A bounded HTTP first-byte sample reached 58/94 entries at import time; 35 timed out and 1 returned an error. The latest conservative VLC playback profile passed **58** entries and failed **36**; no visible identity verification was performed.
 
 ## Build and validation
 
@@ -30,7 +30,7 @@ The builder preserves `source_order` for imported snapshots. It emits local-logo
 
 ## Source and refresh policy
 
-The supplied catalog is the source of truth for this snapshot. URLs are copied exactly from the catalog. The repository does not claim that a catalog listing proves current playback, stream quality, or visible identity; run the refresh/probe workflow before promoting entries to `PUBLISHED`.
+`vlc`/`cvlc` (VLC 3.x) is required for the bounded playback profile. The probe uses VLC's dummy interface and a short local transport output; it does not invoke `ffprobe` or `ffmpeg` directly. The supplied catalog is the source of truth for this snapshot. URLs are copied exactly from the catalog. The repository does not claim that a catalog listing proves current playback, stream quality, or visible identity; run the refresh/probe workflow before promoting entries to `PUBLISHED`.
 
 Source health checks can be run with:
 

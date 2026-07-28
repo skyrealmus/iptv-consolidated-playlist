@@ -3,7 +3,7 @@
 
 This is intentionally conservative: it only replaces a published URL when the
 same public catalog that supplied the existing mapping still advertises the
-same channel alias and the URL passes ffprobe plus a short FFmpeg decode.  It
+same channel alias and the URL passes a bounded VLC playback profile.  It
 never promotes a new channel or a different catalog mapping automatically;
 those changes still require the documented identity review.
 """
@@ -12,9 +12,9 @@ from __future__ import annotations
 import argparse
 import concurrent.futures
 import datetime as dt
-import hashlib
 import json
 import re
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -139,10 +139,6 @@ def redacted_url(url: str) -> str:
 
 def redacted_text(value: str) -> str:
     return re.sub(r"https?://[^\s]+", lambda match: redacted_url(match.group(0).rstrip(".,);'\"")), value)
-
-
-def fingerprint(url: str) -> str:
-    return hashlib.sha256(url.encode("utf-8")).hexdigest()[:16]
 
 
 def parse_attrs(line: str) -> dict[str, str]:
@@ -272,16 +268,37 @@ def bounded_hls_input(url: str, timeout: int, temp_dir: Path) -> str | None:
     return str(output)
 
 
+def vlc_binary() -> str | None:
+    return shutil.which("cvlc") or shutil.which("vlc")
+
+
+def parse_vlc_profile(output: str) -> dict[str, str | None]:
+    result: dict[str, str | None] = {"codec": None, "resolution": None}
+    codec = re.search(r"creating video transcoding from fcc=`([^']+)'", output)
+    if codec:
+        result["codec"] = codec.group(1)
+    else:
+        codec = re.search(r"codec \(([^)]+)\) started", output)
+        if codec:
+            result["codec"] = codec.group(1)
+    resolution = re.search(r"source (\d+)x(\d+), destination", output)
+    if resolution:
+        result["resolution"] = f"{resolution.group(1)}x{resolution.group(2)}"
+    return result
+
+
 def probe_candidate(candidate: dict, probe_timeout: int, decode_seconds: int) -> dict:
     url = candidate["url"]
-    timeout_us = str(max(1, probe_timeout) * 1_000_000)
     started = time.monotonic()
     result: dict = {
-        "url_fingerprint": fingerprint(url),
-        "ffprobe_ok": False,
-        "ffmpeg_decode_ok": False,
+        "vlc_playback_ok": False,
         "elapsed_ms": None,
     }
+    binary = vlc_binary()
+    if not binary:
+        result["probe_error"] = "VLC executable not found (tried cvlc and vlc)"
+        result["elapsed_ms"] = round((time.monotonic() - started) * 1000)
+        return result
     try:
         with tempfile.TemporaryDirectory(prefix="iptv-refresh-") as temp_name:
             temp_dir = Path(temp_name)
@@ -289,40 +306,36 @@ def probe_candidate(candidate: dict, probe_timeout: int, decode_seconds: int) ->
             if urlsplit(url).path.lower().endswith((".m3u8", ".m3u")):
                 local_input = bounded_hls_input(url, probe_timeout, temp_dir)
             input_url = local_input or url
-            ffprobe = [
-                "ffprobe", "-v", "error", "-rw_timeout", timeout_us,
-                "-analyzeduration", "1000000", "-probesize", "1000000",
-                "-select_streams", "v:0", "-show_entries",
-                "stream=codec_name,width,height,bit_rate", "-of", "json", input_url,
+            output = temp_dir / "vlc-profile.ts"
+            sout = (
+                f"#transcode{{vcodec=mp4v,acodec=mpga,vb=512,ab=96}}:"
+                f"std{{access=file,mux=ts,dst={output}}}"
+            )
+            vlc = [
+                binary, "-vv", "--intf", "dummy", "--play-and-exit",
+                f"--run-time={max(1, decode_seconds)}",
+                f"--network-caching={max(250, probe_timeout * 1000 // 2)}",
+                "--no-video-title-show", "--sout", sout, input_url,
             ]
-            probe_rc, probe_out, probe_err, probe_timed_out = command_output(ffprobe, probe_timeout + 5)
-            if probe_rc == 0:
-                try:
-                    streams = json.loads(probe_out).get("streams", [])
-                    if streams:
-                        stream = streams[0]
-                        result["ffprobe_ok"] = True
-                        result["codec"] = stream.get("codec_name")
-                        result["resolution"] = (
-                            f"{stream['width']}x{stream['height']}"
-                            if stream.get("width") and stream.get("height") else None
-                        )
-                        if stream.get("bit_rate"):
-                            result["bit_rate"] = stream["bit_rate"]
-                except (ValueError, TypeError, KeyError) as exc:
-                    result["probe_error"] = f"invalid ffprobe JSON: {exc}"
-            else:
-                result["probe_error"] = "ffprobe timeout" if probe_timed_out else (redacted_text(probe_err.strip()[-500:]) or f"exit {probe_rc}")
-            if result["ffprobe_ok"]:
-                ffmpeg = [
-                    "ffmpeg", "-hide_banner", "-loglevel", "error",
-                    "-rw_timeout", timeout_us, "-i", input_url, "-map", "0:v:0",
-                    "-t", str(max(1, decode_seconds)), "-f", "null", "-",
-                ]
-                decode_rc, _decode_out, decode_err, decode_timed_out = command_output(ffmpeg, probe_timeout + decode_seconds + 5)
-                result["ffmpeg_decode_ok"] = decode_rc == 0
-                if not result["ffmpeg_decode_ok"]:
-                    result["decode_error"] = "FFmpeg timeout" if decode_timed_out else (redacted_text(decode_err.strip()[-500:]) or f"exit {decode_rc}")
+            return_code, stdout, stderr, timed_out = command_output(
+                vlc, probe_timeout + decode_seconds + 8
+            )
+            combined = f"{stdout}\n{stderr}"
+            profile = parse_vlc_profile(combined)
+            result.update({
+                "vlc_binary": Path(binary).name,
+                "vlc_playback_ok": return_code == 0 and output.is_file() and output.stat().st_size > 0,
+                "vlc_output_bytes": output.stat().st_size if output.is_file() else 0,
+                "codec": profile["codec"],
+                "resolution": profile["resolution"],
+            })
+            if not result["vlc_playback_ok"]:
+                if timed_out:
+                    result["probe_error"] = "VLC playback timeout"
+                elif return_code != 0:
+                    result["probe_error"] = redacted_text(stderr.strip()[-500:]) or f"VLC exit {return_code}"
+                else:
+                    result["probe_error"] = "VLC produced no playable output"
     except Exception as exc:
         result["probe_error"] = redacted_text(f"{type(exc).__name__}: {exc}")
     result["elapsed_ms"] = round((time.monotonic() - started) * 1000)
@@ -419,7 +432,7 @@ def update_channel_register(report: dict) -> None:
         f"- Mapped channels checked: **{summary['checked']}**; verified unchanged: **{summary['verified_unchanged']}**; URLs refreshed: **{summary['url_refreshed']}**",
         f"- Register rows checked: **{summary['register_checked']}**; withheld rows reviewed: **{summary['withheld_checked']}**; identity-review candidates: **{summary['withheld_identity_review']}**; withheld probe failures: **{summary['withheld_probe_failed']}**",
         f"- Safe failures retained without replacement: probe failures **{summary['probe_failed']}**, unavailable catalogs **{summary['catalog_unavailable']}**, no same-catalog alias match **{summary['no_same_catalog_match']}**, withheld no-match **{summary['withheld_no_match']}**",
-        "- Publication policy: same-source alias match plus FFprobe and short FFmpeg decode; cross-catalog replacements remain manual identity review.",
+        "- Publication policy: same-source alias match plus a bounded VLC playback profile; cross-catalog replacements remain manual identity review.",
         "<!-- DAILY_REFRESH_STATUS:END -->",
     ])
     marker = re.compile(r"<!-- DAILY_REFRESH_STATUS:START -->.*?<!-- DAILY_REFRESH_STATUS:END -->", re.DOTALL)
@@ -534,7 +547,7 @@ def main() -> int:
             try:
                 probes[key] = future.result()
             except Exception as exc:  # keep one bad URL from aborting all channels
-                probes[key] = {"ffprobe_ok": False, "ffmpeg_decode_ok": False, "probe_error": redacted_text(f"{type(exc).__name__}: {exc}")}
+                probes[key] = {"vlc_playback_ok": False, "probe_error": redacted_text(f"{type(exc).__name__}: {exc}")}
 
     changed_entries = 0
     for entry in entries:
@@ -545,7 +558,7 @@ def main() -> int:
         accepted: tuple[dict, dict] | None = None
         for candidate in matches:
             probe = probes.get((requested, candidate["url"]), {})
-            if probe.get("ffprobe_ok") and probe.get("ffmpeg_decode_ok"):
+            if probe.get("vlc_playback_ok"):
                 accepted = (candidate, probe)
                 break
         current_index = active_map[entry["source_index"]]
@@ -571,7 +584,7 @@ def main() -> int:
         accepted: tuple[dict, dict] | None = None
         for candidate in matches:
             probe = probes.get((row["requested"], candidate["url"]), {})
-            if probe.get("ffprobe_ok") and probe.get("ffmpeg_decode_ok"):
+            if probe.get("vlc_playback_ok"):
                 accepted = (candidate, probe)
                 break
         if accepted is None:
@@ -614,7 +627,7 @@ def main() -> int:
     }
     report = {
         "checked_at": now_utc().isoformat(),
-        "method": "published same-source refresh + full-register withheld discovery + bounded ffprobe/FFmpeg; no automatic cross-catalog publication",
+        "method": "published same-source refresh + full-register withheld discovery + bounded VLC playback profile; no automatic cross-catalog publication",
         "summary": summary,
         "catalogs": catalog_report,
         "channels": channel_results,
