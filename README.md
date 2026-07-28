@@ -4,9 +4,7 @@ A source-backed IPTV playlist repository for the household channel inventory.
 
 ## Current snapshot
 
-The current inventory is a direct **94-entry import** from:
-
-`https://live.yjzq.dpdns.org/output/m3u`
+The current inventory is a direct **94-entry import**:
 
 - `channel.md` — human-readable 94-channel register
 - `manifest.json` — 94 imported stream entries and provenance
