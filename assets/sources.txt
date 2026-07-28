@@ -1,7 +1,4 @@
-# Public M3U/TXT source inputs; one URL per line.
-# Keep credentials and private endpoints out of this file.
-# Quality classification: reports/source-quality.json
-# High/low is catalog-level health, not proof that every listed stream plays.
+# Active public catalog sources.
 https://iptv.1989.click/playlist.m3u
 https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/base.m3u8
 https://t.freetv.fun/m3u/playlist.m3u
@@ -9,3 +6,4 @@ https://raw.githubusercontent.com/Guovin/TV/gd/output/result.m3u
 https://tv123.cc.cd/tv.m3u
 https://raw.githubusercontent.com/vinkerq/iptv-api/refs/heads/master/iptv4.m3u
 https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u
+https://live.yjzq.dpdns.org/output/m3u

@@ -1,71 +1,42 @@
-# Malaysia & Singapore IPTV Playlist
+# IPTV Consolidated Playlist
 
-A curated public playlist with **51 current entries** for the **83-channel request register**. New requests remain register-only until a correct, playable, identity-verified source is available.
+A source-backed IPTV playlist repository for the household channel inventory.
 
-## Use
+## Current snapshot
 
-Playlist: [`playlist.m3u`](./playlist.m3u)
+The current inventory is a direct **94-entry import** from:
 
-Raw URL:
+`https://live.yjzq.dpdns.org/output/m3u`
 
-```text
-https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/playlist.m3u
-```
+- `channel.md` — human-readable 94-channel register
+- `manifest.json` — 94 imported stream entries and provenance
+- `playlist.m3u` — generated playlist containing all 94 entries
+- `assets/channel_metadata.json` — normalized display/category/language/logo metadata
+- `assets/channel_aliases.txt` — exact aliases from the imported catalog
+- `assets/sources.txt` — active catalog inventory, including the supplied source
+- `assets/failed-sources.txt` — quarantined historical sources
 
-The playlist includes channel names, logos, language, country, category, and audio-language metadata. Player groups use channel types such as News, Kids, Sports, and Documentary; country remains available in `tvg-country`. Chinese channels use Chinese display names; English channels use English display names.
+`IMPORTED` entries are retained because the user requested an exact catalog replacement. They are not represented as independently playback- or identity-verified. A bounded HTTP first-byte sample reached 58/94 entries at import time; 35 timed out and 1 returned an error. The subsequent conservative dry-run probe passed FFprobe plus a short FFmpeg decode for 49 entries and failed for 45; no visible identity verification was performed.
 
-## Channel refresh
-
-[`channel.md`](./channel.md) is the full channel request list and daily live-source quality-check register. It records published and withheld channels without exposing private endpoints or credentials.
-
-## Repository layout
-
-```text
-assets/
-  sources.txt             # active public source inputs
-  failed-sources.txt      # quarantined source URLs awaiting recheck
-  channel_metadata.json   # channel names, regions, categories, and logos
-  channel_aliases.txt     # source-matching aliases
-logo/                     # curated local logos
-scripts/
-  build_playlists.py      # deterministic playlist generator
-  refresh_sources.py      # refreshes mapped URLs and reviews withheld rows with bounded probes
-  check_sources.py        # source HTTP health check
-  sync_logos.py           # fetches missing logos
-  validate_repo.py        # playlist and asset validation
-reports/                  # source and stream-check evidence
-reports/source-quality.json # generated HIGH/LOW source catalog classification
-manifest.json             # selected streams and metadata
-.github/workflows/        # validation and scheduled maintenance
-```
-
-## Local checks
-
-From the repository root:
+## Build and validation
 
 ```bash
-python3 scripts/build_playlists.py
 python3 scripts/validate_repo.py
+python3 scripts/build_playlists.py
 python3 scripts/build_playlists.py --check
+```
 
-# Preview the daily source refresh without changing manifest.json
+The builder preserves `source_order` for imported snapshots. It emits local-logo URLs from `logo/` so generated playlists remain self-contained and verifiable.
+
+## Source and refresh policy
+
+The supplied catalog is the source of truth for this snapshot. URLs are copied exactly from the catalog. The repository does not claim that a catalog listing proves current playback, stream quality, or visible identity; run the refresh/probe workflow before promoting entries to `PUBLISHED`.
+
+Source health checks can be run with:
+
+```bash
+python3 scripts/check_sources.py --output reports/source-health.json --quality-output reports/source-quality.json
 python3 scripts/refresh_sources.py --dry-run
 ```
 
-The scheduled workflow refreshes existing channel-to-catalog mappings: the
-catalog label must match a configured alias, and the candidate must pass FFprobe
-plus a short FFmpeg decode. It also scans all register rows, including
-`WITHHELD`, and records bounded candidate probes for manual identity review.
-It never automatically publishes a new cross-catalog mapping because stream
-identity still requires human review. The latest run is recorded in
-[`reports/daily-refresh.json`](./reports/daily-refresh.json).
-
-The weekly source check also writes [`reports/source-quality.json`](./reports/source-quality.json). `HIGH` means HTTP 200, sampled `#EXTINF` entries, HTTPS, a response within 5 seconds, and a playlist-compatible content type. `LOW` means reachable but at least one of those catalog-quality checks failed; it remains available for rechecking and channel discovery. Transport failures are removed from the active inventory and retained in [`assets/failed-sources.txt`](./assets/failed-sources.txt). This catalog classification does not claim that every individual stream inside a source is playable.
-
-## Disclaimer
-
-Streams are provided by third parties and may change, disappear, or be unavailable in some locations. This project does not host or guarantee them. Users are responsible for following applicable laws, service terms, and copyright requirements.
-
-## License
-
-MIT. Third-party logos and stream sources remain subject to their own terms.
+Reports in `reports/` are evidence snapshots and should state their method and scope.

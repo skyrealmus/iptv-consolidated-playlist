@@ -104,7 +104,7 @@ def load_register(path: Path) -> list[dict[str, str]]:
         requested = fields[header["Requested"]].strip("`")
         display = fields[header["Display"]].strip("`")
         status = fields[header["Status"]].upper()
-        if requested and status in {"PUBLISHED", "WITHHELD", "REQUESTED"}:
+        if requested and status in {"PUBLISHED", "WITHHELD", "REQUESTED", "IMPORTED"}:
             rows.append({"requested": requested, "display": display, "status": status})
     return rows
 

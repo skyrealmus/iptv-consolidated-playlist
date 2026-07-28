@@ -1,932 +1,1024 @@
 {
-  "format": "Language-specific channel names; English and Chinese audio metadata; English-only regions and categories",
-  "audience": [
-    "Malaysia",
-    "Singapore"
-  ],
+  "format": "Direct upstream catalog snapshot metadata",
+  "source_catalog": "https://live.yjzq.dpdns.org/output/m3u",
+  "imported_at": "2026-07-28T06:15:43+00:00",
   "channels": {
-    "CCTV-1": {
-      "name_en": "CCTV-1",
+    "CCTV-1 综合": {
+      "name_en": "CCTV-1 综合",
       "name_zh": "CCTV-1 综合",
       "display_name": "CCTV-1 综合",
-      "group": "China",
+      "group": "📺央视频道",
       "country": "CN",
       "category": "General",
-      "logo_file": "cctv-1.png",
-      "source_logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-1.png",
+      "logo_file": "yjzq-logo-108.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/108/cache/",
       "aliases": [
-        "CCTV-1",
         "CCTV-1 综合"
       ],
       "language": "Chinese",
       "audio_language": "Chinese"
     },
-    "CCTV-5": {
-      "name_en": "CCTV-5",
-      "name_zh": "CCTV-5 体育",
-      "display_name": "CCTV-5 体育",
-      "group": "China",
-      "country": "CN",
-      "category": "Sports",
-      "logo_file": "cctv-5.png",
-      "source_logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-5.png",
-      "aliases": [
-        "CCTV-5",
-        "CCTV-5 体育"
-      ],
-      "language": "Chinese",
-      "audio_language": "Chinese"
-    },
-    "CCTV-5+": {
-      "name_en": "CCTV-5+",
-      "name_zh": "CCTV-5+ 体育赛事",
-      "display_name": "CCTV-5+ 体育赛事",
-      "group": "China",
-      "country": "CN",
-      "category": "Sports",
-      "logo_file": "cctv-5-plus.png",
-      "source_logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-5+.png",
-      "aliases": [
-        "CCTV-5+",
-        "CCTV5+",
-        "CCTV-5+ 体育赛事"
-      ],
-      "language": "Chinese",
-      "audio_language": "Chinese"
-    },
-    "CCTV-7": {
-      "name_en": "CCTV-7",
-      "name_zh": "CCTV-7 国防军事",
-      "display_name": "CCTV-7 国防军事",
-      "group": "China",
+    "CCTV-2 财经": {
+      "name_en": "CCTV-2 财经",
+      "name_zh": "CCTV-2 财经",
+      "display_name": "CCTV-2 财经",
+      "group": "📺央视频道",
       "country": "CN",
       "category": "General",
-      "logo_file": "cctv-7.png",
-      "source_logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-7.png",
+      "logo_file": "yjzq-logo-109.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/109/cache/",
       "aliases": [
-        "CCTV-7",
-        "CCTV-7 国防军事"
+        "CCTV-2 财经"
       ],
       "language": "Chinese",
       "audio_language": "Chinese"
     },
-    "CCTV-9": {
-      "name_en": "CCTV-9",
-      "name_zh": "CCTV-9 纪录",
-      "display_name": "CCTV-9 纪录",
-      "group": "China",
+    "CCTV-3 综艺": {
+      "name_en": "CCTV-3 综艺",
+      "name_zh": "CCTV-3 综艺",
+      "display_name": "CCTV-3 综艺",
+      "group": "📺央视频道",
       "country": "CN",
-      "category": "Documentary",
-      "logo_file": "cctv-9.png",
-      "source_logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-9.png",
+      "category": "General",
+      "logo_file": "yjzq-logo-110.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/110/cache/",
       "aliases": [
-        "CCTV-9",
-        "CCTV-9 纪录"
+        "CCTV-3 综艺"
       ],
       "language": "Chinese",
       "audio_language": "Chinese"
     },
-    "CCTV-10": {
-      "name_en": "CCTV-10",
-      "name_zh": "CCTV-10 科教",
-      "display_name": "CCTV-10 科教",
-      "group": "China",
-      "country": "CN",
-      "category": "Documentary",
-      "logo_file": "cctv-10.png",
-      "source_logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-10.png",
-      "aliases": [
-        "CCTV-10",
-        "CCTV-10 科教"
-      ],
-      "language": "Chinese",
-      "audio_language": "Chinese"
-    },
-    "CCTV-16": {
-      "name_en": "CCTV-16",
-      "name_zh": "CCTV-16 奥林匹克",
-      "display_name": "CCTV-16 奥林匹克",
-      "group": "China",
-      "country": "CN",
-      "category": "Sports",
-      "logo_file": "cctv-16.png",
-      "source_logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-16.png",
-      "aliases": [
-        "CCTV-16",
-        "CCTV-16 奥林匹克"
-      ],
-      "language": "Chinese",
-      "audio_language": "Chinese"
-    },
-    "CCTV Fengyun Football": {
-      "name_en": "CCTV Fengyun Football",
-      "name_zh": "CCTV 风云足球",
-      "display_name": "CCTV 风云足球",
-      "group": "China",
-      "country": "CN",
-      "category": "Sports",
-      "logo_file": "cctv-fengyun-football.png",
-      "source_logo": "https://www.xn--rgv465a.top/tvlogo/%E9%A3%8E%E4%BA%91%E8%B6%B3%E7%90%83.png",
-      "aliases": [
-        "CCTV Fengyun Football",
-        "风云足球",
-        "CCTV 风云足球"
-      ],
-      "language": "Chinese",
-      "audio_language": "Chinese"
-    },
-    "CCTV世界地理": {
-      "name_en": "CCTV World Geography",
-      "name_zh": "CCTV 世界地理",
-      "display_name": "CCTV 世界地理",
-      "group": "China",
-      "country": "CN",
-      "category": "Documentary",
-      "logo_file": "cctv.png",
-      "source_logo": "https://www.xn--rgv465a.top/tvlogo/%E4%B8%96%E7%95%8C%E5%9C%B0%E7%90%86.png",
-      "aliases": [
-        "CCTV世界地理",
-        "CCTV World Geography",
-        "CCTV 世界地理"
-      ],
-      "language": "Chinese",
-      "audio_language": "Chinese"
-    },
-    "CCTV Weaponry Technology": {
-      "name_en": "CCTV Weaponry Technology",
-      "name_zh": "CCTV 兵器科技",
-      "display_name": "CCTV 兵器科技",
-      "group": "China",
-      "country": "CN",
-      "category": "Documentary",
-      "logo_file": "cctv-weaponry-technology.png",
-      "source_logo": "https://www.xn--rgv465a.top/tvlogo/%E5%85%B5%E5%99%A8%E7%A7%91%E6%8A%80.png",
-      "aliases": [
-        "CCTV Weaponry Technology",
-        "兵器科技",
-        "CCTV 兵器科技"
-      ],
-      "language": "Chinese",
-      "audio_language": "Chinese"
-    },
-    "CCTV4 HD": {
-      "name_en": "CCTV4 HD",
+    "CCTV-4 中文国际": {
+      "name_en": "CCTV-4 中文国际",
       "name_zh": "CCTV-4 中文国际",
       "display_name": "CCTV-4 中文国际",
-      "group": "China",
+      "group": "📺央视频道",
       "country": "CN",
-      "category": "News",
-      "logo_file": "cctv4-hd.png",
-      "source_logo": "https://i.imgur.com/HGLFdfk.png",
+      "category": "General",
+      "logo_file": "yjzq-logo-111.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/111/cache/",
       "aliases": [
-        "CCTV4 HD",
         "CCTV-4 中文国际"
       ],
       "language": "Chinese",
       "audio_language": "Chinese"
     },
-    "明珠台": {
-      "name_en": "Pearl",
-      "name_zh": "明珠台",
-      "display_name": "明珠台",
-      "group": "Hong Kong",
-      "country": "HK",
-      "category": "General",
-      "logo_file": "pearl.png",
-      "source_logo": "https://www.xn--rgv465a.top/tvlogo/%E6%98%8E%E7%8F%A0%E5%8F%B0.png",
+    "CCTV-5 体育": {
+      "name_en": "CCTV-5 体育",
+      "name_zh": "CCTV-5 体育",
+      "display_name": "CCTV-5 体育",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-112.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/112/cache/",
       "aliases": [
-        "明珠台",
-        "Pearl"
+        "CCTV-5 体育"
       ],
       "language": "Chinese",
       "audio_language": "Chinese"
     },
-    "Phoenix Chinese Channel HD": {
-      "name_en": "Phoenix Chinese Channel HD",
-      "name_zh": "凤凰中文台",
-      "display_name": "凤凰中文台",
-      "group": "China",
+    "CCTV-5+ 体育赛事": {
+      "name_en": "CCTV-5+ 体育赛事",
+      "name_zh": "CCTV-5+ 体育赛事",
+      "display_name": "CCTV-5+ 体育赛事",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-17.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/17/cache/",
+      "aliases": [
+        "CCTV-5+ 体育赛事"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "CCTV-6 电影": {
+      "name_en": "CCTV-6 电影",
+      "name_zh": "CCTV-6 电影",
+      "display_name": "CCTV-6 电影",
+      "group": "📺央视频道",
       "country": "CN",
       "category": "General",
-      "logo_file": "phoenix-chinese-channel-hd.png",
-      "source_logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Phoenix1.png",
+      "logo_file": "yjzq-logo-114.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/114/cache/",
       "aliases": [
-        "Phoenix Chinese Channel HD",
-        "凤凰中文台",
-        "凤凰中文"
+        "CCTV-6 电影"
       ],
       "language": "Chinese",
       "audio_language": "Chinese"
     },
-    "Phoenix Info News HD": {
-      "name_en": "Phoenix Info News HD",
-      "name_zh": "凤凰资讯台",
-      "display_name": "凤凰资讯台",
-      "group": "China",
+    "CCTV-7 国防军事": {
+      "name_en": "CCTV-7 国防军事",
+      "name_zh": "CCTV-7 国防军事",
+      "display_name": "CCTV-7 国防军事",
+      "group": "📺央视频道",
+      "country": "CN",
+      "category": "General",
+      "logo_file": "yjzq-logo-13.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/13/cache/",
+      "aliases": [
+        "CCTV-7 国防军事"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "CCTV-8 电视剧": {
+      "name_en": "CCTV-8 电视剧",
+      "name_zh": "CCTV-8 电视剧",
+      "display_name": "CCTV-8 电视剧",
+      "group": "📺央视频道",
+      "country": "CN",
+      "category": "General",
+      "logo_file": "yjzq-logo-116.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/116/cache/",
+      "aliases": [
+        "CCTV-8 电视剧"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "CCTV-9 纪录": {
+      "name_en": "CCTV-9 纪录",
+      "name_zh": "CCTV-9 纪录",
+      "display_name": "CCTV-9 纪录",
+      "group": "📺央视频道",
+      "country": "CN",
+      "category": "Documentary",
+      "logo_file": "yjzq-logo-14.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/14/cache/",
+      "aliases": [
+        "CCTV-9 纪录"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "CCTV-10 科教": {
+      "name_en": "CCTV-10 科教",
+      "name_zh": "CCTV-10 科教",
+      "display_name": "CCTV-10 科教",
+      "group": "📺央视频道",
+      "country": "CN",
+      "category": "General",
+      "logo_file": "yjzq-logo-118.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/118/cache/",
+      "aliases": [
+        "CCTV-10 科教"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "CCTV-11 戏曲": {
+      "name_en": "CCTV-11 戏曲",
+      "name_zh": "CCTV-11 戏曲",
+      "display_name": "CCTV-11 戏曲",
+      "group": "📺央视频道",
+      "country": "CN",
+      "category": "General",
+      "logo_file": "yjzq-logo-119.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/119/cache/",
+      "aliases": [
+        "CCTV-11 戏曲"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "CCTV-12 社会与法": {
+      "name_en": "CCTV-12 社会与法",
+      "name_zh": "CCTV-12 社会与法",
+      "display_name": "CCTV-12 社会与法",
+      "group": "📺央视频道",
+      "country": "CN",
+      "category": "General",
+      "logo_file": "yjzq-logo-120.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/120/cache/",
+      "aliases": [
+        "CCTV-12 社会与法"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "CCTV-13 新闻": {
+      "name_en": "CCTV-13 新闻",
+      "name_zh": "CCTV-13 新闻",
+      "display_name": "CCTV-13 新闻",
+      "group": "📺央视频道",
       "country": "CN",
       "category": "News",
-      "logo_file": "phoenix-info-news-hd.png",
-      "source_logo": "https://www.xn--rgv465a.top/tvlogo/%E5%87%A4%E5%87%B0%E8%B5%84%E8%AE%AF.png",
+      "logo_file": "yjzq-logo-121.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/121/cache/",
       "aliases": [
-        "Phoenix Info News HD",
-        "凤凰资讯台",
-        "凤凰资讯"
+        "CCTV-13 新闻"
       ],
       "language": "Chinese",
       "audio_language": "Chinese"
     },
-    "Phoenix Hong Kong": {
-      "name_en": "Phoenix Hong Kong",
-      "name_zh": "凤凰香港",
-      "display_name": "凤凰香港",
-      "group": "Hong Kong",
-      "country": "HK",
-      "category": "News",
-      "logo_file": "phoenix-hong-kong.png",
-      "source_logo": "https://www.xn--rgv465a.top/tvlogo/%E5%87%A4%E5%87%B0%E9%A6%99%E6%B8%AF.png",
+    "CCTV-14 少儿": {
+      "name_en": "CCTV-14 少儿",
+      "name_zh": "CCTV-14 少儿",
+      "display_name": "CCTV-14 少儿",
+      "group": "📺央视频道",
+      "country": "CN",
+      "category": "Kids",
+      "logo_file": "yjzq-logo-122.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/122/cache/",
       "aliases": [
-        "Phoenix Hong Kong",
-        "凤凰香港"
+        "CCTV-14 少儿"
       ],
       "language": "Chinese",
       "audio_language": "Chinese"
     },
-    "Phoenix TV": {
-      "name_en": "Phoenix TV",
-      "name_zh": "凤凰卫视",
-      "display_name": "凤凰卫视",
-      "group": "Hong Kong",
-      "country": "HK",
-      "category": "News",
-      "logo_file": "phoenix-tv.png",
-      "source_logo": "https://www.xn--rgv465a.top/tvlogo/%E5%87%A4%E5%87%B0%E5%8D%AB%E8%A7%86.png",
+    "CCTV-15 音乐": {
+      "name_en": "CCTV-15 音乐",
+      "name_zh": "CCTV-15 音乐",
+      "display_name": "CCTV-15 音乐",
+      "group": "📺央视频道",
+      "country": "CN",
+      "category": "General",
+      "logo_file": "yjzq-logo-123.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/123/cache/",
       "aliases": [
-        "Phoenix TV",
-        "凤凰卫视"
+        "CCTV-15 音乐"
       ],
       "language": "Chinese",
       "audio_language": "Chinese"
     },
-    "TVBS Asia": {
-      "name_en": "TVBS Asia",
-      "name_zh": "TVBS 亚洲",
-      "display_name": "TVBS 亚洲",
-      "group": "Taiwan",
+    "CCTV-16 奥林匹克": {
+      "name_en": "CCTV-16 奥林匹克",
+      "name_zh": "CCTV-16 奥林匹克",
+      "display_name": "CCTV-16 奥林匹克",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-124.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/124/cache/",
+      "aliases": [
+        "CCTV-16 奥林匹克"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "CCTV-17 农业农村": {
+      "name_en": "CCTV-17 农业农村",
+      "name_zh": "CCTV-17 农业农村",
+      "display_name": "CCTV-17 农业农村",
+      "group": "📺央视频道",
+      "country": "CN",
+      "category": "General",
+      "logo_file": "yjzq-logo-125.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/125/cache/",
+      "aliases": [
+        "CCTV-17 农业农村"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "CCTV 世界地理": {
+      "name_en": "CCTV 世界地理",
+      "name_zh": "CCTV 世界地理",
+      "display_name": "CCTV 世界地理",
+      "group": "📺央视频道",
+      "country": "CN",
+      "category": "General",
+      "logo_file": "yjzq-logo-189.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/189/cache/",
+      "aliases": [
+        "CCTV 世界地理"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "CCTV 兵器科技": {
+      "name_en": "CCTV 兵器科技",
+      "name_zh": "CCTV 兵器科技",
+      "display_name": "CCTV 兵器科技",
+      "group": "📺央视频道",
+      "country": "CN",
+      "category": "General",
+      "logo_file": "yjzq-logo-160.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/160/cache/",
+      "aliases": [
+        "CCTV 兵器科技"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "CCTV 风云足球": {
+      "name_en": "CCTV 风云足球",
+      "name_zh": "CCTV 风云足球",
+      "display_name": "CCTV 风云足球",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-18.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/18/cache/",
+      "aliases": [
+        "CCTV 风云足球"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "CCTV 高尔夫网球": {
+      "name_en": "CCTV 高尔夫网球",
+      "name_zh": "CCTV 高尔夫网球",
+      "display_name": "CCTV 高尔夫网球",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-165.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/165/cache/",
+      "aliases": [
+        "CCTV 高尔夫网球"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "CCTV 4k 超高清": {
+      "name_en": "CCTV 4k 超高清",
+      "name_zh": "CCTV 4k 超高清",
+      "display_name": "CCTV 4k 超高清",
+      "group": "📺央视频道",
+      "country": "CN",
+      "category": "General",
+      "logo_file": "yjzq-logo-188.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/188/cache/",
+      "aliases": [
+        "CCTV 4k 超高清"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "CCTV 8k超高清": {
+      "name_en": "CCTV 8k超高清",
+      "name_zh": "CCTV 8k超高清",
+      "display_name": "CCTV 8k超高清",
+      "group": "📺央视频道",
+      "country": "CN",
+      "category": "General",
+      "logo_file": "yjzq-logo-187.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/187/cache/",
+      "aliases": [
+        "CCTV 8k超高清"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "东方卫视": {
+      "name_en": "东方卫视",
+      "name_zh": "东方卫视",
+      "display_name": "东方卫视",
+      "group": "📡卫视频道",
+      "country": "CN",
+      "category": "General",
+      "logo_file": "yjzq-logo-232.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/232/cache/",
+      "aliases": [
+        "东方卫视"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "湖南卫视": {
+      "name_en": "湖南卫视",
+      "name_zh": "湖南卫视",
+      "display_name": "湖南卫视",
+      "group": "📡卫视频道",
+      "country": "CN",
+      "category": "General",
+      "logo_file": "yjzq-logo-233.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/233/cache/",
+      "aliases": [
+        "湖南卫视"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "TVBS亚洲": {
+      "name_en": "TVBS亚洲",
+      "name_zh": "TVBS亚洲",
+      "display_name": "TVBS亚洲",
+      "group": "台灣",
       "country": "TW",
-      "category": "News",
-      "logo_file": "tvbs-asia.png",
-      "source_logo": "https://i.imgur.com/4S1rkhm.png",
+      "category": "General",
+      "logo_file": "yjzq-logo-230.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/230/cache/",
       "aliases": [
-        "TVBS Asia",
-        "TVBS-Asia",
-        "TVBS 亚洲",
         "TVBS亚洲"
       ],
       "language": "Chinese",
       "audio_language": "Chinese"
     },
-    "EBC Variety": {
-      "name_en": "EBC Variety",
-      "name_zh": "东森综合",
-      "display_name": "东森综合",
-      "group": "Taiwan",
+    "TVBS新闻": {
+      "name_en": "TVBS新闻",
+      "name_zh": "TVBS新闻",
+      "display_name": "TVBS新闻",
+      "group": "台灣",
+      "country": "TW",
+      "category": "News",
+      "logo_file": "yjzq-logo-234.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/234/cache/",
+      "aliases": [
+        "TVBS新闻"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "凤凰资讯": {
+      "name_en": "凤凰资讯",
+      "name_zh": "凤凰资讯",
+      "display_name": "凤凰资讯",
+      "group": "台灣",
+      "country": "TW",
+      "category": "News",
+      "logo_file": "yjzq-logo-235.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/235/cache/",
+      "aliases": [
+        "凤凰资讯"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "东森超视": {
+      "name_en": "东森超视",
+      "name_zh": "东森超视",
+      "display_name": "东森超视",
+      "group": "台灣",
       "country": "TW",
       "category": "General",
-      "logo_file": "ebc-variety.png",
-      "source_logo": "https://www.xn--rgv465a.top/tvlogo/%E4%B8%9C%E6%A3%AE%E7%BB%BC%E5%90%88.png",
+      "logo_file": "yjzq-logo-231.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/231/cache/",
       "aliases": [
-        "EBC Variety",
-        "东森综合"
-      ],
-      "language": "Chinese",
-      "audio_language": "Chinese"
-    },
-    "TVB Jade": {
-      "name_en": "TVB Jade",
-      "name_zh": "TVB 翡翠台",
-      "display_name": "TVB 翡翠台",
-      "group": "Hong Kong",
-      "country": "HK",
-      "category": "General",
-      "logo_file": "tvb-jade.png",
-      "source_logo": "https://live.fanmingming.cn/tv/%E7%BF%A1%E7%BF%A0%E5%8F%B0.png",
-      "aliases": [
-        "TVB Jade",
-        "TVB 翡翠台"
-      ],
-      "language": "Chinese",
-      "audio_language": "Chinese"
-    },
-    "TVB Entertainment News": {
-      "name_en": "TVB Entertainment News",
-      "name_zh": "TVB 娱乐新闻",
-      "display_name": "TVB 娱乐新闻",
-      "group": "Hong Kong",
-      "country": "HK",
-      "category": "News",
-      "logo_file": "tvb-entertainment-news.png",
-      "source_logo": "https://www.xn--rgv465a.top/tvlogo/%E6%97%A0%E7%BA%BF%E6%96%B0%E9%97%BB.png",
-      "aliases": [
-        "TVB Entertainment News",
-        "TVB 娱乐新闻"
-      ],
-      "language": "Chinese",
-      "audio_language": "Chinese"
-    },
-    "TVB Xing He HD": {
-      "name_en": "TVB Xing He HD",
-      "name_zh": "TVB 星河",
-      "display_name": "TVB 星河",
-      "group": "Hong Kong",
-      "country": "HK",
-      "category": "General",
-      "logo_file": "tvb-xing-he-hd.png",
-      "source_logo": "https://www.xn--rgv465a.top/tvlogo/%E6%97%A0%E7%BA%BF%E6%98%9F%E6%B2%B3.png",
-      "aliases": [
-        "TVB Xing He HD",
-        "TVB 星河"
-      ],
-      "language": "Chinese",
-      "audio_language": "Chinese"
-    },
-    "CGTN HD": {
-      "name_en": "CGTN HD",
-      "name_zh": "中国国际电视台",
-      "display_name": "CGTN HD",
-      "group": "China",
-      "country": "CN",
-      "category": "News",
-      "logo_file": "cgtn-hd.png",
-      "source_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/960px-CGTN.svg.png",
-      "aliases": [
-        "CGTN HD",
-        "中国国际电视台"
-      ],
-      "language": "English",
-      "audio_language": "English"
-    },
-    "CGTN Documentary": {
-      "name_en": "CGTN Documentary",
-      "name_zh": "CGTN 纪录片",
-      "display_name": "CGTN Documentary",
-      "group": "China",
-      "country": "CN",
-      "category": "Documentary",
-      "logo_file": "cgtn-documentary.png",
-      "source_logo": "https://i.imgur.com/JHv0WxM.png",
-      "aliases": [
-        "CGTN Documentary",
-        "CGTN 纪录片"
-      ],
-      "language": "English",
-      "audio_language": "English"
-    },
-    "CNA HD": {
-      "name_en": "CNA HD",
-      "name_zh": "亚洲新闻台",
-      "display_name": "CNA HD",
-      "group": "Singapore",
-      "country": "SG",
-      "category": "News",
-      "logo_file": "cna-hd.png",
-      "source_logo": "https://i.imgur.com/awIDugE.png",
-      "aliases": [
-        "CNA HD",
-        "亚洲新闻台"
-      ],
-      "language": "English",
-      "audio_language": "English"
-    },
-    "Channel U": {
-      "name_en": "Channel U",
-      "name_zh": "U频道",
-      "display_name": "U频道 (Geo-blocked)",
-      "group": "Singapore",
-      "country": "SG",
-      "category": "General",
-      "logo_file": "channel-u.png",
-      "source_logo": "https://i.imgur.com/9MzEjoY.png",
-      "aliases": [
-        "Channel U",
-        "Channel U HD",
-        "Mediacorp Channel U",
-        "Mediacorp U",
-        "U频道"
+        "东森超视"
       ],
       "language": "Chinese",
       "audio_language": "Chinese"
     },
     "Channel 8": {
       "name_en": "Channel 8",
-      "name_zh": "8频道",
-      "display_name": "8频道",
+      "name_zh": "Channel 8",
+      "display_name": "Channel 8",
       "group": "Singapore",
       "country": "SG",
       "category": "General",
-      "logo_file": "channel-8.png",
-      "source_logo": "https://epg.pw/media/images/channel/2023/09/22/large/20230922164216308037_71.png",
+      "logo_file": "yjzq-logo-51.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/51/cache/",
       "aliases": [
-        "Channel 8",
-        "Channel 8 HD",
-        "Mediacorp Channel 8",
-        "8频道"
+        "Channel 8"
       ],
-      "language": "Chinese",
-      "audio_language": "Chinese"
+      "language": "English",
+      "audio_language": "English"
     },
-    "8TV": {
-      "name_en": "8TV",
+    "Channel U": {
+      "name_en": "Channel U",
+      "name_zh": "Channel U",
+      "display_name": "Channel U",
+      "group": "Singapore",
+      "country": "SG",
+      "category": "General",
+      "logo_file": "yjzq-logo-52.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/52/cache/",
+      "aliases": [
+        "Channel U"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Channel 5": {
+      "name_en": "Channel 5",
+      "name_zh": "Channel 5",
+      "display_name": "Channel 5",
+      "group": "Singapore",
+      "country": "SG",
+      "category": "General",
+      "logo_file": "yjzq-logo-50.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/50/cache/",
+      "aliases": [
+        "Channel 5"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "八度空间": {
+      "name_en": "八度空间",
       "name_zh": "八度空间",
-      "display_name": "八度空间 (Geo-blocked)",
+      "display_name": "八度空间",
       "group": "Malaysia",
       "country": "MY",
       "category": "General",
-      "logo_file": "8tv.png",
-      "source_logo": "https://epg.pw/media/images/channel/2020/05/12/large/20200512130107352553_81.png",
+      "logo_file": "yjzq-logo-250.jpg",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/250/cache/",
       "aliases": [
-        "8TV",
         "八度空间"
       ],
       "language": "Chinese",
       "audio_language": "Chinese"
     },
-    "Astro AEC HD": {
-      "name_en": "Astro AEC HD",
-      "name_zh": "Astro AEC 高清",
-      "display_name": "Astro AEC 高清",
+    "Astro AOD": {
+      "name_en": "Astro AOD",
+      "name_zh": "Astro AOD",
+      "display_name": "Astro AOD",
       "group": "Malaysia",
       "country": "MY",
       "category": "General",
-      "logo_file": "astro-aec-hd.jpg",
-      "source_logo": "https://epg.pw/media/images/channel/2016/06/13/large/20160613221915401269_45.jpg",
+      "logo_file": "yjzq-logo-9.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/9/cache/",
       "aliases": [
-        "Astro AEC HD",
-        "Astro AEC 高清"
+        "Astro AOD"
       ],
-      "language": "Chinese",
-      "audio_language": "Chinese"
+      "language": "English",
+      "audio_language": "English"
     },
     "Astro QJ": {
       "name_en": "Astro QJ",
-      "name_zh": "Astro QJ 娱乐",
-      "display_name": "Astro QJ 娱乐",
+      "name_zh": "Astro QJ",
+      "display_name": "Astro QJ",
       "group": "Malaysia",
       "country": "MY",
       "category": "General",
-      "logo_file": "astro-qj.png",
-      "source_logo": "https://epg.pw/media/images/channel/2023/10/26/large/20231026184205607217_59.png",
+      "logo_file": "yjzq-logo-10.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/10/cache/",
       "aliases": [
         "Astro QJ"
       ],
-      "language": "Chinese",
-      "audio_language": "Chinese"
+      "language": "English",
+      "audio_language": "English"
     },
-    "Astro AOD HD": {
-      "name_en": "Astro AOD HD",
-      "name_zh": "Astro AOD 高清",
-      "display_name": "Astro AOD 高清",
+    "Astro 欢喜台": {
+      "name_en": "Astro 欢喜台",
+      "name_zh": "Astro 欢喜台",
+      "display_name": "Astro 欢喜台",
       "group": "Malaysia",
       "country": "MY",
       "category": "General",
-      "logo_file": "astro-aod-hd.png",
-      "source_logo": "https://epg.pw/media/images/channel/2022/08/26/large/20220826114608609036_92.png",
+      "logo_file": "yjzq-logo-132.jpg",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/132/cache/",
       "aliases": [
-        "Astro AOD HD",
-        "Astro AOD 高清"
+        "Astro 欢喜台"
       ],
       "language": "Chinese",
       "audio_language": "Chinese"
     },
-    "Astro Grandstand": {
-      "name_en": "Astro Grandstand",
-      "name_zh": "Astro 大看台",
-      "display_name": "Astro Grandstand",
-      "group": "Malaysia",
-      "country": "MY",
-      "category": "Sports",
-      "logo_file": "astro-grandstand.png",
-      "source_logo": "https://epg.pw/media/images/channel/2024/10/19/large/20241019181734867306_96.png",
-      "aliases": [
-        "Astro Grandstand",
-        "Astro 大看台"
-      ],
-      "language": "English",
-      "audio_language": "English"
-    },
-    "Astro Premier League": {
-      "name_en": "Astro Premier League",
-      "name_zh": "Astro 英超",
-      "display_name": "Astro Premier League",
-      "group": "Malaysia",
-      "country": "MY",
-      "category": "Sports",
-      "logo_file": "astro-premier-league.png",
-      "source_logo": "https://epg.pw/media/images/channel/2024/10/28/large/20241028154405349622_26.png",
-      "aliases": [
-        "Astro Premier League",
-        "Astro 英超"
-      ],
-      "language": "English",
-      "audio_language": "English"
-    },
-    "Astro Premier League 2": {
-      "name_en": "Astro Premier League 2",
-      "name_zh": "Astro 英超 2",
-      "display_name": "Astro Premier League 2",
-      "group": "Malaysia",
-      "country": "MY",
-      "category": "Sports",
-      "logo_file": "astro-premier-league-2.png",
-      "source_logo": "https://epg.pw/media/images/channel/2024/10/28/large/20241028154354983236_16.png",
-      "aliases": [
-        "Astro Premier League 2",
-        "Astro 英超 2"
-      ],
-      "language": "English",
-      "audio_language": "English"
-    },
-    "Astro Football": {
-      "name_en": "Astro Football",
-      "name_zh": "Astro 足球",
-      "display_name": "Astro Football",
-      "group": "Malaysia",
-      "country": "MY",
-      "category": "Sports",
-      "logo_file": "astro-football.png",
-      "source_logo": "https://epg.pw/media/images/channel/2024/10/19/large/20241019181752911817_82.png",
-      "aliases": [
-        "Astro Football",
-        "Astro 足球"
-      ],
-      "language": "English",
-      "audio_language": "English"
-    },
-    "Astro Badminton": {
-      "name_en": "Astro Badminton",
-      "name_zh": "Astro 羽毛球",
-      "display_name": "Astro Badminton",
-      "group": "Malaysia",
-      "country": "MY",
-      "category": "Sports",
-      "logo_file": "astro-badminton.png",
-      "source_logo": "https://epg.pw/media/images/channel/2024/10/18/large/20241018015520001285_15.png",
-      "aliases": [
-        "Astro Badminton",
-        "Astro 羽毛球"
-      ],
-      "language": "English",
-      "audio_language": "English"
-    },
-    "Astro Sports Plus": {
-      "name_en": "Astro Sports Plus",
-      "name_zh": "Astro 体育加",
-      "display_name": "Astro Sports Plus",
-      "group": "Malaysia",
-      "country": "MY",
-      "category": "Sports",
-      "logo_file": "astro-sports-plus.png",
-      "source_logo": "https://epg.pw/media/images/channel/2024/10/19/large/20241019181826872623_21.png",
-      "aliases": [
-        "Astro Sports Plus",
-        "Astro 体育加"
-      ],
-      "language": "English",
-      "audio_language": "English"
-    },
-    "CNN HD": {
-      "name_en": "CNN HD",
-      "name_zh": "CNN 新闻",
-      "display_name": "CNN HD",
-      "group": "International",
-      "country": "US",
-      "category": "News",
-      "logo_file": "cnn-hd.png",
-      "source_logo": "https://raw.githubusercontent.com/suxuang/TVlogo/main/img/CNN.png",
-      "aliases": [
-        "CNN HD",
-        "CNN 新闻"
-      ],
-      "language": "English",
-      "audio_language": "English"
-    },
-    "Bloomberg Television": {
-      "name_en": "Bloomberg Television",
-      "name_zh": "彭博电视",
-      "display_name": "Bloomberg Television",
-      "group": "International",
-      "country": "US",
-      "category": "News",
-      "logo_file": "bloomberg-television.png",
-      "source_logo": "https://i.imgur.com/OuogLHx.png",
-      "aliases": [
-        "Bloomberg Television",
-        "彭博电视"
-      ],
-      "language": "English",
-      "audio_language": "English"
-    },
-    "Love Nature 4K": {
-      "name_en": "Love Nature 4K",
-      "name_zh": "爱自然 4K",
-      "display_name": "Love Nature 4K",
-      "group": "International",
-      "country": "CA",
-      "category": "Documentary",
-      "logo_file": "love-nature-4k.png",
-      "source_logo": "https://lovenature.com/wp-content/uploads/2020/08/love-nature-logo_peacock.png",
-      "aliases": [
-        "Love Nature 4K",
-        "爱自然 4K"
-      ],
-      "language": "English",
-      "audio_language": "English"
-    },
-    "BBC Earth": {
-      "name_en": "BBC Earth",
-      "name_zh": "BBC 地球",
-      "display_name": "BBC Earth",
-      "group": "International",
-      "country": "GB",
-      "category": "Documentary",
-      "logo_file": "bbc-earth.png",
-      "source_logo": "https://i.imgur.com/nGSsUd4.png",
-      "aliases": [
-        "BBC Earth",
-        "BBC 地球"
-      ],
-      "language": "English",
-      "audio_language": "English"
-    },
-    "History": {
-      "name_en": "History",
-      "name_zh": "历史频道",
-      "display_name": "History",
-      "group": "International",
-      "country": "US",
-      "category": "Documentary",
-      "logo_file": "history.png",
-      "source_logo": "https://i.imgur.com/6UWM2ER.png",
-      "aliases": [
-        "History",
-        "历史频道"
-      ],
-      "language": "English",
-      "audio_language": "English"
-    },
-    "Nickelodeon": {
-      "name_en": "Nickelodeon",
-      "name_zh": "尼克儿童频道",
-      "display_name": "Nickelodeon",
-      "group": "International",
-      "country": "US",
-      "category": "Kids",
-      "logo_file": "nickelodeon.png",
-      "source_logo": "https://i.imgur.com/E84jnP8.png",
-      "aliases": [
-        "Nickelodeon",
-        "尼克儿童频道"
-      ],
-      "language": "English",
-      "audio_language": "English"
-    },
-    "Nick Jr": {
-      "name_en": "Nick Jr",
-      "name_zh": "小尼克",
-      "display_name": "Nick Jr",
-      "group": "International",
-      "country": "US",
-      "category": "Kids",
-      "logo_file": "nick-jr.png",
-      "source_logo": "https://i.imgur.com/KT4tdQs.png",
-      "aliases": [
-        "Nick Jr",
-        "小尼克"
-      ],
-      "language": "English",
-      "audio_language": "English"
-    },
-    "Moonbug Kids": {
-      "name_en": "Moonbug Kids",
-      "name_zh": "月亮虫儿童",
-      "display_name": "Moonbug Kids",
-      "group": "International",
-      "country": "GB",
-      "category": "Kids",
-      "logo_file": "moonbug-kids.png",
-      "source_logo": "https://i.imgur.com/vZHtxQb.png",
-      "aliases": [
-        "Moonbug Kids",
-        "月亮虫儿童"
-      ],
-      "language": "English",
-      "audio_language": "English"
-    },
-    "AXN": {
-      "name_en": "AXN",
-      "name_zh": "AXN 亚洲",
-      "display_name": "AXN",
-      "group": "International",
-      "country": "SG",
+    "翡翠台": {
+      "name_en": "翡翠台",
+      "name_zh": "翡翠台",
+      "display_name": "翡翠台",
+      "group": "香港",
+      "country": "HK",
       "category": "General",
-      "logo_file": "axn.png",
-      "source_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",
+      "logo_file": "yjzq-logo-254.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/254/cache/",
       "aliases": [
-        "AXN",
-        "AXN 亚洲"
+        "翡翠台"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "明珠台": {
+      "name_en": "明珠台",
+      "name_zh": "明珠台",
+      "display_name": "明珠台",
+      "group": "香港",
+      "country": "HK",
+      "category": "General",
+      "logo_file": "yjzq-logo-255.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/255/cache/",
+      "aliases": [
+        "明珠台"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "TVB星河": {
+      "name_en": "TVB星河",
+      "name_zh": "TVB星河",
+      "display_name": "TVB星河",
+      "group": "香港",
+      "country": "HK",
+      "category": "General",
+      "logo_file": "yjzq-logo-148.jpg",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/148/cache/",
+      "aliases": [
+        "TVB星河"
+      ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "TVB DRAMA": {
+      "name_en": "TVB DRAMA",
+      "name_zh": "TVB DRAMA",
+      "display_name": "TVB DRAMA",
+      "group": "香港",
+      "country": "HK",
+      "category": "General",
+      "logo_file": "yjzq-logo-253.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/253/cache/",
+      "aliases": [
+        "TVB DRAMA"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "TVB Plus": {
+      "name_en": "TVB Plus",
+      "name_zh": "TVB Plus",
+      "display_name": "TVB Plus",
+      "group": "香港",
+      "country": "HK",
+      "category": "General",
+      "logo_file": "yjzq-logo-107.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/107/cache/",
+      "aliases": [
+        "TVB Plus"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "CNN": {
+      "name_en": "CNN",
+      "name_zh": "CNN",
+      "display_name": "CNN",
+      "group": "News",
+      "country": "INT",
+      "category": "News",
+      "logo_file": "yjzq-logo-190.jpg",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/190/cache/",
+      "aliases": [
+        "CNN"
       ],
       "language": "English",
       "audio_language": "English"
     },
     "BBC News": {
       "name_en": "BBC News",
-      "name_zh": "BBC 新闻",
+      "name_zh": "BBC News",
       "display_name": "BBC News",
-      "group": "International",
-      "country": "GB",
+      "group": "News",
+      "country": "INT",
       "category": "News",
-      "logo_file": "bbc-news.png",
-      "source_logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png",
+      "logo_file": "yjzq-logo-5.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/5/cache/",
       "aliases": [
-        "BBC News",
-        "BBC 新闻"
+        "BBC News"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "CNA": {
+      "name_en": "CNA",
+      "name_zh": "CNA",
+      "display_name": "CNA",
+      "group": "News",
+      "country": "INT",
+      "category": "News",
+      "logo_file": "yjzq-logo-139.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/139/cache/",
+      "aliases": [
+        "CNA"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "CNA Original": {
+      "name_en": "CNA Original",
+      "name_zh": "CNA Original",
+      "display_name": "CNA Original",
+      "group": "News",
+      "country": "INT",
+      "category": "News",
+      "logo_file": "yjzq-logo-241.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/241/cache/",
+      "aliases": [
+        "CNA Original"
       ],
       "language": "English",
       "audio_language": "English"
     },
     "Reuters": {
       "name_en": "Reuters",
-      "name_zh": "路透社",
+      "name_zh": "Reuters",
       "display_name": "Reuters",
-      "group": "International",
-      "country": "GB",
+      "group": "News",
+      "country": "INT",
       "category": "News",
-      "logo_file": "reuters.png",
-      "source_logo": "https://provider-static.plex.tv/epg/cms/production/8cf9c131-2d92-4d91-86b1-22ef458d703f/reuters_reutersnow_1RDX.png",
+      "logo_file": "yjzq-logo-147.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/147/cache/",
       "aliases": [
-        "Reuters",
-        "路透社"
+        "Reuters"
       ],
       "language": "English",
       "audio_language": "English"
     },
-    "Disney XD": {
-      "name_en": "Disney XD",
-      "name_zh": "迪士尼 XD",
-      "display_name": "Disney XD",
-      "group": "International",
-      "country": "US",
-      "category": "Kids",
-      "logo_file": "disney-xd.svg",
-      "source_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg",
+    "Bloomberg": {
+      "name_en": "Bloomberg",
+      "name_zh": "Bloomberg",
+      "display_name": "Bloomberg",
+      "group": "News",
+      "country": "INT",
+      "category": "News",
+      "logo_file": "yjzq-logo-154.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/154/cache/",
       "aliases": [
-        "Disney XD",
-        "迪士尼 XD"
-      ],
-      "language": "English",
-      "audio_language": "English"
-    },
-    "National Geographic": {
-      "name_en": "National Geographic",
-      "name_zh": "国家地理频道",
-      "display_name": "National Geographic",
-      "group": "International",
-      "country": "US",
-      "category": "Documentary",
-      "logo_file": "national-geographic.png",
-      "source_logo": "https://dtil.tmsimg.com/assets/s143574_ld_h15_aa.png?lock=720x540",
-      "aliases": [
-        "National Geographic",
-        "国家地理频道"
-      ],
-      "language": "English",
-      "audio_language": "English"
-    },
-    "Wild Earth": {
-      "name_en": "Wild Earth",
-      "name_zh": "野生地球",
-      "display_name": "Wild Earth",
-      "group": "International",
-      "country": "US",
-      "category": "Documentary",
-      "logo_file": "wild-earth.png",
-      "source_logo": "https://i.imgur.com/Vhv5gjN.png",
-      "aliases": [
-        "Wild Earth",
-        "野生地球"
-      ],
-      "language": "English",
-      "audio_language": "English"
-    },
-    "Kartoon Channel": {
-      "name_en": "Kartoon Channel",
-      "name_zh": "卡通频道",
-      "display_name": "Kartoon Channel",
-      "group": "International",
-      "country": "US",
-      "category": "Kids",
-      "logo_file": "kartoon-channel.png",
-      "source_logo": "https://i.imgur.com/1luzP3T.png",
-      "aliases": [
-        "Kartoon Channel",
-        "卡通频道"
-      ],
-      "language": "English",
-      "audio_language": "English"
-    },
-    "History Hit": {
-      "name_en": "History Hit",
-      "name_zh": "History Hit 历史",
-      "display_name": "History Hit",
-      "group": "International",
-      "country": "GB",
-      "category": "Documentary",
-      "logo_file": "history-hit.png",
-      "source_logo": "https://i.imgur.com/ulHoqlP.png",
-      "aliases": [
-        "History Hit",
-        "History Hit 历史"
-      ],
-      "language": "English",
-      "audio_language": "English"
-    },
-    "beIN Sports Xtra": {
-      "name_en": "beIN Sports Xtra",
-      "name_zh": "beIN Sports Xtra 体育",
-      "display_name": "beIN Sports Xtra",
-      "group": "International",
-      "country": "US",
-      "category": "Sports",
-      "logo_file": "bein-sports-xtra.png",
-      "source_logo": "https://image.xumo.com/v1/channels/channel/99991387/168x168.png?type=color_onBlack",
-      "aliases": [
-        "beIN Sports Xtra",
-        "beIN Sports Xtra 体育"
+        "Bloomberg"
       ],
       "language": "English",
       "audio_language": "English"
     },
     "CNBC": {
       "name_en": "CNBC",
-      "name_zh": "CNBC 财经",
+      "name_zh": "CNBC",
       "display_name": "CNBC",
-      "group": "International",
-      "country": "GB",
+      "group": "News",
+      "country": "INT",
       "category": "News",
-      "logo_file": "cnbc.png",
-      "source_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png",
+      "logo_file": "yjzq-logo-7.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/7/cache/",
       "aliases": [
-        "CNBC",
-        "CNBC (1080p)"
+        "CNBC"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Sky News International": {
+      "name_en": "Sky News International",
+      "name_zh": "Sky News International",
+      "display_name": "Sky News International",
+      "group": "News",
+      "country": "INT",
+      "category": "News",
+      "logo_file": "yjzq-logo-237.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/237/cache/",
+      "aliases": [
+        "Sky News International"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Fox News": {
+      "name_en": "Fox News",
+      "name_zh": "Fox News",
+      "display_name": "Fox News",
+      "group": "News",
+      "country": "INT",
+      "category": "News",
+      "logo_file": "yjzq-logo-238.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/238/cache/",
+      "aliases": [
+        "Fox News"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "NHK World": {
+      "name_en": "NHK World",
+      "name_zh": "NHK World",
+      "display_name": "NHK World",
+      "group": "News",
+      "country": "INT",
+      "category": "News",
+      "logo_file": "yjzq-logo-216.jpg",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/216/cache/",
+      "aliases": [
+        "NHK World"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Food Network": {
+      "name_en": "Food Network",
+      "name_zh": "Food Network",
+      "display_name": "Food Network",
+      "group": "Documentary",
+      "country": "INT",
+      "category": "Documentary",
+      "logo_file": "yjzq-logo-236.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/236/cache/",
+      "aliases": [
+        "Food Network"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "National Geographic": {
+      "name_en": "National Geographic",
+      "name_zh": "National Geographic",
+      "display_name": "National Geographic",
+      "group": "Documentary",
+      "country": "INT",
+      "category": "Documentary",
+      "logo_file": "yjzq-logo-142.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/142/cache/",
+      "aliases": [
+        "National Geographic"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "NatGeo Wild": {
+      "name_en": "NatGeo Wild",
+      "name_zh": "NatGeo Wild",
+      "display_name": "NatGeo Wild",
+      "group": "Documentary",
+      "country": "INT",
+      "category": "Documentary",
+      "logo_file": "yjzq-logo-142.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/142/cache/",
+      "aliases": [
+        "NatGeo Wild"
       ],
       "language": "English",
       "audio_language": "English"
     },
     "Animal Planet": {
       "name_en": "Animal Planet",
-      "name_zh": "动物星球",
+      "name_zh": "Animal Planet",
       "display_name": "Animal Planet",
-      "group": "International",
-      "country": "US",
+      "group": "Documentary",
+      "country": "INT",
       "category": "Documentary",
-      "logo_file": "animal-planet.png",
-      "source_logo": "http://epg.one/img2/365.png",
+      "logo_file": "yjzq-logo-215.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/215/cache/",
       "aliases": [
-        "Animal Planet",
-        "Animal Planet HD"
+        "Animal Planet"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "BBC Earth": {
+      "name_en": "BBC Earth",
+      "name_zh": "BBC Earth",
+      "display_name": "BBC Earth",
+      "group": "Documentary",
+      "country": "INT",
+      "category": "Documentary",
+      "logo_file": "yjzq-logo-134.jpg",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/134/cache/",
+      "aliases": [
+        "BBC Earth"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Love Nature": {
+      "name_en": "Love Nature",
+      "name_zh": "Love Nature",
+      "display_name": "Love Nature",
+      "group": "Documentary",
+      "country": "INT",
+      "category": "Documentary",
+      "logo_file": "yjzq-logo-166.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/166/cache/",
+      "aliases": [
+        "Love Nature"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Wild Earth": {
+      "name_en": "Wild Earth",
+      "name_zh": "Wild Earth",
+      "display_name": "Wild Earth",
+      "group": "Documentary",
+      "country": "INT",
+      "category": "Documentary",
+      "logo_file": "yjzq-logo-47.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/47/cache/",
+      "aliases": [
+        "Wild Earth"
       ],
       "language": "English",
       "audio_language": "English"
     },
     "Discovery": {
       "name_en": "Discovery",
-      "name_zh": "探索频道",
+      "name_zh": "Discovery",
       "display_name": "Discovery",
-      "group": "International",
-      "country": "IT",
+      "group": "Documentary",
+      "country": "INT",
       "category": "Documentary",
-      "logo_file": "discovery.png",
-      "source_logo": "https://i.imgur.com/5IxIFJ0.png",
+      "logo_file": "yjzq-logo-129.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/129/cache/",
       "aliases": [
-        "Discovery",
-        "Discovery Channel"
+        "Discovery"
       ],
       "language": "English",
       "audio_language": "English"
     },
-    "beIN SPORTS 3": {
-      "name_en": "beIN SPORTS 3",
-      "name_zh": "beIN SPORTS 3",
-      "display_name": "beIN SPORTS 3 (Geo-blocked)",
-      "group": "International",
-      "country": "QA",
-      "category": "Sports",
-      "logo_file": "bein-sports-3.png",
-      "source_logo": "http://epg.one/img2/3048.png",
+    "Discovery Science": {
+      "name_en": "Discovery Science",
+      "name_zh": "Discovery Science",
+      "display_name": "Discovery Science",
+      "group": "Documentary",
+      "country": "INT",
+      "category": "Documentary",
+      "logo_file": "yjzq-logo-219.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/219/cache/",
       "aliases": [
-        "beIN SPORTS 3",
-        "beIN Sports 3 HD QA",
-        "beIN Sports 3 HD TR",
-        "beIN Sports 3 HD FR"
+        "Discovery Science"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Discovery Turbo": {
+      "name_en": "Discovery Turbo",
+      "name_zh": "Discovery Turbo",
+      "display_name": "Discovery Turbo",
+      "group": "Documentary",
+      "country": "INT",
+      "category": "Documentary",
+      "logo_file": "yjzq-logo-191.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/191/cache/",
+      "aliases": [
+        "Discovery Turbo"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Discovery Family Channel": {
+      "name_en": "Discovery Family Channel",
+      "name_zh": "Discovery Family Channel",
+      "display_name": "Discovery Family Channel",
+      "group": "Documentary",
+      "country": "INT",
+      "category": "Documentary",
+      "logo_file": "yjzq-logo-217.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/217/cache/",
+      "aliases": [
+        "Discovery Family Channel"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Discovery Life": {
+      "name_en": "Discovery Life",
+      "name_zh": "Discovery Life",
+      "display_name": "Discovery Life",
+      "group": "Documentary",
+      "country": "INT",
+      "category": "Documentary",
+      "logo_file": "yjzq-logo-218.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/218/cache/",
+      "aliases": [
+        "Discovery Life"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "History Channel": {
+      "name_en": "History Channel",
+      "name_zh": "History Channel",
+      "display_name": "History Channel",
+      "group": "Documentary",
+      "country": "INT",
+      "category": "Documentary",
+      "logo_file": "yjzq-logo-224.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/224/cache/",
+      "aliases": [
+        "History Channel"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Disney Channel": {
+      "name_en": "Disney Channel",
+      "name_zh": "Disney Channel",
+      "display_name": "Disney Channel",
+      "group": "Kids",
+      "country": "INT",
+      "category": "Kids",
+      "logo_file": "yjzq-logo-127.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/127/cache/",
+      "aliases": [
+        "Disney Channel"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Disney Jr.": {
+      "name_en": "Disney Jr.",
+      "name_zh": "Disney Jr.",
+      "display_name": "Disney Jr.",
+      "group": "Kids",
+      "country": "INT",
+      "category": "Kids",
+      "logo_file": "yjzq-logo-128.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/128/cache/",
+      "aliases": [
+        "Disney Jr."
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Disney XD": {
+      "name_en": "Disney XD",
+      "name_zh": "Disney XD",
+      "display_name": "Disney XD",
+      "group": "Kids",
+      "country": "INT",
+      "category": "Kids",
+      "logo_file": "yjzq-logo-153.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/153/cache/",
+      "aliases": [
+        "Disney XD"
       ],
       "language": "English",
       "audio_language": "English"
@@ -934,91 +1026,392 @@
     "Cartoon Network": {
       "name_en": "Cartoon Network",
       "name_zh": "Cartoon Network",
-      "display_name": "Cartoon Network (Geo-blocked)",
-      "group": "International",
-      "country": "US",
+      "display_name": "Cartoon Network",
+      "group": "Kids",
+      "country": "INT",
       "category": "Kids",
-      "logo_file": "cartoon-network.png",
-      "source_logo": "http://epg.one/img2/601.png",
+      "logo_file": "yjzq-logo-137.jpg",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/137/cache/",
       "aliases": [
-        "Cartoon Network",
-        "Cartoon Network HD",
-        "Cartoon Network HD orig",
-        "Cartoon Network Arabic"
+        "Cartoon Network"
       ],
       "language": "English",
       "audio_language": "English"
     },
-    "无线新闻台": {
-      "name_en": "TVB News",
-      "name_zh": "无线新闻台",
-      "display_name": "无线新闻台",
-      "group": "Hong Kong",
-      "country": "HK",
-      "category": "News",
-      "logo_file": "tvb-entertainment-news.png",
-      "source_logo": "https://www.xn--rgv465a.top/tvlogo/%E6%97%A0%E7%BA%BF%E6%96%B0%E9%97%BB.png",
-      "aliases": [
-        "无线新闻台",
-        "TVB News",
-        "TVB News HD",
-        "无线新闻",
-        "TVB Entertainment News",
-        "TVB 娱乐新闻"
-      ],
-      "language": "Chinese",
-      "audio_language": "Chinese"
-    },
-    "ViuTV": {
-      "name_en": "ViuTV",
-      "name_zh": "ViuTV",
-      "display_name": "ViuTV",
-      "group": "Hong Kong",
-      "country": "HK",
-      "category": "General",
-      "logo_file": "viutv.png",
-      "source_logo": "https://material.1989.click/logo/ViuTV.png",
-      "aliases": [
-        "ViuTV",
-        "Viu TV"
-      ],
-      "language": "Chinese",
-      "audio_language": "Chinese"
-    },
-    "DreamWorks": {
-      "name_en": "DreamWorks",
-      "name_zh": "DreamWorks",
-      "display_name": "DreamWorks",
-      "group": "International",
-      "country": "US",
+    "Nickelodeon": {
+      "name_en": "Nickelodeon",
+      "name_zh": "Nickelodeon",
+      "display_name": "Nickelodeon",
+      "group": "Kids",
+      "country": "INT",
       "category": "Kids",
-      "logo_file": "dreamworks.png",
-      "source_logo": "https://material.1989.click/logo/DreamWorks-%E5%A4%A2%E5%B7%A5%E5%BB%A0%E5%8B%95%E7%95%AB.png",
+      "logo_file": "yjzq-logo-44.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/44/cache/",
       "aliases": [
-        "DreamWorks",
-        "DreamWorks 夢工廠動畫",
+        "Nickelodeon"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Nick Jr": {
+      "name_en": "Nick Jr",
+      "name_zh": "Nick Jr",
+      "display_name": "Nick Jr",
+      "group": "Kids",
+      "country": "INT",
+      "category": "Kids",
+      "logo_file": "yjzq-logo-43.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/43/cache/",
+      "aliases": [
+        "Nick Jr"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Nicktoons": {
+      "name_en": "Nicktoons",
+      "name_zh": "Nicktoons",
+      "display_name": "Nicktoons",
+      "group": "Kids",
+      "country": "INT",
+      "category": "Kids",
+      "logo_file": "yjzq-logo-145.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/145/cache/",
+      "aliases": [
+        "Nicktoons"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Kartoon Channel": {
+      "name_en": "Kartoon Channel",
+      "name_zh": "Kartoon Channel",
+      "display_name": "Kartoon Channel",
+      "group": "Kids",
+      "country": "INT",
+      "category": "Kids",
+      "logo_file": "yjzq-logo-39.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/39/cache/",
+      "aliases": [
+        "Kartoon Channel"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "DreamWorks梦工厂动画": {
+      "name_en": "DreamWorks梦工厂动画",
+      "name_zh": "DreamWorks梦工厂动画",
+      "display_name": "DreamWorks梦工厂动画",
+      "group": "Kids",
+      "country": "INT",
+      "category": "Kids",
+      "logo_file": "yjzq-logo-75.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/75/cache/",
+      "aliases": [
         "DreamWorks梦工厂动画"
       ],
+      "language": "Chinese",
+      "audio_language": "Chinese"
+    },
+    "NBA TV": {
+      "name_en": "NBA TV",
+      "name_zh": "NBA TV",
+      "display_name": "NBA TV",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-229.webp",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/229/cache/",
+      "aliases": [
+        "NBA TV"
+      ],
       "language": "English",
       "audio_language": "English"
     },
-    "Hub Sports 1": {
-      "name_en": "Hub Sports 1",
-      "name_zh": "Hub Sports 1",
-      "display_name": "Hub Sports 1",
-      "group": "International",
-      "country": "SG",
+    "Red Bull TV": {
+      "name_en": "Red Bull TV",
+      "name_zh": "Red Bull TV",
+      "display_name": "Red Bull TV",
+      "group": "Sports",
+      "country": "INT",
       "category": "Sports",
-      "logo_file": "hub-sports-1.png",
-      "source_logo": "https://material.1989.click/logo/Hub-Sports-1.png",
+      "logo_file": "yjzq-logo-146.jpg",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/146/cache/",
       "aliases": [
-        "Hub Sports 1",
-        "Hub Sports 1 HD"
+        "Red Bull TV"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "beIN SPORTS XTRA": {
+      "name_en": "beIN SPORTS XTRA",
+      "name_zh": "beIN SPORTS XTRA",
+      "display_name": "beIN SPORTS XTRA",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-214.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/214/cache/",
+      "aliases": [
+        "beIN SPORTS XTRA"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "beIN SPORTS": {
+      "name_en": "beIN SPORTS",
+      "name_zh": "beIN SPORTS",
+      "display_name": "beIN SPORTS",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-240.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/240/cache/",
+      "aliases": [
+        "beIN SPORTS"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "ESPN News": {
+      "name_en": "ESPN News",
+      "name_zh": "ESPN News",
+      "display_name": "ESPN News",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-220.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/220/cache/",
+      "aliases": [
+        "ESPN News"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "ESPN": {
+      "name_en": "ESPN",
+      "name_zh": "ESPN",
+      "display_name": "ESPN",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-221.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/221/cache/",
+      "aliases": [
+        "ESPN"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "ESPN2": {
+      "name_en": "ESPN2",
+      "name_zh": "ESPN2",
+      "display_name": "ESPN2",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-223.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/223/cache/",
+      "aliases": [
+        "ESPN2"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "ESPN U": {
+      "name_en": "ESPN U",
+      "name_zh": "ESPN U",
+      "display_name": "ESPN U",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-222.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/222/cache/",
+      "aliases": [
+        "ESPN U"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Premier Sports 1": {
+      "name_en": "Premier Sports 1",
+      "name_zh": "Premier Sports 1",
+      "display_name": "Premier Sports 1",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-225.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/225/cache/",
+      "aliases": [
+        "Premier Sports 1"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Premier Sports 2": {
+      "name_en": "Premier Sports 2",
+      "name_zh": "Premier Sports 2",
+      "display_name": "Premier Sports 2",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-226.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/226/cache/",
+      "aliases": [
+        "Premier Sports 2"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Sky Sports Football": {
+      "name_en": "Sky Sports Football",
+      "name_zh": "Sky Sports Football",
+      "display_name": "Sky Sports Football",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-227.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/227/cache/",
+      "aliases": [
+        "Sky Sports Football"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Sky Sports Premier League": {
+      "name_en": "Sky Sports Premier League",
+      "name_zh": "Sky Sports Premier League",
+      "display_name": "Sky Sports Premier League",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-228.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/228/cache/",
+      "aliases": [
+        "Sky Sports Premier League"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "SPOTV 1 HD": {
+      "name_en": "SPOTV 1 HD",
+      "name_zh": "SPOTV 1 HD",
+      "display_name": "SPOTV 1 HD",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-239.jpg",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/239/cache/",
+      "aliases": [
+        "SPOTV 1 HD"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Astro Badminton 1": {
+      "name_en": "Astro Badminton 1",
+      "name_zh": "Astro Badminton 1",
+      "display_name": "Astro Badminton 1",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-251.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/251/cache/",
+      "aliases": [
+        "Astro Badminton 1"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Astro Football": {
+      "name_en": "Astro Football",
+      "name_zh": "Astro Football",
+      "display_name": "Astro Football",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-200.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/200/cache/",
+      "aliases": [
+        "Astro Football"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Astro Grandstand": {
+      "name_en": "Astro Grandstand",
+      "name_zh": "Astro Grandstand",
+      "display_name": "Astro Grandstand",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-202.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/202/cache/",
+      "aliases": [
+        "Astro Grandstand"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Astro Golf": {
+      "name_en": "Astro Golf",
+      "name_zh": "Astro Golf",
+      "display_name": "Astro Golf",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-252.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/252/cache/",
+      "aliases": [
+        "Astro Golf"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Astro Premier League": {
+      "name_en": "Astro Premier League",
+      "name_zh": "Astro Premier League",
+      "display_name": "Astro Premier League",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-203.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/203/cache/",
+      "aliases": [
+        "Astro Premier League"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Astro Sports Plus": {
+      "name_en": "Astro Sports Plus",
+      "name_zh": "Astro Sports Plus",
+      "display_name": "Astro Sports Plus",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-205.png",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/205/cache/",
+      "aliases": [
+        "Astro Sports Plus"
+      ],
+      "language": "English",
+      "audio_language": "English"
+    },
+    "Astro W-Sports": {
+      "name_en": "Astro W-Sports",
+      "name_zh": "Astro W-Sports",
+      "display_name": "Astro W-Sports",
+      "group": "Sports",
+      "country": "INT",
+      "category": "Sports",
+      "logo_file": "yjzq-logo-206.jpg",
+      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/206/cache/",
+      "aliases": [
+        "Astro W-Sports"
       ],
       "language": "English",
       "audio_language": "English"
     }
-  },
-  "channel_name_policy": "Chinese display names for Chinese-language channels; English display names for English-language channels.",
-  "audio_policy": "English-language channels are tagged audio-language=\"English\"; stream audio is not transcoded by the playlist."
+  }
 }

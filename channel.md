@@ -1,136 +1,128 @@
-# Channel Request Register
+# Channel Register
 
-This register tracks the current requested channels and the latest daily refresh evidence. Keep unavailable requests as `WITHHELD`; do not delete them.
+- Snapshot date: **2026-07-28**
+- Source catalog: `https://live.yjzq.dpdns.org/output/m3u`
+- Imported catalog entries: **94**
+- Playlist entries: **94**
+- Bounded transport sample: **58 reachable**, **35 timed out**, **1 returned an HTTP error**
+- Conservative probe snapshot: **49 passed FFprobe + short FFmpeg decode**, **45 failed**; no visible channel-identity verification was performed.
+- This register replaces the previous channel inventory with the supplied upstream catalog. `IMPORTED` means the entry was copied from that catalog; it is **not** a claim of current playback, FFprobe success, or visible channel-identity verification.
 
-## Current snapshot
-
-- Requested channels: **83**
-- Published matches in `playlist.m3u`: **49**
-- Withheld pending a verified source: **34**
-- New requests not yet checked: **0**
-- Playlist entries in `playlist.m3u`: **55**; published additions are reflected in `manifest.json`.
-- Manual final publication review: **2026-07-23T08:11:27Z**; four catalog-backed candidates published.
-- Snapshot date: **2026-07-27**
 <!-- DAILY_REFRESH_STATUS:START -->
-- Last automated source refresh: **2026-07-27T18:47:04.719907+00:00**
-- Mapped channels checked: **55**; verified unchanged: **0**; URLs refreshed: **0**
-- Register rows checked: **83**; withheld rows reviewed: **34**; identity-review candidates: **0**; withheld probe failures: **32**
-- Safe failures retained without replacement: probe failures **16**, unavailable catalogs **0**, no same-catalog alias match **39**, withheld no-match **2**
-- Publication policy: same-source alias match plus FFprobe and short FFmpeg decode; cross-catalog replacements remain manual identity review.
+- Last catalog import: **2026-07-28T06:15:43+00:00**
+- Imported channels: **94**; bounded transport samples OK: **58**; FFprobe/FFmpeg pass: **49**; probe failures: **45**
+- Register rows checked: **94**; withheld rows reviewed: **0**
+- Import policy: retain the supplied channel and URL exactly; verify playback and identity separately before making quality claims.
 <!-- DAILY_REFRESH_STATUS:END -->
-- Machine source of truth for selected URLs: [`manifest.json`](./manifest.json)
-- Machine source of truth for published and verified names, region, category, and language: [`assets/channel_metadata.json`](./assets/channel_metadata.json)
-- `REQUESTED` rows remain register-only until a source passes verification and is added to the machine metadata.
-
-## Channel list
-
-`Requested` is the new stable request key. `Display` is the published single-language name. The quality snapshot comes from the latest checked-in evidence.
 
 | # | Reported issue | Requested | Display | Category | Status | Latest quality snapshot | Daily action |
 |---:|---|---|---|---|---|---|---|
-| 1 | — | `CCTV-1` | CCTV-1 综合 | General | PUBLISHED | resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
-| 2 | — | `CCTV-4` | CCTV-4 中文国际 | News | PUBLISHED | resolution=1920x1080; China mainland version verified; Europe variant excluded | Retest daily; replace only after playback and identity pass. |
-| 3 | — | `CCTV-5` | CCTV-5 体育 | Sports | PUBLISHED | resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
-| 4 | — | `CCTV-5+` | CCTV-5+ 体育赛事 | Sports | PUBLISHED | resolution=1280x720 | Retest daily; replace only after playback and identity pass. |
-| 5 | — | `CCTV-7` | CCTV-7 国防军事 | General | PUBLISHED | resolution=1280x720 | Retest daily; replace only after playback and identity pass. |
-| 6 | — | `CCTV-9` | CCTV-9 纪录 | Documentary | PUBLISHED | resolution=1280x720 | Retest daily; replace only after playback and identity pass. |
-| 7 | — | `CCTV-10` | CCTV-10 科教 | Documentary | PUBLISHED | resolution=1280x720 | Retest daily; replace only after playback and identity pass. |
-| 8 | Playback failed | `CCTV-13` | CCTV-13 | News | WITHHELD | withheld — 3 exact candidates failed current FFprobe/FFmpeg probe | Keep withheld; publish only after correct identity and playback pass. |
-| 9 | — | `CCTV-16` | CCTV-16 奥林匹克 | Sports | PUBLISHED | resolution=1280x720 | Retest daily; replace only after playback and identity pass. |
-| 10 | — | `CCTV 风云足球` | CCTV 风云足球 | Sports | PUBLISHED | resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
-| 11 | — | `CCTV世界地理` | CCTV 世界地理 | Documentary | PUBLISHED | speed=0.141x; recheck flag | Retest daily; replace only after playback and identity pass. |
-| 12 | — | `CCTV 兵器科技` | CCTV 兵器科技 | Documentary | PUBLISHED | resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
-| 13 | — | `翡翠台` | TVB 翡翠台 | General | PUBLISHED | speed=12.232x; resolution=3840x2160 | Retest daily; replace only after playback and identity pass. |
-| 14 | — | `无线新闻台` | 无线新闻台 | News | PUBLISHED | 1920x1080 H.264/AAC; visible 无线新闻台 watermark; source_index=77 | Retest daily; replace only after playback and identity pass. |
-| 15 | Playback failed | `TVB Plus` | TVB Plus | General | WITHHELD | withheld — 3 exact candidates failed current FFprobe/FFmpeg probe | Keep withheld; publish only after correct identity and playback pass. |
-| 16 | — | `凤凰中文` | 凤凰中文台 | General | PUBLISHED | speed=0.066x | Retest daily; replace only after playback and identity pass. |
-| 17 | Playback failed | `凤凰香港` | 凤凰香港 | News | WITHHELD | withheld — tested candidates were interruption/expired pages or failed ffprobe | Keep withheld; publish only after correct identity and playback pass. |
-| 18 | — | `凤凰资讯` | 凤凰资讯台 | News | PUBLISHED | speed=0.013x | Retest daily; replace only after playback and identity pass. |
-| 19 | — | `ViuTV` | ViuTV | General | PUBLISHED | 1920x1080 H.264; AAC rendition verified; visible viuTV watermark; source_index=77 | Retest daily; replace only after playback and identity pass. |
-| 20 | Playback/identity failed | `明珠台` | 明珠台 | General | WITHHELD | 11 current candidates probed; 1 decoded an unbranded black-and-white performance with no TVB Pearl identity | Keep withheld; publish only after correct identity and playback pass. |
-| 21 | — | `TVBS Asia` | TVBS 亚洲 | News | PUBLISHED | speed=0.189x; resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
-| 22 | Playback failed | `EBC Variety` | 东森综合 | General | WITHHELD | withheld — vpstv candidate returned 403; catalog-extracted token URL was allowed by policy but timed out on the final probe | Keep withheld; publish only after a current exact candidate passes playback and identity checks. |
-| 23 | Playback failed | `华丽翡翠台` | 华丽翡翠台 | General | WITHHELD | withheld — 3 exact candidates failed current FFprobe/FFmpeg probe | Keep withheld; publish only after correct identity and playback pass. |
-| 24 | Playback failed | `TVB 星河` | TVB 星河 | General | WITHHELD | withheld — label-matched candidates showed CCTV channels, not TVB星河 | Keep withheld; publish only after correct identity and playback pass. |
-| 25 | New request | `中天亚洲` | 中天亚洲台 | News | WITHHELD | all safe exact candidates failed ffprobe or FFmpeg decode | Keep withheld; publish only after correct identity and playback pass. |
-| 26 | Playback failed | `CNA HD` | CNA HD | News | PUBLISHED | speed=9.270x; resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
-| 27 | Slow / VPN fallback | `Channel U` | U频道 (Geo-blocked) | General | PUBLISHED | 960x540 H.264/AAC; three current frames showed the U watermark, wondershop.sg, Singapore phone 6373 9898, and SGD pricing; public catalog source_index=5 | Retest daily; replace only after a better exact/source-only candidate passes playback and identity checks. |
-| 28 | Wrong mapping | `Channel 8` | 8频道 | General | WITHHELD | fresh playable candidates showed Thailand, Russia/MIR, or other non-Singapore stations; official meWATCH source is DRM-restricted and Singapore VPN restricted | Keep withheld; publish only after correct identity and playback pass. |
-| 29 | Playback failed | `Channel 5` | Channel 5 | General | WITHHELD | withheld — 3 exact candidates failed current FFprobe/FFmpeg probe | Keep withheld; publish only after correct identity and playback pass. |
-| 30 | Slow / Glitch / VPN fallback | `8TV / 八度空间` | 八度空间 (Geo-blocked) | General | PUBLISHED | reused previous URL; resolution=1920x1080; current FFmpeg decode passed; historical speed=0.00347x; frame showed 8 LIVE/WOWshop; marked Geo-blocked for player-side VPN use | Retest daily; replace only after a better exact candidate passes playback and identity checks. |
-| 31 | — | `Astro AEC` | Astro AEC 高清 | General | PUBLISHED | speed=0.009x; recheck flag | Retest daily; replace only after playback and identity pass. |
-| 32 | — | `Astro QJ` | Astro QJ 娱乐 | General | PUBLISHED | speed=0.003x; recheck flag | Retest daily; replace only after playback and identity pass. |
-| 33 | — | `Astro AOD` | Astro AOD 高清 | General | PUBLISHED | speed=0.244x; resolution=1920x1080; recheck flag | Retest daily; replace only after playback and identity pass. |
-| 34 | New request | `Astro 欢喜台` | Astro 欢喜台 | General | WITHHELD | all safe exact candidates failed ffprobe or FFmpeg decode | Keep withheld; publish only after correct identity and playback pass. |
-| 35 | New request | `爱奇艺` | 爱奇艺 | General | WITHHELD | all safe label-matched candidates failed ffprobe or FFmpeg decode | Keep withheld; publish only after correct identity and playback pass. |
-| 36 | — | `Astro Grandstand` | Astro Grandstand | Sports | PUBLISHED | speed=0.007x; recheck flag | Retest daily; replace only after playback and identity pass. |
-| 37 | — | `Astro Premier League` | Astro Premier League | Sports | PUBLISHED | speed=0.006x; recheck flag | Retest daily; replace only after playback and identity pass. |
-| 38 | — | `Astro Premier League 2` | Astro Premier League 2 | Sports | PUBLISHED | speed=0.009x; recheck flag | Retest daily; replace only after playback and identity pass. |
-| 39 | — | `Astro Football` | Astro Football | Sports | PUBLISHED | speed=0.046x; recheck flag | Retest daily; replace only after playback and identity pass. |
-| 40 | Wrong mapping | `Astro Badminton` | Astro Badminton | Sports | WITHHELD | withheld — wrong mapping: tested source labelled Astro Badminton 2 showed astro AWANI | Keep withheld; publish only after correct identity and playback pass. |
-| 41 | — | `Astro Sports Plus` | Astro Sports Plus | Sports | PUBLISHED | speed=0.005x; recheck flag | Retest daily; replace only after playback and identity pass. |
-| 42 | Playback/identity failed | `Now Sports Prime` | Now Sports Prime | Sports | WITHHELD | transport passed at 1920x1080; current frame showed P PRIME / Hungarian promo, not Now Sports Prime | Keep withheld; publish only after correct identity and playback pass. |
-| 43 | Playback failed | `Now Sports 617` | Now Sports 617 | Sports | WITHHELD | withheld — 1 exact candidates failed current FFprobe/FFmpeg probe | Keep withheld; publish only after correct identity and playback pass. |
-| 44 | Playback failed | `Now Sports 618` | Now Sports 618 | Sports | WITHHELD | withheld — 1 exact candidates failed current FFprobe/FFmpeg probe | Keep withheld; publish only after correct identity and playback pass. |
-| 45 | — | `CNN HD` | CNN HD | News | PUBLISHED | speed=0.102x; recheck flag | Retest daily; replace only after playback and identity pass. |
-| 46 | — | `Bloomberg Television` | Bloomberg Television | News | PUBLISHED | speed=0.150x; resolution=1280x720; recheck flag | Retest daily; replace only after playback and identity pass. |
-| 47 | — | `BBC News` | BBC News | News | PUBLISHED | speed=1.012x; resolution=1280x720 | Retest daily; replace only after playback and identity pass. |
-| 48 | — | `Reuters` | Reuters | News | PUBLISHED | speed=2.450x; resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
-| 49 | New request | `CNBC` | CNBC | News | PUBLISHED | resolution=640x360; frame-verified CNBC logo and programme branding | Retest daily; replace only after playback and identity pass. |
-| 50 | New request | `Fox News` | Fox News | News | WITHHELD | three final-gate frames were commercials with no Fox News channel identity | Keep withheld; publish only after correct identity and playback pass. |
-| 51 | — | `Disney XD` | Disney XD | Kids | PUBLISHED | speed=0.132x; resolution=1280x720; recheck flag | Retest daily; replace only after playback and identity pass. |
-| 52 | — | `Kartoon Channel` | Kartoon Channel | Kids | PUBLISHED | speed=0.716x; resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
-| 53 | — | `Nickelodeon` | Nickelodeon | Kids | PUBLISHED | speed=0.085x; resolution=1920x1080; recheck flag | Retest daily; replace only after playback and identity pass. |
-| 54 | — | `Nick Jr` | Nick Jr | Kids | PUBLISHED | speed=0.028x; resolution=1048x576; recheck flag | Retest daily; replace only after playback and identity pass. |
-| 55 | — | `Moonbug Kids` | Moonbug Kids | Kids | PUBLISHED | speed=0.165x; resolution=1920x1080; recheck flag | Retest daily; replace only after playback and identity pass. |
-| 56 | — | `DreamWorks` | DreamWorks | Kids | PUBLISHED | 1920x1080 H.264/AAC; DreamWorks crescent watermark visible; source_index=77 | Retest daily; replace only after playback and identity pass. |
-| 57 | New request | `Cartoon Network` | Cartoon Network (Geo-blocked) | Kids | PUBLISHED | resolution=1920x1080; three final-gate frames showed Cartoon Network watermark; public catalog source_index=57 | Retest daily; replace only after playback and identity pass. |
-| 58 | — | `Love Nature 4K` | Love Nature 4K | Documentary | PUBLISHED | speed=0.271x; resolution=3840x2160; recheck flag | Retest daily; replace only after playback and identity pass. |
-| 59 | — | `BBC Earth` | BBC Earth | Documentary | PUBLISHED | speed=0.791x; resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
-| 60 | New request | `Animal Planet` | Animal Planet | Documentary | PUBLISHED | resolution=1920x1080; frame-verified Animal Planet watermark | Retest daily; replace only after playback and identity pass. |
-| 61 | — | `National Geographic` | National Geographic | Documentary | PUBLISHED | speed=0.337x; resolution=1920x1080; recheck flag | Retest daily; replace only after playback and identity pass. |
-| 62 | — | `Wild Earth` | Wild Earth | Documentary | PUBLISHED | speed=1.118x; resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
-| 63 | New request | `Discovery` | Discovery | Documentary | PUBLISHED | resolution=1920x1080; frame-verified Discovery Channel watermark | Retest daily; replace only after playback and identity pass. |
-| 64 | — | `beIN Sports Xtra` | beIN Sports Xtra | Sports | PUBLISHED | speed=1.949x; resolution=1920x1080 | Retest daily; replace only after playback and identity pass. |
-| 65 | New request | `Asian Food Network` | Asian Food Network | General | WITHHELD | no exact or explicit candidate in 82 active catalogs | Keep withheld; publish only after correct identity and playback pass. |
-| 66 | Playback failed | `beIN SPORTS` | beIN SPORTS | Sports | WITHHELD | withheld — 3 exact candidates failed current FFprobe/FFmpeg probe | Keep withheld; publish only after correct identity and playback pass. |
-| 67 | New request | `beIN SPORTS 2` | beIN SPORTS 2 | Sports | WITHHELD | decoded candidate displayed a Russian unavailable slate, not beIN SPORTS 2 | Keep withheld; publish only after correct identity and playback pass. |
-| 68 | New request | `beIN SPORTS 3` | beIN SPORTS 3 (Geo-blocked) | Sports | PUBLISHED | resolution=1920x1080; three final-gate frames showed beIN SPORTS 3 watermark; public catalog source_index=57 | Retest daily; replace only after playback and identity pass. |
-| 69 | Playback failed | `beIN SPORTS 4` | beIN SPORTS 4 | Sports | WITHHELD | withheld — 2 exact candidates failed current FFprobe/FFmpeg probe | Keep withheld; publish only after correct identity and playback pass. |
-| 70 | Playback failed | `beIN SPORTS 5` | beIN SPORTS 5 | Sports | WITHHELD | withheld — 2 exact candidates failed current FFprobe/FFmpeg probe | Keep withheld; publish only after correct identity and playback pass. |
-| 71 | Playback failed | `TNT Sport 1` | TNT Sport 1 | Sports | WITHHELD | withheld — 2 exact candidates failed current FFprobe/FFmpeg probe | Keep withheld; publish only after correct identity and playback pass. |
-| 72 | Playback failed | `TNT Sport 2` | TNT Sport 2 | Sports | WITHHELD | withheld — 2 exact candidates failed current FFprobe/FFmpeg probe | Keep withheld; publish only after correct identity and playback pass. |
-| 73 | Playback failed | `TNT Sport 3` | TNT Sport 3 | Sports | WITHHELD | withheld — 2 exact candidates failed current FFprobe/FFmpeg probe | Keep withheld; publish only after correct identity and playback pass. |
-| 74 | Playback failed | `TNT Sport 4` | TNT Sport 4 | Sports | WITHHELD | withheld — 2 exact candidates failed current FFprobe/FFmpeg probe | Keep withheld; publish only after correct identity and playback pass. |
-| 75 | — | `Hub Sports 1` | Hub Sports 1 | Sports | PUBLISHED | 1920x1080 H.264; HUB sports 1 watermark visible; catalog-derived signed URL; current video-only playlist | Retest daily; replace only after playback and identity pass. |
-| 76 | Playback failed | `Hub Sports 2` | Hub Sports 2 | Sports | WITHHELD | withheld — 2 exact candidates failed current FFprobe/FFmpeg probe | Keep withheld; publish only after correct identity and playback pass. |
-| 77 | Playback failed | `Hub Sports 3` | Hub Sports 3 | Sports | WITHHELD | withheld — 2 exact candidates failed current FFprobe/FFmpeg probe | Keep withheld; publish only after correct identity and playback pass. |
-| 78 | Playback failed | `Hub Sports 4` | Hub Sports 4 | Sports | WITHHELD | withheld — 2 exact candidates failed current FFprobe/FFmpeg probe | Keep withheld; publish only after correct identity and playback pass. |
-| 79 | Playback failed | `Hub Sports 5` | Hub Sports 5 | Sports | WITHHELD | withheld — 2 exact candidates failed current FFprobe/FFmpeg probe | Keep withheld; publish only after correct identity and playback pass. |
-| 80 | Playback failed | `Hub Sports 6` | Hub Sports 6 | Sports | WITHHELD | withheld — 2 exact candidates failed current FFprobe/FFmpeg probe | Keep withheld; publish only after correct identity and playback pass. |
-| 81 | Playback failed | `Hub Sports 7` | Hub Sports 7 | Sports | WITHHELD | withheld — 2 exact candidates failed current FFprobe/FFmpeg probe | Keep withheld; publish only after correct identity and playback pass. |
-| 82 | Playback failed | `Hub Sports 8` | Hub Sports 8 | Sports | WITHHELD | withheld — 2 exact candidates failed current FFprobe/FFmpeg probe | Keep withheld; publish only after correct identity and playback pass. |
-| 83 | New request | `Premier Sports` | Premier Sports | Sports | WITHHELD | playable candidates were Premier Sports 1/2, not the requested unnumbered target | Keep withheld; publish only after correct identity and playback pass. |
+| 1 | — | `CCTV-1 综合` | `CCTV-1 综合` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 2 | — | `CCTV-2 财经` | `CCTV-2 财经` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 3 | — | `CCTV-3 综艺` | `CCTV-3 综艺` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 4 | — | `CCTV-4 中文国际` | `CCTV-4 中文国际` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 5 | — | `CCTV-5 体育` | `CCTV-5 体育` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 6 | — | `CCTV-5+ 体育赛事` | `CCTV-5+ 体育赛事` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 7 | — | `CCTV-6 电影` | `CCTV-6 电影` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 8 | — | `CCTV-7 国防军事` | `CCTV-7 国防军事` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 9 | — | `CCTV-8 电视剧` | `CCTV-8 电视剧` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 10 | — | `CCTV-9 纪录` | `CCTV-9 纪录` | Documentary | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 11 | — | `CCTV-10 科教` | `CCTV-10 科教` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 12 | — | `CCTV-11 戏曲` | `CCTV-11 戏曲` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 13 | — | `CCTV-12 社会与法` | `CCTV-12 社会与法` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 14 | — | `CCTV-13 新闻` | `CCTV-13 新闻` | News | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 15 | — | `CCTV-14 少儿` | `CCTV-14 少儿` | Kids | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 16 | — | `CCTV-15 音乐` | `CCTV-15 音乐` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 17 | — | `CCTV-16 奥林匹克` | `CCTV-16 奥林匹克` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 18 | — | `CCTV-17 农业农村` | `CCTV-17 农业农村` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 19 | — | `CCTV 世界地理` | `CCTV 世界地理` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 20 | — | `CCTV 兵器科技` | `CCTV 兵器科技` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 21 | — | `CCTV 风云足球` | `CCTV 风云足球` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 22 | — | `CCTV 高尔夫网球` | `CCTV 高尔夫网球` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 23 | — | `CCTV 4k 超高清` | `CCTV 4k 超高清` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 24 | — | `CCTV 8k超高清` | `CCTV 8k超高清` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 25 | — | `东方卫视` | `东方卫视` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 26 | — | `湖南卫视` | `湖南卫视` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 27 | — | `TVBS亚洲` | `TVBS亚洲` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 28 | — | `TVBS新闻` | `TVBS新闻` | News | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 29 | — | `凤凰资讯` | `凤凰资讯` | News | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 30 | — | `东森超视` | `东森超视` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 31 | — | `Channel 8` | `Channel 8` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 32 | — | `Channel U` | `Channel U` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 33 | — | `Channel 5` | `Channel 5` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 34 | — | `八度空间` | `八度空间` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 35 | — | `Astro AOD` | `Astro AOD` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 36 | — | `Astro QJ` | `Astro QJ` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 37 | — | `Astro 欢喜台` | `Astro 欢喜台` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 38 | — | `翡翠台` | `翡翠台` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 39 | — | `明珠台` | `明珠台` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 40 | — | `TVB星河` | `TVB星河` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 41 | — | `TVB DRAMA` | `TVB DRAMA` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 42 | — | `TVB Plus` | `TVB Plus` | General | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 43 | — | `CNN` | `CNN` | News | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 44 | — | `BBC News` | `BBC News` | News | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 45 | — | `CNA` | `CNA` | News | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 46 | — | `CNA Original` | `CNA Original` | News | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 47 | — | `Reuters` | `Reuters` | News | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 48 | — | `Bloomberg` | `Bloomberg` | News | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 49 | — | `CNBC` | `CNBC` | News | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 50 | — | `Sky News International` | `Sky News International` | News | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 51 | — | `Fox News` | `Fox News` | News | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 52 | — | `NHK World` | `NHK World` | News | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 53 | — | `Food Network` | `Food Network` | Documentary | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 54 | — | `National Geographic` | `National Geographic` | Documentary | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 55 | — | `NatGeo Wild` | `NatGeo Wild` | Documentary | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 56 | — | `Animal Planet` | `Animal Planet` | Documentary | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 57 | — | `BBC Earth` | `BBC Earth` | Documentary | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 58 | — | `Love Nature` | `Love Nature` | Documentary | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 59 | — | `Wild Earth` | `Wild Earth` | Documentary | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 60 | — | `Discovery` | `Discovery` | Documentary | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 61 | — | `Discovery Science` | `Discovery Science` | Documentary | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 62 | — | `Discovery Turbo` | `Discovery Turbo` | Documentary | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 63 | — | `Discovery Family Channel` | `Discovery Family Channel` | Documentary | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 64 | — | `Discovery Life` | `Discovery Life` | Documentary | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 65 | — | `History Channel` | `History Channel` | Documentary | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 66 | — | `Disney Channel` | `Disney Channel` | Kids | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 67 | — | `Disney Jr.` | `Disney Jr.` | Kids | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 68 | — | `Disney XD` | `Disney XD` | Kids | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 69 | — | `Cartoon Network` | `Cartoon Network` | Kids | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 70 | — | `Nickelodeon` | `Nickelodeon` | Kids | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 71 | — | `Nick Jr` | `Nick Jr` | Kids | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 72 | — | `Nicktoons` | `Nicktoons` | Kids | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 73 | — | `Kartoon Channel` | `Kartoon Channel` | Kids | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 74 | — | `DreamWorks梦工厂动画` | `DreamWorks梦工厂动画` | Kids | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 75 | — | `NBA TV` | `NBA TV` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 76 | — | `Red Bull TV` | `Red Bull TV` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 77 | — | `beIN SPORTS XTRA` | `beIN SPORTS XTRA` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 78 | — | `beIN SPORTS` | `beIN SPORTS` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 79 | — | `ESPN News` | `ESPN News` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 80 | — | `ESPN` | `ESPN` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 81 | — | `ESPN2` | `ESPN2` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 82 | — | `ESPN U` | `ESPN U` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 83 | — | `Premier Sports 1` | `Premier Sports 1` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 84 | — | `Premier Sports 2` | `Premier Sports 2` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 85 | — | `Sky Sports Football` | `Sky Sports Football` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 86 | — | `Sky Sports Premier League` | `Sky Sports Premier League` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=pass; identity not visually verified | Recheck before claiming playback quality. |
+| 87 | — | `SPOTV 1 HD` | `SPOTV 1 HD` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 88 | — | `Astro Badminton 1` | `Astro Badminton 1` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 89 | — | `Astro Football` | `Astro Football` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 90 | — | `Astro Grandstand` | `Astro Grandstand` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 91 | — | `Astro Golf` | `Astro Golf` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 92 | — | `Astro Premier League` | `Astro Premier League` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 93 | — | `Astro Sports Plus` | `Astro Sports Plus` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
+| 94 | — | `Astro W-Sports` | `Astro W-Sports` | Sports | IMPORTED | catalog imported; bounded FFprobe/FFmpeg=failed; identity not visually verified | Recheck before claiming playback quality. |
 
-## Daily refresh rules
+## Status rules
 
-1. Check every row, including `WITHHELD` and `REQUESTED`, against active public catalogs in [`assets/sources.txt`](./assets/sources.txt). Do not use [`assets/failed-sources.txt`](./assets/failed-sources.txt) until rechecked.
-2. Accept a replacement only when the same catalog has the requested alias and the URL passes FFprobe, short FFmpeg decode, playback-quality checks, and visible identity verification.
-3. Never publish private credentials, DRM-only, expired, or identity-mismatched URLs. Catalog-derived signed URLs are allowed only with provenance and successful current checks. Geo-blocked fallbacks must be labelled `(Geo-blocked)`.
-4. Record selected URLs in `manifest.json`, evidence in `reports/stream-speed.json`, and changed status/snapshots here.
-5. Run:
+- `IMPORTED`: copied from the supplied upstream catalog; transport and identity are not fully verified.
+- `PUBLISHED`: reserved for entries that pass the repository's playback and identity checks.
+- `WITHHELD`: reviewed but not included in the published output.
+- `REQUESTED`: requested but not yet imported or verified.
 
-   ```bash
-   python3 scripts/build_playlists.py
-   python3 scripts/validate_repo.py
-   python3 scripts/build_playlists.py --check
-   ```
+## Replacement policy
 
-6. Confirm `accepted.m3u` is absent, then run `git diff --check` and verify the public playlist after pushing.
-
-## Status
-
-- `PUBLISHED`: a selected, currently verified source is in `playlist.m3u`; retest daily.
-- `WITHHELD`: no safe source currently passes playback and identity checks; keep the request and reason.
-- `REQUESTED`: source, playback, and identity verification are not complete.
-- HTTP `200` or a matching label alone is never sufficient; stability and identity matter more than speed.
+1. The authoritative replacement source for this snapshot is `https://live.yjzq.dpdns.org/output/m3u`.
+2. Keep the channel display name and stream URL aligned with the upstream entry.
+3. Do not treat a catalog listing or a first-byte response as proof of playback quality or channel identity.
+4. Do not publish credentials, DRM-only URLs, or invented stream URLs.
+5. Run `python3 scripts/validate_repo.py`, `python3 scripts/build_playlists.py --check`, and `git diff --check` after changes.

@@ -55,7 +55,9 @@ def render_entry(entry: dict, info: dict) -> str:
 
 
 def sort_entries(entries: list[dict], metadata: dict) -> list[dict]:
-    """Group by category, placing Chinese channels before English channels."""
+    """Preserve an imported source order; otherwise use the curated category order."""
+    if entries and all(entry.get("source_order") is not None for entry in entries):
+        return sorted(entries, key=lambda entry: entry["source_order"])
     category_rank = {category: index for index, category in enumerate(CATEGORY_ORDER)}
     return sorted(
         entries,
