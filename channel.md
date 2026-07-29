@@ -3,12 +3,12 @@
 - Snapshot date: **2026-07-29**
 
 <!-- DAILY_REFRESH_STATUS:START -->
-- Last automated source refresh: **2026-07-29T02:45:16.079884+00:00**
-- Playlist URLs checked: **94**; accessible: **41**; inaccessible: **53**
-- Content failures: black **0**, blank/uniform **0**, stale/unchanging **19**, no decoded video **33**
-- Replacement search: **53** failed URLs; candidates found **98**; URLs refreshed **26**
-- Register rows checked: **94**; withheld rows reviewed: **0**; identity-review candidates: **0**; withheld probe failures: **0**
-- Safe failures retained without replacement: no replacement **13**, replacement probe failures **14**, unavailable catalogs **0**, source not active **0**
+- Last automated source refresh: **2026-07-29T05:35:43.150728+00:00**
+- Playlist URLs checked: **94**; accessible: **60**; inaccessible: **34**
+- Content failures: black **0**, blank/uniform **0**, stale/unchanging **15**, no decoded video **19**
+- Replacement search: **34** failed URLs; candidates found **85**; URLs refreshed **24**
+- Register rows checked: **95**; withheld rows reviewed: **1**; identity-review candidates: **1**; withheld probe failures: **0**
+- Safe failures retained without replacement: no replacement **3**, replacement probe failures **7**, unavailable catalogs **0**, source not active **0**
 - Publication policy: every published playlist URL is VLC-checked first; only exact normalized active-catalog matches that also pass VLC may replace an inaccessible URL.
 <!-- DAILY_REFRESH_STATUS:END -->
 
