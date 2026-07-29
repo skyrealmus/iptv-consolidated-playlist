@@ -1,10 +1,10 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="CCTV-1 综合" tvg-name="CCTV-1 综合" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-108.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="1" group-title="General" tvg-country="CN" tvg-category="General",CCTV-1 综合
-https://iptv.catvod.com/migu?id=608807420&token=ad5c169752c6d713cee4244b588c63b0
+http://play.kankanlive.com/live/1698234869325962.m3u8
 #EXTINF:-1 tvg-id="CCTV-2 财经" tvg-name="CCTV-2 财经" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-109.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="2" group-title="General" tvg-country="CN" tvg-category="General",CCTV-2 财经
-https://live.yjzq.dpdns.org/proxy/ts/stream/0a3a0aeb-805e-4383-9196-734c6191d160
+http://pull-hls-f1.douyincdn.com/media/stream-407987562509501100/playlist.m3u8?keeptime=00093a80&wsSecret=1115e9e400223e495145e4b5a87e247d&wsTime=6a633b3d&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-202607241815256087FC33BC53AE143600-sjhBjy
 #EXTINF:-1 tvg-id="CCTV-3 综艺" tvg-name="CCTV-3 综艺" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-110.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="3" group-title="General" tvg-country="CN" tvg-category="General",CCTV-3 综艺
-https://iptv.catvod.com/migu?id=624878271&token=9141be995484d629f221c3b980dbb988
+https://live.yjzq.dpdns.org/proxy/ts/stream/91797207-328f-4714-9710-8b77a1a507c5
 #EXTINF:-1 tvg-id="CCTV-4 中文国际" tvg-name="CCTV-4 中文国际" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-111.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="4" group-title="General" tvg-country="CN" tvg-category="General",CCTV-4 中文国际
 https://live.yjzq.dpdns.org/proxy/ts/stream/de98f1d3-a014-4873-9c60-7171b1772fc4
 #EXTINF:-1 tvg-id="CCTV-5 体育" tvg-name="CCTV-5 体育" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-112.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="5" group-title="Sports" tvg-country="INT" tvg-category="Sports",CCTV-5 体育
@@ -18,9 +18,9 @@ https://live.yjzq.dpdns.org/proxy/ts/stream/0103fdfd-3e29-4506-9117-bdf57c4bb6e7
 #EXTINF:-1 tvg-id="CCTV-8 电视剧" tvg-name="CCTV-8 电视剧" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-116.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="9" group-title="General" tvg-country="CN" tvg-category="General",CCTV-8 电视剧
 https://live.yjzq.dpdns.org/proxy/ts/stream/7aaecdcd-5053-4a8e-b740-b233bfdbc347
 #EXTINF:-1 tvg-id="CCTV-9 纪录" tvg-name="CCTV-9 纪录" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-14.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="10" group-title="Documentary" tvg-country="CN" tvg-category="Documentary",CCTV-9 纪录
-https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=bb896891f1be04f2ff016e7be3f36fd0
+https://live.yjzq.dpdns.org/proxy/ts/stream/bfb7a118-04db-463f-90c9-4c86940912f9
 #EXTINF:-1 tvg-id="CCTV-10 科教" tvg-name="CCTV-10 科教" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-118.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="11" group-title="General" tvg-country="CN" tvg-category="General",CCTV-10 科教
-http://cdn6.bkpcp.top/tl/tuiliu.php?id=cctv10
+https://live.yjzq.dpdns.org/proxy/ts/stream/27fcbd04-061d-4950-bbf7-662b0427104a
 #EXTINF:-1 tvg-id="CCTV-11 戏曲" tvg-name="CCTV-11 戏曲" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-119.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="12" group-title="General" tvg-country="CN" tvg-category="General",CCTV-11 戏曲
 https://live.yjzq.dpdns.org/proxy/ts/stream/05a2edab-6b42-4e20-8766-f9ee18cb56d8
 #EXTINF:-1 tvg-id="CCTV-12 社会与法" tvg-name="CCTV-12 社会与法" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-120.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="13" group-title="General" tvg-country="CN" tvg-category="General",CCTV-12 社会与法
@@ -48,17 +48,17 @@ https://live.yjzq.dpdns.org/proxy/ts/stream/420b878a-b07d-4b06-8c73-db2f44cf72d6
 #EXTINF:-1 tvg-id="CCTV 8k超高清" tvg-name="CCTV 8k超高清" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-187.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="24" group-title="General" tvg-country="CN" tvg-category="General",CCTV 8k超高清
 https://live.yjzq.dpdns.org/proxy/ts/stream/abc9163e-0d19-4b87-b8f7-85f73acfdd6e
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-232.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="25" group-title="General" tvg-country="CN" tvg-category="General",东方卫视
-https://live.yjzq.dpdns.org/proxy/ts/stream/1a11e04d-9c81-46fd-8234-1924bc133bc2
+https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-233.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="26" group-title="General" tvg-country="CN" tvg-category="General",湖南卫视
-https://live.yjzq.dpdns.org/proxy/ts/stream/1e591556-bb7a-4c2c-818c-8d1a3c6c90d2
+http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 #EXTINF:-1 tvg-id="TVBS亚洲" tvg-name="TVBS亚洲" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-230.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="27" group-title="General" tvg-country="TW" tvg-category="General",TVBS亚洲
-https://live.yjzq.dpdns.org/proxy/ts/stream/17acbd27-0352-44f5-94d2-19fff5634952
+http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8?zshijd
 #EXTINF:-1 tvg-id="TVBS新闻" tvg-name="TVBS新闻" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-234.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="28" group-title="News" tvg-country="TW" tvg-category="News",TVBS新闻
 http://61.221.215.25:8800/hls/9/index.m3u8
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-235.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="29" group-title="News" tvg-country="TW" tvg-category="News",凤凰资讯
 http://120.198.95.220:9901/tsfile/live/1037_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-id="东森超视" tvg-name="东森超视" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-231.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="30" group-title="General" tvg-country="TW" tvg-category="General",东森超视
-https://stream1.freetv.fun/dong-sen-chao-shi-4.m3u8
+http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
 #EXTINF:-1 tvg-id="Channel 8" tvg-name="Channel 8" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-51.png" tvg-language="English" audio-language="English" tvg-chno="31" group-title="General" tvg-country="SG" tvg-category="General",Channel 8
 https://live.yjzq.dpdns.org/proxy/ts/stream/0cb1fc8d-44d1-477b-b48c-2a80023a3903
 #EXTINF:-1 tvg-id="Channel U" tvg-name="Channel U" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-52.png" tvg-language="English" audio-language="English" tvg-chno="32" group-title="General" tvg-country="SG" tvg-category="General",Channel U
@@ -86,37 +86,37 @@ https://live.yjzq.dpdns.org/proxy/ts/stream/7eba1795-345e-4d07-9775-021bf2241c2f
 #EXTINF:-1 tvg-id="CNN" tvg-name="CNN" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-190.jpg" tvg-language="English" audio-language="English" tvg-chno="43" group-title="News" tvg-country="INT" tvg-category="News",CNN
 https://live.yjzq.dpdns.org/proxy/ts/stream/9f5bb097-96ee-403e-9134-11388672ec38
 #EXTINF:-1 tvg-id="BBC News" tvg-name="BBC News" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-5.png" tvg-language="English" audio-language="English" tvg-chno="44" group-title="News" tvg-country="INT" tvg-category="News",BBC News
-https://live.yjzq.dpdns.org/proxy/ts/stream/cd0389b4-1412-43c1-8424-77106371816b
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 #EXTINF:-1 tvg-id="CNA" tvg-name="CNA" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-139.png" tvg-language="English" audio-language="English" tvg-chno="45" group-title="News" tvg-country="INT" tvg-category="News",CNA
-https://live.yjzq.dpdns.org/proxy/ts/stream/35e03738-68c1-4b31-9b1c-c024bdb0c3a4
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-id="CNA Original" tvg-name="CNA Original" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-241.png" tvg-language="English" audio-language="English" tvg-chno="46" group-title="News" tvg-country="INT" tvg-category="News",CNA Original
 https://live.yjzq.dpdns.org/proxy/ts/stream/53bee5c3-89a9-4810-ad0f-e65dab3a742a
 #EXTINF:-1 tvg-id="Reuters" tvg-name="Reuters" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-147.png" tvg-language="English" audio-language="English" tvg-chno="47" group-title="News" tvg-country="INT" tvg-category="News",Reuters
-https://live.yjzq.dpdns.org/proxy/ts/stream/cc46d277-cf8b-4d7e-b108-e1775dad69cd
+https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/e7493ea5-5c1c-4d7a-a3f7-e95516048ad8/3.m3u8
 #EXTINF:-1 tvg-id="Bloomberg" tvg-name="Bloomberg" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-154.png" tvg-language="English" audio-language="English" tvg-chno="48" group-title="News" tvg-country="INT" tvg-category="News",Bloomberg
 https://bloomberg.com/media-manifest/streams/us.m3u8
 #EXTINF:-1 tvg-id="CNBC" tvg-name="CNBC" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-7.png" tvg-language="English" audio-language="English" tvg-chno="49" group-title="News" tvg-country="INT" tvg-category="News",CNBC
-https://live.yjzq.dpdns.org/proxy/ts/stream/a42e6446-239a-471c-9093-ff74ec94aba6
+http://206.212.244.63/41/index.m3u8
 #EXTINF:-1 tvg-id="Sky News International" tvg-name="Sky News International" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-237.png" tvg-language="English" audio-language="English" tvg-chno="50" group-title="News" tvg-country="INT" tvg-category="News",Sky News International
 https://live.yjzq.dpdns.org/proxy/ts/stream/39eba7b0-310c-48dd-b1ac-788f3abb40c7
 #EXTINF:-1 tvg-id="Fox News" tvg-name="Fox News" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-238.png" tvg-language="English" audio-language="English" tvg-chno="51" group-title="News" tvg-country="INT" tvg-category="News",Fox News
-https://live.yjzq.dpdns.org/proxy/ts/stream/4a0c5bc7-e2b7-4816-b35d-08363dca2de5
+http://206.212.244.63/67/index.m3u8
 #EXTINF:-1 tvg-id="NHK World" tvg-name="NHK World" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-216.jpg" tvg-language="English" audio-language="English" tvg-chno="52" group-title="News" tvg-country="INT" tvg-category="News",NHK World
 https://live.yjzq.dpdns.org/proxy/ts/stream/8ce635fc-2528-47e9-b6d5-30b48fe42429
 #EXTINF:-1 tvg-id="Food Network" tvg-name="Food Network" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-236.png" tvg-language="English" audio-language="English" tvg-chno="53" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Food Network
-https://live.yjzq.dpdns.org/proxy/ts/stream/fa060c3e-c8b3-4f07-8bec-414de6261db2
+http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="National Geographic" tvg-name="National Geographic" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-142.png" tvg-language="English" audio-language="English" tvg-chno="54" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",National Geographic
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5CM5SY98BF24PL/14000/index.m3u8
 #EXTINF:-1 tvg-id="NatGeo Wild" tvg-name="NatGeo Wild" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-142.png" tvg-language="English" audio-language="English" tvg-chno="55" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",NatGeo Wild
-https://live.yjzq.dpdns.org/proxy/ts/stream/1fac4bbf-58fb-46be-a331-5eb78809c73a
+http://206.212.244.63/123/index.m3u8
 #EXTINF:-1 tvg-id="Animal Planet" tvg-name="Animal Planet" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-215.png" tvg-language="English" audio-language="English" tvg-chno="56" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Animal Planet
-https://live.yjzq.dpdns.org/proxy/ts/stream/2ddbe530-3d3e-4401-b913-478767fe6b20
+http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8
 #EXTINF:-1 tvg-id="BBC Earth" tvg-name="BBC Earth" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-134.jpg" tvg-language="English" audio-language="English" tvg-chno="57" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",BBC Earth
 https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist540p.m3u8
 #EXTINF:-1 tvg-id="Love Nature" tvg-name="Love Nature" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-166.png" tvg-language="English" audio-language="English" tvg-chno="58" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Love Nature
 https://live.yjzq.dpdns.org/proxy/ts/stream/9ac4e800-a370-4560-94db-36df94df0af8
 #EXTINF:-1 tvg-id="Wild Earth" tvg-name="Wild Earth" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-47.png" tvg-language="English" audio-language="English" tvg-chno="59" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Wild Earth
-https://live.yjzq.dpdns.org/proxy/ts/stream/1312008c-c651-44ef-bb96-65684aee7696
+https://wildearth-plex.amagi.tv/masterR1080p.m3u8
 #EXTINF:-1 tvg-id="Discovery" tvg-name="Discovery" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-129.png" tvg-language="English" audio-language="English" tvg-chno="60" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Discovery
 https://live.yjzq.dpdns.org/proxy/ts/stream/842a045d-1a9b-4b0e-824d-83e66d4371b1
 #EXTINF:-1 tvg-id="Discovery Science" tvg-name="Discovery Science" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-219.png" tvg-language="English" audio-language="English" tvg-chno="61" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Discovery Science
@@ -128,17 +128,17 @@ https://live.yjzq.dpdns.org/proxy/ts/stream/64a8c3f0-a26f-40ca-8ab5-63578b62141a
 #EXTINF:-1 tvg-id="Discovery Life" tvg-name="Discovery Life" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-218.png" tvg-language="English" audio-language="English" tvg-chno="64" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Discovery Life
 https://live.yjzq.dpdns.org/proxy/ts/stream/e4be7ade-e56b-4f81-9210-858fef0c3708
 #EXTINF:-1 tvg-id="History Channel" tvg-name="History Channel" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-224.png" tvg-language="English" audio-language="English" tvg-chno="65" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",History Channel
-https://live.yjzq.dpdns.org/proxy/ts/stream/f5a915eb-7ad6-4f64-90e2-7c93a40f9351
+http://40.160.24.53/HISTORY_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="Disney Channel" tvg-name="Disney Channel" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-127.png" tvg-language="English" audio-language="English" tvg-chno="66" group-title="Kids" tvg-country="INT" tvg-category="Kids",Disney Channel
-http://88.212.15.19/live/test_disney/playlist.m3u8
+https://t.freetv.fun/live/disney-channel-2.m3u8
 #EXTINF:-1 tvg-id="Disney Jr." tvg-name="Disney Jr." tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-128.png" tvg-language="English" audio-language="English" tvg-chno="67" group-title="Kids" tvg-country="INT" tvg-category="Kids",Disney Jr.
-https://live.yjzq.dpdns.org/proxy/ts/stream/d6dd0894-f194-4e2a-ab5b-86c54568ad18
+http://206.212.244.63/655/index.m3u8
 #EXTINF:-1 tvg-id="Disney XD" tvg-name="Disney XD" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-153.png" tvg-language="English" audio-language="English" tvg-chno="68" group-title="Kids" tvg-country="INT" tvg-category="Kids",Disney XD
-https://live.yjzq.dpdns.org/proxy/ts/stream/0c3b3f08-04a6-4fc9-a5e9-d9aa9df10fd2
+http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8
 #EXTINF:-1 tvg-id="Cartoon Network" tvg-name="Cartoon Network" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-137.jpg" tvg-language="English" audio-language="English" tvg-chno="69" group-title="Kids" tvg-country="INT" tvg-category="Kids",Cartoon Network
 https://live.yjzq.dpdns.org/proxy/ts/stream/4dca7ed2-eca5-4156-9ab7-a9f0ca0c47ae
 #EXTINF:-1 tvg-id="Nickelodeon" tvg-name="Nickelodeon" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-44.png" tvg-language="English" audio-language="English" tvg-chno="70" group-title="Kids" tvg-country="INT" tvg-category="Kids",Nickelodeon
-https://live.yjzq.dpdns.org/proxy/ts/stream/fa6b0a8f-8109-4a70-a7c7-21a324437e4d
+http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 #EXTINF:-1 tvg-id="Nick Jr" tvg-name="Nick Jr" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-43.png" tvg-language="English" audio-language="English" tvg-chno="71" group-title="Kids" tvg-country="INT" tvg-category="Kids",Nick Jr
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5CM5SY98BF24PL/114/index.m3u8
 #EXTINF:-1 tvg-id="Nicktoons" tvg-name="Nicktoons" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-145.png" tvg-language="English" audio-language="English" tvg-chno="72" group-title="Kids" tvg-country="INT" tvg-category="Kids",Nicktoons
@@ -160,15 +160,15 @@ https://live.yjzq.dpdns.org/proxy/ts/stream/c059b079-8b59-45a9-a509-0ca265a1f8b1
 #EXTINF:-1 tvg-id="ESPN" tvg-name="ESPN" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-221.png" tvg-language="English" audio-language="English" tvg-chno="80" group-title="Sports" tvg-country="INT" tvg-category="Sports",ESPN
 https://live.yjzq.dpdns.org/proxy/ts/stream/92ee5b79-eae5-4d24-b0bd-dc18941d3ee1
 #EXTINF:-1 tvg-id="ESPN2" tvg-name="ESPN2" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-223.png" tvg-language="English" audio-language="English" tvg-chno="81" group-title="Sports" tvg-country="INT" tvg-category="Sports",ESPN2
-https://live.yjzq.dpdns.org/proxy/ts/stream/d7d25b2b-6435-4065-bfc4-f5f8745115ce
+https://t.freetv.fun/live/espn-2.m3u8
 #EXTINF:-1 tvg-id="ESPN U" tvg-name="ESPN U" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-222.png" tvg-language="English" audio-language="English" tvg-chno="82" group-title="Sports" tvg-country="INT" tvg-category="Sports",ESPN U
-https://live.yjzq.dpdns.org/proxy/ts/stream/f506eb65-03df-4def-8f2e-51b49a2ad091
+http://23.237.104.106:8080/USA_ESPNU/index.m3u8
 #EXTINF:-1 tvg-id="Premier Sports 1" tvg-name="Premier Sports 1" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-225.png" tvg-language="English" audio-language="English" tvg-chno="83" group-title="Sports" tvg-country="INT" tvg-category="Sports",Premier Sports 1
 https://live.yjzq.dpdns.org/proxy/ts/stream/2f2fc180-3c04-48c9-ba4b-8c74a6bc93be
 #EXTINF:-1 tvg-id="Premier Sports 2" tvg-name="Premier Sports 2" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-226.png" tvg-language="English" audio-language="English" tvg-chno="84" group-title="Sports" tvg-country="INT" tvg-category="Sports",Premier Sports 2
 https://live.yjzq.dpdns.org/proxy/ts/stream/78a10be0-ead1-472d-b606-40b3178f8c8f
 #EXTINF:-1 tvg-id="Sky Sports Football" tvg-name="Sky Sports Football" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-227.png" tvg-language="English" audio-language="English" tvg-chno="85" group-title="Sports" tvg-country="INT" tvg-category="Sports",Sky Sports Football
-https://live.yjzq.dpdns.org/proxy/ts/stream/1a42675a-cb60-4be7-b93c-44531240ecf5
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2188.ts
 #EXTINF:-1 tvg-id="Sky Sports Premier League" tvg-name="Sky Sports Premier League" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-228.png" tvg-language="English" audio-language="English" tvg-chno="86" group-title="Sports" tvg-country="INT" tvg-category="Sports",Sky Sports Premier League
 https://t.freetv.fun/live/sky-sports-premier-league-50fps.m3u8
 #EXTINF:-1 tvg-id="SPOTV 1 HD" tvg-name="SPOTV 1 HD" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-239.jpg" tvg-language="English" audio-language="English" tvg-chno="87" group-title="Sports" tvg-country="INT" tvg-category="Sports",SPOTV 1 HD

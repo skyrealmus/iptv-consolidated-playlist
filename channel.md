@@ -1,13 +1,15 @@
 # Channel Register
 
-- Snapshot date: **2026-07-28**
+- Snapshot date: **2026-07-29**
 
 <!-- DAILY_REFRESH_STATUS:START -->
-- Last automated source refresh: **2026-07-28T06:47:56.072041+00:00**
-- Mapped channels checked: **94**; verified unchanged: **58**; URLs refreshed: **0**
+- Last automated source refresh: **2026-07-29T02:45:16.079884+00:00**
+- Playlist URLs checked: **94**; accessible: **41**; inaccessible: **53**
+- Content failures: black **0**, blank/uniform **0**, stale/unchanging **19**, no decoded video **33**
+- Replacement search: **53** failed URLs; candidates found **98**; URLs refreshed **26**
 - Register rows checked: **94**; withheld rows reviewed: **0**; identity-review candidates: **0**; withheld probe failures: **0**
-- Safe failures retained without replacement: probe failures **36**, unavailable catalogs **0**, no same-catalog alias match **0**, withheld no-match **0**
-- Publication policy: same-source alias match plus a bounded VLC playback profile; cross-catalog replacements remain manual identity review.
+- Safe failures retained without replacement: no replacement **13**, replacement probe failures **14**, unavailable catalogs **0**, source not active **0**
+- Publication policy: every published playlist URL is VLC-checked first; only exact normalized active-catalog matches that also pass VLC may replace an inaccessible URL.
 <!-- DAILY_REFRESH_STATUS:END -->
 
 | # | Requested | Display | Status |
