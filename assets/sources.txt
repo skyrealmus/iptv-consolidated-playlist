@@ -6,4 +6,3 @@ https://raw.githubusercontent.com/Guovin/TV/gd/output/result.m3u
 https://tv123.cc.cd/tv.m3u
 https://raw.githubusercontent.com/vinkerq/iptv-api/refs/heads/master/iptv4.m3u
 https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u
-https://live.yjzq.dpdns.org/output/m3u
