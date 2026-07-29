@@ -48,63 +48,64 @@
 | 32 | `Channel U` | `Channel U` | IMPORTED |
 | 33 | `Channel 5` | `Channel 5` | IMPORTED |
 | 34 | `八度空间` | `八度空间` | IMPORTED |
-| 35 | `Astro AOD` | `Astro AOD` | IMPORTED |
-| 36 | `Astro QJ` | `Astro QJ` | IMPORTED |
-| 37 | `Astro 欢喜台` | `Astro 欢喜台` | IMPORTED |
-| 38 | `翡翠台` | `翡翠台` | IMPORTED |
-| 39 | `明珠台` | `明珠台` | IMPORTED |
-| 40 | `TVB星河` | `TVB星河` | IMPORTED |
-| 41 | `TVB DRAMA` | `TVB DRAMA` | IMPORTED |
-| 42 | `TVB Plus` | `TVB Plus` | IMPORTED |
-| 43 | `CNN` | `CNN` | IMPORTED |
-| 44 | `BBC News` | `BBC News` | IMPORTED |
-| 45 | `CNA` | `CNA` | IMPORTED |
-| 46 | `CNA Original` | `CNA Original` | IMPORTED |
-| 47 | `Reuters` | `Reuters` | IMPORTED |
-| 48 | `Bloomberg` | `Bloomberg` | IMPORTED |
-| 49 | `CNBC` | `CNBC` | IMPORTED |
-| 50 | `Sky News International` | `Sky News International` | IMPORTED |
-| 51 | `Fox News` | `Fox News` | IMPORTED |
-| 52 | `NHK World` | `NHK World` | IMPORTED |
-| 53 | `Food Network` | `Food Network` | IMPORTED |
-| 54 | `National Geographic` | `National Geographic` | IMPORTED |
-| 55 | `NatGeo Wild` | `NatGeo Wild` | IMPORTED |
-| 56 | `Animal Planet` | `Animal Planet` | IMPORTED |
-| 57 | `BBC Earth` | `BBC Earth` | IMPORTED |
-| 58 | `Love Nature` | `Love Nature` | IMPORTED |
-| 59 | `Wild Earth` | `Wild Earth` | IMPORTED |
-| 60 | `Discovery` | `Discovery` | IMPORTED |
-| 61 | `Discovery Science` | `Discovery Science` | IMPORTED |
-| 62 | `Discovery Turbo` | `Discovery Turbo` | IMPORTED |
-| 63 | `Discovery Family Channel` | `Discovery Family Channel` | IMPORTED |
-| 64 | `Discovery Life` | `Discovery Life` | IMPORTED |
-| 65 | `History Channel` | `History Channel` | IMPORTED |
-| 66 | `Disney Channel` | `Disney Channel` | IMPORTED |
-| 67 | `Disney Jr.` | `Disney Jr.` | IMPORTED |
-| 68 | `Disney XD` | `Disney XD` | IMPORTED |
-| 69 | `Cartoon Network` | `Cartoon Network` | IMPORTED |
-| 70 | `Nickelodeon` | `Nickelodeon` | IMPORTED |
-| 71 | `Nick Jr` | `Nick Jr` | IMPORTED |
-| 72 | `Nicktoons` | `Nicktoons` | IMPORTED |
-| 73 | `Kartoon Channel` | `Kartoon Channel` | IMPORTED |
-| 74 | `DreamWorks梦工厂动画` | `DreamWorks梦工厂动画` | IMPORTED |
-| 75 | `NBA TV` | `NBA TV` | IMPORTED |
-| 76 | `Red Bull TV` | `Red Bull TV` | IMPORTED |
-| 77 | `beIN SPORTS XTRA` | `beIN SPORTS XTRA` | IMPORTED |
-| 78 | `beIN SPORTS` | `beIN SPORTS` | IMPORTED |
-| 79 | `ESPN News` | `ESPN News` | IMPORTED |
-| 80 | `ESPN` | `ESPN` | IMPORTED |
-| 81 | `ESPN2` | `ESPN2` | IMPORTED |
-| 82 | `ESPN U` | `ESPN U` | IMPORTED |
-| 83 | `Premier Sports 1` | `Premier Sports 1` | IMPORTED |
-| 84 | `Premier Sports 2` | `Premier Sports 2` | IMPORTED |
-| 85 | `Sky Sports Football` | `Sky Sports Football` | IMPORTED |
-| 86 | `Sky Sports Premier League` | `Sky Sports Premier League` | IMPORTED |
-| 87 | `SPOTV 1 HD` | `SPOTV 1 HD` | IMPORTED |
-| 88 | `Astro Badminton 1` | `Astro Badminton 1` | IMPORTED |
-| 89 | `Astro Football` | `Astro Football` | IMPORTED |
-| 90 | `Astro Grandstand` | `Astro Grandstand` | IMPORTED |
-| 91 | `Astro Golf` | `Astro Golf` | IMPORTED |
-| 92 | `Astro Premier League` | `Astro Premier League` | IMPORTED |
-| 93 | `Astro Sports Plus` | `Astro Sports Plus` | IMPORTED |
-| 94 | `Astro W-Sports` | `Astro W-Sports` | IMPORTED |
+| 35 | `Astro AEC` | `Astro AEC` | REQUESTED |
+| 36 | `Astro AOD` | `Astro AOD` | IMPORTED |
+| 37 | `Astro QJ` | `Astro QJ` | IMPORTED |
+| 38 | `Astro 欢喜台` | `Astro 欢喜台` | IMPORTED |
+| 39 | `翡翠台` | `翡翠台` | IMPORTED |
+| 40 | `明珠台` | `明珠台` | IMPORTED |
+| 41 | `TVB星河` | `TVB星河` | IMPORTED |
+| 42 | `TVB DRAMA` | `TVB DRAMA` | IMPORTED |
+| 43 | `TVB Plus` | `TVB Plus` | IMPORTED |
+| 44 | `CNN` | `CNN` | IMPORTED |
+| 45 | `BBC News` | `BBC News` | IMPORTED |
+| 46 | `CNA` | `CNA` | IMPORTED |
+| 47 | `CNA Original` | `CNA Original` | IMPORTED |
+| 48 | `Reuters` | `Reuters` | IMPORTED |
+| 49 | `Bloomberg` | `Bloomberg` | IMPORTED |
+| 50 | `CNBC` | `CNBC` | IMPORTED |
+| 51 | `Sky News International` | `Sky News International` | IMPORTED |
+| 52 | `Fox News` | `Fox News` | IMPORTED |
+| 53 | `NHK World` | `NHK World` | IMPORTED |
+| 54 | `Food Network` | `Food Network` | IMPORTED |
+| 55 | `National Geographic` | `National Geographic` | IMPORTED |
+| 56 | `NatGeo Wild` | `NatGeo Wild` | IMPORTED |
+| 57 | `Animal Planet` | `Animal Planet` | IMPORTED |
+| 58 | `BBC Earth` | `BBC Earth` | IMPORTED |
+| 59 | `Love Nature` | `Love Nature` | IMPORTED |
+| 60 | `Wild Earth` | `Wild Earth` | IMPORTED |
+| 61 | `Discovery` | `Discovery` | IMPORTED |
+| 62 | `Discovery Science` | `Discovery Science` | IMPORTED |
+| 63 | `Discovery Turbo` | `Discovery Turbo` | IMPORTED |
+| 64 | `Discovery Family Channel` | `Discovery Family Channel` | IMPORTED |
+| 65 | `Discovery Life` | `Discovery Life` | IMPORTED |
+| 66 | `History Channel` | `History Channel` | IMPORTED |
+| 67 | `Disney Channel` | `Disney Channel` | IMPORTED |
+| 68 | `Disney Jr.` | `Disney Jr.` | IMPORTED |
+| 69 | `Disney XD` | `Disney XD` | IMPORTED |
+| 70 | `Cartoon Network` | `Cartoon Network` | IMPORTED |
+| 71 | `Nickelodeon` | `Nickelodeon` | IMPORTED |
+| 72 | `Nick Jr` | `Nick Jr` | IMPORTED |
+| 73 | `Nicktoons` | `Nicktoons` | IMPORTED |
+| 74 | `Kartoon Channel` | `Kartoon Channel` | IMPORTED |
+| 75 | `DreamWorks梦工厂动画` | `DreamWorks梦工厂动画` | IMPORTED |
+| 76 | `NBA TV` | `NBA TV` | IMPORTED |
+| 77 | `Red Bull TV` | `Red Bull TV` | IMPORTED |
+| 78 | `beIN SPORTS XTRA` | `beIN SPORTS XTRA` | IMPORTED |
+| 79 | `beIN SPORTS` | `beIN SPORTS` | IMPORTED |
+| 80 | `ESPN News` | `ESPN News` | IMPORTED |
+| 81 | `ESPN` | `ESPN` | IMPORTED |
+| 82 | `ESPN2` | `ESPN2` | IMPORTED |
+| 83 | `ESPN U` | `ESPN U` | IMPORTED |
+| 84 | `Premier Sports 1` | `Premier Sports 1` | IMPORTED |
+| 85 | `Premier Sports 2` | `Premier Sports 2` | IMPORTED |
+| 86 | `Sky Sports Football` | `Sky Sports Football` | IMPORTED |
+| 87 | `Sky Sports Premier League` | `Sky Sports Premier League` | IMPORTED |
+| 88 | `SPOTV 1 HD` | `SPOTV 1 HD` | IMPORTED |
+| 89 | `Astro Badminton 1` | `Astro Badminton 1` | IMPORTED |
+| 90 | `Astro Football` | `Astro Football` | IMPORTED |
+| 91 | `Astro Grandstand` | `Astro Grandstand` | IMPORTED |
+| 92 | `Astro Golf` | `Astro Golf` | IMPORTED |
+| 93 | `Astro Premier League` | `Astro Premier League` | IMPORTED |
+| 94 | `Astro Sports Plus` | `Astro Sports Plus` | IMPORTED |
+| 95 | `Astro W-Sports` | `Astro W-Sports` | IMPORTED |
