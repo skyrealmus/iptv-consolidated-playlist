@@ -3,13 +3,13 @@
 - Snapshot date: **2026-08-01**
 
 <!-- DAILY_REFRESH_STATUS:START -->
-- Last automated source refresh: **2026-08-01T02:53:12.465085+00:00**
-- Playlist URLs checked: **94**; accessible: **77**; inaccessible: **17**
-- Content failures: black **0**, blank/uniform **0**, stale/unchanging **14**, no decoded video **3**
-- Replacement search: **17** failed URLs; candidates found **42**; URLs refreshed **9**
+- Last automated source refresh: **2026-08-01T03:52:53.836621+00:00**
+- Playlist URLs checked: **94**; accessible: **78**; inaccessible: **16**
+- Content failures: black **0**, blank/uniform **0**, stale/unchanging **10**, no decoded video **6**
+- Replacement search: **16** failed URLs; candidates found **43**; URLs refreshed **7**
 - Register rows checked: **95**; withheld rows reviewed: **1**; identity-review candidates: **1**; withheld probe failures: **0**
-- Safe failures retained without replacement: no replacement **4**, replacement probe failures **4**, unavailable catalogs **0**, source not active **0**
-- Table statuses updated: **95**; `PUBLISHED` means present in the generated playlist, while reviewed non-published requests are `WITHHELD`.
+- Safe failures retained without replacement: no replacement **5**, replacement probe failures **4**, unavailable catalogs **0**, source not active **0**
+- Table statuses updated: **0**; `PUBLISHED` means present in the generated playlist, while reviewed non-published requests are `WITHHELD`.
 - Publication policy: every published playlist URL is VLC-checked first; only exact normalized active-catalog matches that also pass VLC may replace an inaccessible URL.
 <!-- DAILY_REFRESH_STATUS:END -->
 

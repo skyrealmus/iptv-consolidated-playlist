@@ -106,7 +106,7 @@ http://tv123.cc.cd/live.php?ch=1767&sid=a065cf1241ccf01c8a9d56f3074008a8&exp=178
 #EXTINF:-1 tvg-id="Food Network" tvg-name="Food Network" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-236.png" tvg-language="English" audio-language="English" tvg-chno="53" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Food Network
 http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="National Geographic" tvg-name="National Geographic" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-142.png" tvg-language="English" audio-language="English" tvg-chno="54" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",National Geographic
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5CM5SY98BF24PL/14000/index.m3u8
+http://tv123.cc.cd/live.php?ch=536&sid=918b0e0cde69f63f2906d43916b3570e&exp=1785599526&sig=2e9bc1a56d418fd3f8c0116cf700c4fcb6ddd3005666c2f19adf88b2df5201b2
 #EXTINF:-1 tvg-id="NatGeo Wild" tvg-name="NatGeo Wild" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-142.png" tvg-language="English" audio-language="English" tvg-chno="55" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",NatGeo Wild
 http://tv123.cc.cd/live.php?ch=963&sid=9191bc2805da29201125d8e6d81522e4&exp=1785346496&sig=d5e73f99ff7392a0914b8f552d43cb2db0ff45c92d71da1da63980fdd860b7e1
 #EXTINF:-1 tvg-id="Animal Planet" tvg-name="Animal Planet" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-215.png" tvg-language="English" audio-language="English" tvg-chno="56" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Animal Planet
@@ -130,17 +130,17 @@ http://tv123.cc.cd/live.php?ch=522&sid=5492dbca1871df7c678ef6372972643d&exp=1785
 #EXTINF:-1 tvg-id="History Channel" tvg-name="History Channel" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-224.png" tvg-language="English" audio-language="English" tvg-chno="65" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",History Channel
 http://40.160.24.53/HISTORY_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="Disney Channel" tvg-name="Disney Channel" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-127.png" tvg-language="English" audio-language="English" tvg-chno="66" group-title="Kids" tvg-country="INT" tvg-category="Kids",Disney Channel
-http://tv123.cc.cd/live.php?ch=1294&sid=5492dbca1871df7c678ef6372972643d&exp=1785595968&sig=f4aa4d0d56f6ddb50b624b2fea561c9ec4d9b3fb083afb29e89abdc0f3bc554a
+http://206.212.244.63/650/index.m3u8
 #EXTINF:-1 tvg-id="Disney Jr." tvg-name="Disney Jr." tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-128.png" tvg-language="English" audio-language="English" tvg-chno="67" group-title="Kids" tvg-country="INT" tvg-category="Kids",Disney Jr.
 http://206.212.244.63/655/index.m3u8
 #EXTINF:-1 tvg-id="Disney XD" tvg-name="Disney XD" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-153.png" tvg-language="English" audio-language="English" tvg-chno="68" group-title="Kids" tvg-country="INT" tvg-category="Kids",Disney XD
-http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8
+http://tv123.cc.cd/live.php?ch=336&sid=918b0e0cde69f63f2906d43916b3570e&exp=1785599526&sig=fd972015c47f7f6b88ddbbbd498d6dae4400242be08a14aa52a9c2d9b655ca3e
 #EXTINF:-1 tvg-id="Cartoon Network" tvg-name="Cartoon Network" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-137.jpg" tvg-language="English" audio-language="English" tvg-chno="69" group-title="Kids" tvg-country="INT" tvg-category="Kids",Cartoon Network
 http://tv123.cc.cd/live.php?ch=1722&sid=9191bc2805da29201125d8e6d81522e4&exp=1785346496&sig=e5681a1765709afe78653c4fa21cbf9987f7e49851f13548cc584d57fc486a2d
 #EXTINF:-1 tvg-id="Nickelodeon" tvg-name="Nickelodeon" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-44.png" tvg-language="English" audio-language="English" tvg-chno="70" group-title="Kids" tvg-country="INT" tvg-category="Kids",Nickelodeon
-http://tv123.cc.cd/live.php?ch=1391&sid=5492dbca1871df7c678ef6372972643d&exp=1785595968&sig=fe0fa800c67d53fec3c036d5c262b93c9ab0b1d4a07a278ba9890ddf2a6dee53
+http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 #EXTINF:-1 tvg-id="Nick Jr" tvg-name="Nick Jr" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-43.png" tvg-language="English" audio-language="English" tvg-chno="71" group-title="Kids" tvg-country="INT" tvg-category="Kids",Nick Jr
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5CM5SY98BF24PL/114/index.m3u8
+http://tv123.cc.cd/live.php?ch=1390&sid=918b0e0cde69f63f2906d43916b3570e&exp=1785599526&sig=4c92120b1d4e395c6bf918faa59fd0e989780eac73b71fcf8d617d4678a5e97d
 #EXTINF:-1 tvg-id="Nicktoons" tvg-name="Nicktoons" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-145.png" tvg-language="English" audio-language="English" tvg-chno="72" group-title="Kids" tvg-country="INT" tvg-category="Kids",Nicktoons
 http://tv123.cc.cd/live.php?ch=794&sid=766b35bc56e88c6316b31ad89d624da3&exp=1785463767&sig=c31b4b568465ef159cd38aa2fc7e40758af1b43e6d4d428997a87364d3fc84a0
 #EXTINF:-1 tvg-id="Kartoon Channel" tvg-name="Kartoon Channel" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-39.png" tvg-language="English" audio-language="English" tvg-chno="73" group-title="Kids" tvg-country="INT" tvg-category="Kids",Kartoon Channel
@@ -158,9 +158,9 @@ http://tv123.cc.cd/live.php?ch=1286&sid=78a687de47de38b3fdf1ec7a4c321f3c&exp=178
 #EXTINF:-1 tvg-id="ESPN News" tvg-name="ESPN News" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-220.png" tvg-language="English" audio-language="English" tvg-chno="79" group-title="Sports" tvg-country="INT" tvg-category="Sports",ESPN News
 http://41.205.93.154/ESPNNEWS/index.m3u8
 #EXTINF:-1 tvg-id="ESPN" tvg-name="ESPN" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-221.png" tvg-language="English" audio-language="English" tvg-chno="80" group-title="Sports" tvg-country="INT" tvg-category="Sports",ESPN
-http://tv123.cc.cd/live.php?ch=845&sid=5492dbca1871df7c678ef6372972643d&exp=1785595968&sig=7dc63f0851cdfe7471f3ce2d9e6e48126ac578e5e23f91a2e57fcd20a9b95c8d
+http://206.212.244.63/59/index.m3u8
 #EXTINF:-1 tvg-id="ESPN2" tvg-name="ESPN2" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-223.png" tvg-language="English" audio-language="English" tvg-chno="81" group-title="Sports" tvg-country="INT" tvg-category="Sports",ESPN2
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/21590.ts
+http://tv123.cc.cd/live.php?ch=1819&sid=918b0e0cde69f63f2906d43916b3570e&exp=1785599526&sig=8334e7d9e9ccaa4d4843a064ffe0ae5daef434af886bb3320b07271fa2a418fd
 #EXTINF:-1 tvg-id="ESPN U" tvg-name="ESPN U" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-222.png" tvg-language="English" audio-language="English" tvg-chno="82" group-title="Sports" tvg-country="INT" tvg-category="Sports",ESPN U
 http://tv123.cc.cd/live.php?ch=842&sid=5492dbca1871df7c678ef6372972643d&exp=1785595968&sig=f989176f15d225cde74298e07bea0198e1533a2378133648be556575e6d6f6c3
 #EXTINF:-1 tvg-id="Premier Sports 1" tvg-name="Premier Sports 1" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-225.png" tvg-language="English" audio-language="English" tvg-chno="83" group-title="Sports" tvg-country="INT" tvg-category="Sports",Premier Sports 1
