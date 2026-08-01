@@ -539,12 +539,50 @@ def update_stream_speed_report(report: dict) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def update_channel_register(report: dict) -> None:
-    """Refresh only the generated summary in the human-maintained register."""
+WITHHELD_REFRESH_STATUSES = {
+    "withheld_no_match",
+    "withheld_probe_failed",
+    "withheld_identity_review",
+}
+REGISTER_ROW_RE = re.compile(
+    r"^(?P<prefix>\|\s*\d+\s*\|\s*`(?P<requested>[^`]+)`\s*\|\s*`[^`]*`\s*\|\s*)"
+    r"(?P<status>PUBLISHED|WITHHELD|REQUESTED|IMPORTED)"
+    r"(?P<suffix>\s*\|.*)$",
+    re.MULTILINE,
+)
+
+
+def update_channel_register(report: dict, manifest: dict) -> None:
+    """Refresh generated evidence and reconcile table statuses with publication state."""
     path = ROOT / "channel.md"
     text = path.read_text(encoding="utf-8")
     snapshot_date = report["checked_at"][:10]
     text = re.sub(r"(?m)^- Snapshot date: \*\*.*?\*\*$", f"- Snapshot date: **{snapshot_date}**", text, count=1)
+
+    published = {entry["requested"] for entry in manifest.get("entries", [])}
+    status_updates: dict[str, str] = {}
+    for requested, result in report.get("channels", {}).items():
+        if requested in published:
+            status_updates[requested] = "PUBLISHED"
+        elif result.get("status") in WITHHELD_REFRESH_STATUSES:
+            status_updates[requested] = "WITHHELD"
+
+    updated_rows = 0
+
+    def replace_register_status(match: re.Match[str]) -> str:
+        nonlocal updated_rows
+        requested = match.group("requested")
+        status = status_updates.get(requested)
+        if status is None or status == match.group("status"):
+            return match.group(0)
+        updated_rows += 1
+        return f"{match.group('prefix')}{status}{match.group('suffix')}"
+
+    text = REGISTER_ROW_RE.sub(replace_register_status, text)
+    if set(status_updates) - {match.group("requested") for match in REGISTER_ROW_RE.finditer(text)}:
+        missing = sorted(set(status_updates) - {match.group("requested") for match in REGISTER_ROW_RE.finditer(text)})
+        raise RuntimeError(f"channel.md register rows missing: {', '.join(missing)}")
+
     summary = report["summary"]
     block = "\n".join([
         "<!-- DAILY_REFRESH_STATUS:START -->",
@@ -554,6 +592,7 @@ def update_channel_register(report: dict) -> None:
         f"- Replacement search: **{summary['replacement_searched']}** failed URLs; candidates found **{summary['replacement_candidates']}**; URLs refreshed **{summary['url_refreshed']}**",
         f"- Register rows checked: **{summary['register_checked']}**; withheld rows reviewed: **{summary['withheld_checked']}**; identity-review candidates: **{summary['withheld_identity_review']}**; withheld probe failures: **{summary['withheld_probe_failed']}**",
         f"- Safe failures retained without replacement: no replacement **{summary['replacement_no_match']}**, replacement probe failures **{summary['replacement_probe_failed']}**, unavailable catalogs **{summary['catalog_unavailable']}**, source not active **{summary['source_not_active']}**",
+        f"- Table statuses updated: **{updated_rows}**; `PUBLISHED` means present in the generated playlist, while reviewed non-published requests are `WITHHELD`.",
         "- Publication policy: every published playlist URL is VLC-checked first; only exact normalized active-catalog matches that also pass VLC may replace an inaccessible URL.",
         "<!-- DAILY_REFRESH_STATUS:END -->",
     ])
@@ -850,7 +889,7 @@ def main() -> int:
 
     if not args.dry_run:
         update_stream_speed_report(report)
-        update_channel_register(report)
+        update_channel_register(report, manifest)
         for entry in manifest["entries"]:
             result = channel_results.get(entry["requested"], {})
             if result.get("status") == "url_refreshed":

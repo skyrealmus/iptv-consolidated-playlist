@@ -10,6 +10,10 @@ from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 ATTR = re.compile(r'([\w-]+)="([^"]*)"')
+REGISTER_ROW = re.compile(
+    r"^\|\s*\d+\s*\|\s*`(?P<requested>[^`]+)`\s*\|\s*`[^`]*`\s*\|\s*"
+    r"(?P<status>PUBLISHED|WITHHELD|REQUESTED|IMPORTED)\s*\|"
+)
 
 
 def parse(path: Path):
@@ -50,6 +54,31 @@ def parse(path: Path):
     return entries
 
 
+def validate_channel_register(manifest: dict) -> None:
+    rows = []
+    for line in (ROOT / "channel.md").read_text(encoding="utf-8").splitlines():
+        match = REGISTER_ROW.match(line)
+        if match:
+            rows.append((match.group("requested"), match.group("status")))
+    if not rows:
+        raise AssertionError("channel.md: no register rows")
+
+    requested = [name for name, _status in rows]
+    if len(set(requested)) != len(requested):
+        raise AssertionError("channel.md: duplicate register request")
+
+    published = {entry["requested"] for entry in manifest["entries"]}
+    missing = sorted(published - set(requested))
+    if missing:
+        raise AssertionError(f"channel.md: missing manifest channel {missing[0]}")
+
+    for name, status in rows:
+        if name in published and status != "PUBLISHED":
+            raise AssertionError(f"channel.md: manifest channel {name} must be PUBLISHED, got {status}")
+        if name not in published and status not in {"WITHHELD", "REQUESTED"}:
+            raise AssertionError(f"channel.md: non-published channel {name} has invalid status {status}")
+
+
 def main():
     manifest = json.loads((ROOT / "manifest.json").read_text(encoding="utf-8"))
     expected = len(manifest["entries"])
@@ -73,6 +102,7 @@ def main():
         raise AssertionError("playlist contains duplicate tvg-id entries")
     if len(set(urls)) != len(urls):
         raise AssertionError("playlist contains duplicate stream URLs")
+    validate_channel_register(manifest)
     print(f"validated playlist: playlist={len(all_entries)} logos={len(list((ROOT/'logo').iterdir()))}")
 
 
