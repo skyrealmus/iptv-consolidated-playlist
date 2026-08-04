@@ -12,7 +12,7 @@ https://live.yjzq.dpdns.org/proxy/ts/stream/6b2ed377-bc35-4904-bf2b-911d7c9c2332
 #EXTINF:-1 tvg-id="CCTV-5+ 体育赛事" tvg-name="CCTV-5+ 体育赛事" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-17.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="6" group-title="Sports" tvg-country="INT" tvg-category="Sports",CCTV-5+ 体育赛事
 http://tv123.cc.cd/live.php?ch=6&sid=9191bc2805da29201125d8e6d81522e4&exp=1785346496&sig=e7eaae307b1068d7ae9d99b68a69d5a50f74437636a53f27d46fd9f0aea0d6e6
 #EXTINF:-1 tvg-id="CCTV-6 电影" tvg-name="CCTV-6 电影" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-114.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="7" group-title="General" tvg-country="CN" tvg-category="General",CCTV-6 电影
-https://live.yjzq.dpdns.org/proxy/ts/stream/e9e2639a-dfcb-499a-92dc-e53f20665f46
+http://tv123.cc.cd/live.php?ch=2359&sid=deff949ca5f0d3b416171d0f578a3e7d&exp=1785854184&sig=82e578b2a38721c1d893b15ee349ebd234b5708430d03295e9863728560f2b1b
 #EXTINF:-1 tvg-id="CCTV-7 国防军事" tvg-name="CCTV-7 国防军事" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-13.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="8" group-title="General" tvg-country="CN" tvg-category="General",CCTV-7 国防军事
 http://tv123.cc.cd/live.php?ch=8&sid=766b35bc56e88c6316b31ad89d624da3&exp=1785463767&sig=366a28009ae01cf52de02f340e40933e5dee05aad77523050e3b1287b745fbfc
 #EXTINF:-1 tvg-id="CCTV-8 电视剧" tvg-name="CCTV-8 电视剧" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-116.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="9" group-title="General" tvg-country="CN" tvg-category="General",CCTV-8 电视剧
@@ -96,7 +96,7 @@ http://tv123.cc.cd/live.php?ch=887&sid=5492dbca1871df7c678ef6372972643d&exp=1785
 #EXTINF:-1 tvg-id="Bloomberg" tvg-name="Bloomberg" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-154.png" tvg-language="English" audio-language="English" tvg-chno="48" group-title="News" tvg-country="INT" tvg-category="News",Bloomberg
 http://tv123.cc.cd/live.php?ch=1765&sid=a065cf1241ccf01c8a9d56f3074008a8&exp=1785509649&sig=dee7a4c9d9f6b5f7fc901529234ebf09ea9b19b4bf4c9e08ca63e653a74c5f99
 #EXTINF:-1 tvg-id="CNBC" tvg-name="CNBC" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-7.png" tvg-language="English" audio-language="English" tvg-chno="49" group-title="News" tvg-country="INT" tvg-category="News",CNBC
-http://206.212.244.63/41/index.m3u8
+https://gpuserver3.tier1streams.com/CNBC/index.m3u8
 #EXTINF:-1 tvg-id="Sky News International" tvg-name="Sky News International" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-237.png" tvg-language="English" audio-language="English" tvg-chno="50" group-title="News" tvg-country="INT" tvg-category="News",Sky News International
 http://tv123.cc.cd/live.php?ch=1305&sid=9191bc2805da29201125d8e6d81522e4&exp=1785346496&sig=af0b98e541b8ce334d461a3c717559504c84eba84105e359273f4b51923e489f
 #EXTINF:-1 tvg-id="Fox News" tvg-name="Fox News" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-238.png" tvg-language="English" audio-language="English" tvg-chno="51" group-title="News" tvg-country="INT" tvg-category="News",Fox News
@@ -120,7 +120,7 @@ https://wildearth-plex.amagi.tv/masterR1080p.m3u8
 #EXTINF:-1 tvg-id="Discovery" tvg-name="Discovery" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-129.png" tvg-language="English" audio-language="English" tvg-chno="60" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Discovery
 http://tv123.cc.cd/live.php?ch=2101&sid=9191bc2805da29201125d8e6d81522e4&exp=1785346496&sig=755aa0a2ca75ef1246ddb9725d7d1c77744ada4e04559a5ee11fabb8003b471c
 #EXTINF:-1 tvg-id="Discovery Science" tvg-name="Discovery Science" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-219.png" tvg-language="English" audio-language="English" tvg-chno="61" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Discovery Science
-http://206.212.244.63/55/index.m3u8
+https://gpuserver3.tier1streams.com/DISCOVERY_SCIENCE_HD/index.m3u8
 #EXTINF:-1 tvg-id="Discovery Turbo" tvg-name="Discovery Turbo" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-191.png" tvg-language="English" audio-language="English" tvg-chno="62" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Discovery Turbo
 http://tv123.cc.cd/live.php?ch=970&sid=766b35bc56e88c6316b31ad89d624da3&exp=1785463767&sig=1e5d7eb001f68b9ffd026b260ec09fb640f47a39e036b7cce33f6938b6fed73a
 #EXTINF:-1 tvg-id="Discovery Family Channel" tvg-name="Discovery Family Channel" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-217.png" tvg-language="English" audio-language="English" tvg-chno="63" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Discovery Family Channel
@@ -130,9 +130,9 @@ http://tv123.cc.cd/live.php?ch=522&sid=5492dbca1871df7c678ef6372972643d&exp=1785
 #EXTINF:-1 tvg-id="History Channel" tvg-name="History Channel" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-224.png" tvg-language="English" audio-language="English" tvg-chno="65" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",History Channel
 http://40.160.24.53/HISTORY_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="Disney Channel" tvg-name="Disney Channel" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-127.png" tvg-language="English" audio-language="English" tvg-chno="66" group-title="Kids" tvg-country="INT" tvg-category="Kids",Disney Channel
-http://206.212.244.63/650/index.m3u8
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3630.ts
 #EXTINF:-1 tvg-id="Disney Jr." tvg-name="Disney Jr." tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-128.png" tvg-language="English" audio-language="English" tvg-chno="67" group-title="Kids" tvg-country="INT" tvg-category="Kids",Disney Jr.
-http://206.212.244.63/655/index.m3u8
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2588.ts
 #EXTINF:-1 tvg-id="Disney XD" tvg-name="Disney XD" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-153.png" tvg-language="English" audio-language="English" tvg-chno="68" group-title="Kids" tvg-country="INT" tvg-category="Kids",Disney XD
 http://tv123.cc.cd/live.php?ch=336&sid=918b0e0cde69f63f2906d43916b3570e&exp=1785599526&sig=fd972015c47f7f6b88ddbbbd498d6dae4400242be08a14aa52a9c2d9b655ca3e
 #EXTINF:-1 tvg-id="Cartoon Network" tvg-name="Cartoon Network" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-137.jpg" tvg-language="English" audio-language="English" tvg-chno="69" group-title="Kids" tvg-country="INT" tvg-category="Kids",Cartoon Network
@@ -152,7 +152,7 @@ http://tv123.cc.cd/live.php?ch=829&sid=5492dbca1871df7c678ef6372972643d&exp=1785
 #EXTINF:-1 tvg-id="Red Bull TV" tvg-name="Red Bull TV" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-146.jpg" tvg-language="English" audio-language="English" tvg-chno="76" group-title="Sports" tvg-country="INT" tvg-category="Sports",Red Bull TV
 https://live.yjzq.dpdns.org/proxy/ts/stream/ef78782b-2dec-47d1-b569-8ba9e1f72939
 #EXTINF:-1 tvg-id="beIN SPORTS XTRA" tvg-name="beIN SPORTS XTRA" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-214.png" tvg-language="English" audio-language="English" tvg-chno="77" group-title="Sports" tvg-country="INT" tvg-category="Sports",beIN SPORTS XTRA
-https://live.yjzq.dpdns.org/proxy/ts/stream/4c01fa29-b97c-44d0-9ca9-342bb91250f3
+http://tv123.cc.cd/live.php?ch=861&sid=deff949ca5f0d3b416171d0f578a3e7d&exp=1785854184&sig=bfd5a36e5be494d32cb48891712d6710038b45f81505d28e12df8d3610d1f7cd
 #EXTINF:-1 tvg-id="beIN SPORTS" tvg-name="beIN SPORTS" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-240.png" tvg-language="English" audio-language="English" tvg-chno="78" group-title="Sports" tvg-country="INT" tvg-category="Sports",beIN SPORTS
 http://tv123.cc.cd/live.php?ch=1286&sid=78a687de47de38b3fdf1ec7a4c321f3c&exp=1785421788&sig=6f06a2dcbc4a97b39a1c5762e24ec73660dfdb41d2255235d2fa507368aacd8a
 #EXTINF:-1 tvg-id="ESPN News" tvg-name="ESPN News" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-220.png" tvg-language="English" audio-language="English" tvg-chno="79" group-title="Sports" tvg-country="INT" tvg-category="Sports",ESPN News
@@ -166,7 +166,7 @@ http://tv123.cc.cd/live.php?ch=842&sid=5492dbca1871df7c678ef6372972643d&exp=1785
 #EXTINF:-1 tvg-id="Premier Sports 1" tvg-name="Premier Sports 1" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-225.png" tvg-language="English" audio-language="English" tvg-chno="83" group-title="Sports" tvg-country="INT" tvg-category="Sports",Premier Sports 1
 https://live.yjzq.dpdns.org/proxy/ts/stream/2f2fc180-3c04-48c9-ba4b-8c74a6bc93be
 #EXTINF:-1 tvg-id="Premier Sports 2" tvg-name="Premier Sports 2" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-226.png" tvg-language="English" audio-language="English" tvg-chno="84" group-title="Sports" tvg-country="INT" tvg-category="Sports",Premier Sports 2
-https://live.yjzq.dpdns.org/proxy/ts/stream/78a10be0-ead1-472d-b606-40b3178f8c8f
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/89090.ts
 #EXTINF:-1 tvg-id="Sky Sports Football" tvg-name="Sky Sports Football" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-227.png" tvg-language="English" audio-language="English" tvg-chno="85" group-title="Sports" tvg-country="INT" tvg-category="Sports",Sky Sports Football
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2188.ts
 #EXTINF:-1 tvg-id="Sky Sports Premier League" tvg-name="Sky Sports Premier League" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-228.png" tvg-language="English" audio-language="English" tvg-chno="86" group-title="Sports" tvg-country="INT" tvg-category="Sports",Sky Sports Premier League
