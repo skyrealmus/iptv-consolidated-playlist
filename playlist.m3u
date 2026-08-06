@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="CCTV-1 综合" tvg-name="CCTV-1 综合" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-108.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="1" group-title="General" tvg-country="CN" tvg-category="General",CCTV-1 综合
-http://play.kankanlive.com/live/1698234869325962.m3u8
+http://tv123.cc.cd/live.php?ch=2353&sid=3cba284db3ba947b53406f798e981523&exp=1786027073&sig=c8739ae369e8c92c1a40b9044e7085897bdc2e7cf9acfef498cbcc7c38b4b9aa
 #EXTINF:-1 tvg-id="CCTV-2 财经" tvg-name="CCTV-2 财经" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-109.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="2" group-title="General" tvg-country="CN" tvg-category="General",CCTV-2 财经
 http://tv123.cc.cd/live.php?ch=2&sid=78a687de47de38b3fdf1ec7a4c321f3c&exp=1785421788&sig=4d55983722046a2a451905be64853fec89c5cf881937ff0417c97aee664373ab
 #EXTINF:-1 tvg-id="CCTV-3 综艺" tvg-name="CCTV-3 综艺" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-110.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="3" group-title="General" tvg-country="CN" tvg-category="General",CCTV-3 综艺
@@ -78,7 +78,7 @@ https://live.yjzq.dpdns.org/proxy/ts/stream/471ada36-eece-4237-b6ee-9b44452dd747
 #EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-255.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="39" group-title="General" tvg-country="HK" tvg-category="General",明珠台
 http://r.jdshipin.com/ZQ4kN
 #EXTINF:-1 tvg-id="TVB星河" tvg-name="TVB星河" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-148.jpg" tvg-language="Chinese" audio-language="Chinese" tvg-chno="40" group-title="General" tvg-country="HK" tvg-category="General",TVB星河
-https://cdn.qd.je/163189/tvbxh
+https://cdn.qd.je/163189/tvbxh2
 #EXTINF:-1 tvg-id="TVB DRAMA" tvg-name="TVB DRAMA" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-253.png" tvg-language="English" audio-language="English" tvg-chno="41" group-title="General" tvg-country="HK" tvg-category="General",TVB DRAMA
 https://cdn.qd.je/163189.php?id=tvbd
 #EXTINF:-1 tvg-id="TVB Plus" tvg-name="TVB Plus" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-107.png" tvg-language="English" audio-language="English" tvg-chno="42" group-title="General" tvg-country="HK" tvg-category="General",TVB Plus
