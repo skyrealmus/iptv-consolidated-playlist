@@ -50,7 +50,7 @@ https://live.yjzq.dpdns.org/proxy/ts/stream/abc9163e-0d19-4b87-b8f7-85f73acfdd6e
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-232.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="25" group-title="General" tvg-country="CN" tvg-category="General",东方卫视
 https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-233.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="26" group-title="General" tvg-country="CN" tvg-category="General",湖南卫视
-http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
+http://8.138.7.223/tv/api.php?id=hnws4k
 #EXTINF:-1 tvg-id="TVBS亚洲" tvg-name="TVBS亚洲" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-230.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="27" group-title="General" tvg-country="TW" tvg-category="General",TVBS亚洲
 http://tv123.cc.cd/live.php?ch=1725&sid=a265170f485cc15369d0981d5ed10740&exp=1786456102&sig=0d8e8ccc9b6a234c14827764ee0dedab10d7ea44309645e53dfb20b3abe9bad6
 #EXTINF:-1 tvg-id="TVBS新闻" tvg-name="TVBS新闻" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-234.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="28" group-title="News" tvg-country="TW" tvg-category="News",TVBS新闻
@@ -74,7 +74,7 @@ http://tv123.cc.cd/live.php?ch=2168&sid=9191bc2805da29201125d8e6d81522e4&exp=178
 #EXTINF:-1 tvg-id="Astro 欢喜台" tvg-name="Astro 欢喜台" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-132.jpg" tvg-language="Chinese" audio-language="Chinese" tvg-chno="37" group-title="General" tvg-country="MY" tvg-category="General",Astro 欢喜台
 http://tv123.cc.cd/live.php?ch=2271&sid=c34eb2ca80340c8e414eab4b6f0ae1cc&exp=1785768771&sig=5c388478e3413af19f6a65a6c3e2429d015681f82c4f62c46e9b4b3859a8c93c
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-254.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="38" group-title="General" tvg-country="HK" tvg-category="General",翡翠台
-http://r.jdshipin.com/GeWKr
+https://cdn.qd.je/163189/fct
 #EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-255.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="39" group-title="General" tvg-country="HK" tvg-category="General",明珠台
 http://r.jdshipin.com/ZQ4kN
 #EXTINF:-1 tvg-id="TVB星河" tvg-name="TVB星河" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-148.jpg" tvg-language="Chinese" audio-language="Chinese" tvg-chno="40" group-title="General" tvg-country="HK" tvg-category="General",TVB星河
