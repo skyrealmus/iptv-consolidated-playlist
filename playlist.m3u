@@ -128,7 +128,7 @@ http://tv123.cc.cd/live.php?ch=788&sid=766b35bc56e88c6316b31ad89d624da3&exp=1785
 #EXTINF:-1 tvg-id="Discovery Life" tvg-name="Discovery Life" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-218.png" tvg-language="English" audio-language="English" tvg-chno="64" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Discovery Life
 http://tv123.cc.cd/live.php?ch=522&sid=5492dbca1871df7c678ef6372972643d&exp=1785595968&sig=7250f7eda19bbe4e531a5180dec8b3e5b71e559975d84f438d1267706cd3188d
 #EXTINF:-1 tvg-id="History Channel" tvg-name="History Channel" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-224.png" tvg-language="English" audio-language="English" tvg-chno="65" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",History Channel
-http://40.160.24.53/HISTORY_CHANNEL/index.m3u8
+https://ccctv.xyz:2096/live/n24/SUZsBNHv12/87.ts
 #EXTINF:-1 tvg-id="Disney Channel" tvg-name="Disney Channel" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-127.png" tvg-language="English" audio-language="English" tvg-chno="66" group-title="Kids" tvg-country="INT" tvg-category="Kids",Disney Channel
 http://tv123.cc.cd/live.php?ch=1829&sid=5f0c0173694b7b5bb0d67a3a989586b1&exp=1785940525&sig=42f3ee09e4740a471ed735df2cfd88e1c1a4520a2f26ccab9b7ab58aff494dd0
 #EXTINF:-1 tvg-id="Disney Jr." tvg-name="Disney Jr." tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-128.png" tvg-language="English" audio-language="English" tvg-chno="67" group-title="Kids" tvg-country="INT" tvg-category="Kids",Disney Jr.
@@ -166,7 +166,7 @@ http://tv123.cc.cd/live.php?ch=842&sid=5492dbca1871df7c678ef6372972643d&exp=1785
 #EXTINF:-1 tvg-id="Premier Sports 1" tvg-name="Premier Sports 1" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-225.png" tvg-language="English" audio-language="English" tvg-chno="83" group-title="Sports" tvg-country="INT" tvg-category="Sports",Premier Sports 1
 http://79.143.16.38:80/stream/247/psports1fhd.ts
 #EXTINF:-1 tvg-id="Premier Sports 2" tvg-name="Premier Sports 2" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-226.png" tvg-language="English" audio-language="English" tvg-chno="84" group-title="Sports" tvg-country="INT" tvg-category="Sports",Premier Sports 2
-http://79.143.16.38:80/stream/248/psports2fhd.ts
+https://ccctv.xyz:2096/live/n24/SUZsBNHv12/103279.ts
 #EXTINF:-1 tvg-id="Sky Sports Football" tvg-name="Sky Sports Football" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-227.png" tvg-language="English" audio-language="English" tvg-chno="85" group-title="Sports" tvg-country="INT" tvg-category="Sports",Sky Sports Football
 http://tv123.cc.cd/live.php?ch=468&sid=ac7d56555d1b2b4b1bab4b58683fbee1&exp=1786369894&sig=d8dda524900fd758c658f557c895e3f0b09ad5ae0a75a531e75e346cfe82ae25
 #EXTINF:-1 tvg-id="Sky Sports Premier League" tvg-name="Sky Sports Premier League" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-228.png" tvg-language="English" audio-language="English" tvg-chno="86" group-title="Sports" tvg-country="INT" tvg-category="Sports",Sky Sports Premier League
