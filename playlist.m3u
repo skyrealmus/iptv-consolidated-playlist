@@ -56,7 +56,7 @@ http://tv123.cc.cd/live.php?ch=1725&sid=a265170f485cc15369d0981d5ed10740&exp=178
 #EXTINF:-1 tvg-id="TVBS新闻" tvg-name="TVBS新闻" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-234.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="28" group-title="News" tvg-country="TW" tvg-category="News",TVBS新闻
 http://61.221.215.25:8800/hls/9/index.m3u8
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-235.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="29" group-title="News" tvg-country="TW" tvg-category="News",凤凰资讯
-http://221.7.175.154:8445/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&authid=0
+http://r.jdshipin.com/0Rp07
 #EXTINF:-1 tvg-id="东森超视" tvg-name="东森超视" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-231.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="30" group-title="General" tvg-country="TW" tvg-category="General",东森超视
 http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
 #EXTINF:-1 tvg-id="Channel 8" tvg-name="Channel 8" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-51.png" tvg-language="English" audio-language="English" tvg-chno="31" group-title="General" tvg-country="SG" tvg-category="General",Channel 8
@@ -164,7 +164,7 @@ http://tv123.cc.cd/live.php?ch=1819&sid=918b0e0cde69f63f2906d43916b3570e&exp=178
 #EXTINF:-1 tvg-id="ESPN U" tvg-name="ESPN U" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-222.png" tvg-language="English" audio-language="English" tvg-chno="82" group-title="Sports" tvg-country="INT" tvg-category="Sports",ESPN U
 http://tv123.cc.cd/live.php?ch=842&sid=5492dbca1871df7c678ef6372972643d&exp=1785595968&sig=f989176f15d225cde74298e07bea0198e1533a2378133648be556575e6d6f6c3
 #EXTINF:-1 tvg-id="Premier Sports 1" tvg-name="Premier Sports 1" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-225.png" tvg-language="English" audio-language="English" tvg-chno="83" group-title="Sports" tvg-country="INT" tvg-category="Sports",Premier Sports 1
-http://79.143.16.38:80/stream/247/psports1fhd.ts
+https://restream-live.realiptv.to/Marky0416/2c1744538b/89089
 #EXTINF:-1 tvg-id="Premier Sports 2" tvg-name="Premier Sports 2" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-226.png" tvg-language="English" audio-language="English" tvg-chno="84" group-title="Sports" tvg-country="INT" tvg-category="Sports",Premier Sports 2
 https://ccctv.xyz:2096/live/n24/SUZsBNHv12/103279.ts
 #EXTINF:-1 tvg-id="Sky Sports Football" tvg-name="Sky Sports Football" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-227.png" tvg-language="English" audio-language="English" tvg-chno="85" group-title="Sports" tvg-country="INT" tvg-category="Sports",Sky Sports Football
