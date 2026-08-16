@@ -3,6 +3,8 @@ https://iptv.1989.click/playlist.m3u
 https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/base.m3u8
 https://t.freetv.fun/m3u/playlist.m3u
 https://raw.githubusercontent.com/Guovin/TV/gd/output/result.m3u
+https://iptv.852851.xyz/sub/1ZHX2oLQXJSw/playlist.m3u
+https://cdn.qd.je/live.m3u
 https://tv123.cc.cd/tv.m3u
 https://raw.githubusercontent.com/vinkerq/iptv-api/refs/heads/master/iptv4.m3u
 https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u
