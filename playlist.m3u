@@ -50,13 +50,13 @@ https://live.yjzq.dpdns.org/proxy/ts/stream/abc9163e-0d19-4b87-b8f7-85f73acfdd6e
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-232.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="25" group-title="General" tvg-country="CN" tvg-category="General",东方卫视
 https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-233.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="26" group-title="General" tvg-country="CN" tvg-category="General",湖南卫视
-http://8.138.7.223/tv/api.php?id=hnws4k
+http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 #EXTINF:-1 tvg-id="TVBS亚洲" tvg-name="TVBS亚洲" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-230.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="27" group-title="General" tvg-country="TW" tvg-category="General",TVBS亚洲
 http://tv123.cc.cd/live.php?ch=1725&sid=a265170f485cc15369d0981d5ed10740&exp=1786456102&sig=0d8e8ccc9b6a234c14827764ee0dedab10d7ea44309645e53dfb20b3abe9bad6
 #EXTINF:-1 tvg-id="TVBS新闻" tvg-name="TVBS新闻" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-234.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="28" group-title="News" tvg-country="TW" tvg-category="News",TVBS新闻
 http://61.221.215.25:8800/hls/9/index.m3u8
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-235.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="29" group-title="News" tvg-country="TW" tvg-category="News",凤凰资讯
-http://r.jdshipin.com/0Rp07
+https://cdn.qd.je/163189/fhzx
 #EXTINF:-1 tvg-id="东森超视" tvg-name="东森超视" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-231.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="30" group-title="General" tvg-country="TW" tvg-category="General",东森超视
 http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
 #EXTINF:-1 tvg-id="Channel 8" tvg-name="Channel 8" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-51.png" tvg-language="English" audio-language="English" tvg-chno="31" group-title="General" tvg-country="SG" tvg-category="General",Channel 8
@@ -120,7 +120,7 @@ https://t.freetv.fun/live/wild-earth.m3u8
 #EXTINF:-1 tvg-id="Discovery" tvg-name="Discovery" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-129.png" tvg-language="English" audio-language="English" tvg-chno="60" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Discovery
 http://tv123.cc.cd/live.php?ch=2101&sid=9191bc2805da29201125d8e6d81522e4&exp=1785346496&sig=755aa0a2ca75ef1246ddb9725d7d1c77744ada4e04559a5ee11fabb8003b471c
 #EXTINF:-1 tvg-id="Discovery Science" tvg-name="Discovery Science" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-219.png" tvg-language="English" audio-language="English" tvg-chno="61" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Discovery Science
-https://gpuserver7.tier1streams.com/SCIENCE_SD/index.m3u8
+https://restream-live.realiptv.to/Marky0416/2c1744538b/2595
 #EXTINF:-1 tvg-id="Discovery Turbo" tvg-name="Discovery Turbo" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-191.png" tvg-language="English" audio-language="English" tvg-chno="62" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Discovery Turbo
 http://tv123.cc.cd/live.php?ch=970&sid=766b35bc56e88c6316b31ad89d624da3&exp=1785463767&sig=1e5d7eb001f68b9ffd026b260ec09fb640f47a39e036b7cce33f6938b6fed73a
 #EXTINF:-1 tvg-id="Discovery Family Channel" tvg-name="Discovery Family Channel" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-217.png" tvg-language="English" audio-language="English" tvg-chno="63" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Discovery Family Channel
