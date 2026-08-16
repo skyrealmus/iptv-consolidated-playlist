@@ -363,36 +363,6 @@
       "language": "Chinese",
       "audio_language": "Chinese"
     },
-    "东方卫视": {
-      "name_en": "东方卫视",
-      "name_zh": "东方卫视",
-      "display_name": "东方卫视",
-      "group": "📡卫视频道",
-      "country": "CN",
-      "category": "General",
-      "logo_file": "yjzq-logo-232.png",
-      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/232/cache/",
-      "aliases": [
-        "东方卫视"
-      ],
-      "language": "Chinese",
-      "audio_language": "Chinese"
-    },
-    "湖南卫视": {
-      "name_en": "湖南卫视",
-      "name_zh": "湖南卫视",
-      "display_name": "湖南卫视",
-      "group": "📡卫视频道",
-      "country": "CN",
-      "category": "General",
-      "logo_file": "yjzq-logo-233.png",
-      "source_logo": "https://live.yjzq.dpdns.org/api/channels/logos/233/cache/",
-      "aliases": [
-        "湖南卫视"
-      ],
-      "language": "Chinese",
-      "audio_language": "Chinese"
-    },
     "TVBS亚洲": {
       "name_en": "TVBS亚洲",
       "name_zh": "TVBS亚洲",

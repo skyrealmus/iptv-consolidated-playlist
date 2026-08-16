@@ -3,13 +3,13 @@
 - Snapshot date: **2026-08-16**
 
 <!-- DAILY_REFRESH_STATUS:START -->
-- Last automated source refresh: **2026-08-16T01:21:47.385403+00:00**
-- Playlist URLs checked: **94**; accessible: **80**; inaccessible: **14**
-- Content failures: black **0**, blank/uniform **0**, stale/unchanging **3**, no decoded video **8**
-- Replacement search: **14** failed URLs; candidates found **37**; URLs refreshed **3**
-- Register rows checked: **95**; withheld rows reviewed: **1**; identity-review candidates: **1**; withheld probe failures: **0**
-- Safe failures retained without replacement: no replacement **4**, replacement probe failures **7**, unavailable catalogs **0**, source not active **0**
-- Table statuses updated: **0**; `PUBLISHED` means present in the generated playlist, while reviewed non-published requests are `WITHHELD`.
+- Last automated source refresh: **2026-08-16T06:47:56.481781+00:00**
+- Playlist URLs checked: **92**; accessible: **77**; inaccessible: **15**
+- Content failures: black **0**, blank/uniform **0**, stale/unchanging **7**, no decoded video **7**
+- Replacement search: **15** failed URLs; candidates found **32**; URLs refreshed **7**
+- Register rows checked: **94**; withheld rows reviewed: **2**; identity-review candidates: **1**; withheld probe failures: **0**
+- Safe failures retained without replacement: no replacement **5**, replacement probe failures **3**, unavailable catalogs **0**, source not active **0**
+- Table statuses updated: **1**; `PUBLISHED` means present in the generated playlist, while reviewed non-published requests are `WITHHELD`.
 - Publication policy: every published playlist URL is VLC-checked first; only exact normalized active-catalog matches that also pass VLC may replace an inaccessible URL.
 <!-- DAILY_REFRESH_STATUS:END -->
 
@@ -37,76 +37,75 @@
 | 20 | `CCTV 兵器科技` | `CCTV 兵器科技` | PUBLISHED |
 | 21 | `CCTV 风云足球` | `CCTV 风云足球` | PUBLISHED |
 | 22 | `CCTV 高尔夫网球` | `CCTV 高尔夫网球` | PUBLISHED |
-| 23 | `CCTV 4k 超高清` | `CCTV 4k 超高清` | PUBLISHED |
-| 24 | `CCTV 8k超高清` | `CCTV 8k超高清` | PUBLISHED |
-| 25 | `东方卫视` | `东方卫视` | PUBLISHED |
-| 26 | `湖南卫视` | `湖南卫视` | PUBLISHED |
-| 27 | `TVBS亚洲` | `TVBS亚洲` | PUBLISHED |
-| 28 | `TVBS新闻` | `TVBS新闻` | PUBLISHED |
-| 29 | `凤凰资讯` | `凤凰资讯` | PUBLISHED |
-| 30 | `东森超视` | `东森超视` | PUBLISHED |
-| 31 | `Channel 8` | `Channel 8` | PUBLISHED |
-| 32 | `Channel U` | `Channel U` | PUBLISHED |
-| 33 | `Channel 5` | `Channel 5` | PUBLISHED |
-| 34 | `八度空间` | `八度空间` | PUBLISHED |
-| 35 | `Astro AEC` | `Astro AEC` | WITHHELD |
-| 36 | `Astro AOD` | `Astro AOD` | PUBLISHED |
-| 37 | `Astro QJ` | `Astro QJ` | PUBLISHED |
-| 38 | `Astro 欢喜台` | `Astro 欢喜台` | PUBLISHED |
-| 39 | `翡翠台` | `翡翠台` | PUBLISHED |
-| 40 | `明珠台` | `明珠台` | PUBLISHED |
-| 41 | `TVB星河` | `TVB星河` | PUBLISHED |
-| 42 | `TVB DRAMA` | `TVB DRAMA` | PUBLISHED |
-| 43 | `TVB Plus` | `TVB Plus` | PUBLISHED |
-| 44 | `CNN` | `CNN` | PUBLISHED |
-| 45 | `BBC News` | `BBC News` | PUBLISHED |
-| 46 | `CNA` | `CNA` | PUBLISHED |
-| 47 | `CNA Original` | `CNA Original` | PUBLISHED |
-| 48 | `Reuters` | `Reuters` | PUBLISHED |
-| 49 | `Bloomberg` | `Bloomberg` | PUBLISHED |
-| 50 | `CNBC` | `CNBC` | PUBLISHED |
-| 51 | `Sky News International` | `Sky News International` | PUBLISHED |
-| 52 | `Fox News` | `Fox News` | PUBLISHED |
-| 53 | `NHK World` | `NHK World` | PUBLISHED |
-| 54 | `Food Network` | `Food Network` | PUBLISHED |
-| 55 | `National Geographic` | `National Geographic` | PUBLISHED |
-| 56 | `NatGeo Wild` | `NatGeo Wild` | PUBLISHED |
-| 57 | `Animal Planet` | `Animal Planet` | PUBLISHED |
-| 58 | `BBC Earth` | `BBC Earth` | PUBLISHED |
-| 59 | `Love Nature` | `Love Nature` | PUBLISHED |
-| 60 | `Wild Earth` | `Wild Earth` | PUBLISHED |
-| 61 | `Discovery` | `Discovery` | PUBLISHED |
-| 62 | `Discovery Science` | `Discovery Science` | PUBLISHED |
-| 63 | `Discovery Turbo` | `Discovery Turbo` | PUBLISHED |
-| 64 | `Discovery Family Channel` | `Discovery Family Channel` | PUBLISHED |
-| 65 | `Discovery Life` | `Discovery Life` | PUBLISHED |
-| 66 | `History Channel` | `History Channel` | PUBLISHED |
-| 67 | `Disney Channel` | `Disney Channel` | PUBLISHED |
-| 68 | `Disney Jr.` | `Disney Jr.` | PUBLISHED |
-| 69 | `Disney XD` | `Disney XD` | PUBLISHED |
-| 70 | `Cartoon Network` | `Cartoon Network` | PUBLISHED |
-| 71 | `Nickelodeon` | `Nickelodeon` | PUBLISHED |
-| 72 | `Nick Jr` | `Nick Jr` | PUBLISHED |
-| 73 | `Nicktoons` | `Nicktoons` | PUBLISHED |
-| 74 | `Kartoon Channel` | `Kartoon Channel` | PUBLISHED |
-| 75 | `DreamWorks梦工厂动画` | `DreamWorks梦工厂动画` | PUBLISHED |
-| 76 | `NBA TV` | `NBA TV` | PUBLISHED |
-| 77 | `Red Bull TV` | `Red Bull TV` | PUBLISHED |
-| 78 | `beIN SPORTS XTRA` | `beIN SPORTS XTRA` | PUBLISHED |
-| 79 | `beIN SPORTS` | `beIN SPORTS` | PUBLISHED |
-| 80 | `ESPN News` | `ESPN News` | PUBLISHED |
-| 81 | `ESPN` | `ESPN` | PUBLISHED |
-| 82 | `ESPN2` | `ESPN2` | PUBLISHED |
-| 83 | `ESPN U` | `ESPN U` | PUBLISHED |
-| 84 | `Premier Sports 1` | `Premier Sports 1` | PUBLISHED |
-| 85 | `Premier Sports 2` | `Premier Sports 2` | PUBLISHED |
-| 86 | `Sky Sports Football` | `Sky Sports Football` | PUBLISHED |
-| 87 | `Sky Sports Premier League` | `Sky Sports Premier League` | PUBLISHED |
-| 88 | `SPOTV 1 HD` | `SPOTV 1 HD` | PUBLISHED |
-| 89 | `Astro Badminton 1` | `Astro Badminton 1` | PUBLISHED |
-| 90 | `Astro Football` | `Astro Football` | PUBLISHED |
-| 91 | `Astro Grandstand` | `Astro Grandstand` | PUBLISHED |
-| 92 | `Astro Golf` | `Astro Golf` | PUBLISHED |
-| 93 | `Astro Premier League` | `Astro Premier League` | PUBLISHED |
-| 94 | `Astro Sports Plus` | `Astro Sports Plus` | PUBLISHED |
-| 95 | `Astro W-Sports` | `Astro W-Sports` | PUBLISHED |
+| 23 | `CCTV 央视台球` | `CCTV 央视台球` | WITHHELD |
+| 24 | `CCTV 4k 超高清` | `CCTV 4k 超高清` | PUBLISHED |
+| 25 | `CCTV 8k超高清` | `CCTV 8k超高清` | PUBLISHED |
+| 26 | `TVBS亚洲` | `TVBS亚洲` | PUBLISHED |
+| 27 | `TVBS新闻` | `TVBS新闻` | PUBLISHED |
+| 28 | `凤凰资讯` | `凤凰资讯` | PUBLISHED |
+| 29 | `东森超视` | `东森超视` | PUBLISHED |
+| 30 | `Channel 8` | `Channel 8` | PUBLISHED |
+| 31 | `Channel U` | `Channel U` | PUBLISHED |
+| 32 | `Channel 5` | `Channel 5` | PUBLISHED |
+| 33 | `八度空间` | `八度空间` | PUBLISHED |
+| 34 | `Astro AEC` | `Astro AEC` | WITHHELD |
+| 35 | `Astro AOD` | `Astro AOD` | PUBLISHED |
+| 36 | `Astro QJ` | `Astro QJ` | PUBLISHED |
+| 37 | `Astro 欢喜台` | `Astro 欢喜台` | PUBLISHED |
+| 38 | `翡翠台` | `翡翠台` | PUBLISHED |
+| 39 | `明珠台` | `明珠台` | PUBLISHED |
+| 40 | `TVB星河` | `TVB星河` | PUBLISHED |
+| 41 | `TVB DRAMA` | `TVB DRAMA` | PUBLISHED |
+| 42 | `TVB Plus` | `TVB Plus` | PUBLISHED |
+| 43 | `CNN` | `CNN` | PUBLISHED |
+| 44 | `BBC News` | `BBC News` | PUBLISHED |
+| 45 | `CNA` | `CNA` | PUBLISHED |
+| 46 | `CNA Original` | `CNA Original` | PUBLISHED |
+| 47 | `Reuters` | `Reuters` | PUBLISHED |
+| 48 | `Bloomberg` | `Bloomberg` | PUBLISHED |
+| 49 | `CNBC` | `CNBC` | PUBLISHED |
+| 50 | `Sky News International` | `Sky News International` | PUBLISHED |
+| 51 | `Fox News` | `Fox News` | PUBLISHED |
+| 52 | `NHK World` | `NHK World` | PUBLISHED |
+| 53 | `Food Network` | `Food Network` | PUBLISHED |
+| 54 | `National Geographic` | `National Geographic` | PUBLISHED |
+| 55 | `NatGeo Wild` | `NatGeo Wild` | PUBLISHED |
+| 56 | `Animal Planet` | `Animal Planet` | PUBLISHED |
+| 57 | `BBC Earth` | `BBC Earth` | PUBLISHED |
+| 58 | `Love Nature` | `Love Nature` | PUBLISHED |
+| 59 | `Wild Earth` | `Wild Earth` | PUBLISHED |
+| 60 | `Discovery` | `Discovery` | PUBLISHED |
+| 61 | `Discovery Science` | `Discovery Science` | PUBLISHED |
+| 62 | `Discovery Turbo` | `Discovery Turbo` | PUBLISHED |
+| 63 | `Discovery Family Channel` | `Discovery Family Channel` | PUBLISHED |
+| 64 | `Discovery Life` | `Discovery Life` | PUBLISHED |
+| 65 | `History Channel` | `History Channel` | PUBLISHED |
+| 66 | `Disney Channel` | `Disney Channel` | PUBLISHED |
+| 67 | `Disney Jr.` | `Disney Jr.` | PUBLISHED |
+| 68 | `Disney XD` | `Disney XD` | PUBLISHED |
+| 69 | `Cartoon Network` | `Cartoon Network` | PUBLISHED |
+| 70 | `Nickelodeon` | `Nickelodeon` | PUBLISHED |
+| 71 | `Nick Jr` | `Nick Jr` | PUBLISHED |
+| 72 | `Nicktoons` | `Nicktoons` | PUBLISHED |
+| 73 | `Kartoon Channel` | `Kartoon Channel` | PUBLISHED |
+| 74 | `DreamWorks梦工厂动画` | `DreamWorks梦工厂动画` | PUBLISHED |
+| 75 | `NBA TV` | `NBA TV` | PUBLISHED |
+| 76 | `Red Bull TV` | `Red Bull TV` | PUBLISHED |
+| 77 | `beIN SPORTS XTRA` | `beIN SPORTS XTRA` | PUBLISHED |
+| 78 | `beIN SPORTS` | `beIN SPORTS` | PUBLISHED |
+| 79 | `ESPN News` | `ESPN News` | PUBLISHED |
+| 80 | `ESPN` | `ESPN` | PUBLISHED |
+| 81 | `ESPN2` | `ESPN2` | PUBLISHED |
+| 82 | `ESPN U` | `ESPN U` | PUBLISHED |
+| 83 | `Premier Sports 1` | `Premier Sports 1` | PUBLISHED |
+| 84 | `Premier Sports 2` | `Premier Sports 2` | PUBLISHED |
+| 85 | `Sky Sports Football` | `Sky Sports Football` | PUBLISHED |
+| 86 | `Sky Sports Premier League` | `Sky Sports Premier League` | PUBLISHED |
+| 87 | `SPOTV 1 HD` | `SPOTV 1 HD` | PUBLISHED |
+| 88 | `Astro Badminton 1` | `Astro Badminton 1` | PUBLISHED |
+| 89 | `Astro Football` | `Astro Football` | PUBLISHED |
+| 90 | `Astro Grandstand` | `Astro Grandstand` | PUBLISHED |
+| 91 | `Astro Golf` | `Astro Golf` | PUBLISHED |
+| 92 | `Astro Premier League` | `Astro Premier League` | PUBLISHED |
+| 93 | `Astro Sports Plus` | `Astro Sports Plus` | PUBLISHED |
+| 94 | `Astro W-Sports` | `Astro W-Sports` | PUBLISHED |
