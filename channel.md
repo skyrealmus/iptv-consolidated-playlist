@@ -1,15 +1,15 @@
 # Channel Register
 
-- Snapshot date: **2026-08-16**
+- Snapshot date: **2026-08-17**
 
 <!-- DAILY_REFRESH_STATUS:START -->
-- Last automated source refresh: **2026-08-16T06:47:56.481781+00:00**
+- Last automated source refresh: **2026-08-17T01:19:19.318001+00:00**
 - Playlist URLs checked: **92**; accessible: **77**; inaccessible: **15**
-- Content failures: black **0**, blank/uniform **0**, stale/unchanging **7**, no decoded video **7**
-- Replacement search: **15** failed URLs; candidates found **32**; URLs refreshed **7**
+- Content failures: black **0**, blank/uniform **0**, stale/unchanging **7**, no decoded video **8**
+- Replacement search: **15** failed URLs; candidates found **37**; URLs refreshed **4**
 - Register rows checked: **94**; withheld rows reviewed: **2**; identity-review candidates: **1**; withheld probe failures: **0**
-- Safe failures retained without replacement: no replacement **5**, replacement probe failures **3**, unavailable catalogs **0**, source not active **0**
-- Table statuses updated: **1**; `PUBLISHED` means present in the generated playlist, while reviewed non-published requests are `WITHHELD`.
+- Safe failures retained without replacement: no replacement **6**, replacement probe failures **5**, unavailable catalogs **0**, source not active **0**
+- Table statuses updated: **0**; `PUBLISHED` means present in the generated playlist, while reviewed non-published requests are `WITHHELD`.
 - Publication policy: every published playlist URL is VLC-checked first; only exact normalized active-catalog matches that also pass VLC may replace an inaccessible URL.
 <!-- DAILY_REFRESH_STATUS:END -->
 
