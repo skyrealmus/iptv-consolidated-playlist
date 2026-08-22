@@ -60,7 +60,7 @@ http://tv123.cc.cd/live.php?ch=2134&sid=766b35bc56e88c6316b31ad89d624da3&exp=178
 #EXTINF:-1 tvg-id="Channel U" tvg-name="Channel U" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-52.png" tvg-language="English" audio-language="English" tvg-chno="32" group-title="General" tvg-country="SG" tvg-category="General",Channel U
 https://iptv.1989.click/comp/96ahh5?token=3fb62170eeab60bdeab4d3b411feb27f132e246a45664234
 #EXTINF:-1 tvg-id="Channel 5" tvg-name="Channel 5" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-50.png" tvg-language="English" audio-language="English" tvg-chno="33" group-title="General" tvg-country="SG" tvg-category="General",Channel 5
-https://t.freetv.fun/live/channel-5.m3u8
+https://cdn.qd.je/163189/ch5
 #EXTINF:-1 tvg-id="八度空间" tvg-name="八度空间" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-250.jpg" tvg-language="Chinese" audio-language="Chinese" tvg-chno="34" group-title="General" tvg-country="MY" tvg-category="General",八度空间
 http://tv123.cc.cd/live.php?ch=2250&sid=5f0c0173694b7b5bb0d67a3a989586b1&exp=1785940525&sig=93413c3033d8657eb325a279b68b56424833097b7f9b6ff748d74a2be93b9442
 #EXTINF:-1 tvg-id="Astro AOD" tvg-name="Astro AOD" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-9.png" tvg-language="English" audio-language="English" tvg-chno="35" group-title="General" tvg-country="MY" tvg-category="General",Astro AOD
@@ -70,7 +70,7 @@ http://tv123.cc.cd/live.php?ch=2168&sid=9191bc2805da29201125d8e6d81522e4&exp=178
 #EXTINF:-1 tvg-id="Astro 欢喜台" tvg-name="Astro 欢喜台" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-132.jpg" tvg-language="Chinese" audio-language="Chinese" tvg-chno="37" group-title="General" tvg-country="MY" tvg-category="General",Astro 欢喜台
 http://tv123.cc.cd/live.php?ch=2271&sid=c34eb2ca80340c8e414eab4b6f0ae1cc&exp=1785768771&sig=5c388478e3413af19f6a65a6c3e2429d015681f82c4f62c46e9b4b3859a8c93c
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-254.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="38" group-title="General" tvg-country="HK" tvg-category="General",翡翠台
-https://cdn.qd.je/163189/fct
+http://r.jdshipin.com/qrfbg
 #EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-255.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="39" group-title="General" tvg-country="HK" tvg-category="General",明珠台
 http://r.jdshipin.com/ZQ4kN
 #EXTINF:-1 tvg-id="TVB星河" tvg-name="TVB星河" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-148.jpg" tvg-language="Chinese" audio-language="Chinese" tvg-chno="40" group-title="General" tvg-country="HK" tvg-category="General",TVB星河
@@ -116,7 +116,7 @@ https://wildearth-plex.amagi.tv/masterR1080p.m3u8
 #EXTINF:-1 tvg-id="Discovery" tvg-name="Discovery" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-129.png" tvg-language="English" audio-language="English" tvg-chno="60" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Discovery
 http://tv123.cc.cd/live.php?ch=2101&sid=9191bc2805da29201125d8e6d81522e4&exp=1785346496&sig=755aa0a2ca75ef1246ddb9725d7d1c77744ada4e04559a5ee11fabb8003b471c
 #EXTINF:-1 tvg-id="Discovery Science" tvg-name="Discovery Science" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-219.png" tvg-language="English" audio-language="English" tvg-chno="61" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Discovery Science
-https://ccctv.xyz:2096/live/n24/SUZsBNHv12/66.ts
+http://10k.lucastv.pro:80/bMzUj4zG/eR7gYGT/328940
 #EXTINF:-1 tvg-id="Discovery Turbo" tvg-name="Discovery Turbo" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-191.png" tvg-language="English" audio-language="English" tvg-chno="62" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Discovery Turbo
 http://tv123.cc.cd/live.php?ch=970&sid=766b35bc56e88c6316b31ad89d624da3&exp=1785463767&sig=1e5d7eb001f68b9ffd026b260ec09fb640f47a39e036b7cce33f6938b6fed73a
 #EXTINF:-1 tvg-id="Discovery Family Channel" tvg-name="Discovery Family Channel" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-217.png" tvg-language="English" audio-language="English" tvg-chno="63" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Discovery Family Channel
@@ -124,7 +124,7 @@ http://tv123.cc.cd/live.php?ch=788&sid=766b35bc56e88c6316b31ad89d624da3&exp=1785
 #EXTINF:-1 tvg-id="Discovery Life" tvg-name="Discovery Life" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-218.png" tvg-language="English" audio-language="English" tvg-chno="64" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Discovery Life
 http://tv123.cc.cd/live.php?ch=522&sid=5492dbca1871df7c678ef6372972643d&exp=1785595968&sig=7250f7eda19bbe4e531a5180dec8b3e5b71e559975d84f438d1267706cd3188d
 #EXTINF:-1 tvg-id="History Channel" tvg-name="History Channel" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-224.png" tvg-language="English" audio-language="English" tvg-chno="65" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",History Channel
-https://ccctv.xyz:2096/live/n24/SUZsBNHv12/87.ts
+http://10k.lucastv.pro:80/bMzUj4zG/eR7gYGT/328982
 #EXTINF:-1 tvg-id="Disney Channel" tvg-name="Disney Channel" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-127.png" tvg-language="English" audio-language="English" tvg-chno="66" group-title="Kids" tvg-country="INT" tvg-category="Kids",Disney Channel
 http://tv123.cc.cd/live.php?ch=1829&sid=5f0c0173694b7b5bb0d67a3a989586b1&exp=1785940525&sig=42f3ee09e4740a471ed735df2cfd88e1c1a4520a2f26ccab9b7ab58aff494dd0
 #EXTINF:-1 tvg-id="Disney Jr." tvg-name="Disney Jr." tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-128.png" tvg-language="English" audio-language="English" tvg-chno="67" group-title="Kids" tvg-country="INT" tvg-category="Kids",Disney Jr.
