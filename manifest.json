@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23",
+  "generated_at": "2026-08-24",
   "method": "Unicode-normalized fuzzy catalog matching across assets/sources.txt, with VLC-verified fallback replacement from assets/failed-sources.txt; low-confidence matches withheld.",
   "requested_count": 92,
   "responding_count": 75,
@@ -1524,8 +1524,8 @@
       "epg": 42,
       "requested": "TVB Plus",
       "label": "TVB Plus",
-      "url": "https://live.yjzq.dpdns.org/proxy/ts/stream/7eba1795-345e-4d07-9775-021bf2241c2f",
-      "source_index": 9,
+      "url": "https://iptv.1989.click/hk/f5djrh?token=c26aa9abd789d6a3ff873a4e08439ce2dbcd46cc97a80bb4",
+      "source_index": 0,
       "source_order": 42,
       "logo": "https://live.yjzq.dpdns.org/api/channels/logos/107/cache/",
       "logo_source": "https://live.yjzq.dpdns.org/output/m3u",
@@ -1536,7 +1536,26 @@
         "sample_bytes": 188
       },
       "accepted": false,
-      "verification_status": "catalog_imported_not_identity_verified"
+      "verification_status": "daily_active_catalog_vlc_playback_verified_not_identity_verified",
+      "delay": null,
+      "speed": null,
+      "resolution": "1920x1080",
+      "playback_profile": {
+        "method": "bounded VLC playback profile",
+        "vlc_playback_ok": true,
+        "elapsed_ms": 1761,
+        "vlc_binary": "cvlc",
+        "vlc_output_bytes": 2419200,
+        "codec": "hevc",
+        "resolution": "1920x1080",
+        "content_sample_resolution": "160x90",
+        "content_sampled_frames": 56,
+        "black_frame_fraction": 0.0,
+        "blank_frame_fraction": 0.0,
+        "stale_pair_fraction": 0.145,
+        "video_content_ok": true,
+        "source_inventory": "assets/sources.txt"
+      }
     },
     {
       "epg": 43,
@@ -3010,8 +3029,8 @@
       "epg": 84,
       "requested": "Premier Sports 2",
       "label": "Premier Sports 2",
-      "url": "https://restream-live.realiptv.to/09145054/65339468/89090",
-      "source_index": 1,
+      "url": "http://tv123.cc.cd/live.php?ch=80&sid=77fdc96c982755e3e44d606a002c283e&exp=1787577590&sig=938cb6c00c83e721e846b768a7b8d78d5645f871840fd7836c51b64197a7bfc3",
+      "source_index": 6,
       "source_order": 84,
       "logo": "https://live.yjzq.dpdns.org/api/channels/logos/226/cache/",
       "logo_source": "https://live.yjzq.dpdns.org/output/m3u",
@@ -3029,16 +3048,16 @@
       "playback_profile": {
         "method": "bounded VLC playback profile",
         "vlc_playback_ok": true,
-        "elapsed_ms": 3810,
+        "elapsed_ms": 7254,
         "vlc_binary": "cvlc",
-        "vlc_output_bytes": 10929600,
+        "vlc_output_bytes": 2332800,
         "codec": "h264",
         "resolution": "1920x1080",
         "content_sample_resolution": "160x90",
-        "content_sampled_frames": 253,
+        "content_sampled_frames": 54,
         "black_frame_fraction": 0.0,
         "blank_frame_fraction": 0.0,
-        "stale_pair_fraction": 0.091,
+        "stale_pair_fraction": 0.189,
         "video_content_ok": true,
         "source_inventory": "assets/sources.txt"
       }

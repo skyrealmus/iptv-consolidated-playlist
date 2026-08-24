@@ -78,7 +78,7 @@ http://tv123.cc.cd/live.php?ch=1619&sid=a57d9a83f2ed4f446447e8bf588e8035&exp=178
 #EXTINF:-1 tvg-id="TVB DRAMA" tvg-name="TVB DRAMA" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-253.png" tvg-language="English" audio-language="English" tvg-chno="41" group-title="General" tvg-country="HK" tvg-category="General",TVB DRAMA
 https://cdn.qd.je/163189.php?id=tvbd
 #EXTINF:-1 tvg-id="TVB Plus" tvg-name="TVB Plus" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-107.png" tvg-language="English" audio-language="English" tvg-chno="42" group-title="General" tvg-country="HK" tvg-category="General",TVB Plus
-https://live.yjzq.dpdns.org/proxy/ts/stream/7eba1795-345e-4d07-9775-021bf2241c2f
+https://iptv.1989.click/hk/f5djrh?token=c26aa9abd789d6a3ff873a4e08439ce2dbcd46cc97a80bb4
 #EXTINF:-1 tvg-id="CNN" tvg-name="CNN" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-190.jpg" tvg-language="English" audio-language="English" tvg-chno="43" group-title="News" tvg-country="INT" tvg-category="News",CNN
 http://tv123.cc.cd/live.php?ch=1738&sid=0f61f5c031bd9bdef3af810d31b8ad1c&exp=1786283273&sig=d17c1b3c91ccaa5fd457a72e985eb485f77a47c2e1bda2b12adf9f614c47016d
 #EXTINF:-1 tvg-id="BBC News" tvg-name="BBC News" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-5.png" tvg-language="English" audio-language="English" tvg-chno="44" group-title="News" tvg-country="INT" tvg-category="News",BBC News
@@ -162,7 +162,7 @@ http://tv123.cc.cd/live.php?ch=842&sid=5492dbca1871df7c678ef6372972643d&exp=1785
 #EXTINF:-1 tvg-id="Premier Sports 1" tvg-name="Premier Sports 1" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-225.png" tvg-language="English" audio-language="English" tvg-chno="83" group-title="Sports" tvg-country="INT" tvg-category="Sports",Premier Sports 1
 https://restream-live.realiptv.to/09145054/65339468/89089
 #EXTINF:-1 tvg-id="Premier Sports 2" tvg-name="Premier Sports 2" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-226.png" tvg-language="English" audio-language="English" tvg-chno="84" group-title="Sports" tvg-country="INT" tvg-category="Sports",Premier Sports 2
-https://restream-live.realiptv.to/09145054/65339468/89090
+http://tv123.cc.cd/live.php?ch=80&sid=77fdc96c982755e3e44d606a002c283e&exp=1787577590&sig=938cb6c00c83e721e846b768a7b8d78d5645f871840fd7836c51b64197a7bfc3
 #EXTINF:-1 tvg-id="Sky Sports Football" tvg-name="Sky Sports Football" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-227.png" tvg-language="English" audio-language="English" tvg-chno="85" group-title="Sports" tvg-country="INT" tvg-category="Sports",Sky Sports Football
 http://tv123.cc.cd/live.php?ch=468&sid=ac7d56555d1b2b4b1bab4b58683fbee1&exp=1786369894&sig=d8dda524900fd758c658f557c895e3f0b09ad5ae0a75a531e75e346cfe82ae25
 #EXTINF:-1 tvg-id="Sky Sports Premier League" tvg-name="Sky Sports Premier League" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-228.png" tvg-language="English" audio-language="English" tvg-chno="86" group-title="Sports" tvg-country="INT" tvg-category="Sports",Sky Sports Premier League
