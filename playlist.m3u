@@ -52,13 +52,13 @@ http://tv123.cc.cd/live.php?ch=1725&sid=a265170f485cc15369d0981d5ed10740&exp=178
 #EXTINF:-1 tvg-id="TVBS新闻" tvg-name="TVBS新闻" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-234.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="28" group-title="News" tvg-country="TW" tvg-category="News",TVBS新闻
 http://61.221.215.25:8800/hls/9/index.m3u8
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-235.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="29" group-title="News" tvg-country="TW" tvg-category="News",凤凰资讯
-http://221.7.175.154:8445/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&authid=0
+http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
 #EXTINF:-1 tvg-id="东森超视" tvg-name="东森超视" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-231.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="30" group-title="General" tvg-country="TW" tvg-category="General",东森超视
 http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
 #EXTINF:-1 tvg-id="Channel 8" tvg-name="Channel 8" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-51.png" tvg-language="English" audio-language="English" tvg-chno="31" group-title="General" tvg-country="SG" tvg-category="General",Channel 8
 http://tv123.cc.cd/live.php?ch=2134&sid=766b35bc56e88c6316b31ad89d624da3&exp=1785463767&sig=03e42824e703b779bde1c1eee1a791495965827cf34ec7d13813f6836b5830b5
 #EXTINF:-1 tvg-id="Channel U" tvg-name="Channel U" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-52.png" tvg-language="English" audio-language="English" tvg-chno="32" group-title="General" tvg-country="SG" tvg-category="General",Channel U
-https://iptv.1989.click/comp/96ahh5?token=3fb62170eeab60bdeab4d3b411feb27f132e246a45664234
+http://tv123.cc.cd/live.php?ch=733&sid=6ae2fef3a1bd83007241ae0f10067d7e&exp=1788105866&sig=960e3b60998d1b17011904d33a20885a8c55c75c68c056830a36ad9ba49dc47f
 #EXTINF:-1 tvg-id="Channel 5" tvg-name="Channel 5" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-50.png" tvg-language="English" audio-language="English" tvg-chno="33" group-title="General" tvg-country="SG" tvg-category="General",Channel 5
 https://cdn.qd.je/163189/ch5
 #EXTINF:-1 tvg-id="八度空间" tvg-name="八度空间" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-250.jpg" tvg-language="Chinese" audio-language="Chinese" tvg-chno="34" group-title="General" tvg-country="MY" tvg-category="General",八度空间
@@ -78,7 +78,7 @@ http://tv123.cc.cd/live.php?ch=1619&sid=a57d9a83f2ed4f446447e8bf588e8035&exp=178
 #EXTINF:-1 tvg-id="TVB DRAMA" tvg-name="TVB DRAMA" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-253.png" tvg-language="English" audio-language="English" tvg-chno="41" group-title="General" tvg-country="HK" tvg-category="General",TVB DRAMA
 https://cdn.qd.je/163189.php?id=tvbd
 #EXTINF:-1 tvg-id="TVB Plus" tvg-name="TVB Plus" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-107.png" tvg-language="English" audio-language="English" tvg-chno="42" group-title="General" tvg-country="HK" tvg-category="General",TVB Plus
-https://iptv.1989.click/hk/f5djrh?token=c26aa9abd789d6a3ff873a4e08439ce2dbcd46cc97a80bb4
+http://tv123.cc.cd/live.php?ch=2216&sid=6ae2fef3a1bd83007241ae0f10067d7e&exp=1788105866&sig=d68bde6cc8d8e008c7961efc7e7d7b53b938d92258eb9888bbe8d01b0fa7b9a1
 #EXTINF:-1 tvg-id="CNN" tvg-name="CNN" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-190.jpg" tvg-language="English" audio-language="English" tvg-chno="43" group-title="News" tvg-country="INT" tvg-category="News",CNN
 http://tv123.cc.cd/live.php?ch=1738&sid=0f61f5c031bd9bdef3af810d31b8ad1c&exp=1786283273&sig=d17c1b3c91ccaa5fd457a72e985eb485f77a47c2e1bda2b12adf9f614c47016d
 #EXTINF:-1 tvg-id="BBC News" tvg-name="BBC News" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-5.png" tvg-language="English" audio-language="English" tvg-chno="44" group-title="News" tvg-country="INT" tvg-category="News",BBC News
