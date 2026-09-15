@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14",
+  "generated_at": "2026-09-15",
   "method": "Unicode-normalized fuzzy catalog matching across assets/sources.txt, with VLC-verified fallback replacement from assets/failed-sources.txt; low-confidence matches withheld.",
   "requested_count": 92,
   "responding_count": 75,
@@ -1008,8 +1008,8 @@
       "epg": 23,
       "requested": "CCTV 4k 超高清",
       "label": "CCTV 4k 超高清",
-      "url": "https://live.yjzq.dpdns.org/proxy/ts/stream/420b878a-b07d-4b06-8c73-db2f44cf72d6",
-      "source_index": 10,
+      "url": "http://iptv.852851.xyz/l/xj7yndnCmAqp1SpMA8A6nw8qMJZEDIZ-HRPAfcH7705L6HjwEt2V9qQ0cf0p615r/play",
+      "source_index": 5,
       "source_order": 23,
       "logo": "https://live.yjzq.dpdns.org/api/channels/logos/188/cache/",
       "logo_source": "https://live.yjzq.dpdns.org/output/m3u",
@@ -1018,7 +1018,26 @@
         "error_type": "TimeoutError"
       },
       "accepted": false,
-      "verification_status": "catalog_imported_not_identity_verified"
+      "verification_status": "daily_active_catalog_vlc_playback_verified_not_identity_verified",
+      "delay": null,
+      "speed": null,
+      "resolution": "1920x1080",
+      "playback_profile": {
+        "method": "bounded VLC playback profile",
+        "vlc_playback_ok": true,
+        "elapsed_ms": 3757,
+        "vlc_binary": "cvlc",
+        "vlc_output_bytes": 15768000,
+        "codec": "h264",
+        "resolution": "1920x1080",
+        "content_sample_resolution": "160x90",
+        "content_sampled_frames": 365,
+        "black_frame_fraction": 0.0,
+        "blank_frame_fraction": 0.0,
+        "stale_pair_fraction": 0.245,
+        "video_content_ok": true,
+        "source_inventory": "assets/sources.txt"
+      }
     },
     {
       "epg": 24,
@@ -1244,8 +1263,8 @@
       "epg": 33,
       "requested": "Channel 5",
       "label": "Channel 5",
-      "url": "https://cdn.qd.je/163189/ch5",
-      "source_index": 0,
+      "url": "http://tv123.cc.cd/live.php?ch=407&sid=1330e1ac0cb1954427b9cd6cec995070&exp=1789487217&sig=2368c9fa979bb210bfe824283fee225e595302a3e6befdb058d48e331f742f59",
+      "source_index": 7,
       "source_order": 33,
       "logo": "https://live.yjzq.dpdns.org/api/channels/logos/50/cache/",
       "logo_source": "https://live.yjzq.dpdns.org/output/m3u",
@@ -1263,16 +1282,16 @@
       "playback_profile": {
         "method": "bounded VLC playback profile",
         "vlc_playback_ok": true,
-        "elapsed_ms": 6406,
+        "elapsed_ms": 1263,
         "vlc_binary": "cvlc",
-        "vlc_output_bytes": 32572800,
+        "vlc_output_bytes": 2332800,
         "codec": "h264",
         "resolution": "1920x1080",
         "content_sample_resolution": "160x90",
-        "content_sampled_frames": 754,
+        "content_sampled_frames": 54,
         "black_frame_fraction": 0.0,
         "blank_frame_fraction": 0.0,
-        "stale_pair_fraction": 0.707,
+        "stale_pair_fraction": 0.736,
         "video_content_ok": true,
         "source_inventory": "assets/sources.txt"
       }

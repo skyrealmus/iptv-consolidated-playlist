@@ -44,7 +44,7 @@ http://iptv.852851.xyz/l/PqGhFQT-SkITpcm7Hxhjts9SnpTbWGnyqvTT0txn_ix_Jqd7nAH3u2o
 #EXTINF:-1 tvg-id="CCTV 高尔夫网球" tvg-name="CCTV 高尔夫网球" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-165.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="22" group-title="Sports" tvg-country="INT" tvg-category="Sports",CCTV 高尔夫网球
 https://live.yjzq.dpdns.org/proxy/ts/stream/c44a6d6d-04c5-45b2-99e4-a6212666c092
 #EXTINF:-1 tvg-id="CCTV 4k 超高清" tvg-name="CCTV 4k 超高清" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-188.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="23" group-title="General" tvg-country="CN" tvg-category="General",CCTV 4k 超高清
-https://live.yjzq.dpdns.org/proxy/ts/stream/420b878a-b07d-4b06-8c73-db2f44cf72d6
+http://iptv.852851.xyz/l/xj7yndnCmAqp1SpMA8A6nw8qMJZEDIZ-HRPAfcH7705L6HjwEt2V9qQ0cf0p615r/play
 #EXTINF:-1 tvg-id="CCTV 8k超高清" tvg-name="CCTV 8k超高清" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-187.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="24" group-title="General" tvg-country="CN" tvg-category="General",CCTV 8k超高清
 https://live.yjzq.dpdns.org/proxy/ts/stream/abc9163e-0d19-4b87-b8f7-85f73acfdd6e
 #EXTINF:-1 tvg-id="TVBS亚洲" tvg-name="TVBS亚洲" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-230.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="27" group-title="General" tvg-country="TW" tvg-category="General",TVBS亚洲
@@ -60,7 +60,7 @@ http://tv123.cc.cd/live.php?ch=2134&sid=766b35bc56e88c6316b31ad89d624da3&exp=178
 #EXTINF:-1 tvg-id="Channel U" tvg-name="Channel U" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-52.png" tvg-language="English" audio-language="English" tvg-chno="32" group-title="General" tvg-country="SG" tvg-category="General",Channel U
 http://tv123.cc.cd/live.php?ch=733&sid=6ae2fef3a1bd83007241ae0f10067d7e&exp=1788105866&sig=960e3b60998d1b17011904d33a20885a8c55c75c68c056830a36ad9ba49dc47f
 #EXTINF:-1 tvg-id="Channel 5" tvg-name="Channel 5" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-50.png" tvg-language="English" audio-language="English" tvg-chno="33" group-title="General" tvg-country="SG" tvg-category="General",Channel 5
-https://cdn.qd.je/163189/ch5
+http://tv123.cc.cd/live.php?ch=407&sid=1330e1ac0cb1954427b9cd6cec995070&exp=1789487217&sig=2368c9fa979bb210bfe824283fee225e595302a3e6befdb058d48e331f742f59
 #EXTINF:-1 tvg-id="八度空间" tvg-name="八度空间" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-250.jpg" tvg-language="Chinese" audio-language="Chinese" tvg-chno="34" group-title="General" tvg-country="MY" tvg-category="General",八度空间
 http://tv123.cc.cd/live.php?ch=2250&sid=5f0c0173694b7b5bb0d67a3a989586b1&exp=1785940525&sig=93413c3033d8657eb325a279b68b56424833097b7f9b6ff748d74a2be93b9442
 #EXTINF:-1 tvg-id="Astro AOD" tvg-name="Astro AOD" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-9.png" tvg-language="English" audio-language="English" tvg-chno="35" group-title="General" tvg-country="MY" tvg-category="General",Astro AOD
