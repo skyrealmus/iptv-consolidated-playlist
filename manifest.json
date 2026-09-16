@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15",
+  "generated_at": "2026-09-16",
   "method": "Unicode-normalized fuzzy catalog matching across assets/sources.txt, with VLC-verified fallback replacement from assets/failed-sources.txt; low-confidence matches withheld.",
   "requested_count": 92,
   "responding_count": 75,
@@ -826,8 +826,8 @@
       "epg": 17,
       "requested": "CCTV-16 奥林匹克",
       "label": "CCTV-16 奥林匹克",
-      "url": "https://live.yjzq.dpdns.org/proxy/ts/stream/12203250-08e5-42e9-9373-a41f7a6f92e7",
-      "source_index": 10,
+      "url": "http://iptv.852851.xyz/l/rVEt7BlZaqij23TnPGPhJ6nI7nzmV-P0ThKX_oJR2Bg0nkk-KVSEXSdo_N-qeEnJ/play",
+      "source_index": 5,
       "source_order": 17,
       "logo": "https://live.yjzq.dpdns.org/api/channels/logos/124/cache/",
       "logo_source": "https://live.yjzq.dpdns.org/output/m3u",
@@ -838,7 +838,26 @@
         "sample_bytes": 188
       },
       "accepted": false,
-      "verification_status": "catalog_imported_not_identity_verified"
+      "verification_status": "daily_active_catalog_vlc_playback_verified_not_identity_verified",
+      "delay": null,
+      "speed": null,
+      "resolution": "1920x1080",
+      "playback_profile": {
+        "method": "bounded VLC playback profile",
+        "vlc_playback_ok": true,
+        "elapsed_ms": 3494,
+        "vlc_binary": "cvlc",
+        "vlc_output_bytes": 7171200,
+        "codec": "h264",
+        "resolution": "1920x1080",
+        "content_sample_resolution": "160x90",
+        "content_sampled_frames": 166,
+        "black_frame_fraction": 0.0,
+        "blank_frame_fraction": 0.0,
+        "stale_pair_fraction": 0.782,
+        "video_content_ok": true,
+        "source_inventory": "assets/sources.txt"
+      }
     },
     {
       "epg": 18,
