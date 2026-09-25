@@ -82,7 +82,7 @@ http://tv123.cc.cd/live.php?ch=2216&sid=6ae2fef3a1bd83007241ae0f10067d7e&exp=178
 #EXTINF:-1 tvg-id="CNN" tvg-name="CNN" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-190.jpg" tvg-language="English" audio-language="English" tvg-chno="43" group-title="News" tvg-country="INT" tvg-category="News",CNN
 http://tv123.cc.cd/live.php?ch=1764&sid=1262aadfc647ef878170ab3f6a26db0a&exp=1788448904&sig=3d3ce8c1bded18476d4a2d02d39e2584cc020bbc533a8da3972c7bc6383d4bb2
 #EXTINF:-1 tvg-id="BBC News" tvg-name="BBC News" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-5.png" tvg-language="English" audio-language="English" tvg-chno="44" group-title="News" tvg-country="INT" tvg-category="News",BBC News
-https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+https://t.freetv.fun/live/bbc-news.m3u8
 #EXTINF:-1 tvg-id="CNA" tvg-name="CNA" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-139.png" tvg-language="English" audio-language="English" tvg-chno="45" group-title="News" tvg-country="INT" tvg-category="News",CNA
 http://tv123.cc.cd/live.php?ch=1782&sid=14207c390bf96e9b8d87afe045bb8506&exp=1788881225&sig=363996f57b4e991707f0e5f206fb874af6e77629e138315638514129c6ef65c5
 #EXTINF:-1 tvg-id="CNA Original" tvg-name="CNA Original" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-241.png" tvg-language="English" audio-language="English" tvg-chno="46" group-title="News" tvg-country="INT" tvg-category="News",CNA Original
@@ -112,7 +112,7 @@ http://tv123.cc.cd/live.php?ch=757&sid=8a3f1f2ef737b103931e17116976537b&exp=1786
 #EXTINF:-1 tvg-id="Love Nature" tvg-name="Love Nature" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-166.png" tvg-language="English" audio-language="English" tvg-chno="58" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Love Nature
 http://tv123.cc.cd/live.php?ch=1565&sid=1262aadfc647ef878170ab3f6a26db0a&exp=1788448904&sig=9913f4fc26b437942f6671ce2b4e10d9c1363052f27b3e06d6c9b18f9111f821
 #EXTINF:-1 tvg-id="Wild Earth" tvg-name="Wild Earth" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-47.png" tvg-language="English" audio-language="English" tvg-chno="59" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Wild Earth
-https://t.freetv.fun/live/wild-earth.m3u8
+https://wildearth-plex.amagi.tv/masterR1080p.m3u8
 #EXTINF:-1 tvg-id="Discovery" tvg-name="Discovery" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-129.png" tvg-language="English" audio-language="English" tvg-chno="60" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Discovery
 http://tv123.cc.cd/live.php?ch=2101&sid=9191bc2805da29201125d8e6d81522e4&exp=1785346496&sig=755aa0a2ca75ef1246ddb9725d7d1c77744ada4e04559a5ee11fabb8003b471c
 #EXTINF:-1 tvg-id="Discovery Science" tvg-name="Discovery Science" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-219.png" tvg-language="English" audio-language="English" tvg-chno="61" group-title="Documentary" tvg-country="INT" tvg-category="Documentary",Discovery Science
