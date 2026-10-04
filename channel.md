@@ -1,14 +1,14 @@
 # Channel Register
 
-- Snapshot date: **2026-10-03**
+- Snapshot date: **2026-10-04**
 
 <!-- DAILY_REFRESH_STATUS:START -->
-- Last automated source refresh: **2026-10-03T04:12:59.085749+00:00**
-- Playlist URLs checked: **92**; accessible: **79**; inaccessible: **13**
-- Content failures: black **0**, blank/uniform **0**, stale/unchanging **4**, no decoded video **8**
-- Replacement search: **13** failed URLs; candidates found **8**; URLs refreshed **1**
-- Register rows checked: **94**; withheld rows reviewed: **2**; identity-review candidates: **1**; withheld probe failures: **0**
-- Safe failures retained without replacement: no replacement **10**, replacement probe failures **2**, unavailable catalogs **0**, source not active **0**
+- Last automated source refresh: **2026-10-04T04:44:36.014793+00:00**
+- Playlist URLs checked: **92**; accessible: **78**; inaccessible: **14**
+- Content failures: black **0**, blank/uniform **0**, stale/unchanging **5**, no decoded video **8**
+- Replacement search: **14** failed URLs; candidates found **18**; URLs refreshed **1**
+- Register rows checked: **94**; withheld rows reviewed: **2**; identity-review candidates: **0**; withheld probe failures: **1**
+- Safe failures retained without replacement: no replacement **9**, replacement probe failures **4**, unavailable catalogs **0**, source not active **0**
 - Table statuses updated: **0**; `PUBLISHED` means present in the generated playlist, while reviewed non-published requests are `WITHHELD`.
 - Publication policy: every published playlist URL is VLC-checked first; only exact normalized active-catalog matches that also pass VLC may replace an inaccessible URL.
 <!-- DAILY_REFRESH_STATUS:END -->
