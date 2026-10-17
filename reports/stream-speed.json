@@ -1,5 +1,5 @@
 {
-  "tested_at": "2026-10-16T03:30:44.359170+00:00",
+  "tested_at": "2026-10-17T03:21:04.839902+00:00",
   "catalog_health": {
     "tested": 10,
     "http_200": 6,
@@ -34,56 +34,56 @@
     "daily_refresh": {
       "checked": 92,
       "playlist_checked": 92,
-      "playlist_accessible": 83,
-      "playlist_inaccessible": 9,
-      "replacement_searched": 9,
-      "replacement_candidates": 10,
+      "playlist_accessible": 86,
+      "playlist_inaccessible": 6,
+      "replacement_searched": 6,
+      "replacement_candidates": 2,
       "black_video": 0,
       "blank_video": 0,
-      "stale_video": 3,
+      "stale_video": 0,
       "no_decoded_video": 5,
       "register_checked": 94,
       "withheld_checked": 2,
-      "verified_unchanged": 83,
-      "url_refreshed": 1,
-      "probe_failed": 2,
-      "replacement_probe_failed": 2,
-      "replacement_no_match": 6,
+      "verified_unchanged": 86,
+      "url_refreshed": 0,
+      "probe_failed": 1,
+      "replacement_probe_failed": 1,
+      "replacement_no_match": 5,
       "no_same_catalog_match": 0,
       "catalog_unavailable": 0,
       "source_not_active": 0,
       "withheld_no_match": 1,
-      "withheld_probe_failed": 0,
-      "withheld_identity_review": 1
+      "withheld_probe_failed": 1,
+      "withheld_identity_review": 0
     }
   },
   "daily_refresh": {
-    "at": "2026-10-16T03:30:44.359170+00:00",
+    "at": "2026-10-17T03:21:04.839902+00:00",
     "method": "full published playlist VLC preflight with raw-RGB black/blank/stale content gate; failed URLs searched against active assets/sources.txt catalogs; exact normalized matches only",
     "summary": {
       "checked": 92,
       "playlist_checked": 92,
-      "playlist_accessible": 83,
-      "playlist_inaccessible": 9,
-      "replacement_searched": 9,
-      "replacement_candidates": 10,
+      "playlist_accessible": 86,
+      "playlist_inaccessible": 6,
+      "replacement_searched": 6,
+      "replacement_candidates": 2,
       "black_video": 0,
       "blank_video": 0,
-      "stale_video": 3,
+      "stale_video": 0,
       "no_decoded_video": 5,
       "register_checked": 94,
       "withheld_checked": 2,
-      "verified_unchanged": 83,
-      "url_refreshed": 1,
-      "probe_failed": 2,
-      "replacement_probe_failed": 2,
-      "replacement_no_match": 6,
+      "verified_unchanged": 86,
+      "url_refreshed": 0,
+      "probe_failed": 1,
+      "replacement_probe_failed": 1,
+      "replacement_no_match": 5,
       "no_same_catalog_match": 0,
       "catalog_unavailable": 0,
       "source_not_active": 0,
       "withheld_no_match": 1,
-      "withheld_probe_failed": 0,
-      "withheld_identity_review": 1
+      "withheld_probe_failed": 1,
+      "withheld_identity_review": 0
     }
   },
   "channels": {
@@ -104,7 +104,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1880,
+          "elapsed_ms": 2259,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -137,7 +137,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1889,
+          "elapsed_ms": 2376,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -168,7 +168,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1629,
+          "elapsed_ms": 2348,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -201,7 +201,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1304,
+          "elapsed_ms": 2376,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -234,7 +234,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1688,
+          "elapsed_ms": 2347,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -267,7 +267,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1713,
+          "elapsed_ms": 2182,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -300,7 +300,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1136,
+          "elapsed_ms": 1257,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -333,7 +333,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1488,
+          "elapsed_ms": 1741,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -366,7 +366,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1472,
+          "elapsed_ms": 1639,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -397,7 +397,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1283,
+          "elapsed_ms": 1563,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -428,7 +428,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1370,
+          "elapsed_ms": 1314,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -461,7 +461,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1399,
+          "elapsed_ms": 1436,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -494,7 +494,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1735,
+          "elapsed_ms": 1142,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -527,7 +527,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1415,
+          "elapsed_ms": 1497,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -560,7 +560,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1055,
+          "elapsed_ms": 1213,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -593,7 +593,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1459,
+          "elapsed_ms": 1426,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -626,7 +626,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1371,
+          "elapsed_ms": 1366,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -659,7 +659,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1333,
+          "elapsed_ms": 1348,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -689,7 +689,7 @@
         "candidate_count": 0,
         "probe": {
           "vlc_playback_ok": false,
-          "elapsed_ms": 697,
+          "elapsed_ms": 1212,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 0,
           "codec": null,
@@ -721,7 +721,7 @@
         "candidate_count": 0,
         "probe": {
           "vlc_playback_ok": false,
-          "elapsed_ms": 692,
+          "elapsed_ms": 1484,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 0,
           "codec": null,
@@ -751,7 +751,7 @@
         "candidate_count": 0,
         "probe": {
           "vlc_playback_ok": false,
-          "elapsed_ms": 457,
+          "elapsed_ms": 1322,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 0,
           "codec": null,
@@ -786,16 +786,16 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 24518,
+          "elapsed_ms": 13536,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 5400000,
           "codec": "h264",
-          "resolution": "1280x720",
+          "resolution": "1920x1080",
           "content_sample_resolution": "160x90",
           "content_sampled_frames": 125,
           "black_frame_fraction": 0.0,
           "blank_frame_fraction": 0.0,
-          "stale_pair_fraction": 0.444,
+          "stale_pair_fraction": 0.218,
           "video_content_ok": true
         }
       }
@@ -817,7 +817,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 903,
+          "elapsed_ms": 1162,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -848,7 +848,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 914,
+          "elapsed_ms": 1157,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -965,7 +965,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 769,
+          "elapsed_ms": 893,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -996,16 +996,16 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 6751,
+          "elapsed_ms": 7420,
           "vlc_binary": "cvlc",
-          "vlc_output_bytes": 4363200,
+          "vlc_output_bytes": 3499200,
           "codec": "h264",
           "resolution": "1280x720",
           "content_sample_resolution": "160x90",
-          "content_sampled_frames": 101,
+          "content_sampled_frames": 81,
           "black_frame_fraction": 0.0,
           "blank_frame_fraction": 0.0,
-          "stale_pair_fraction": 0.42,
+          "stale_pair_fraction": 0.35,
           "video_content_ok": true
         }
       }
@@ -1027,7 +1027,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 5173,
+          "elapsed_ms": 4876,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 5400000,
           "codec": "h264",
@@ -1036,7 +1036,7 @@
           "content_sampled_frames": 125,
           "black_frame_fraction": 0.0,
           "blank_frame_fraction": 0.0,
-          "stale_pair_fraction": 0.306,
+          "stale_pair_fraction": 0.855,
           "video_content_ok": true
         }
       }
@@ -1058,16 +1058,16 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1599,
+          "elapsed_ms": 4917,
           "vlc_binary": "cvlc",
-          "vlc_output_bytes": 5961600,
+          "vlc_output_bytes": 6307200,
           "codec": "h264",
           "resolution": "1920x1080",
           "content_sample_resolution": "160x90",
-          "content_sampled_frames": 138,
+          "content_sampled_frames": 146,
           "black_frame_fraction": 0.0,
           "blank_frame_fraction": 0.0,
-          "stale_pair_fraction": 0.212,
+          "stale_pair_fraction": 0.531,
           "video_content_ok": true
         }
       }
@@ -1091,7 +1091,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 665,
+          "elapsed_ms": 974,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -1124,7 +1124,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 707,
+          "elapsed_ms": 965,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -1157,7 +1157,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 902,
+          "elapsed_ms": 882,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -1190,7 +1190,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1039,
+          "elapsed_ms": 940,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -1221,7 +1221,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 839,
+          "elapsed_ms": 914,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -1252,7 +1252,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 870,
+          "elapsed_ms": 875,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -1285,7 +1285,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 755,
+          "elapsed_ms": 925,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -1310,47 +1310,25 @@
         "sample_bytes": 188
       },
       "daily_refresh": {
-        "status": "replacement_probe_failed",
+        "status": "verified_unchanged",
         "source_index": 3,
-        "candidate_count": 5,
+        "candidate_count": 1,
         "candidate_labels": [
-          "翡翠台",
-          "翡翠台",
-          "翡翠台",
-          "翡翠台",
           "翡翠台"
         ],
         "probe": {
-          "vlc_playback_ok": false,
-          "elapsed_ms": 8936,
+          "vlc_playback_ok": true,
+          "elapsed_ms": 1984,
           "vlc_binary": "cvlc",
-          "vlc_output_bytes": 0,
-          "codec": null,
-          "resolution": null,
+          "vlc_output_bytes": 2851200,
+          "codec": "h264",
+          "resolution": "1920x1080",
           "content_sample_resolution": "160x90",
-          "content_sampled_frames": 0,
+          "content_sampled_frames": 66,
           "black_frame_fraction": 0.0,
           "blank_frame_fraction": 0.0,
-          "stale_pair_fraction": 0.0,
-          "video_content_ok": false,
-          "content_failure": "no decoded video frames",
-          "probe_error": "no decoded video frames"
-        },
-        "replacement_probe": {
-          "vlc_playback_ok": false,
-          "elapsed_ms": 3085,
-          "vlc_binary": "cvlc",
-          "vlc_output_bytes": 0,
-          "codec": null,
-          "resolution": null,
-          "content_sample_resolution": "160x90",
-          "content_sampled_frames": 0,
-          "black_frame_fraction": 0.0,
-          "blank_frame_fraction": 0.0,
-          "stale_pair_fraction": 0.0,
-          "video_content_ok": false,
-          "content_failure": "no decoded video frames",
-          "probe_error": "no decoded video frames"
+          "stale_pair_fraction": 0.062,
+          "video_content_ok": true
         }
       }
     },
@@ -1373,7 +1351,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 22530,
+          "elapsed_ms": 37092,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 5443200,
           "codec": "h264",
@@ -1382,7 +1360,7 @@
           "content_sampled_frames": 126,
           "black_frame_fraction": 0.0,
           "blank_frame_fraction": 0.0,
-          "stale_pair_fraction": 0.088,
+          "stale_pair_fraction": 0.416,
           "video_content_ok": true
         }
       }
@@ -1406,7 +1384,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 528,
+          "elapsed_ms": 1176,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -1439,7 +1417,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 524,
+          "elapsed_ms": 1232,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -1472,7 +1450,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 718,
+          "elapsed_ms": 1207,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -1505,7 +1483,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 576,
+          "elapsed_ms": 945,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -1530,24 +1508,25 @@
         "sample_bytes": 188
       },
       "daily_refresh": {
-        "status": "replacement_no_match",
+        "status": "verified_unchanged",
         "source_index": 2,
-        "candidate_count": 0,
+        "candidate_count": 1,
+        "candidate_labels": [
+          "BBC News"
+        ],
         "probe": {
-          "vlc_playback_ok": false,
-          "elapsed_ms": 21807,
+          "vlc_playback_ok": true,
+          "elapsed_ms": 22152,
           "vlc_binary": "cvlc",
-          "vlc_output_bytes": 11793600,
+          "vlc_output_bytes": 9849600,
           "codec": "h264",
           "resolution": "1280x720",
           "content_sample_resolution": "160x90",
-          "content_sampled_frames": 273,
+          "content_sampled_frames": 228,
           "black_frame_fraction": 0.0,
           "blank_frame_fraction": 0.0,
-          "stale_pair_fraction": 0.926,
-          "video_content_ok": false,
-          "content_failure": "stale/unchanging video detected",
-          "probe_error": "stale/unchanging video detected"
+          "stale_pair_fraction": 0.705,
+          "video_content_ok": true
         }
       }
     },
@@ -1570,7 +1549,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 609,
+          "elapsed_ms": 962,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -1595,25 +1574,24 @@
         "sample_bytes": 188
       },
       "daily_refresh": {
-        "status": "verified_unchanged",
+        "status": "replacement_no_match",
         "source_index": 10,
-        "candidate_count": 1,
-        "candidate_labels": [
-          "CNA Original"
-        ],
+        "candidate_count": 0,
         "probe": {
-          "vlc_playback_ok": true,
-          "elapsed_ms": 9083,
+          "vlc_playback_ok": false,
+          "elapsed_ms": 5366,
           "vlc_binary": "cvlc",
-          "vlc_output_bytes": 6523200,
-          "codec": "h264",
-          "resolution": "426x240",
+          "vlc_output_bytes": 0,
+          "codec": null,
+          "resolution": null,
           "content_sample_resolution": "160x90",
-          "content_sampled_frames": 151,
+          "content_sampled_frames": 0,
           "black_frame_fraction": 0.0,
           "blank_frame_fraction": 0.0,
-          "stale_pair_fraction": 0.86,
-          "video_content_ok": true
+          "stale_pair_fraction": 0.0,
+          "video_content_ok": false,
+          "content_failure": "no decoded video frames",
+          "probe_error": "no decoded video frames"
         }
       }
     },
@@ -1636,7 +1614,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 507,
+          "elapsed_ms": 915,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -1667,7 +1645,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 506,
+          "elapsed_ms": 947,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -1698,7 +1676,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 524,
+          "elapsed_ms": 974,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -1729,7 +1707,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 620,
+          "elapsed_ms": 858,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -1762,7 +1740,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 512,
+          "elapsed_ms": 894,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -1795,7 +1773,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 523,
+          "elapsed_ms": 944,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -1828,7 +1806,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 502,
+          "elapsed_ms": 866,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -1859,7 +1837,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 488,
+          "elapsed_ms": 882,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -1890,7 +1868,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 498,
+          "elapsed_ms": 853,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -1923,7 +1901,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 518,
+          "elapsed_ms": 1000,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -1954,7 +1932,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 719,
+          "elapsed_ms": 895,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -1985,7 +1963,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 686,
+          "elapsed_ms": 889,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2010,17 +1988,15 @@
         "sample_bytes": 188
       },
       "daily_refresh": {
-        "status": "url_refreshed",
+        "status": "verified_unchanged",
         "source_index": 2,
-        "candidate_count": 3,
+        "candidate_count": 1,
         "candidate_labels": [
-          "[BD]wildearth",
-          "[BD]wildearth",
-          "[BD]wild earth"
+          "Wild Earth"
         ],
         "probe": {
-          "vlc_playback_ok": false,
-          "elapsed_ms": 2518,
+          "vlc_playback_ok": true,
+          "elapsed_ms": 21372,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 5184000,
           "codec": "h264",
@@ -2029,23 +2005,7 @@
           "content_sampled_frames": 120,
           "black_frame_fraction": 0.0,
           "blank_frame_fraction": 0.0,
-          "stale_pair_fraction": 1.0,
-          "video_content_ok": false,
-          "content_failure": "stale/unchanging video detected",
-          "probe_error": "stale/unchanging video detected"
-        },
-        "replacement_probe": {
-          "vlc_playback_ok": true,
-          "elapsed_ms": 21819,
-          "vlc_binary": "cvlc",
-          "vlc_output_bytes": 5616000,
-          "codec": "h264",
-          "resolution": "1920x1080",
-          "content_sample_resolution": "160x90",
-          "content_sampled_frames": 130,
-          "black_frame_fraction": 0.0,
-          "blank_frame_fraction": 0.0,
-          "stale_pair_fraction": 0.039,
+          "stale_pair_fraction": 0.0,
           "video_content_ok": true
         }
       }
@@ -2067,7 +2027,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 503,
+          "elapsed_ms": 881,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2092,24 +2052,25 @@
         "sample_bytes": 188
       },
       "daily_refresh": {
-        "status": "replacement_no_match",
+        "status": "verified_unchanged",
         "source_index": 1,
-        "candidate_count": 0,
+        "candidate_count": 1,
+        "candidate_labels": [
+          "Discovery Science"
+        ],
         "probe": {
-          "vlc_playback_ok": false,
-          "elapsed_ms": 3908,
+          "vlc_playback_ok": true,
+          "elapsed_ms": 2896,
           "vlc_binary": "cvlc",
-          "vlc_output_bytes": 12960000,
+          "vlc_output_bytes": 6480000,
           "codec": "h264",
-          "resolution": "1280x720",
+          "resolution": "1920x1080",
           "content_sample_resolution": "160x90",
-          "content_sampled_frames": 300,
+          "content_sampled_frames": 150,
           "black_frame_fraction": 0.0,
           "blank_frame_fraction": 0.0,
-          "stale_pair_fraction": 1.0,
-          "video_content_ok": false,
-          "content_failure": "stale/unchanging video detected",
-          "probe_error": "stale/unchanging video detected"
+          "stale_pair_fraction": 0.007,
+          "video_content_ok": true
         }
       }
     },
@@ -2130,7 +2091,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 890,
+          "elapsed_ms": 983,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2163,7 +2124,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 800,
+          "elapsed_ms": 915,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2196,7 +2157,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1011,
+          "elapsed_ms": 941,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2229,7 +2190,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1072,
+          "elapsed_ms": 994,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2260,7 +2221,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 909,
+          "elapsed_ms": 919,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2292,12 +2253,12 @@
         ],
         "probe": {
           "vlc_playback_ok": false,
-          "elapsed_ms": 198,
+          "elapsed_ms": 146,
           "probe_error": "HTTPError: HTTP Error 404: Not Found"
         },
         "replacement_probe": {
           "vlc_playback_ok": false,
-          "elapsed_ms": 1281,
+          "elapsed_ms": 943,
           "probe_error": "HTTPError: HTTP Error 403: Forbidden"
         }
       }
@@ -2319,7 +2280,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 831,
+          "elapsed_ms": 1163,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2352,7 +2313,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 791,
+          "elapsed_ms": 1038,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2385,7 +2346,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1031,
+          "elapsed_ms": 886,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2416,7 +2377,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 870,
+          "elapsed_ms": 1044,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2447,7 +2408,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 808,
+          "elapsed_ms": 1031,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2480,16 +2441,16 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 3177,
+          "elapsed_ms": 4848,
           "vlc_binary": "cvlc",
-          "vlc_output_bytes": 5875200,
+          "vlc_output_bytes": 5832000,
           "codec": "h264",
           "resolution": "640x360",
           "content_sample_resolution": "160x90",
-          "content_sampled_frames": 136,
+          "content_sampled_frames": 135,
           "black_frame_fraction": 0.0,
           "blank_frame_fraction": 0.0,
-          "stale_pair_fraction": 0.444,
+          "stale_pair_fraction": 0.552,
           "video_content_ok": true
         }
       }
@@ -2513,7 +2474,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 786,
+          "elapsed_ms": 1031,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2546,7 +2507,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 664,
+          "elapsed_ms": 876,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2579,7 +2540,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 603,
+          "elapsed_ms": 1019,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2612,7 +2573,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 718,
+          "elapsed_ms": 929,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2643,7 +2604,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 747,
+          "elapsed_ms": 1018,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2676,7 +2637,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 675,
+          "elapsed_ms": 991,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2709,7 +2670,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1037,
+          "elapsed_ms": 1104,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2742,7 +2703,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 854,
+          "elapsed_ms": 1199,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2775,7 +2736,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 962,
+          "elapsed_ms": 1259,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2808,7 +2769,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 925,
+          "elapsed_ms": 1255,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2841,7 +2802,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 908,
+          "elapsed_ms": 1136,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2874,7 +2835,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1129,
+          "elapsed_ms": 983,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2907,7 +2868,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 877,
+          "elapsed_ms": 1141,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2938,7 +2899,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1178,
+          "elapsed_ms": 1095,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -2969,7 +2930,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1111,
+          "elapsed_ms": 1072,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -3000,7 +2961,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1556,
+          "elapsed_ms": 1052,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -3031,7 +2992,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1496,
+          "elapsed_ms": 1091,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -3062,7 +3023,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 1296,
+          "elapsed_ms": 1044,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -3090,7 +3051,7 @@
         "candidate_count": 0,
         "probe": {
           "vlc_playback_ok": false,
-          "elapsed_ms": 800,
+          "elapsed_ms": 1016,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 0,
           "codec": null,
@@ -3123,7 +3084,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 894,
+          "elapsed_ms": 932,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -3154,7 +3115,7 @@
         ],
         "probe": {
           "vlc_playback_ok": true,
-          "elapsed_ms": 873,
+          "elapsed_ms": 925,
           "vlc_binary": "cvlc",
           "vlc_output_bytes": 4147200,
           "codec": "h264",
@@ -3170,26 +3131,28 @@
     },
     "Astro AEC": {
       "daily_refresh": {
-        "status": "withheld_identity_review",
-        "source_index": 7,
+        "status": "withheld_probe_failed",
+        "source_index": null,
         "candidate_count": 2,
         "candidate_labels": [
           "Astro AEC",
           "Astro AEC"
         ],
         "probe": {
-          "vlc_playback_ok": true,
-          "elapsed_ms": 2679,
+          "vlc_playback_ok": false,
+          "elapsed_ms": 2241,
           "vlc_binary": "cvlc",
-          "vlc_output_bytes": 10696346,
+          "vlc_output_bytes": 7473600,
           "codec": "h264",
           "resolution": "1920x1080",
           "content_sample_resolution": "160x90",
-          "content_sampled_frames": 247,
+          "content_sampled_frames": 173,
           "black_frame_fraction": 0.0,
           "blank_frame_fraction": 0.0,
-          "stale_pair_fraction": 0.191,
-          "video_content_ok": true
+          "stale_pair_fraction": 0.924,
+          "video_content_ok": false,
+          "content_failure": "stale/unchanging video detected",
+          "probe_error": "stale/unchanging video detected"
         }
       }
     },
