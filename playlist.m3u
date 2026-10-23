@@ -70,7 +70,7 @@ http://tv123.cc.cd/live.php?ch=2168&sid=9191bc2805da29201125d8e6d81522e4&exp=178
 #EXTINF:-1 tvg-id="Astro 欢喜台" tvg-name="Astro 欢喜台" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-132.jpg" tvg-language="Chinese" audio-language="Chinese" tvg-chno="37" group-title="General" tvg-country="MY" tvg-category="General",Astro 欢喜台
 http://tv123.cc.cd/live.php?ch=2271&sid=c34eb2ca80340c8e414eab4b6f0ae1cc&exp=1785768771&sig=5c388478e3413af19f6a65a6c3e2429d015681f82c4f62c46e9b4b3859a8c93c
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-254.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="38" group-title="General" tvg-country="HK" tvg-category="General",翡翠台
-http://r.jdshipin.com/n90gt
+http://r.jdshipin.com/GeWKr
 #EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-255.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="39" group-title="General" tvg-country="HK" tvg-category="General",明珠台
 http://116.77.33.98:44330/tsfile/live/1009_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-id="TVB星河" tvg-name="TVB星河" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-148.jpg" tvg-language="Chinese" audio-language="Chinese" tvg-chno="40" group-title="General" tvg-country="HK" tvg-category="General",TVB星河
@@ -128,7 +128,7 @@ http://tv123.cc.cd/live.php?ch=869&sid=a2717a3153bac872b5cb5852efc9b07c&exp=1790
 #EXTINF:-1 tvg-id="Disney Channel" tvg-name="Disney Channel" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-127.png" tvg-language="English" audio-language="English" tvg-chno="66" group-title="Kids" tvg-country="INT" tvg-category="Kids",Disney Channel
 http://tv123.cc.cd/live.php?ch=1829&sid=5f0c0173694b7b5bb0d67a3a989586b1&exp=1785940525&sig=42f3ee09e4740a471ed735df2cfd88e1c1a4520a2f26ccab9b7ab58aff494dd0
 #EXTINF:-1 tvg-id="Disney Jr." tvg-name="Disney Jr." tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-128.png" tvg-language="English" audio-language="English" tvg-chno="67" group-title="Kids" tvg-country="INT" tvg-category="Kids",Disney Jr.
-http://23.237.104.106:8080/USA_DISNEY_JUNIOR/index.m3u8
+https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb21c/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjFjOjE3OTI3NDA2MDQyMDY6Y2RubGl2ZXR2LnR2OjBiMzAyOTYwZmEyY2QyY2MuNTNmZTI3Y2FmMWEzZjdiNjkzYzZhZTYwOGFlMmYwNTg2MDYxYTFhNmU2MjRkYWE2OTlkNDY2NGNiOTQ1ZDA1NQ
 #EXTINF:-1 tvg-id="Disney XD" tvg-name="Disney XD" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-153.png" tvg-language="English" audio-language="English" tvg-chno="68" group-title="Kids" tvg-country="INT" tvg-category="Kids",Disney XD
 http://tv123.cc.cd/live.php?ch=336&sid=918b0e0cde69f63f2906d43916b3570e&exp=1785599526&sig=fd972015c47f7f6b88ddbbbd498d6dae4400242be08a14aa52a9c2d9b655ca3e
 #EXTINF:-1 tvg-id="Cartoon Network" tvg-name="Cartoon Network" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-137.jpg" tvg-language="English" audio-language="English" tvg-chno="69" group-title="Kids" tvg-country="INT" tvg-category="Kids",Cartoon Network
