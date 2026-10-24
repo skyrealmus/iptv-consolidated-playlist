@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23",
+  "generated_at": "2026-10-24",
   "method": "Unicode-normalized fuzzy catalog matching across assets/sources.txt, with VLC-verified fallback replacement from assets/failed-sources.txt; low-confidence matches withheld.",
   "requested_count": 92,
   "responding_count": 75,
@@ -2516,7 +2516,7 @@
       "epg": 67,
       "requested": "Disney Jr.",
       "label": "Disney Jr.",
-      "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb21c/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjFjOjE3OTI3NDA2MDQyMDY6Y2RubGl2ZXR2LnR2OjBiMzAyOTYwZmEyY2QyY2MuNTNmZTI3Y2FmMWEzZjdiNjkzYzZhZTYwOGFlMmYwNTg2MDYxYTFhNmU2MjRkYWE2OTlkNDY2NGNiOTQ1ZDA1NQ",
+      "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb21c/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjFjOjE3OTI4MjcwMDMyNzE6Y2RubGl2ZXR2LnR2OjNhZTU4YWM1NjAxODNkMjYuMWRiYmQ1NmU0NmYzN2U3YzRhNzA0MTlmOGJhZjEyZGIwMjVjYzFiYzdkYjI0OWE1ZGNlNWFjZTVhNjNlNjM4Ng",
       "source_index": 1,
       "source_order": 67,
       "logo": "https://live.yjzq.dpdns.org/api/channels/logos/128/cache/",
@@ -2533,16 +2533,16 @@
       "playback_profile": {
         "method": "bounded VLC playback profile",
         "vlc_playback_ok": true,
-        "elapsed_ms": 6105,
+        "elapsed_ms": 6327,
         "vlc_binary": "cvlc",
-        "vlc_output_bytes": 9720000,
+        "vlc_output_bytes": 12916800,
         "codec": "h264",
         "resolution": "1280x720",
         "content_sample_resolution": "160x90",
-        "content_sampled_frames": 225,
+        "content_sampled_frames": 299,
         "black_frame_fraction": 0.0,
         "blank_frame_fraction": 0.0,
-        "stale_pair_fraction": 0.893,
+        "stale_pair_fraction": 0.597,
         "video_content_ok": true,
         "source_inventory": "assets/sources.txt"
       }
