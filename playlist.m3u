@@ -72,13 +72,13 @@ http://tv123.cc.cd/live.php?ch=2271&sid=c34eb2ca80340c8e414eab4b6f0ae1cc&exp=178
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-254.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="38" group-title="General" tvg-country="HK" tvg-category="General",翡翠台
 http://r.jdshipin.com/GeWKr
 #EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-255.png" tvg-language="Chinese" audio-language="Chinese" tvg-chno="39" group-title="General" tvg-country="HK" tvg-category="General",明珠台
-http://120.198.84.146:9901/tsfile/live/1054_1.m3u8?key=txiptv&playlive=1&authid=0
+http://120.238.94.82:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="TVB星河" tvg-name="TVB星河" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-148.jpg" tvg-language="Chinese" audio-language="Chinese" tvg-chno="40" group-title="General" tvg-country="HK" tvg-category="General",TVB星河
 http://tv123.cc.cd/live.php?ch=1619&sid=a57d9a83f2ed4f446447e8bf588e8035&exp=1786972701&sig=bed32942d36a134fbc338ad0360d00de39adcae95b3d17af34911585dc1f721f
 #EXTINF:-1 tvg-id="TVB DRAMA" tvg-name="TVB DRAMA" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-253.png" tvg-language="English" audio-language="English" tvg-chno="41" group-title="General" tvg-country="HK" tvg-category="General",TVB DRAMA
 http://tv123.cc.cd/live.php?ch=476&sid=ce344d76c86c1b66e218aa3efcb79d61&exp=1788192595&sig=c24772702b5c822916685619bab036e3a918a1d3ab5c80b52564bd66633c5411
 #EXTINF:-1 tvg-id="TVB Plus" tvg-name="TVB Plus" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-107.png" tvg-language="English" audio-language="English" tvg-chno="42" group-title="General" tvg-country="HK" tvg-category="General",TVB Plus
-http://tv123.cc.cd/live.php?ch=2216&sid=6ae2fef3a1bd83007241ae0f10067d7e&exp=1788105866&sig=d68bde6cc8d8e008c7961efc7e7d7b53b938d92258eb9888bbe8d01b0fa7b9a1
+https://tv123.cc.cd/live.php?ch=2461&sid=09c069d417d64af9534d1f9e4adbce3f&exp=1794941748&sig=20a219a8ef281e1fa89b97599753719f0e300de57ecd6e3720dfcf33dfc663da
 #EXTINF:-1 tvg-id="CNN" tvg-name="CNN" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-190.jpg" tvg-language="English" audio-language="English" tvg-chno="43" group-title="News" tvg-country="INT" tvg-category="News",CNN
 http://tv123.cc.cd/live.php?ch=1764&sid=1262aadfc647ef878170ab3f6a26db0a&exp=1788448904&sig=3d3ce8c1bded18476d4a2d02d39e2584cc020bbc533a8da3972c7bc6383d4bb2
 #EXTINF:-1 tvg-id="BBC News" tvg-name="BBC News" tvg-logo="https://raw.githubusercontent.com/skyrealmus/iptv-consolidated-playlist/refs/heads/main/logo/yjzq-logo-5.png" tvg-language="English" audio-language="English" tvg-chno="44" group-title="News" tvg-country="INT" tvg-category="News",BBC News
